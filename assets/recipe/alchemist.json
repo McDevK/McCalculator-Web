@@ -8,22 +8,22 @@
         "level": 1,
         "job": "alchemist",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/zhengliushui.webp",
+        "icon": "assets/icons/items/蒸馏水.webp",
         "pinyin": "zhengliushui",
         "recipe": [
           {
             "id": "浑水",
             "name": "浑水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/hunshui.webp",
-            "pinyin": "hunshui"
+            "icon": "assets/icons/items/浑水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -33,22 +33,22 @@
         "level": 2,
         "job": "alchemist",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/shuiyin.webp",
+        "icon": "assets/icons/items/水银.webp",
         "pinyin": "shuiyin",
         "recipe": [
           {
             "id": "朱砂",
             "name": "朱砂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/zhusha.webp",
-            "pinyin": "zhusha"
+            "icon": "assets/icons/items/朱砂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -58,29 +58,29 @@
         "level": 2,
         "job": "alchemist",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/nianjiao.webp",
+        "icon": "assets/icons/items/黏胶.webp",
         "pinyin": "nianjiao",
         "recipe": [
           {
             "id": "柔软的粗皮",
             "name": "柔软的粗皮",
             "quantity": 2,
-            "icon": "assets/icons/itemse/rouruandecupi.webp",
-            "pinyin": "rouruandecupi"
+            "icon": "assets/icons/items/柔软的粗皮.webp",
+            "pinyin": ""
           },
           {
             "id": "骨片",
             "name": "骨片",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gupian.webp",
-            "pinyin": "gupian"
+            "icon": "assets/icons/items/骨片.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -90,36 +90,36 @@
         "level": 3,
         "job": "alchemist",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/zhiwuchengzhangji1xing.webp",
+        "icon": "assets/icons/items/植物成长剂1型.webp",
         "pinyin": "zhiwuchengzhangji1xing",
         "recipe": [
           {
             "id": "尖叫菇",
             "name": "尖叫菇",
             "quantity": 2,
-            "icon": "assets/icons/itemse/jianjiaogu.webp",
-            "pinyin": "jianjiaogu"
+            "icon": "assets/icons/items/尖叫菇.webp",
+            "pinyin": ""
           },
           {
             "id": "水银",
             "name": "水银",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuiyin.webp",
-            "pinyin": "shuiyin"
+            "icon": "assets/icons/items/水银.webp",
+            "pinyin": ""
           },
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -129,29 +129,29 @@
         "level": 3,
         "job": "alchemist",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/hongtongchuandaomoshui.webp",
+        "icon": "assets/icons/items/红铜传导墨水.webp",
         "pinyin": "hongtongchuandaomoshui",
         "recipe": [
           {
             "id": "铜沙",
             "name": "铜沙",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tongsha.webp",
-            "pinyin": "tongsha"
+            "icon": "assets/icons/items/铜沙.webp",
+            "pinyin": ""
           },
           {
             "id": "百兽之血",
             "name": "百兽之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baishouzhixue.webp",
-            "pinyin": "baishouzhixue"
+            "icon": "assets/icons/items/百兽之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -161,36 +161,36 @@
         "level": 4,
         "job": "alchemist",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/jieduyao.webp",
+        "icon": "assets/icons/items/解毒药.webp",
         "pinyin": "jieduyao",
         "recipe": [
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 6,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "蝰蛇",
             "name": "蝰蛇",
             "quantity": 3,
-            "icon": "assets/icons/itemse/kuishe.webp",
-            "pinyin": "kuishe"
+            "icon": "assets/icons/items/蝰蛇.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -200,43 +200,43 @@
         "level": 5,
         "job": "alchemist",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/fengmuwushu.webp",
+        "icon": "assets/icons/items/枫木巫书.webp",
         "pinyin": "fengmuwushu",
         "recipe": [
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "红铜传导墨水",
             "name": "红铜传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hongtongchuandaomoshui.webp",
-            "pinyin": "hongtongchuandaomoshui"
+            "icon": "assets/icons/items/红铜传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "草线",
             "name": "草线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/caoxian.webp",
-            "pinyin": "caoxian"
+            "icon": "assets/icons/items/草线.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -246,43 +246,43 @@
         "level": 5,
         "job": "alchemist",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/fengmumodaodian.webp",
+        "icon": "assets/icons/items/枫木魔导典.webp",
         "pinyin": "fengmumodaodian",
         "recipe": [
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "红铜传导墨水",
             "name": "红铜传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hongtongchuandaomoshui.webp",
-            "pinyin": "hongtongchuandaomoshui"
+            "icon": "assets/icons/items/红铜传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "草线",
             "name": "草线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/caoxian.webp",
-            "pinyin": "caoxian"
+            "icon": "assets/icons/items/草线.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -297,22 +297,22 @@
         "level": 6,
         "job": "alchemist",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/xiangjiao.webp",
+        "icon": "assets/icons/items/橡胶.webp",
         "pinyin": "xiangjiao",
         "recipe": [
           {
             "id": "乳胶",
             "name": "乳胶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/rujiao.webp",
-            "pinyin": "rujiao"
+            "icon": "assets/icons/items/乳胶.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -322,22 +322,22 @@
         "level": 7,
         "job": "alchemist",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/yuyou.webp",
+        "icon": "assets/icons/items/鱼油.webp",
         "pinyin": "yuyou",
         "recipe": [
           {
             "id": "公主鳟",
             "name": "公主鳟",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gongzhuzun.webp",
-            "pinyin": "gongzhuzun"
+            "icon": "assets/icons/items/公主鳟.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -347,22 +347,22 @@
         "level": 8,
         "job": "alchemist",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/yujiao.webp",
+        "icon": "assets/icons/items/鱼胶.webp",
         "pinyin": "yujiao",
         "recipe": [
           {
             "id": "珊瑚蝶",
             "name": "珊瑚蝶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shanhudie.webp",
-            "pinyin": "shanhudie"
+            "icon": "assets/icons/items/珊瑚蝶.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -372,22 +372,22 @@
         "level": 9,
         "job": "alchemist",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/fengla.webp",
+        "icon": "assets/icons/items/蜂蜡.webp",
         "pinyin": "fengla",
         "recipe": [
           {
             "id": "蜂巢",
             "name": "蜂巢",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengchao.webp",
-            "pinyin": "fengchao"
+            "icon": "assets/icons/items/蜂巢.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -397,29 +397,29 @@
         "level": 10,
         "job": "alchemist",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/wapian.webp",
+        "icon": "assets/icons/items/瓦片.webp",
         "pinyin": "wapian",
         "recipe": [
           {
             "id": "黏土",
             "name": "黏土",
             "quantity": 2,
-            "icon": "assets/icons/itemse/niantu.webp",
-            "pinyin": "niantu"
+            "icon": "assets/icons/items/黏土.webp",
+            "pinyin": ""
           },
           {
             "id": "麦秆",
             "name": "麦秆",
             "quantity": 1,
-            "icon": "assets/icons/itemse/maigan.webp",
-            "pinyin": "maigan"
+            "icon": "assets/icons/items/麦秆.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -434,29 +434,29 @@
         "level": 11,
         "job": "alchemist",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/heitiechuandaomoshui.webp",
+        "icon": "assets/icons/items/黑铁传导墨水.webp",
         "pinyin": "heitiechuandaomoshui",
         "recipe": [
           {
             "id": "铁沙",
             "name": "铁沙",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tiesha.webp",
-            "pinyin": "tiesha"
+            "icon": "assets/icons/items/铁沙.webp",
+            "pinyin": ""
           },
           {
             "id": "蛞蝓的粘液",
             "name": "蛞蝓的粘液",
             "quantity": 1,
-            "icon": "assets/icons/itemse/kuoyudenianye.webp",
-            "pinyin": "kuoyudenianye"
+            "icon": "assets/icons/items/蛞蝓的粘液.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -466,22 +466,22 @@
         "level": 12,
         "job": "alchemist",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/dingxiangyou.webp",
+        "icon": "assets/icons/items/丁香油.webp",
         "pinyin": "dingxiangyou",
         "recipe": [
           {
             "id": "丁香花",
             "name": "丁香花",
             "quantity": 2,
-            "icon": "assets/icons/itemse/dingxianghua.webp",
-            "pinyin": "dingxianghua"
+            "icon": "assets/icons/items/丁香花.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -491,36 +491,36 @@
         "level": 13,
         "job": "alchemist",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/zhiwuchengzhangji2xing.webp",
+        "icon": "assets/icons/items/植物成长剂2型.webp",
         "pinyin": "zhiwuchengzhangji2xing",
         "recipe": [
           {
             "id": "水母伞帽",
             "name": "水母伞帽",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuimusanmao.webp",
-            "pinyin": "shuimusanmao"
+            "icon": "assets/icons/items/水母伞帽.webp",
+            "pinyin": ""
           },
           {
             "id": "水银",
             "name": "水银",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuiyin.webp",
-            "pinyin": "shuiyin"
+            "icon": "assets/icons/items/水银.webp",
+            "pinyin": ""
           },
           {
             "id": "人参",
             "name": "人参",
             "quantity": 1,
-            "icon": "assets/icons/itemse/renshen.webp",
-            "pinyin": "renshen"
+            "icon": "assets/icons/items/人参.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -530,43 +530,43 @@
         "level": 14,
         "job": "alchemist",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/huifuyao.webp",
+        "icon": "assets/icons/items/恢复药.webp",
         "pinyin": "huifuyao",
         "recipe": [
           {
             "id": "提诺尔卡槲寄生",
             "name": "提诺尔卡槲寄生",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tinuoerkahujisheng.webp",
-            "pinyin": "tinuoerkahujisheng"
+            "icon": "assets/icons/items/提诺尔卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "鸡油菌",
             "name": "鸡油菌",
             "quantity": 1,
-            "icon": "assets/icons/itemse/jiyoujun.webp",
-            "pinyin": "jiyoujun"
+            "icon": "assets/icons/items/鸡油菌.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -576,43 +576,43 @@
         "level": 14,
         "job": "alchemist",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/yitaiyao.webp",
+        "icon": "assets/icons/items/以太药.webp",
         "pinyin": "yitaiyao",
         "recipe": [
           {
             "id": "提诺尔卡槲寄生",
             "name": "提诺尔卡槲寄生",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tinuoerkahujisheng.webp",
-            "pinyin": "tinuoerkahujisheng"
+            "icon": "assets/icons/items/提诺尔卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "小魔精的翅膀",
             "name": "小魔精的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiaomojingdechibang.webp",
-            "pinyin": "xiaomojingdechibang"
+            "icon": "assets/icons/items/小魔精的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -622,43 +622,43 @@
         "level": 15,
         "job": "alchemist",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/yinggemodaoshu.webp",
+        "icon": "assets/icons/items/硬革魔导书.webp",
         "pinyin": "yinggemodaoshu",
         "recipe": [
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁传导墨水",
             "name": "黑铁传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiechuandaomoshui.webp",
-            "pinyin": "heitiechuandaomoshui"
+            "icon": "assets/icons/items/黑铁传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -668,43 +668,43 @@
         "level": 15,
         "job": "alchemist",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/yinggemodaodian.webp",
+        "icon": "assets/icons/items/硬革魔导典.webp",
         "pinyin": "yinggemodaodian",
         "recipe": [
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁传导墨水",
             "name": "黑铁传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiechuandaomoshui.webp",
-            "pinyin": "heitiechuandaomoshui"
+            "icon": "assets/icons/items/黑铁传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -719,50 +719,50 @@
         "level": 16,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/ganglizhiyao.webp",
+        "icon": "assets/icons/items/刚力之药.webp",
         "pinyin": "ganglizhiyao",
         "recipe": [
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "古菩猩猩之牙",
             "name": "古菩猩猩之牙",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gupuxingxingzhiya.webp",
-            "pinyin": "gupuxingxingzhiya"
+            "icon": "assets/icons/items/古菩猩猩之牙.webp",
+            "pinyin": ""
           },
           {
             "id": "薰衣草",
             "name": "薰衣草",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xunyicao.webp",
-            "pinyin": "xunyicao"
+            "icon": "assets/icons/items/薰衣草.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -772,50 +772,50 @@
         "level": 16,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/sulizhiyao.webp",
+        "icon": "assets/icons/items/速力之药.webp",
         "pinyin": "sulizhiyao",
         "recipe": [
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "黄盲头蟹腿",
             "name": "黄盲头蟹腿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huangmangtouxietui.webp",
-            "pinyin": "huangmangtouxietui"
+            "icon": "assets/icons/items/黄盲头蟹腿.webp",
+            "pinyin": ""
           },
           {
             "id": "白蝎",
             "name": "白蝎",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baixie.webp",
-            "pinyin": "baixie"
+            "icon": "assets/icons/items/白蝎.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -825,50 +825,50 @@
         "level": 17,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/qiaolizhiyao.webp",
+        "icon": "assets/icons/items/巧力之药.webp",
         "pinyin": "qiaolizhiyao",
         "recipe": [
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "蝙蝠牙",
             "name": "蝙蝠牙",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bianfuya.webp",
-            "pinyin": "bianfuya"
+            "icon": "assets/icons/items/蝙蝠牙.webp",
+            "pinyin": ""
           },
           {
             "id": "水母伞帽",
             "name": "水母伞帽",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuimusanmao.webp",
-            "pinyin": "shuimusanmao"
+            "icon": "assets/icons/items/水母伞帽.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -878,50 +878,50 @@
         "level": 17,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/zhilizhiyao.webp",
+        "icon": "assets/icons/items/智力之药.webp",
         "pinyin": "zhilizhiyao",
         "recipe": [
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "百兽之血",
             "name": "百兽之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baishouzhixue.webp",
-            "pinyin": "baishouzhixue"
+            "icon": "assets/icons/items/百兽之血.webp",
+            "pinyin": ""
           },
           {
             "id": "妖红花的叶子",
             "name": "妖红花的叶子",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yaohonghuadeyezi.webp",
-            "pinyin": "yaohonghuadeyezi"
+            "icon": "assets/icons/items/妖红花的叶子.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -931,50 +931,50 @@
         "level": 17,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/xinlizhiyao.webp",
+        "icon": "assets/icons/items/心力之药.webp",
         "pinyin": "xinlizhiyao",
         "recipe": [
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "蛞蝓的粘液",
             "name": "蛞蝓的粘液",
             "quantity": 1,
-            "icon": "assets/icons/itemse/kuoyudenianye.webp",
-            "pinyin": "kuoyudenianye"
+            "icon": "assets/icons/items/蛞蝓的粘液.webp",
+            "pinyin": ""
           },
           {
             "id": "水母伞帽",
             "name": "水母伞帽",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuimusanmao.webp",
-            "pinyin": "shuimusanmao"
+            "icon": "assets/icons/items/水母伞帽.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -984,29 +984,29 @@
         "level": 18,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/zhuankuai.webp",
+        "icon": "assets/icons/items/砖块.webp",
         "pinyin": "zhuankuai",
         "recipe": [
           {
             "id": "泥岩",
             "name": "泥岩",
             "quantity": 2,
-            "icon": "assets/icons/itemse/niyan.webp",
-            "pinyin": "niyan"
+            "icon": "assets/icons/items/泥岩.webp",
+            "pinyin": ""
           },
           {
             "id": "黏土",
             "name": "黏土",
             "quantity": 1,
-            "icon": "assets/icons/itemse/niantu.webp",
-            "pinyin": "niantu"
+            "icon": "assets/icons/items/黏土.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1016,22 +1016,22 @@
         "level": 18,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/shuimuyou.webp",
+        "icon": "assets/icons/items/水母油.webp",
         "pinyin": "shuimuyou",
         "recipe": [
           {
             "id": "水母伞帽",
             "name": "水母伞帽",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuimusanmao.webp",
-            "pinyin": "shuimusanmao"
+            "icon": "assets/icons/items/水母伞帽.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1041,36 +1041,36 @@
         "level": 19,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/huini.webp",
+        "icon": "assets/icons/items/灰泥.webp",
         "pinyin": "huini",
         "recipe": [
           {
             "id": "石灰岩",
             "name": "石灰岩",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shihuiyan.webp",
-            "pinyin": "shihuiyan"
+            "icon": "assets/icons/items/石灰岩.webp",
+            "pinyin": ""
           },
           {
             "id": "细沙",
             "name": "细沙",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xisha.webp",
-            "pinyin": "xisha"
+            "icon": "assets/icons/items/细沙.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1080,22 +1080,22 @@
         "level": 19,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/xieyou.webp",
+        "icon": "assets/icons/items/蟹油.webp",
         "pinyin": "xieyou",
         "recipe": [
           {
             "id": "陆蟹蟹脚",
             "name": "陆蟹蟹脚",
             "quantity": 2,
-            "icon": "assets/icons/itemse/luxiexiejiao.webp",
-            "pinyin": "luxiexiejiao"
+            "icon": "assets/icons/items/陆蟹蟹脚.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1105,36 +1105,36 @@
         "level": 20,
         "job": "alchemist",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/diaohuayinggemodaoshu.webp",
+        "icon": "assets/icons/items/雕花硬革魔导书.webp",
         "pinyin": "diaohuayinggemodaoshu",
         "recipe": [
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "紫杉原木",
             "name": "紫杉原木",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zishanyuanmu.webp",
-            "pinyin": "zishanyuanmu"
+            "icon": "assets/icons/items/紫杉原木.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1149,29 +1149,29 @@
         "level": 21,
         "job": "alchemist",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baiyinchuandaomoshui.webp",
+        "icon": "assets/icons/items/白银传导墨水.webp",
         "pinyin": "baiyinchuandaomoshui",
         "recipe": [
           {
             "id": "银沙",
             "name": "银沙",
             "quantity": 2,
-            "icon": "assets/icons/itemse/yinsha.webp",
-            "pinyin": "yinsha"
+            "icon": "assets/icons/items/银沙.webp",
+            "pinyin": ""
           },
           {
             "id": "兔蝓的酸液",
             "name": "兔蝓的酸液",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuyudesuanye.webp",
-            "pinyin": "tuyudesuanye"
+            "icon": "assets/icons/items/兔蝓的酸液.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1181,29 +1181,29 @@
         "level": 22,
         "job": "alchemist",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/boliban.webp",
+        "icon": "assets/icons/items/玻璃板.webp",
         "pinyin": "boliban",
         "recipe": [
           {
             "id": "硅砂",
             "name": "硅砂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/guisha.webp",
-            "pinyin": "guisha"
+            "icon": "assets/icons/items/硅砂.webp",
+            "pinyin": ""
           },
           {
             "id": "泡碱",
             "name": "泡碱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/paojian.webp",
-            "pinyin": "paojian"
+            "icon": "assets/icons/items/泡碱.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1213,29 +1213,29 @@
         "level": 23,
         "job": "alchemist",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/paojian.webp",
+        "icon": "assets/icons/items/泡碱.webp",
         "pinyin": "paojian",
         "recipe": [
           {
             "id": "发泡水",
             "name": "发泡水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fapaoshui.webp",
-            "pinyin": "fapaoshui"
+            "icon": "assets/icons/items/发泡水.webp",
+            "pinyin": ""
           },
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1245,43 +1245,43 @@
         "level": 25,
         "job": "alchemist",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/shanyanggemodaoshu.webp",
+        "icon": "assets/icons/items/山羊革魔导书.webp",
         "pinyin": "shanyanggemodaoshu",
         "recipe": [
           {
             "id": "山羊革",
             "name": "山羊革",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shanyangge.webp",
-            "pinyin": "shanyangge"
+            "icon": "assets/icons/items/山羊革.webp",
+            "pinyin": ""
           },
           {
             "id": "白银传导墨水",
             "name": "白银传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinchuandaomoshui.webp",
-            "pinyin": "baiyinchuandaomoshui"
+            "icon": "assets/icons/items/白银传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "紫杉木材",
             "name": "紫杉木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zishamucai.webp",
-            "pinyin": "zishamucai"
+            "icon": "assets/icons/items/紫杉木材.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1291,43 +1291,43 @@
         "level": 25,
         "job": "alchemist",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/shanyanggemodaodian.webp",
+        "icon": "assets/icons/items/山羊革魔导典.webp",
         "pinyin": "shanyanggemodaodian",
         "recipe": [
           {
             "id": "山羊革",
             "name": "山羊革",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shanyangge.webp",
-            "pinyin": "shanyangge"
+            "icon": "assets/icons/items/山羊革.webp",
+            "pinyin": ""
           },
           {
             "id": "白银传导墨水",
             "name": "白银传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinchuandaomoshui.webp",
-            "pinyin": "baiyinchuandaomoshui"
+            "icon": "assets/icons/items/白银传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "紫杉木材",
             "name": "紫杉木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zishamucai.webp",
-            "pinyin": "zishamucai"
+            "icon": "assets/icons/items/紫杉木材.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1342,22 +1342,22 @@
         "level": 26,
         "job": "alchemist",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/shayou.webp",
+        "icon": "assets/icons/items/鲨油.webp",
         "pinyin": "shayou",
         "recipe": [
           {
             "id": "锤头鲨",
             "name": "锤头鲨",
             "quantity": 2,
-            "icon": "assets/icons/itemse/chuitousha.webp",
-            "pinyin": "chuitousha"
+            "icon": "assets/icons/items/锤头鲨.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1367,22 +1367,22 @@
         "level": 26,
         "job": "alchemist",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/yamayou.webp",
+        "icon": "assets/icons/items/亚麻油.webp",
         "pinyin": "yamayou",
         "recipe": [
           {
             "id": "亚麻",
             "name": "亚麻",
             "quantity": 2,
-            "icon": "assets/icons/itemse/yama.webp",
-            "pinyin": "yama"
+            "icon": "assets/icons/items/亚麻.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1392,43 +1392,43 @@
         "level": 28,
         "job": "alchemist",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/2jihuifuyao.webp",
+        "icon": "assets/icons/items/2级恢复药.webp",
         "pinyin": "2jihuifuyao",
         "recipe": [
           {
             "id": "诺菲卡槲寄生",
             "name": "诺菲卡槲寄生",
             "quantity": 3,
-            "icon": "assets/icons/itemse/nuofeikahujisheng.webp",
-            "pinyin": "nuofeikahujisheng"
+            "icon": "assets/icons/items/诺菲卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "金钱蘑",
             "name": "金钱蘑",
             "quantity": 1,
-            "icon": "assets/icons/itemse/jinqianmo.webp",
-            "pinyin": "jinqianmo"
+            "icon": "assets/icons/items/金钱蘑.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1438,43 +1438,43 @@
         "level": 28,
         "job": "alchemist",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/2jiyitaiyao.webp",
+        "icon": "assets/icons/items/2级以太药.webp",
         "pinyin": "2jiyitaiyao",
         "recipe": [
           {
             "id": "诺菲卡槲寄生",
             "name": "诺菲卡槲寄生",
             "quantity": 3,
-            "icon": "assets/icons/itemse/nuofeikahujisheng.webp",
-            "pinyin": "nuofeikahujisheng"
+            "icon": "assets/icons/items/诺菲卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "风茄",
             "name": "风茄",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengjia.webp",
-            "pinyin": "fengjia"
+            "icon": "assets/icons/items/风茄.webp",
+            "pinyin": ""
           },
           {
             "id": "蒸馏水",
             "name": "蒸馏水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhengliushui.webp",
-            "pinyin": "zhengliushui"
+            "icon": "assets/icons/items/蒸馏水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1484,36 +1484,36 @@
         "level": 28,
         "job": "alchemist",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/zhiwuchengzhangji3xing.webp",
+        "icon": "assets/icons/items/植物成长剂3型.webp",
         "pinyin": "zhiwuchengzhangji3xing",
         "recipe": [
           {
             "id": "陷阱草的叶子",
             "name": "陷阱草的叶子",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xianjingcaodeyezi.webp",
-            "pinyin": "xianjingcaodeyezi"
+            "icon": "assets/icons/items/陷阱草的叶子.webp",
+            "pinyin": ""
           },
           {
             "id": "水银",
             "name": "水银",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shuiyin.webp",
-            "pinyin": "shuiyin"
+            "icon": "assets/icons/items/水银.webp",
+            "pinyin": ""
           },
           {
             "id": "岩盐",
             "name": "岩盐",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yanyan.webp",
-            "pinyin": "yanyan"
+            "icon": "assets/icons/items/岩盐.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1523,22 +1523,22 @@
         "level": 29,
         "job": "alchemist",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/guijiao.webp",
+        "icon": "assets/icons/items/鬼胶.webp",
         "pinyin": "guijiao",
         "recipe": [
           {
             "id": "山羊角",
             "name": "山羊角",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shanyangjiao.webp",
-            "pinyin": "shanyangjiao"
+            "icon": "assets/icons/items/山羊角.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1548,43 +1548,43 @@
         "level": 30,
         "job": "alchemist",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/shimingduyao.webp",
+        "icon": "assets/icons/items/失明毒药.webp",
         "pinyin": "shimingduyao",
         "recipe": [
           {
             "id": "水银",
             "name": "水银",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuiyin.webp",
-            "pinyin": "shuiyin"
+            "icon": "assets/icons/items/水银.webp",
+            "pinyin": ""
           },
           {
             "id": "蝙蝠的翅膀",
             "name": "蝙蝠的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bianfudechibang.webp",
-            "pinyin": "bianfudechibang"
+            "icon": "assets/icons/items/蝙蝠的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "蝙蝠牙",
             "name": "蝙蝠牙",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bianfuya.webp",
-            "pinyin": "bianfuya"
+            "icon": "assets/icons/items/蝙蝠牙.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1599,36 +1599,36 @@
         "level": 31,
         "job": "alchemist",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+        "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
         "pinyin": "weitichunganglilianjinrongji",
         "recipe": [
           {
             "id": "狼蛛",
             "name": "狼蛛",
             "quantity": 2,
-            "icon": "assets/icons/itemse/langzhu.webp",
-            "pinyin": "langzhu"
+            "icon": "assets/icons/items/狼蛛.webp",
+            "pinyin": ""
           },
           {
             "id": "树精的树汁",
             "name": "树精的树汁",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shujingdeshuzhi.webp",
-            "pinyin": "shujingdeshuzhi"
+            "icon": "assets/icons/items/树精的树汁.webp",
+            "pinyin": ""
           },
           {
             "id": "跳蜥的翅膀",
             "name": "跳蜥的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiaoxidechibang.webp",
-            "pinyin": "tiaoxidechibang"
+            "icon": "assets/icons/items/跳蜥的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1638,36 +1638,36 @@
         "level": 31,
         "job": "alchemist",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
+        "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
         "pinyin": "weitichunsulilianjinrongji",
         "recipe": [
           {
             "id": "狼蛛",
             "name": "狼蛛",
             "quantity": 2,
-            "icon": "assets/icons/itemse/langzhu.webp",
-            "pinyin": "langzhu"
+            "icon": "assets/icons/items/狼蛛.webp",
+            "pinyin": ""
           },
           {
             "id": "青盲头蟹腿",
             "name": "青盲头蟹腿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingmangtouxietui.webp",
-            "pinyin": "qingmangtouxietui"
+            "icon": "assets/icons/items/青盲头蟹腿.webp",
+            "pinyin": ""
           },
           {
             "id": "金钱蘑",
             "name": "金钱蘑",
             "quantity": 1,
-            "icon": "assets/icons/itemse/jinqianmo.webp",
-            "pinyin": "jinqianmo"
+            "icon": "assets/icons/items/金钱蘑.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1677,36 +1677,36 @@
         "level": 32,
         "job": "alchemist",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
+        "icon": "assets/icons/items/未提纯巧力炼金溶剂.webp",
         "pinyin": "weitichunqiaolilianjinrongji",
         "recipe": [
           {
             "id": "狼蛛",
             "name": "狼蛛",
             "quantity": 2,
-            "icon": "assets/icons/itemse/langzhu.webp",
-            "pinyin": "langzhu"
+            "icon": "assets/icons/items/狼蛛.webp",
+            "pinyin": ""
           },
           {
             "id": "甲鳞之血",
             "name": "甲鳞之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/jialinzhixue.webp",
-            "pinyin": "jialinzhixue"
+            "icon": "assets/icons/items/甲鳞之血.webp",
+            "pinyin": ""
           },
           {
             "id": "颠茄",
             "name": "颠茄",
             "quantity": 1,
-            "icon": "assets/icons/itemse/dianjia.webp",
-            "pinyin": "dianjia"
+            "icon": "assets/icons/items/颠茄.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1716,36 +1716,36 @@
         "level": 32,
         "job": "alchemist",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+        "icon": "assets/icons/items/未提纯智力炼金溶剂.webp",
         "pinyin": "weitichunzhililianjinrongji",
         "recipe": [
           {
             "id": "狼蛛",
             "name": "狼蛛",
             "quantity": 2,
-            "icon": "assets/icons/itemse/langzhu.webp",
-            "pinyin": "langzhu"
+            "icon": "assets/icons/items/狼蛛.webp",
+            "pinyin": ""
           },
           {
             "id": "生姜",
             "name": "生姜",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shengjiang.webp",
-            "pinyin": "shengjiang"
+            "icon": "assets/icons/items/生姜.webp",
+            "pinyin": ""
           },
           {
             "id": "树精的树汁",
             "name": "树精的树汁",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shujingdeshuzhi.webp",
-            "pinyin": "shujingdeshuzhi"
+            "icon": "assets/icons/items/树精的树汁.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1755,36 +1755,36 @@
         "level": 32,
         "job": "alchemist",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+        "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
         "pinyin": "weitichunxinlilianjinrongji",
         "recipe": [
           {
             "id": "狼蛛",
             "name": "狼蛛",
             "quantity": 2,
-            "icon": "assets/icons/itemse/langzhu.webp",
-            "pinyin": "langzhu"
+            "icon": "assets/icons/items/狼蛛.webp",
+            "pinyin": ""
           },
           {
             "id": "树精的树汁",
             "name": "树精的树汁",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shujingdeshuzhi.webp",
-            "pinyin": "shujingdeshuzhi"
+            "icon": "assets/icons/items/树精的树汁.webp",
+            "pinyin": ""
           },
           {
             "id": "蚂蟥",
             "name": "蚂蟥",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mahuang.webp",
-            "pinyin": "mahuang"
+            "icon": "assets/icons/items/蚂蟥.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1794,29 +1794,29 @@
         "level": 34,
         "job": "alchemist",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/miyinchuandaomoshui.webp",
+        "icon": "assets/icons/items/秘银传导墨水.webp",
         "pinyin": "miyinchuandaomoshui",
         "recipe": [
           {
             "id": "秘银沙",
             "name": "秘银沙",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinsha.webp",
-            "pinyin": "miyinsha"
+            "icon": "assets/icons/items/秘银沙.webp",
+            "pinyin": ""
           },
           {
             "id": "甲鳞之血",
             "name": "甲鳞之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/jialinzhixue.webp",
-            "pinyin": "jialinzhixue"
+            "icon": "assets/icons/items/甲鳞之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1826,50 +1826,50 @@
         "level": 35,
         "job": "alchemist",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/miyinzhishu.webp",
+        "icon": "assets/icons/items/秘银之书.webp",
         "pinyin": "miyinzhishu",
         "recipe": [
           {
             "id": "秘银锭",
             "name": "秘银锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/miyinding.webp",
-            "pinyin": "miyinding"
+            "icon": "assets/icons/items/秘银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银传导墨水",
             "name": "秘银传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinchuandaomoshui.webp",
-            "pinyin": "miyinchuandaomoshui"
+            "icon": "assets/icons/items/秘银传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "亚麻",
             "name": "亚麻",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yama.webp",
-            "pinyin": "yama"
+            "icon": "assets/icons/items/亚麻.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯智力炼金溶剂",
             "name": "未提纯智力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
-            "pinyin": "weitichunzhililianjinrongji"
+            "icon": "assets/icons/items/未提纯智力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1879,50 +1879,50 @@
         "level": 35,
         "job": "alchemist",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/miyinmodaodian.webp",
+        "icon": "assets/icons/items/秘银魔导典.webp",
         "pinyin": "miyinmodaodian",
         "recipe": [
           {
             "id": "秘银锭",
             "name": "秘银锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/miyinding.webp",
-            "pinyin": "miyinding"
+            "icon": "assets/icons/items/秘银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银传导墨水",
             "name": "秘银传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinchuandaomoshui.webp",
-            "pinyin": "miyinchuandaomoshui"
+            "icon": "assets/icons/items/秘银传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "亚麻",
             "name": "亚麻",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yama.webp",
-            "pinyin": "yama"
+            "icon": "assets/icons/items/亚麻.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1937,22 +1937,22 @@
         "level": 36,
         "job": "alchemist",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/yangmaozhi.webp",
+        "icon": "assets/icons/items/羊毛脂.webp",
         "pinyin": "yangmaozhi",
         "recipe": [
           {
             "id": "黑羊的粗皮",
             "name": "黑羊的粗皮",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heiyangdecupi.webp",
-            "pinyin": "heiyangdecupi"
+            "icon": "assets/icons/items/黑羊的粗皮.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1962,36 +1962,36 @@
         "level": 37,
         "job": "alchemist",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/shaojiezhuan.webp",
+        "icon": "assets/icons/items/烧结砖.webp",
         "pinyin": "shaojiezhuan",
         "recipe": [
           {
             "id": "粉砂岩",
             "name": "粉砂岩",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fenshayan.webp",
-            "pinyin": "fenshayan"
+            "icon": "assets/icons/items/粉砂岩.webp",
+            "pinyin": ""
           },
           {
             "id": "榴弹怪的灰",
             "name": "榴弹怪的灰",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liudanguaidehui.webp",
-            "pinyin": "liudanguaidehui"
+            "icon": "assets/icons/items/榴弹怪的灰.webp",
+            "pinyin": ""
           },
           {
             "id": "黏土",
             "name": "黏土",
             "quantity": 1,
-            "icon": "assets/icons/itemse/niantu.webp",
-            "pinyin": "niantu"
+            "icon": "assets/icons/items/黏土.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2001,43 +2001,43 @@
         "level": 38,
         "job": "alchemist",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/2jiganglizhiyao.webp",
+        "icon": "assets/icons/items/2级刚力之药.webp",
         "pinyin": "2jiganglizhiyao",
         "recipe": [
           {
             "id": "陷阱草的叶子",
             "name": "陷阱草的叶子",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xianjingcaodeyezi.webp",
-            "pinyin": "xianjingcaodeyezi"
+            "icon": "assets/icons/items/陷阱草的叶子.webp",
+            "pinyin": ""
           },
           {
             "id": "诺菲卡槲寄生",
             "name": "诺菲卡槲寄生",
             "quantity": 2,
-            "icon": "assets/icons/itemse/nuofeikahujisheng.webp",
-            "pinyin": "nuofeikahujisheng"
+            "icon": "assets/icons/items/诺菲卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "矿泉水",
             "name": "矿泉水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/kuangquanshui.webp",
-            "pinyin": "kuangquanshui"
+            "icon": "assets/icons/items/矿泉水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2047,43 +2047,43 @@
         "level": 38,
         "job": "alchemist",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/2jisulizhiyao.webp",
+        "icon": "assets/icons/items/2级速力之药.webp",
         "pinyin": "2jisulizhiyao",
         "recipe": [
           {
             "id": "陷阱草的叶子",
             "name": "陷阱草的叶子",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xianjingcaodeyezi.webp",
-            "pinyin": "xianjingcaodeyezi"
+            "icon": "assets/icons/items/陷阱草的叶子.webp",
+            "pinyin": ""
           },
           {
             "id": "诺菲卡槲寄生",
             "name": "诺菲卡槲寄生",
             "quantity": 2,
-            "icon": "assets/icons/itemse/nuofeikahujisheng.webp",
-            "pinyin": "nuofeikahujisheng"
+            "icon": "assets/icons/items/诺菲卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "矿泉水",
             "name": "矿泉水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/kuangquanshui.webp",
-            "pinyin": "kuangquanshui"
+            "icon": "assets/icons/items/矿泉水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2093,43 +2093,43 @@
         "level": 39,
         "job": "alchemist",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/2jiqiaolizhiyao.webp",
+        "icon": "assets/icons/items/2级巧力之药.webp",
         "pinyin": "2jiqiaolizhiyao",
         "recipe": [
           {
             "id": "陷阱草的叶子",
             "name": "陷阱草的叶子",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xianjingcaodeyezi.webp",
-            "pinyin": "xianjingcaodeyezi"
+            "icon": "assets/icons/items/陷阱草的叶子.webp",
+            "pinyin": ""
           },
           {
             "id": "诺菲卡槲寄生",
             "name": "诺菲卡槲寄生",
             "quantity": 2,
-            "icon": "assets/icons/itemse/nuofeikahujisheng.webp",
-            "pinyin": "nuofeikahujisheng"
+            "icon": "assets/icons/items/诺菲卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "矿泉水",
             "name": "矿泉水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/kuangquanshui.webp",
-            "pinyin": "kuangquanshui"
+            "icon": "assets/icons/items/矿泉水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2139,43 +2139,43 @@
         "level": 39,
         "job": "alchemist",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/2jizhilizhiyao.webp",
+        "icon": "assets/icons/items/2级智力之药.webp",
         "pinyin": "2jizhilizhiyao",
         "recipe": [
           {
             "id": "陷阱草的叶子",
             "name": "陷阱草的叶子",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xianjingcaodeyezi.webp",
-            "pinyin": "xianjingcaodeyezi"
+            "icon": "assets/icons/items/陷阱草的叶子.webp",
+            "pinyin": ""
           },
           {
             "id": "诺菲卡槲寄生",
             "name": "诺菲卡槲寄生",
             "quantity": 2,
-            "icon": "assets/icons/itemse/nuofeikahujisheng.webp",
-            "pinyin": "nuofeikahujisheng"
+            "icon": "assets/icons/items/诺菲卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "矿泉水",
             "name": "矿泉水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/kuangquanshui.webp",
-            "pinyin": "kuangquanshui"
+            "icon": "assets/icons/items/矿泉水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2185,43 +2185,43 @@
         "level": 39,
         "job": "alchemist",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/2jixinlizhiyao.webp",
+        "icon": "assets/icons/items/2级心力之药.webp",
         "pinyin": "2jixinlizhiyao",
         "recipe": [
           {
             "id": "陷阱草的叶子",
             "name": "陷阱草的叶子",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xianjingcaodeyezi.webp",
-            "pinyin": "xianjingcaodeyezi"
+            "icon": "assets/icons/items/陷阱草的叶子.webp",
+            "pinyin": ""
           },
           {
             "id": "诺菲卡槲寄生",
             "name": "诺菲卡槲寄生",
             "quantity": 2,
-            "icon": "assets/icons/itemse/nuofeikahujisheng.webp",
-            "pinyin": "nuofeikahujisheng"
+            "icon": "assets/icons/items/诺菲卡槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "矿泉水",
             "name": "矿泉水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/kuangquanshui.webp",
-            "pinyin": "kuangquanshui"
+            "icon": "assets/icons/items/矿泉水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2231,36 +2231,36 @@
         "level": 40,
         "job": "alchemist",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/qingqi.webp",
+        "icon": "assets/icons/items/清漆.webp",
         "pinyin": "qingqi",
         "recipe": [
           {
             "id": "松节油",
             "name": "松节油",
             "quantity": 2,
-            "icon": "assets/icons/itemse/songjieyou.webp",
-            "pinyin": "songjieyou"
+            "icon": "assets/icons/items/松节油.webp",
+            "pinyin": ""
           },
           {
             "id": "亚麻油",
             "name": "亚麻油",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yamayou.webp",
-            "pinyin": "yamayou"
+            "icon": "assets/icons/items/亚麻油.webp",
+            "pinyin": ""
           },
           {
             "id": "琥珀原石",
             "name": "琥珀原石",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hupoyuanshi.webp",
-            "pinyin": "hupoyuanshi"
+            "icon": "assets/icons/items/琥珀原石.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -2275,29 +2275,29 @@
         "level": 41,
         "job": "alchemist",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/lvjinchuandaomoshui.webp",
+        "icon": "assets/icons/items/绿金传导墨水.webp",
         "pinyin": "lvjinchuandaomoshui",
         "recipe": [
           {
             "id": "绿金沙",
             "name": "绿金沙",
             "quantity": 2,
-            "icon": "assets/icons/itemse/lvjinsha.webp",
-            "pinyin": "lvjinsha"
+            "icon": "assets/icons/items/绿金沙.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2307,43 +2307,43 @@
         "level": 42,
         "job": "alchemist",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/3jihuifuyao.webp",
+        "icon": "assets/icons/items/3级恢复药.webp",
         "pinyin": "3jihuifuyao",
         "recipe": [
           {
             "id": "艾蒿",
             "name": "艾蒿",
             "quantity": 3,
-            "icon": "assets/icons/itemse/aihao.webp",
-            "pinyin": "aihao"
+            "icon": "assets/icons/items/艾蒿.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2353,43 +2353,43 @@
         "level": 42,
         "job": "alchemist",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/3jiyitaiyao.webp",
+        "icon": "assets/icons/items/3级以太药.webp",
         "pinyin": "3jiyitaiyao",
         "recipe": [
           {
             "id": "艾蒿",
             "name": "艾蒿",
             "quantity": 3,
-            "icon": "assets/icons/itemse/aihao.webp",
-            "pinyin": "aihao"
+            "icon": "assets/icons/items/艾蒿.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2399,50 +2399,50 @@
         "level": 43,
         "job": "alchemist",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/mingjiangyaoji.webp",
+        "icon": "assets/icons/items/名匠药剂.webp",
         "pinyin": "mingjiangyaoji",
         "recipe": [
           {
             "id": "山羊角",
             "name": "山羊角",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shanyangjiao.webp",
-            "pinyin": "shanyangjiao"
+            "icon": "assets/icons/items/山羊角.webp",
+            "pinyin": ""
           },
           {
             "id": "槲寄生",
             "name": "槲寄生",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hujisheng.webp",
-            "pinyin": "hujisheng"
+            "icon": "assets/icons/items/槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "硫磺",
             "name": "硫磺",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liuhuang.webp",
-            "pinyin": "liuhuang"
+            "icon": "assets/icons/items/硫磺.webp",
+            "pinyin": ""
           },
           {
             "id": "鲨油",
             "name": "鲨油",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shayou.webp",
-            "pinyin": "shayou"
+            "icon": "assets/icons/items/鲨油.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2452,50 +2452,50 @@
         "level": 43,
         "job": "alchemist",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/mojiangyaoji.webp",
+        "icon": "assets/icons/items/魔匠药剂.webp",
         "pinyin": "mojiangyaoji",
         "recipe": [
           {
             "id": "山羊角",
             "name": "山羊角",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shanyangjiao.webp",
-            "pinyin": "shanyangjiao"
+            "icon": "assets/icons/items/山羊角.webp",
+            "pinyin": ""
           },
           {
             "id": "槲寄生",
             "name": "槲寄生",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hujisheng.webp",
-            "pinyin": "hujisheng"
+            "icon": "assets/icons/items/槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "硫磺",
             "name": "硫磺",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liuhuang.webp",
-            "pinyin": "liuhuang"
+            "icon": "assets/icons/items/硫磺.webp",
+            "pinyin": ""
           },
           {
             "id": "榴弹怪的灰",
             "name": "榴弹怪的灰",
             "quantity": 2,
-            "icon": "assets/icons/itemse/liudanguaidehui.webp",
-            "pinyin": "liudanguaidehui"
+            "icon": "assets/icons/items/榴弹怪的灰.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2505,50 +2505,50 @@
         "level": 44,
         "job": "alchemist",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/jujiangyaoji.webp",
+        "icon": "assets/icons/items/巨匠药剂.webp",
         "pinyin": "jujiangyaoji",
         "recipe": [
           {
             "id": "山羊角",
             "name": "山羊角",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shanyangjiao.webp",
-            "pinyin": "shanyangjiao"
+            "icon": "assets/icons/items/山羊角.webp",
+            "pinyin": ""
           },
           {
             "id": "槲寄生",
             "name": "槲寄生",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hujisheng.webp",
-            "pinyin": "hujisheng"
+            "icon": "assets/icons/items/槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "硫磺",
             "name": "硫磺",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liuhuang.webp",
-            "pinyin": "liuhuang"
+            "icon": "assets/icons/items/硫磺.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2558,57 +2558,57 @@
         "level": 45,
         "job": "alchemist",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/lvjinzhishu.webp",
+        "icon": "assets/icons/items/绿金之书.webp",
         "pinyin": "lvjinzhishu",
         "recipe": [
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金传导墨水",
             "name": "绿金传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinchuandaomoshui.webp",
-            "pinyin": "lvjinchuandaomoshui"
+            "icon": "assets/icons/items/绿金传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "羊毛线",
             "name": "羊毛线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yangmaoxian.webp",
-            "pinyin": "yangmaoxian"
+            "icon": "assets/icons/items/羊毛线.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯智力炼金溶剂",
             "name": "未提纯智力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
-            "pinyin": "weitichunzhililianjinrongji"
+            "icon": "assets/icons/items/未提纯智力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2618,57 +2618,57 @@
         "level": 45,
         "job": "alchemist",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/lvjinmodaodian.webp",
+        "icon": "assets/icons/items/绿金魔导典.webp",
         "pinyin": "lvjinmodaodian",
         "recipe": [
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金传导墨水",
             "name": "绿金传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinchuandaomoshui.webp",
-            "pinyin": "lvjinchuandaomoshui"
+            "icon": "assets/icons/items/绿金传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "羊毛线",
             "name": "羊毛线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yangmaoxian.webp",
-            "pinyin": "yangmaoxian"
+            "icon": "assets/icons/items/羊毛线.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -2683,50 +2683,50 @@
         "level": 46,
         "job": "alchemist",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/3jisulizhiyao.webp",
+        "icon": "assets/icons/items/3级速力之药.webp",
         "pinyin": "3jisulizhiyao",
         "recipe": [
           {
             "id": "毒镖蛙",
             "name": "毒镖蛙",
             "quantity": 5,
-            "icon": "assets/icons/itemse/dubiaowa.webp",
-            "pinyin": "dubiaowa"
+            "icon": "assets/icons/items/毒镖蛙.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "撒沟厉鼠尾草",
             "name": "撒沟厉鼠尾草",
             "quantity": 1,
-            "icon": "assets/icons/itemse/sagoulishuweicao.webp",
-            "pinyin": "sagoulishuweicao"
+            "icon": "assets/icons/items/撒沟厉鼠尾草.webp",
+            "pinyin": ""
           },
           {
             "id": "发泡水",
             "name": "发泡水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fapaoshui.webp",
-            "pinyin": "fapaoshui"
+            "icon": "assets/icons/items/发泡水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2736,50 +2736,50 @@
         "level": 46,
         "job": "alchemist",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/3jizhilizhiyao.webp",
+        "icon": "assets/icons/items/3级智力之药.webp",
         "pinyin": "3jizhilizhiyao",
         "recipe": [
           {
             "id": "毒镖蛙",
             "name": "毒镖蛙",
             "quantity": 5,
-            "icon": "assets/icons/itemse/dubiaowa.webp",
-            "pinyin": "dubiaowa"
+            "icon": "assets/icons/items/毒镖蛙.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "沙地巨虫之牙",
             "name": "沙地巨虫之牙",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shadijuchongzhiya.webp",
-            "pinyin": "shadijuchongzhiya"
+            "icon": "assets/icons/items/沙地巨虫之牙.webp",
+            "pinyin": ""
           },
           {
             "id": "发泡水",
             "name": "发泡水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fapaoshui.webp",
-            "pinyin": "fapaoshui"
+            "icon": "assets/icons/items/发泡水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2789,50 +2789,50 @@
         "level": 47,
         "job": "alchemist",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/3jixinlizhiyao.webp",
+        "icon": "assets/icons/items/3级心力之药.webp",
         "pinyin": "3jixinlizhiyao",
         "recipe": [
           {
             "id": "毒镖蛙",
             "name": "毒镖蛙",
             "quantity": 5,
-            "icon": "assets/icons/itemse/dubiaowa.webp",
-            "pinyin": "dubiaowa"
+            "icon": "assets/icons/items/毒镖蛙.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "青盲头蟹腿",
             "name": "青盲头蟹腿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingmangtouxietui.webp",
-            "pinyin": "qingmangtouxietui"
+            "icon": "assets/icons/items/青盲头蟹腿.webp",
+            "pinyin": ""
           },
           {
             "id": "发泡水",
             "name": "发泡水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fapaoshui.webp",
-            "pinyin": "fapaoshui"
+            "icon": "assets/icons/items/发泡水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2842,50 +2842,50 @@
         "level": 47,
         "job": "alchemist",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/3jiganglizhiyao.webp",
+        "icon": "assets/icons/items/3级刚力之药.webp",
         "pinyin": "3jiganglizhiyao",
         "recipe": [
           {
             "id": "毒镖蛙",
             "name": "毒镖蛙",
             "quantity": 5,
-            "icon": "assets/icons/itemse/dubiaowa.webp",
-            "pinyin": "dubiaowa"
+            "icon": "assets/icons/items/毒镖蛙.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "软糊怪肉",
             "name": "软糊怪肉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/ruanhuguairou.webp",
-            "pinyin": "ruanhuguairou"
+            "icon": "assets/icons/items/软糊怪肉.webp",
+            "pinyin": ""
           },
           {
             "id": "发泡水",
             "name": "发泡水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fapaoshui.webp",
-            "pinyin": "fapaoshui"
+            "icon": "assets/icons/items/发泡水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2895,50 +2895,50 @@
         "level": 47,
         "job": "alchemist",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/3jiqiaolizhiyao.webp",
+        "icon": "assets/icons/items/3级巧力之药.webp",
         "pinyin": "3jiqiaolizhiyao",
         "recipe": [
           {
             "id": "毒镖蛙",
             "name": "毒镖蛙",
             "quantity": 5,
-            "icon": "assets/icons/itemse/dubiaowa.webp",
-            "pinyin": "dubiaowa"
+            "icon": "assets/icons/items/毒镖蛙.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "发泡水",
             "name": "发泡水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fapaoshui.webp",
-            "pinyin": "fapaoshui"
+            "icon": "assets/icons/items/发泡水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2948,43 +2948,43 @@
         "level": 48,
         "job": "alchemist",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/4jihuifuyao.webp",
+        "icon": "assets/icons/items/4级恢复药.webp",
         "pinyin": "4jihuifuyao",
         "recipe": [
           {
             "id": "白妙草",
             "name": "白妙草",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baimiaocao.webp",
-            "pinyin": "baimiaocao"
+            "icon": "assets/icons/items/白妙草.webp",
+            "pinyin": ""
           },
           {
             "id": "黑蝎",
             "name": "黑蝎",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heixie.webp",
-            "pinyin": "heixie"
+            "icon": "assets/icons/items/黑蝎.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2994,43 +2994,43 @@
         "level": 49,
         "job": "alchemist",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/4jiyitaiyao.webp",
+        "icon": "assets/icons/items/4级以太药.webp",
         "pinyin": "4jiyitaiyao",
         "recipe": [
           {
             "id": "白妙草",
             "name": "白妙草",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baimiaocao.webp",
-            "pinyin": "baimiaocao"
+            "icon": "assets/icons/items/白妙草.webp",
+            "pinyin": ""
           },
           {
             "id": "黑蝎",
             "name": "黑蝎",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heixie.webp",
-            "pinyin": "heixie"
+            "icon": "assets/icons/items/黑蝎.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3040,50 +3040,50 @@
         "level": 50,
         "job": "alchemist",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/lvyezitanhuanzhang.webp",
+        "icon": "assets/icons/items/绿叶紫檀幻杖.webp",
         "pinyin": "lvyezitanhuanzhang",
         "recipe": [
           {
             "id": "紫檀枝",
             "name": "紫檀枝",
             "quantity": 6,
-            "icon": "assets/icons/itemse/zitanzhi.webp",
-            "pinyin": "zitanzhi"
+            "icon": "assets/icons/items/紫檀枝.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂3型",
             "name": "植物成长剂3型",
             "quantity": 3,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji3xing.webp",
-            "pinyin": "zhiwuchengzhangji3xing"
+            "icon": "assets/icons/items/植物成长剂3型.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 2,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -3098,50 +3098,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/4jisulizhiyao.webp",
+        "icon": "assets/icons/items/4级速力之药.webp",
         "pinyin": "4jisulizhiyao",
         "recipe": [
           {
             "id": "延龄花",
             "name": "延龄花",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanlinghua.webp",
-            "pinyin": "yanlinghua"
+            "icon": "assets/icons/items/延龄花.webp",
+            "pinyin": ""
           },
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 1,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "灰汁",
             "name": "灰汁",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huizhi.webp",
-            "pinyin": "huizhi"
+            "icon": "assets/icons/items/灰汁.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度速力炼金溶剂",
             "name": "高纯度速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
-            "pinyin": "gaochundusulilianjinrongji"
+            "icon": "assets/icons/items/高纯度速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3151,50 +3151,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/4jiqiaolizhiyao.webp",
+        "icon": "assets/icons/items/4级巧力之药.webp",
         "pinyin": "4jiqiaolizhiyao",
         "recipe": [
           {
             "id": "延龄花",
             "name": "延龄花",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanlinghua.webp",
-            "pinyin": "yanlinghua"
+            "icon": "assets/icons/items/延龄花.webp",
+            "pinyin": ""
           },
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 1,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "灰汁",
             "name": "灰汁",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huizhi.webp",
-            "pinyin": "huizhi"
+            "icon": "assets/icons/items/灰汁.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度巧力炼金溶剂",
             "name": "高纯度巧力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
-            "pinyin": "gaochunduqiaolilianjinrongji"
+            "icon": "assets/icons/items/高纯度巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3204,50 +3204,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/4jiganglizhiyao.webp",
+        "icon": "assets/icons/items/4级刚力之药.webp",
         "pinyin": "4jiganglizhiyao",
         "recipe": [
           {
             "id": "延龄花",
             "name": "延龄花",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanlinghua.webp",
-            "pinyin": "yanlinghua"
+            "icon": "assets/icons/items/延龄花.webp",
+            "pinyin": ""
           },
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 1,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "灰汁",
             "name": "灰汁",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huizhi.webp",
-            "pinyin": "huizhi"
+            "icon": "assets/icons/items/灰汁.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度刚力炼金溶剂",
             "name": "高纯度刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
-            "pinyin": "gaochunduganglilianjinrongji"
+            "icon": "assets/icons/items/高纯度刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3257,50 +3257,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/4jizhilizhiyao.webp",
+        "icon": "assets/icons/items/4级智力之药.webp",
         "pinyin": "4jizhilizhiyao",
         "recipe": [
           {
             "id": "延龄花",
             "name": "延龄花",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanlinghua.webp",
-            "pinyin": "yanlinghua"
+            "icon": "assets/icons/items/延龄花.webp",
+            "pinyin": ""
           },
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 1,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "灰汁",
             "name": "灰汁",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huizhi.webp",
-            "pinyin": "huizhi"
+            "icon": "assets/icons/items/灰汁.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度智力炼金溶剂",
             "name": "高纯度智力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
-            "pinyin": "gaochunduzhililianjinrongji"
+            "icon": "assets/icons/items/高纯度智力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3310,50 +3310,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/4jixinlizhiyao.webp",
+        "icon": "assets/icons/items/4级心力之药.webp",
         "pinyin": "4jixinlizhiyao",
         "recipe": [
           {
             "id": "延龄花",
             "name": "延龄花",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yanlinghua.webp",
-            "pinyin": "yanlinghua"
+            "icon": "assets/icons/items/延龄花.webp",
+            "pinyin": ""
           },
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 1,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "灰汁",
             "name": "灰汁",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huizhi.webp",
-            "pinyin": "huizhi"
+            "icon": "assets/icons/items/灰汁.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度心力炼金溶剂",
             "name": "高纯度心力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
-            "pinyin": "gaochunduxinlilianjinrongji"
+            "icon": "assets/icons/items/高纯度心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3363,29 +3363,29 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/zhiwuchengzhangji4xing.webp",
+        "icon": "assets/icons/items/植物成长剂4型.webp",
         "pinyin": "zhiwuchengzhangji4xing",
         "recipe": [
           {
             "id": "延龄草的球根",
             "name": "延龄草的球根",
             "quantity": 5,
-            "icon": "assets/icons/itemse/yanlingcaodeqiugen.webp",
-            "pinyin": "yanlingcaodeqiugen"
+            "icon": "assets/icons/items/延龄草的球根.webp",
+            "pinyin": ""
           },
           {
             "id": "水银",
             "name": "水银",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuiyin.webp",
-            "pinyin": "shuiyin"
+            "icon": "assets/icons/items/水银.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3395,29 +3395,29 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/meiguijinchuandaomoshui.webp",
+        "icon": "assets/icons/items/玫瑰金传导墨水.webp",
         "pinyin": "meiguijinchuandaomoshui",
         "recipe": [
           {
             "id": "金沙",
             "name": "金沙",
             "quantity": 5,
-            "icon": "assets/icons/itemse/jinsha.webp",
-            "pinyin": "jinsha"
+            "icon": "assets/icons/items/金沙.webp",
+            "pinyin": ""
           },
           {
             "id": "铅丹",
             "name": "铅丹",
             "quantity": 2,
-            "icon": "assets/icons/itemse/qiandan.webp",
-            "pinyin": "qiandan"
+            "icon": "assets/icons/items/铅丹.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3427,29 +3427,29 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+        "icon": "assets/icons/items/高纯度心力炼金溶剂.webp",
         "pinyin": "gaochunduxinlilianjinrongji",
         "recipe": [
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 5,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "纯净水",
             "name": "纯净水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/chunjingshui.webp",
-            "pinyin": "chunjingshui"
+            "icon": "assets/icons/items/纯净水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3459,29 +3459,29 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+        "icon": "assets/icons/items/高纯度巧力炼金溶剂.webp",
         "pinyin": "gaochunduqiaolilianjinrongji",
         "recipe": [
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 5,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "纯净水",
             "name": "纯净水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/chunjingshui.webp",
-            "pinyin": "chunjingshui"
+            "icon": "assets/icons/items/纯净水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3491,29 +3491,29 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+        "icon": "assets/icons/items/高纯度刚力炼金溶剂.webp",
         "pinyin": "gaochunduganglilianjinrongji",
         "recipe": [
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 5,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "纯净水",
             "name": "纯净水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/chunjingshui.webp",
-            "pinyin": "chunjingshui"
+            "icon": "assets/icons/items/纯净水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3523,29 +3523,29 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+        "icon": "assets/icons/items/高纯度智力炼金溶剂.webp",
         "pinyin": "gaochunduzhililianjinrongji",
         "recipe": [
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 5,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "纯净水",
             "name": "纯净水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/chunjingshui.webp",
-            "pinyin": "chunjingshui"
+            "icon": "assets/icons/items/纯净水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3555,29 +3555,29 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+        "icon": "assets/icons/items/高纯度速力炼金溶剂.webp",
         "pinyin": "gaochundusulilianjinrongji",
         "recipe": [
           {
             "id": "萨维奈槲寄生",
             "name": "萨维奈槲寄生",
             "quantity": 5,
-            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
-            "pinyin": "saweinaihujisheng"
+            "icon": "assets/icons/items/萨维奈槲寄生.webp",
+            "pinyin": ""
           },
           {
             "id": "纯净水",
             "name": "纯净水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/chunjingshui.webp",
-            "pinyin": "chunjingshui"
+            "icon": "assets/icons/items/纯净水.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3587,50 +3587,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/shenyanji.webp",
+        "icon": "assets/icons/items/神言集.webp",
         "pinyin": "shenyanji",
         "recipe": [
           {
             "id": "玄钢块",
             "name": "玄钢块",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xuangangkuai.webp",
-            "pinyin": "xuangangkuai"
+            "icon": "assets/icons/items/玄钢块.webp",
+            "pinyin": ""
           },
           {
             "id": "玫瑰金传导墨水",
             "name": "玫瑰金传导墨水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/meiguijinchuandaomoshui.webp",
-            "pinyin": "meiguijinchuandaomoshui"
+            "icon": "assets/icons/items/玫瑰金传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰革",
             "name": "骏鹰革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/junyingge.webp",
-            "pinyin": "junyingge"
+            "icon": "assets/icons/items/骏鹰革.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度智力炼金溶剂",
             "name": "高纯度智力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
-            "pinyin": "gaochunduzhililianjinrongji"
+            "icon": "assets/icons/items/高纯度智力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3640,50 +3640,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/qigongliuzhang.webp",
+        "icon": "assets/icons/items/七公六杖.webp",
         "pinyin": "qigongliuzhang",
         "recipe": [
           {
             "id": "云杉木材",
             "name": "云杉木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yunshamucai.webp",
-            "pinyin": "yunshamucai"
+            "icon": "assets/icons/items/云杉木材.webp",
+            "pinyin": ""
           },
           {
             "id": "玄钢块",
             "name": "玄钢块",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xuangangkuai.webp",
-            "pinyin": "xuangangkuai"
+            "icon": "assets/icons/items/玄钢块.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂4型",
             "name": "植物成长剂4型",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji4xing.webp",
-            "pinyin": "zhiwuchengzhangji4xing"
+            "icon": "assets/icons/items/植物成长剂4型.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度心力炼金溶剂",
             "name": "高纯度心力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
-            "pinyin": "gaochunduxinlilianjinrongji"
+            "icon": "assets/icons/items/高纯度心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3693,50 +3693,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/shenenji.webp",
+        "icon": "assets/icons/items/神恩集.webp",
         "pinyin": "shenenji",
         "recipe": [
           {
             "id": "骏鹰革",
             "name": "骏鹰革",
             "quantity": 3,
-            "icon": "assets/icons/itemse/junyingge.webp",
-            "pinyin": "junyingge"
+            "icon": "assets/icons/items/骏鹰革.webp",
+            "pinyin": ""
           },
           {
             "id": "玫瑰金传导墨水",
             "name": "玫瑰金传导墨水",
             "quantity": 2,
-            "icon": "assets/icons/itemse/meiguijinchuandaomoshui.webp",
-            "pinyin": "meiguijinchuandaomoshui"
+            "icon": "assets/icons/items/玫瑰金传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "白银锭",
             "name": "白银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinding.webp",
-            "pinyin": "baiyinding"
+            "icon": "assets/icons/items/白银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度心力炼金溶剂",
             "name": "高纯度心力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
-            "pinyin": "gaochunduxinlilianjinrongji"
+            "icon": "assets/icons/items/高纯度心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -3751,43 +3751,43 @@
         "level": 41,
         "job": "alchemist",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyong3jihuifuyao.webp",
+        "icon": "assets/icons/items/收藏用3级恢复药.webp",
         "pinyin": "shoucangyong3jihuifuyao",
         "recipe": [
           {
             "id": "艾蒿",
             "name": "艾蒿",
             "quantity": 3,
-            "icon": "assets/icons/itemse/aihao.webp",
-            "pinyin": "aihao"
+            "icon": "assets/icons/items/艾蒿.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3797,43 +3797,43 @@
         "level": 43,
         "job": "alchemist",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyong3jiyitaiyao.webp",
+        "icon": "assets/icons/items/收藏用3级以太药.webp",
         "pinyin": "shoucangyong3jiyitaiyao",
         "recipe": [
           {
             "id": "艾蒿",
             "name": "艾蒿",
             "quantity": 3,
-            "icon": "assets/icons/itemse/aihao.webp",
-            "pinyin": "aihao"
+            "icon": "assets/icons/items/艾蒿.webp",
+            "pinyin": ""
           },
           {
             "id": "冥鬼的翅膀",
             "name": "冥鬼的翅膀",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mingguidechibang.webp",
-            "pinyin": "mingguidechibang"
+            "icon": "assets/icons/items/冥鬼的翅膀.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3843,57 +3843,57 @@
         "level": 45,
         "job": "alchemist",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyonglvjinzhishu.webp",
+        "icon": "assets/icons/items/收藏用绿金之书.webp",
         "pinyin": "shoucangyonglvjinzhishu",
         "recipe": [
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金传导墨水",
             "name": "绿金传导墨水",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinchuandaomoshui.webp",
-            "pinyin": "lvjinchuandaomoshui"
+            "icon": "assets/icons/items/绿金传导墨水.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "羊毛线",
             "name": "羊毛线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yangmaoxian.webp",
-            "pinyin": "yangmaoxian"
+            "icon": "assets/icons/items/羊毛线.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯智力炼金溶剂",
             "name": "未提纯智力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
-            "pinyin": "weitichunzhililianjinrongji"
+            "icon": "assets/icons/items/未提纯智力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3903,43 +3903,43 @@
         "level": 47,
         "job": "alchemist",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyong4jihuifuyao.webp",
+        "icon": "assets/icons/items/收藏用4级恢复药.webp",
         "pinyin": "shoucangyong4jihuifuyao",
         "recipe": [
           {
             "id": "白妙草",
             "name": "白妙草",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baimiaocao.webp",
-            "pinyin": "baimiaocao"
+            "icon": "assets/icons/items/白妙草.webp",
+            "pinyin": ""
           },
           {
             "id": "黑蝎",
             "name": "黑蝎",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heixie.webp",
-            "pinyin": "heixie"
+            "icon": "assets/icons/items/黑蝎.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3949,43 +3949,43 @@
         "level": 49,
         "job": "alchemist",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyong4jiyitaiyao.webp",
+        "icon": "assets/icons/items/收藏用4级以太药.webp",
         "pinyin": "shoucangyong4jiyitaiyao",
         "recipe": [
           {
             "id": "白妙草",
             "name": "白妙草",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baimiaocao.webp",
-            "pinyin": "baimiaocao"
+            "icon": "assets/icons/items/白妙草.webp",
+            "pinyin": ""
           },
           {
             "id": "黑蝎",
             "name": "黑蝎",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heixie.webp",
-            "pinyin": "heixie"
+            "icon": "assets/icons/items/黑蝎.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3995,50 +3995,50 @@
         "level": "50★",
         "job": "alchemist",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyonglvyezitanhuanzhang.webp",
+        "icon": "assets/icons/items/收藏用绿叶紫檀幻杖.webp",
         "pinyin": "shoucangyonglvyezitanhuanzhang",
         "recipe": [
           {
             "id": "紫檀枝",
             "name": "紫檀枝",
             "quantity": 6,
-            "icon": "assets/icons/itemse/zitanzhi.webp",
-            "pinyin": "zitanzhi"
+            "icon": "assets/icons/items/紫檀枝.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂3型",
             "name": "植物成长剂3型",
             "quantity": 3,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji3xing.webp",
-            "pinyin": "zhiwuchengzhangji3xing"
+            "icon": "assets/icons/items/植物成长剂3型.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 2,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "水之碎晶",
             "name": "水之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/shuizhisuijing.webp",
-            "pinyin": "shuizhisuijing"
+            "icon": "assets/icons/items/水之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "雷之碎晶",
             "name": "雷之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/leizhisuijing.webp",
-            "pinyin": "leizhisuijing"
+            "icon": "assets/icons/items/雷之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }

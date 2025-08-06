@@ -8,9 +8,9 @@
         "job": "botanist",
         "category": "秘籍：第1卷",
         "level": "50★",
-        "startTime": 0.20833333333333334,
-        "endTime": 0.3333333333333333,
-        "icon": "assets/icons/itemse/miningmeng.webp",
+        "startTime": 0.208333333333333,
+        "endTime": 0.333333333333333,
+        "icon": "assets/icons/items/蜜柠檬.webp",
         "pinyin": "miningmeng"
       },
       {
@@ -19,9 +19,9 @@
         "job": "botanist",
         "category": "秘籍：第1卷",
         "level": "50★",
-        "startTime": 0.5416666666666666,
-        "endTime": 0.6666666666666666,
-        "icon": "assets/icons/itemse/heisonglu.webp",
+        "startTime": 0.541666666666667,
+        "endTime": 0.666666666666667,
+        "icon": "assets/icons/items/黑松露.webp",
         "pinyin": "heisonglu"
       },
       {
@@ -32,7 +32,7 @@
         "level": "50★",
         "startTime": 0.375,
         "endTime": 0.5,
-        "icon": "assets/icons/itemse/duociboluo.webp",
+        "icon": "assets/icons/items/多刺菠萝.webp",
         "pinyin": "duociboluo"
       },
       {
@@ -43,7 +43,7 @@
         "level": "50★",
         "startTime": 0.375,
         "endTime": 0.5,
-        "icon": "assets/icons/itemse/yunshanyuanmu.webp",
+        "icon": "assets/icons/items/云杉原木.webp",
         "pinyin": "yunshanyuanmu"
       },
       {
@@ -52,9 +52,9 @@
         "job": "botanist",
         "category": "秘籍：第1卷",
         "level": "50★",
-        "startTime": 0.041666666666666664,
-        "endTime": 0.16666666666666666,
-        "icon": "assets/icons/itemse/canjian.webp",
+        "startTime": 0.0416666666666667,
+        "endTime": 0.166666666666667,
+        "icon": "assets/icons/items/蚕茧.webp",
         "pinyin": "canjian"
       },
       {
@@ -63,9 +63,9 @@
         "job": "botanist",
         "category": "秘籍：第1卷",
         "level": "50★",
-        "startTime": 0.7083333333333334,
-        "endTime": 0.8333333333333334,
-        "icon": "assets/icons/itemse/saweinaihujisheng.webp",
+        "startTime": 0.708333333333333,
+        "endTime": 0.833333333333333,
+        "icon": "assets/icons/items/萨维奈槲寄生.webp",
         "pinyin": "saweinaihujisheng"
       },
       {
@@ -74,9 +74,9 @@
         "job": "botanist",
         "category": "秘籍：第1卷",
         "level": "50★",
-        "startTime": 0.20833333333333334,
-        "endTime": 0.3333333333333333,
-        "icon": "assets/icons/itemse/yanlinghua.webp",
+        "startTime": 0.208333333333333,
+        "endTime": 0.333333333333333,
+        "icon": "assets/icons/items/延龄花.webp",
         "pinyin": "yanlinghua"
       },
       {
@@ -87,7 +87,7 @@
         "level": "50★",
         "startTime": 0.875,
         "endTime": 1,
-        "icon": "assets/icons/itemse/yanlingcaodeqiugen.webp",
+        "icon": "assets/icons/items/延龄草的球根.webp",
         "pinyin": "yanlingcaodeqiugen"
       }
     ]
@@ -103,7 +103,7 @@
         "level": 50,
         "startTime": 0.375,
         "endTime": 0.5,
-        "icon": "assets/icons/itemse/shoucangyongbaimiaocao.webp",
+        "icon": "assets/icons/items/收藏用白妙草.webp",
         "pinyin": "shoucangyongbaimiaocao"
       }
     ]

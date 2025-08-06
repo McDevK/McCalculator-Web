@@ -8,29 +8,29 @@
         "level": 1,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongding.webp",
+        "icon": "assets/icons/items/青铜锭.webp",
         "pinyin": "qingtongding",
         "recipe": [
           {
             "id": "铜矿",
             "name": "铜矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tongkuang.webp",
-            "pinyin": "tongkuang"
+            "icon": "assets/icons/items/铜矿.webp",
+            "pinyin": ""
           },
           {
             "id": "锡矿",
             "name": "锡矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xikuang.webp",
-            "pinyin": "xikuang"
+            "icon": "assets/icons/items/锡矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -40,29 +40,29 @@
         "level": 2,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongmaoding.webp",
+        "icon": "assets/icons/items/青铜铆钉.webp",
         "pinyin": "qingtongmaoding",
         "recipe": [
           {
             "id": "铜矿",
             "name": "铜矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tongkuang.webp",
-            "pinyin": "tongkuang"
+            "icon": "assets/icons/items/铜矿.webp",
+            "pinyin": ""
           },
           {
             "id": "锡矿",
             "name": "锡矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xikuang.webp",
-            "pinyin": "xikuang"
+            "icon": "assets/icons/items/锡矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -72,29 +72,29 @@
         "level": 3,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtonghuan.webp",
+        "icon": "assets/icons/items/青铜环.webp",
         "pinyin": "qingtonghuan",
         "recipe": [
           {
             "id": "铜矿",
             "name": "铜矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tongkuang.webp",
-            "pinyin": "tongkuang"
+            "icon": "assets/icons/items/铜矿.webp",
+            "pinyin": ""
           },
           {
             "id": "锡矿",
             "name": "锡矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xikuang.webp",
-            "pinyin": "xikuang"
+            "icon": "assets/icons/items/锡矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -104,29 +104,29 @@
         "level": 4,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongban.webp",
+        "icon": "assets/icons/items/青铜板.webp",
         "pinyin": "qingtongban",
         "recipe": [
           {
             "id": "铜矿",
             "name": "铜矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tongkuang.webp",
-            "pinyin": "tongkuang"
+            "icon": "assets/icons/items/铜矿.webp",
+            "pinyin": ""
           },
           {
             "id": "锡矿",
             "name": "锡矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xikuang.webp",
-            "pinyin": "xikuang"
+            "icon": "assets/icons/items/锡矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -136,36 +136,36 @@
         "level": 4,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongzhongdun.webp",
+        "icon": "assets/icons/items/青铜重盾.webp",
         "pinyin": "qingtongzhongdun",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -175,36 +175,36 @@
         "level": 5,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongyuditoukui.webp",
+        "icon": "assets/icons/items/青铜御敌头盔.webp",
         "pinyin": "qingtongyuditoukui",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜环",
             "name": "青铜环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtonghuan.webp",
-            "pinyin": "qingtonghuan"
+            "icon": "assets/icons/items/青铜环.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -214,43 +214,43 @@
         "level": 5,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongzhidisuojiatouzhao.webp",
+        "icon": "assets/icons/items/青铜制敌锁甲头罩.webp",
         "pinyin": "qingtongzhidisuojiatouzhao",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜环",
             "name": "青铜环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtonghuan.webp",
-            "pinyin": "qingtonghuan"
+            "icon": "assets/icons/items/青铜环.webp",
+            "pinyin": ""
           },
           {
             "id": "鞣革",
             "name": "鞣革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/rouge.webp",
-            "pinyin": "rouge"
+            "icon": "assets/icons/items/鞣革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -260,43 +260,43 @@
         "level": 5,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongqiangxijiaokui.webp",
+        "icon": "assets/icons/items/青铜强袭角盔.webp",
         "pinyin": "qingtongqiangxijiaokui",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜锭",
             "name": "青铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongding.webp",
-            "pinyin": "qingtongding"
+            "icon": "assets/icons/items/青铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜铆钉",
             "name": "青铜铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongmaoding.webp",
-            "pinyin": "qingtongmaoding"
+            "icon": "assets/icons/items/青铜铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -306,36 +306,36 @@
         "level": 5,
         "job": "armorer",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongyudixiongjia.webp",
+        "icon": "assets/icons/items/青铜御敌胸甲.webp",
         "pinyin": "qingtongyudixiongjia",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜环",
             "name": "青铜环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtonghuan.webp",
-            "pinyin": "qingtonghuan"
+            "icon": "assets/icons/items/青铜环.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -350,36 +350,36 @@
         "level": 6,
         "job": "armorer",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/qingtongzhidisuozikai.webp",
+        "icon": "assets/icons/items/青铜制敌锁子铠.webp",
         "pinyin": "qingtongzhidisuozikai",
         "recipe": [
           {
             "id": "青铜环",
             "name": "青铜环",
             "quantity": 3,
-            "icon": "assets/icons/itemse/qingtonghuan.webp",
-            "pinyin": "qingtonghuan"
+            "icon": "assets/icons/items/青铜环.webp",
+            "pinyin": ""
           },
           {
             "id": "草布",
             "name": "草布",
             "quantity": 1,
-            "icon": "assets/icons/itemse/caobu.webp",
-            "pinyin": "caobu"
+            "icon": "assets/icons/items/草布.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -389,36 +389,36 @@
         "level": 6,
         "job": "armorer",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/qingtongyudishoukai.webp",
+        "icon": "assets/icons/items/青铜御敌手铠.webp",
         "pinyin": "qingtongyudishoukai",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜铆钉",
             "name": "青铜铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongmaoding.webp",
-            "pinyin": "qingtongmaoding"
+            "icon": "assets/icons/items/青铜铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -428,43 +428,43 @@
         "level": 6,
         "job": "armorer",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/qingtongzhidishoukai.webp",
+        "icon": "assets/icons/items/青铜制敌手铠.webp",
         "pinyin": "qingtongzhidishoukai",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜铆钉",
             "name": "青铜铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongmaoding.webp",
-            "pinyin": "qingtongmaoding"
+            "icon": "assets/icons/items/青铜铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "鞣革",
             "name": "鞣革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/rouge.webp",
-            "pinyin": "rouge"
+            "icon": "assets/icons/items/鞣革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -474,43 +474,43 @@
         "level": 7,
         "job": "armorer",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/qingtongyudikaixue.webp",
+        "icon": "assets/icons/items/青铜御敌铠靴.webp",
         "pinyin": "qingtongyudikaixue",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜环",
             "name": "青铜环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtonghuan.webp",
-            "pinyin": "qingtonghuan"
+            "icon": "assets/icons/items/青铜环.webp",
+            "pinyin": ""
           },
           {
             "id": "鞣革",
             "name": "鞣革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/rouge.webp",
-            "pinyin": "rouge"
+            "icon": "assets/icons/items/鞣革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -520,43 +520,43 @@
         "level": 7,
         "job": "armorer",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/qingtongzhidisuojiaxue.webp",
+        "icon": "assets/icons/items/青铜制敌锁甲靴.webp",
         "pinyin": "qingtongzhidisuojiaxue",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜环",
             "name": "青铜环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtonghuan.webp",
-            "pinyin": "qingtonghuan"
+            "icon": "assets/icons/items/青铜环.webp",
+            "pinyin": ""
           },
           {
             "id": "鞣革",
             "name": "鞣革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/rouge.webp",
-            "pinyin": "rouge"
+            "icon": "assets/icons/items/鞣革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -566,36 +566,36 @@
         "level": 7,
         "job": "armorer",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/qingtongbubingdun.webp",
+        "icon": "assets/icons/items/青铜步兵盾.webp",
         "pinyin": "qingtongbubingdun",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜铆钉",
             "name": "青铜铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongmaoding.webp",
-            "pinyin": "qingtongmaoding"
+            "icon": "assets/icons/items/青铜铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -605,43 +605,43 @@
         "level": 10,
         "job": "armorer",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/yeyuzhengliuqi.webp",
+        "icon": "assets/icons/items/业余蒸馏器.webp",
         "pinyin": "yeyuzhengliuqi",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜铆钉",
             "name": "青铜铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongmaoding.webp",
-            "pinyin": "qingtongmaoding"
+            "icon": "assets/icons/items/青铜铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "红铜锭",
             "name": "红铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hongtongding.webp",
-            "pinyin": "hongtongding"
+            "icon": "assets/icons/items/红铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -651,36 +651,36 @@
         "level": 10,
         "job": "armorer",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/yeyupingdiguo.webp",
+        "icon": "assets/icons/items/业余平底锅.webp",
         "pinyin": "yeyupingdiguo",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "梣木木材",
             "name": "梣木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/cenmumucai.webp",
-            "pinyin": "cenmumucai"
+            "icon": "assets/icons/items/梣木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -695,22 +695,22 @@
         "level": 12,
         "job": "armorer",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/heitieding.webp",
+        "icon": "assets/icons/items/黑铁锭.webp",
         "pinyin": "heitieding",
         "recipe": [
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -720,22 +720,22 @@
         "level": 13,
         "job": "armorer",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/heitiemaoding.webp",
+        "icon": "assets/icons/items/黑铁铆钉.webp",
         "pinyin": "heitiemaoding",
         "recipe": [
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -745,22 +745,22 @@
         "level": 13,
         "job": "armorer",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/heitieban.webp",
+        "icon": "assets/icons/items/黑铁板.webp",
         "pinyin": "heitieban",
         "recipe": [
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -770,22 +770,22 @@
         "level": 14,
         "job": "armorer",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/heitiehuan.webp",
+        "icon": "assets/icons/items/黑铁环.webp",
         "pinyin": "heitiehuan",
         "recipe": [
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -795,22 +795,22 @@
         "level": 14,
         "job": "armorer",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/heitielianjieban.webp",
+        "icon": "assets/icons/items/黑铁连接板.webp",
         "pinyin": "heitielianjieban",
         "recipe": [
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -820,36 +820,36 @@
         "level": 15,
         "job": "armorer",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/huangtongkaimiankui.webp",
+        "icon": "assets/icons/items/黄铜开面盔.webp",
         "pinyin": "huangtongkaimiankui",
         "recipe": [
           {
             "id": "红铜锭",
             "name": "红铜锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/hongtongding.webp",
-            "pinyin": "hongtongding"
+            "icon": "assets/icons/items/红铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "黄铜锭",
             "name": "黄铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huangtongding.webp",
-            "pinyin": "huangtongding"
+            "icon": "assets/icons/items/黄铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -859,43 +859,43 @@
         "level": 15,
         "job": "armorer",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/qingtongxiaoyuandun.webp",
+        "icon": "assets/icons/items/青铜小圆盾.webp",
         "pinyin": "qingtongxiaoyuandun",
         "recipe": [
           {
             "id": "青铜板",
             "name": "青铜板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/qingtongban.webp",
-            "pinyin": "qingtongban"
+            "icon": "assets/icons/items/青铜板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜锭",
             "name": "青铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongding.webp",
-            "pinyin": "qingtongding"
+            "icon": "assets/icons/items/青铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁铆钉",
             "name": "黑铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiemaoding.webp",
-            "pinyin": "heitiemaoding"
+            "icon": "assets/icons/items/黑铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -910,36 +910,36 @@
         "level": 16,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitieyuditoukui.webp",
+        "icon": "assets/icons/items/黑铁御敌头盔.webp",
         "pinyin": "heitieyuditoukui",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁环",
             "name": "黑铁环",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heitiehuan.webp",
-            "pinyin": "heitiehuan"
+            "icon": "assets/icons/items/黑铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -949,43 +949,43 @@
         "level": 16,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitiezhidiqibingtoukui.webp",
+        "icon": "assets/icons/items/黑铁制敌骑兵头盔.webp",
         "pinyin": "heitiezhidiqibingtoukui",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁铆钉",
             "name": "黑铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiemaoding.webp",
-            "pinyin": "heitiemaoding"
+            "icon": "assets/icons/items/黑铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -995,43 +995,43 @@
         "level": 16,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitieqiangxijiaokui.webp",
+        "icon": "assets/icons/items/黑铁强袭角盔.webp",
         "pinyin": "heitieqiangxijiaokui",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁锭",
             "name": "黑铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitieding.webp",
-            "pinyin": "heitieding"
+            "icon": "assets/icons/items/黑铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁铆钉",
             "name": "黑铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiemaoding.webp",
-            "pinyin": "heitiemaoding"
+            "icon": "assets/icons/items/黑铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1041,36 +1041,36 @@
         "level": 16,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitieyudixiongjia.webp",
+        "icon": "assets/icons/items/黑铁御敌胸甲.webp",
         "pinyin": "heitieyudixiongjia",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁环",
             "name": "黑铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiehuan.webp",
-            "pinyin": "heitiehuan"
+            "icon": "assets/icons/items/黑铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1080,43 +1080,43 @@
         "level": 16,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitiezhidilinkai.webp",
+        "icon": "assets/icons/items/黑铁制敌鳞铠.webp",
         "pinyin": "heitiezhidilinkai",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "红铜锭",
             "name": "红铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hongtongding.webp",
-            "pinyin": "hongtongding"
+            "icon": "assets/icons/items/红铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1126,36 +1126,36 @@
         "level": 17,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitieyudishoukai.webp",
+        "icon": "assets/icons/items/黑铁御敌手铠.webp",
         "pinyin": "heitieyudishoukai",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁环",
             "name": "黑铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiehuan.webp",
-            "pinyin": "heitiehuan"
+            "icon": "assets/icons/items/黑铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1165,36 +1165,36 @@
         "level": 17,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitiezhidibijia.webp",
+        "icon": "assets/icons/items/黑铁制敌臂甲.webp",
         "pinyin": "heitiezhidibijia",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1204,43 +1204,43 @@
         "level": 17,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitieyudizhongzukai.webp",
+        "icon": "assets/icons/items/黑铁御敌重足铠.webp",
         "pinyin": "heitieyudizhongzukai",
         "recipe": [
           {
             "id": "黑铁锭",
             "name": "黑铁锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/heitieding.webp",
-            "pinyin": "heitieding"
+            "icon": "assets/icons/items/黑铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁环",
             "name": "黑铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiehuan.webp",
-            "pinyin": "heitiehuan"
+            "icon": "assets/icons/items/黑铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1250,43 +1250,43 @@
         "level": 17,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitieyudikaixue.webp",
+        "icon": "assets/icons/items/黑铁御敌铠靴.webp",
         "pinyin": "heitieyudikaixue",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜环",
             "name": "青铜环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtonghuan.webp",
-            "pinyin": "qingtonghuan"
+            "icon": "assets/icons/items/青铜环.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1296,43 +1296,43 @@
         "level": 17,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitiezhidilinjingjia.webp",
+        "icon": "assets/icons/items/黑铁制敌鳞胫甲.webp",
         "pinyin": "heitiezhidilinjingjia",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁锭",
             "name": "黑铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitieding.webp",
-            "pinyin": "heitieding"
+            "icon": "assets/icons/items/黑铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1342,29 +1342,29 @@
         "level": 17,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitiejiguandun.webp",
+        "icon": "assets/icons/items/黑铁机关盾.webp",
         "pinyin": "heitiejiguandun",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1374,36 +1374,36 @@
         "level": 20,
         "job": "armorer",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitiezhongdun.webp",
+        "icon": "assets/icons/items/黑铁重盾.webp",
         "pinyin": "heitiezhongdun",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1418,36 +1418,36 @@
         "level": 21,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/xinlaizhezhengliuqi.webp",
+        "icon": "assets/icons/items/新来者蒸馏器.webp",
         "pinyin": "xinlaizhezhengliuqi",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁铆钉",
             "name": "黑铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiemaoding.webp",
-            "pinyin": "heitiemaoding"
+            "icon": "assets/icons/items/黑铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1457,36 +1457,36 @@
         "level": 21,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/xinlaizhepingdiguo.webp",
+        "icon": "assets/icons/items/新来者平底锅.webp",
         "pinyin": "xinlaizhepingdiguo",
         "recipe": [
           {
             "id": "黑铁板",
             "name": "黑铁板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/heitieban.webp",
-            "pinyin": "heitieban"
+            "icon": "assets/icons/items/黑铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1496,29 +1496,29 @@
         "level": 21,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baigangding.webp",
+        "icon": "assets/icons/items/白钢锭.webp",
         "pinyin": "baigangding",
         "recipe": [
           {
             "id": "爆弹怪的灰",
             "name": "爆弹怪的灰",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baodanguaidehui.webp",
-            "pinyin": "baodanguaidehui"
+            "icon": "assets/icons/items/爆弹怪的灰.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1528,29 +1528,29 @@
         "level": 22,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baigangzheye.webp",
+        "icon": "assets/icons/items/白钢折叶.webp",
         "pinyin": "baigangzheye",
         "recipe": [
           {
             "id": "爆弹怪的灰",
             "name": "爆弹怪的灰",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baodanguaidehui.webp",
-            "pinyin": "baodanguaidehui"
+            "icon": "assets/icons/items/爆弹怪的灰.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1560,29 +1560,29 @@
         "level": 23,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baigangban.webp",
+        "icon": "assets/icons/items/白钢板.webp",
         "pinyin": "baigangban",
         "recipe": [
           {
             "id": "爆弹怪的灰",
             "name": "爆弹怪的灰",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baodanguaidehui.webp",
-            "pinyin": "baodanguaidehui"
+            "icon": "assets/icons/items/爆弹怪的灰.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1592,29 +1592,29 @@
         "level": 23,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baigangmaoding.webp",
+        "icon": "assets/icons/items/白钢铆钉.webp",
         "pinyin": "baigangmaoding",
         "recipe": [
           {
             "id": "爆弹怪的灰",
             "name": "爆弹怪的灰",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baodanguaidehui.webp",
-            "pinyin": "baodanguaidehui"
+            "icon": "assets/icons/items/爆弹怪的灰.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1624,29 +1624,29 @@
         "level": 24,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baiganglianjieban.webp",
+        "icon": "assets/icons/items/白钢连接板.webp",
         "pinyin": "baiganglianjieban",
         "recipe": [
           {
             "id": "爆弹怪的灰",
             "name": "爆弹怪的灰",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baodanguaidehui.webp",
-            "pinyin": "baodanguaidehui"
+            "icon": "assets/icons/items/爆弹怪的灰.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1656,29 +1656,29 @@
         "level": 24,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baiganghuan.webp",
+        "icon": "assets/icons/items/白钢环.webp",
         "pinyin": "baiganghuan",
         "recipe": [
           {
             "id": "爆弹怪的灰",
             "name": "爆弹怪的灰",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baodanguaidehui.webp",
-            "pinyin": "baodanguaidehui"
+            "icon": "assets/icons/items/爆弹怪的灰.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1688,43 +1688,43 @@
         "level": 25,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baigangyuditoukui.webp",
+        "icon": "assets/icons/items/白钢御敌头盔.webp",
         "pinyin": "baigangyuditoukui",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "黄铜锭",
             "name": "黄铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huangtongding.webp",
-            "pinyin": "huangtongding"
+            "icon": "assets/icons/items/黄铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1734,43 +1734,43 @@
         "level": 25,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baigangzhidiqibingtoukui.webp",
+        "icon": "assets/icons/items/白钢制敌骑兵头盔.webp",
         "pinyin": "baigangzhidiqibingtoukui",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1780,43 +1780,43 @@
         "level": 25,
         "job": "armorer",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baigangqiangxijiaokui.webp",
+        "icon": "assets/icons/items/白钢强袭角盔.webp",
         "pinyin": "baigangqiangxijiaokui",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "黄铜锭",
             "name": "黄铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huangtongding.webp",
-            "pinyin": "huangtongding"
+            "icon": "assets/icons/items/黄铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1831,43 +1831,43 @@
         "level": 26,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/baigangyudixiongjia.webp",
+        "icon": "assets/icons/items/白钢御敌胸甲.webp",
         "pinyin": "baigangyudixiongjia",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁环",
             "name": "黑铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitiehuan.webp",
-            "pinyin": "heitiehuan"
+            "icon": "assets/icons/items/黑铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "黄铜锭",
             "name": "黄铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huangtongding.webp",
-            "pinyin": "huangtongding"
+            "icon": "assets/icons/items/黄铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1877,36 +1877,36 @@
         "level": 26,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/baigangzhidilinkai.webp",
+        "icon": "assets/icons/items/白钢制敌鳞铠.webp",
         "pinyin": "baigangzhidilinkai",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "白银锭",
             "name": "白银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinding.webp",
-            "pinyin": "baiyinding"
+            "icon": "assets/icons/items/白银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1916,36 +1916,36 @@
         "level": 26,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/baigangyudishoukai.webp",
+        "icon": "assets/icons/items/白钢御敌手铠.webp",
         "pinyin": "baigangyudishoukai",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊革",
             "name": "山羊革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shanyangge.webp",
-            "pinyin": "shanyangge"
+            "icon": "assets/icons/items/山羊革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1955,36 +1955,36 @@
         "level": 26,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/baigangzhidibijia.webp",
+        "icon": "assets/icons/items/白钢制敌臂甲.webp",
         "pinyin": "baigangzhidibijia",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊革",
             "name": "山羊革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shanyangge.webp",
-            "pinyin": "shanyangge"
+            "icon": "assets/icons/items/山羊革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1994,43 +1994,43 @@
         "level": 27,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/baigangyudizhongzukai.webp",
+        "icon": "assets/icons/items/白钢御敌重足铠.webp",
         "pinyin": "baigangyudizhongzukai",
         "recipe": [
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢环",
             "name": "白钢环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiganghuan.webp",
-            "pinyin": "baiganghuan"
+            "icon": "assets/icons/items/白钢环.webp",
+            "pinyin": ""
           },
           {
             "id": "巨蟾蜍革",
             "name": "巨蟾蜍革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/juchanchuge.webp",
-            "pinyin": "juchanchuge"
+            "icon": "assets/icons/items/巨蟾蜍革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2040,36 +2040,36 @@
         "level": 27,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/baigangyudikaixue.webp",
+        "icon": "assets/icons/items/白钢御敌铠靴.webp",
         "pinyin": "baigangyudikaixue",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢环",
             "name": "白钢环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiganghuan.webp",
-            "pinyin": "baiganghuan"
+            "icon": "assets/icons/items/白钢环.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2079,36 +2079,36 @@
         "level": 27,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/baigangzhidilinjingjia.webp",
+        "icon": "assets/icons/items/白钢制敌鳞胫甲.webp",
         "pinyin": "baigangzhidilinjingjia",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2118,36 +2118,36 @@
         "level": 27,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/gongniuzhongdun.webp",
+        "icon": "assets/icons/items/公牛重盾.webp",
         "pinyin": "gongniuzhongdun",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "胡桃木材",
             "name": "胡桃木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hutaomucai.webp",
-            "pinyin": "hutaomucai"
+            "icon": "assets/icons/items/胡桃木材.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2157,22 +2157,22 @@
         "level": 27,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/miyinding.webp",
+        "icon": "assets/icons/items/秘银锭.webp",
         "pinyin": "miyinding",
         "recipe": [
           {
             "id": "秘银矿",
             "name": "秘银矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinkuang.webp",
-            "pinyin": "miyinkuang"
+            "icon": "assets/icons/items/秘银矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2182,22 +2182,22 @@
         "level": 28,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/miyinhuan.webp",
+        "icon": "assets/icons/items/秘银环.webp",
         "pinyin": "miyinhuan",
         "recipe": [
           {
             "id": "秘银矿",
             "name": "秘银矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinkuang.webp",
-            "pinyin": "miyinkuang"
+            "icon": "assets/icons/items/秘银矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2207,22 +2207,22 @@
         "level": 29,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/miyinmaoding.webp",
+        "icon": "assets/icons/items/秘银铆钉.webp",
         "pinyin": "miyinmaoding",
         "recipe": [
           {
             "id": "秘银矿",
             "name": "秘银矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinkuang.webp",
-            "pinyin": "miyinkuang"
+            "icon": "assets/icons/items/秘银矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2232,22 +2232,22 @@
         "level": 29,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/miyinban.webp",
+        "icon": "assets/icons/items/秘银板.webp",
         "pinyin": "miyinban",
         "recipe": [
           {
             "id": "秘银矿",
             "name": "秘银矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinkuang.webp",
-            "pinyin": "miyinkuang"
+            "icon": "assets/icons/items/秘银矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2257,36 +2257,36 @@
         "level": 30,
         "job": "armorer",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/baiganglianjia.webp",
+        "icon": "assets/icons/items/白钢链甲.webp",
         "pinyin": "baiganglianjia",
         "recipe": [
           {
             "id": "白钢环",
             "name": "白钢环",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baiganghuan.webp",
-            "pinyin": "baiganghuan"
+            "icon": "assets/icons/items/白钢环.webp",
+            "pinyin": ""
           },
           {
             "id": "棉绒",
             "name": "棉绒",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mianrong.webp",
-            "pinyin": "mianrong"
+            "icon": "assets/icons/items/棉绒.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -2301,36 +2301,36 @@
         "level": 31,
         "job": "armorer",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/baigangzhengliuqi.webp",
+        "icon": "assets/icons/items/白钢蒸馏器.webp",
         "pinyin": "baigangzhengliuqi",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢铆钉",
             "name": "白钢铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangmaoding.webp",
-            "pinyin": "baigangmaoding"
+            "icon": "assets/icons/items/白钢铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2340,36 +2340,36 @@
         "level": 32,
         "job": "armorer",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/baigangpingdiguo.webp",
+        "icon": "assets/icons/items/白钢平底锅.webp",
         "pinyin": "baigangpingdiguo",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2379,36 +2379,36 @@
         "level": 34,
         "job": "armorer",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/baigangjianguo.webp",
+        "icon": "assets/icons/items/白钢煎锅.webp",
         "pinyin": "baigangjianguo",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2418,43 +2418,43 @@
         "level": 35,
         "job": "armorer",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/miyinyuditoukui.webp",
+        "icon": "assets/icons/items/秘银御敌头盔.webp",
         "pinyin": "miyinyuditoukui",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2464,50 +2464,50 @@
         "level": 35,
         "job": "armorer",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/miyinzhidiqibingtoukui.webp",
+        "icon": "assets/icons/items/秘银制敌骑兵头盔.webp",
         "pinyin": "miyinzhidiqibingtoukui",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银铆钉",
             "name": "秘银铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinmaoding.webp",
-            "pinyin": "miyinmaoding"
+            "icon": "assets/icons/items/秘银铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊革",
             "name": "山羊革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shanyangge.webp",
-            "pinyin": "shanyangge"
+            "icon": "assets/icons/items/山羊革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2517,50 +2517,50 @@
         "level": 35,
         "job": "armorer",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/miyinyudixiongjia.webp",
+        "icon": "assets/icons/items/秘银御敌胸甲.webp",
         "pinyin": "miyinyudixiongjia",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "白银锭",
             "name": "白银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinding.webp",
-            "pinyin": "baiyinding"
+            "icon": "assets/icons/items/白银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2570,50 +2570,50 @@
         "level": 35,
         "job": "armorer",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/miyinzhidisuozikai.webp",
+        "icon": "assets/icons/items/秘银制敌锁子铠.webp",
         "pinyin": "miyinzhidisuozikai",
         "recipe": [
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 3,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊革",
             "name": "山羊革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shanyangge.webp",
-            "pinyin": "shanyangge"
+            "icon": "assets/icons/items/山羊革.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -2628,43 +2628,43 @@
         "level": 36,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/miyinyudishoukai.webp",
+        "icon": "assets/icons/items/秘银御敌手铠.webp",
         "pinyin": "miyinyudishoukai",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2674,50 +2674,50 @@
         "level": 36,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/miyinzhidibijia.webp",
+        "icon": "assets/icons/items/秘银制敌臂甲.webp",
         "pinyin": "miyinzhidibijia",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2727,50 +2727,50 @@
         "level": 36,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/miyinyudizhongzukai.webp",
+        "icon": "assets/icons/items/秘银御敌重足铠.webp",
         "pinyin": "miyinyudizhongzukai",
         "recipe": [
           {
             "id": "秘银锭",
             "name": "秘银锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/miyinding.webp",
-            "pinyin": "miyinding"
+            "icon": "assets/icons/items/秘银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "毒蜥蜴革",
             "name": "毒蜥蜴革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/duxiyige.webp",
-            "pinyin": "duxiyige"
+            "icon": "assets/icons/items/毒蜥蜴革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2780,50 +2780,50 @@
         "level": 37,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/miyinyudikaixue.webp",
+        "icon": "assets/icons/items/秘银御敌铠靴.webp",
         "pinyin": "miyinyudikaixue",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2833,50 +2833,50 @@
         "level": 37,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/miyinzhidisuojiaxue.webp",
+        "icon": "assets/icons/items/秘银制敌锁甲靴.webp",
         "pinyin": "miyinzhidisuojiaxue",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰筋腱",
             "name": "骏鹰筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/junyingjinjian.webp",
-            "pinyin": "junyingjinjian"
+            "icon": "assets/icons/items/骏鹰筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2886,36 +2886,36 @@
         "level": 37,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/shuangjianjiguandun.webp",
+        "icon": "assets/icons/items/双剑机关盾.webp",
         "pinyin": "shuangjianjiguandun",
         "recipe": [
           {
             "id": "白钢板",
             "name": "白钢板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangban.webp",
-            "pinyin": "baigangban"
+            "icon": "assets/icons/items/白钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢铆钉",
             "name": "白钢铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangmaoding.webp",
-            "pinyin": "baigangmaoding"
+            "icon": "assets/icons/items/白钢铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2925,29 +2925,29 @@
         "level": 37,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/gutieding.webp",
+        "icon": "assets/icons/items/钴铁锭.webp",
         "pinyin": "gutieding",
         "recipe": [
           {
             "id": "钴铁矿",
             "name": "钴铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutiekuang.webp",
-            "pinyin": "gutiekuang"
+            "icon": "assets/icons/items/钴铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2957,29 +2957,29 @@
         "level": 38,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/gutieban.webp",
+        "icon": "assets/icons/items/钴铁板.webp",
         "pinyin": "gutieban",
         "recipe": [
           {
             "id": "钴铁矿",
             "name": "钴铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutiekuang.webp",
-            "pinyin": "gutiekuang"
+            "icon": "assets/icons/items/钴铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2989,29 +2989,29 @@
         "level": 38,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/gutiehuan.webp",
+        "icon": "assets/icons/items/钴铁环.webp",
         "pinyin": "gutiehuan",
         "recipe": [
           {
             "id": "钴铁矿",
             "name": "钴铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutiekuang.webp",
-            "pinyin": "gutiekuang"
+            "icon": "assets/icons/items/钴铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3021,29 +3021,29 @@
         "level": 39,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/gutiemaoding.webp",
+        "icon": "assets/icons/items/钴铁铆钉.webp",
         "pinyin": "gutiemaoding",
         "recipe": [
           {
             "id": "钴铁矿",
             "name": "钴铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutiekuang.webp",
-            "pinyin": "gutiekuang"
+            "icon": "assets/icons/items/钴铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3053,29 +3053,29 @@
         "level": 39,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/gutielianjieban.webp",
+        "icon": "assets/icons/items/钴铁连接板.webp",
         "pinyin": "gutielianjieban",
         "recipe": [
           {
             "id": "钴铁矿",
             "name": "钴铁矿",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutiekuang.webp",
-            "pinyin": "gutiekuang"
+            "icon": "assets/icons/items/钴铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "铁矿",
             "name": "铁矿",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiekuang.webp",
-            "pinyin": "tiekuang"
+            "icon": "assets/icons/items/铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3085,50 +3085,50 @@
         "level": 40,
         "job": "armorer",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/miyinxiongjia.webp",
+        "icon": "assets/icons/items/秘银胸甲.webp",
         "pinyin": "miyinxiongjia",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "白银锭",
             "name": "白银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinding.webp",
-            "pinyin": "baiyinding"
+            "icon": "assets/icons/items/白银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -3143,50 +3143,50 @@
         "level": 41,
         "job": "armorer",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/lvjinzhengliuqi.webp",
+        "icon": "assets/icons/items/绿金蒸馏器.webp",
         "pinyin": "lvjinzhengliuqi",
         "recipe": [
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银铆钉",
             "name": "秘银铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinmaoding.webp",
-            "pinyin": "miyinmaoding"
+            "icon": "assets/icons/items/秘银铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "土眼石",
             "name": "土眼石",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tuyanshi.webp",
-            "pinyin": "tuyanshi"
+            "icon": "assets/icons/items/土眼石.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3196,36 +3196,36 @@
         "level": 41,
         "job": "armorer",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/gutiepingdiguo.webp",
+        "icon": "assets/icons/items/钴铁平底锅.webp",
         "pinyin": "gutiepingdiguo",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "红木木材",
             "name": "红木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/hongmumucai.webp",
-            "pinyin": "hongmumucai"
+            "icon": "assets/icons/items/红木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3235,43 +3235,43 @@
         "level": 43,
         "job": "armorer",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/jiaguqibingtoukui.webp",
+        "icon": "assets/icons/items/加固骑兵头盔.webp",
         "pinyin": "jiaguqibingtoukui",
         "recipe": [
           {
             "id": "秘银锭",
             "name": "秘银锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinding.webp",
-            "pinyin": "miyinding"
+            "icon": "assets/icons/items/秘银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银铆钉",
             "name": "秘银铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinmaoding.webp",
-            "pinyin": "miyinmaoding"
+            "icon": "assets/icons/items/秘银铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "毒蜥蜴革",
             "name": "毒蜥蜴革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/duxiyige.webp",
-            "pinyin": "duxiyige"
+            "icon": "assets/icons/items/毒蜥蜴革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3281,57 +3281,57 @@
         "level": 44,
         "job": "armorer",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/miyinsuojiaxue.webp",
+        "icon": "assets/icons/items/秘银锁甲靴.webp",
         "pinyin": "miyinsuojiaxue",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊革",
             "name": "山羊革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shanyangge.webp",
-            "pinyin": "shanyangge"
+            "icon": "assets/icons/items/山羊革.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰筋腱",
             "name": "骏鹰筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/junyingjinjian.webp",
-            "pinyin": "junyingjinjian"
+            "icon": "assets/icons/items/骏鹰筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3341,57 +3341,57 @@
         "level": 45,
         "job": "armorer",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/miyinzhanxue.webp",
+        "icon": "assets/icons/items/秘银战靴.webp",
         "pinyin": "miyinzhanxue",
         "recipe": [
           {
             "id": "毒蜥蜴革",
             "name": "毒蜥蜴革",
             "quantity": 2,
-            "icon": "assets/icons/itemse/duxiyige.webp",
-            "pinyin": "duxiyige"
+            "icon": "assets/icons/items/毒蜥蜴革.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银铆钉",
             "name": "秘银铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinmaoding.webp",
-            "pinyin": "miyinmaoding"
+            "icon": "assets/icons/items/秘银铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜锭",
             "name": "青铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongding.webp",
-            "pinyin": "qingtongding"
+            "icon": "assets/icons/items/青铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰筋腱",
             "name": "骏鹰筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/junyingjinjian.webp",
-            "pinyin": "junyingjinjian"
+            "icon": "assets/icons/items/骏鹰筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3401,50 +3401,50 @@
         "level": 45,
         "job": "armorer",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/gutieyuditoukui.webp",
+        "icon": "assets/icons/items/钴铁御敌头盔.webp",
         "pinyin": "gutieyuditoukui",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3454,50 +3454,50 @@
         "level": 45,
         "job": "armorer",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/gutiezhidiqibingtoukui.webp",
+        "icon": "assets/icons/items/钴铁制敌骑兵头盔.webp",
         "pinyin": "gutiezhidiqibingtoukui",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁铆钉",
             "name": "钴铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiemaoding.webp",
-            "pinyin": "gutiemaoding"
+            "icon": "assets/icons/items/钴铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "盗龙革",
             "name": "盗龙革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/daolongge.webp",
-            "pinyin": "daolongge"
+            "icon": "assets/icons/items/盗龙革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3507,50 +3507,50 @@
         "level": 45,
         "job": "armorer",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/gutieqiangxijiaokui.webp",
+        "icon": "assets/icons/items/钴铁强袭角盔.webp",
         "pinyin": "gutieqiangxijiaokui",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁铆钉",
             "name": "钴铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiemaoding.webp",
-            "pinyin": "gutiemaoding"
+            "icon": "assets/icons/items/钴铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -3565,50 +3565,50 @@
         "level": 46,
         "job": "armorer",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutieyudixiongjia.webp",
+        "icon": "assets/icons/items/钴铁御敌胸甲.webp",
         "pinyin": "gutieyudixiongjia",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 3,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3618,57 +3618,57 @@
         "level": 46,
         "job": "armorer",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutiezhidisuozikai.webp",
+        "icon": "assets/icons/items/钴铁制敌锁子铠.webp",
         "pinyin": "gutiezhidisuozikai",
         "recipe": [
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "纤维布",
             "name": "纤维布",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xianweibu.webp",
-            "pinyin": "xianweibu"
+            "icon": "assets/icons/items/纤维布.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3678,57 +3678,57 @@
         "level": 46,
         "job": "armorer",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutieyudishoukai.webp",
+        "icon": "assets/icons/items/钴铁御敌手铠.webp",
         "pinyin": "gutieyudishoukai",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3738,50 +3738,50 @@
         "level": 46,
         "job": "armorer",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutiezhidibijia.webp",
+        "icon": "assets/icons/items/钴铁制敌臂甲.webp",
         "pinyin": "gutiezhidibijia",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "盗龙革",
             "name": "盗龙革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/daolongge.webp",
-            "pinyin": "daolongge"
+            "icon": "assets/icons/items/盗龙革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3791,57 +3791,57 @@
         "level": 47,
         "job": "armorer",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutieyudikaixue.webp",
+        "icon": "assets/icons/items/钴铁御敌铠靴.webp",
         "pinyin": "gutieyudikaixue",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3851,57 +3851,57 @@
         "level": 47,
         "job": "armorer",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutiezhidisuojiaxue.webp",
+        "icon": "assets/icons/items/钴铁制敌锁甲靴.webp",
         "pinyin": "gutiezhidisuojiaxue",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "盗龙筋腱",
             "name": "盗龙筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/daolongjinjian.webp",
-            "pinyin": "daolongjinjian"
+            "icon": "assets/icons/items/盗龙筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3911,36 +3911,36 @@
         "level": 47,
         "job": "armorer",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutiebubingdun.webp",
+        "icon": "assets/icons/items/钴铁步兵盾.webp",
         "pinyin": "gutiebubingdun",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁铆钉",
             "name": "钴铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiemaoding.webp",
-            "pinyin": "gutiemaoding"
+            "icon": "assets/icons/items/钴铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -3950,57 +3950,57 @@
         "level": 50,
         "job": "armorer",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutiesuozikai.webp",
+        "icon": "assets/icons/items/钴铁锁子铠.webp",
         "pinyin": "gutiesuozikai",
         "recipe": [
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "纤维布",
             "name": "纤维布",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xianweibu.webp",
-            "pinyin": "xianweibu"
+            "icon": "assets/icons/items/纤维布.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -4015,29 +4015,29 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangkuai.webp",
+        "icon": "assets/icons/items/玄钢块.webp",
         "pinyin": "xuangangkuai",
         "recipe": [
           {
             "id": "玄铁矿",
             "name": "玄铁矿",
             "quantity": 5,
-            "icon": "assets/icons/itemse/xuantiekuang.webp",
-            "pinyin": "xuantiekuang"
+            "icon": "assets/icons/items/玄铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "焦炭",
             "name": "焦炭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/jiaotan.webp",
-            "pinyin": "jiaotan"
+            "icon": "assets/icons/items/焦炭.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4047,29 +4047,29 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangban.webp",
+        "icon": "assets/icons/items/玄钢板.webp",
         "pinyin": "xuangangban",
         "recipe": [
           {
             "id": "玄铁矿",
             "name": "玄铁矿",
             "quantity": 5,
-            "icon": "assets/icons/itemse/xuantiekuang.webp",
-            "pinyin": "xuantiekuang"
+            "icon": "assets/icons/items/玄铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "焦炭",
             "name": "焦炭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/jiaotan.webp",
-            "pinyin": "jiaotan"
+            "icon": "assets/icons/items/焦炭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4079,29 +4079,29 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangmaoding.webp",
+        "icon": "assets/icons/items/玄钢铆钉.webp",
         "pinyin": "xuangangmaoding",
         "recipe": [
           {
             "id": "玄铁矿",
             "name": "玄铁矿",
             "quantity": 5,
-            "icon": "assets/icons/itemse/xuantiekuang.webp",
-            "pinyin": "xuantiekuang"
+            "icon": "assets/icons/items/玄铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "焦炭",
             "name": "焦炭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/jiaotan.webp",
-            "pinyin": "jiaotan"
+            "icon": "assets/icons/items/焦炭.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4111,29 +4111,29 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuanganghuan.webp",
+        "icon": "assets/icons/items/玄钢环.webp",
         "pinyin": "xuanganghuan",
         "recipe": [
           {
             "id": "玄铁矿",
             "name": "玄铁矿",
             "quantity": 5,
-            "icon": "assets/icons/itemse/xuantiekuang.webp",
-            "pinyin": "xuantiekuang"
+            "icon": "assets/icons/items/玄铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "焦炭",
             "name": "焦炭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/jiaotan.webp",
-            "pinyin": "jiaotan"
+            "icon": "assets/icons/items/焦炭.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4143,29 +4143,29 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangding.webp",
+        "icon": "assets/icons/items/玄钢锭.webp",
         "pinyin": "xuangangding",
         "recipe": [
           {
             "id": "玄铁矿",
             "name": "玄铁矿",
             "quantity": 5,
-            "icon": "assets/icons/itemse/xuantiekuang.webp",
-            "pinyin": "xuantiekuang"
+            "icon": "assets/icons/items/玄铁矿.webp",
+            "pinyin": ""
           },
           {
             "id": "焦炭",
             "name": "焦炭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/jiaotan.webp",
-            "pinyin": "jiaotan"
+            "icon": "assets/icons/items/焦炭.webp",
+            "pinyin": ""
           },
           {
             "id": "火之碎晶",
             "name": "火之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/huozhisuijing.webp",
-            "pinyin": "huozhisuijing"
+            "icon": "assets/icons/items/火之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4175,50 +4175,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangyudizhankui.webp",
+        "icon": "assets/icons/items/玄钢御敌战盔.webp",
         "pinyin": "xuangangyudizhankui",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰革",
             "name": "骏鹰革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/junyingge.webp",
-            "pinyin": "junyingge"
+            "icon": "assets/icons/items/骏鹰革.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度刚力炼金溶剂",
             "name": "高纯度刚力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
-            "pinyin": "gaochunduganglilianjinrongji"
+            "icon": "assets/icons/items/高纯度刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4228,50 +4228,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangzhidisuojiatouzhao.webp",
+        "icon": "assets/icons/items/玄钢制敌锁甲头罩.webp",
         "pinyin": "xuangangzhidisuojiatouzhao",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "玫瑰金锭",
             "name": "玫瑰金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/meiguijinding.webp",
-            "pinyin": "meiguijinding"
+            "icon": "assets/icons/items/玫瑰金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁铆钉",
             "name": "钴铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiemaoding.webp",
-            "pinyin": "gutiemaoding"
+            "icon": "assets/icons/items/钴铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度速力炼金溶剂",
             "name": "高纯度速力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
-            "pinyin": "gaochundusulilianjinrongji"
+            "icon": "assets/icons/items/高纯度速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4281,50 +4281,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangyudizhongjia.webp",
+        "icon": "assets/icons/items/玄钢御敌重甲.webp",
         "pinyin": "xuangangyudizhongjia",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "玫瑰金块",
             "name": "玫瑰金块",
             "quantity": 2,
-            "icon": "assets/icons/itemse/meiguijinkuai.webp",
-            "pinyin": "meiguijinkuai"
+            "icon": "assets/icons/items/玫瑰金块.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度刚力炼金溶剂",
             "name": "高纯度刚力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
-            "pinyin": "gaochunduganglilianjinrongji"
+            "icon": "assets/icons/items/高纯度刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4334,50 +4334,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangzhidisuozikai.webp",
+        "icon": "assets/icons/items/玄钢制敌锁子铠.webp",
         "pinyin": "xuangangzhidisuozikai",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰革",
             "name": "骏鹰革",
             "quantity": 2,
-            "icon": "assets/icons/itemse/junyingge.webp",
-            "pinyin": "junyingge"
+            "icon": "assets/icons/items/骏鹰革.webp",
+            "pinyin": ""
           },
           {
             "id": "纤维布",
             "name": "纤维布",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xianweibu.webp",
-            "pinyin": "xianweibu"
+            "icon": "assets/icons/items/纤维布.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度速力炼金溶剂",
             "name": "高纯度速力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
-            "pinyin": "gaochundusulilianjinrongji"
+            "icon": "assets/icons/items/高纯度速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4387,50 +4387,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangyudizhongshoukai.webp",
+        "icon": "assets/icons/items/玄钢御敌重手铠.webp",
         "pinyin": "xuangangyudizhongshoukai",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "玫瑰金锭",
             "name": "玫瑰金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/meiguijinding.webp",
-            "pinyin": "meiguijinding"
+            "icon": "assets/icons/items/玫瑰金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度刚力炼金溶剂",
             "name": "高纯度刚力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
-            "pinyin": "gaochunduganglilianjinrongji"
+            "icon": "assets/icons/items/高纯度刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4440,50 +4440,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangzhidilianzhishoukai.webp",
+        "icon": "assets/icons/items/玄钢制敌连指手铠.webp",
         "pinyin": "xuangangzhidilianzhishoukai",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "玫瑰金锭",
             "name": "玫瑰金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/meiguijinding.webp",
-            "pinyin": "meiguijinding"
+            "icon": "assets/icons/items/玫瑰金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度速力炼金溶剂",
             "name": "高纯度速力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
-            "pinyin": "gaochundusulilianjinrongji"
+            "icon": "assets/icons/items/高纯度速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4493,50 +4493,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangyudizhongzukai.webp",
+        "icon": "assets/icons/items/玄钢御敌重足铠.webp",
         "pinyin": "xuangangyudizhongzukai",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "玫瑰金锭",
             "name": "玫瑰金锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/meiguijinding.webp",
-            "pinyin": "meiguijinding"
+            "icon": "assets/icons/items/玫瑰金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度刚力炼金溶剂",
             "name": "高纯度刚力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
-            "pinyin": "gaochunduganglilianjinrongji"
+            "icon": "assets/icons/items/高纯度刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4546,50 +4546,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangyudikaixue.webp",
+        "icon": "assets/icons/items/玄钢御敌铠靴.webp",
         "pinyin": "xuangangyudikaixue",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰革",
             "name": "骏鹰革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/junyingge.webp",
-            "pinyin": "junyingge"
+            "icon": "assets/icons/items/骏鹰革.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度刚力炼金溶剂",
             "name": "高纯度刚力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
-            "pinyin": "gaochunduganglilianjinrongji"
+            "icon": "assets/icons/items/高纯度刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4599,50 +4599,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangzhidisuojiaxue.webp",
+        "icon": "assets/icons/items/玄钢制敌锁甲靴.webp",
         "pinyin": "xuangangzhidisuojiaxue",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "玫瑰金锭",
             "name": "玫瑰金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/meiguijinding.webp",
-            "pinyin": "meiguijinding"
+            "icon": "assets/icons/items/玫瑰金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度速力炼金溶剂",
             "name": "高纯度速力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
-            "pinyin": "gaochundusulilianjinrongji"
+            "icon": "assets/icons/items/高纯度速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4652,50 +4652,50 @@
         "level": "50★",
         "job": "armorer",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/xuangangbubingdun.webp",
+        "icon": "assets/icons/items/玄钢步兵盾.webp",
         "pinyin": "xuangangbubingdun",
         "recipe": [
           {
             "id": "玄钢锭",
             "name": "玄钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xuangangding.webp",
-            "pinyin": "xuangangding"
+            "icon": "assets/icons/items/玄钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "玄钢板",
             "name": "玄钢板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xuangangban.webp",
-            "pinyin": "xuangangban"
+            "icon": "assets/icons/items/玄钢板.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度刚力炼金溶剂",
             "name": "高纯度刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
-            "pinyin": "gaochunduganglilianjinrongji"
+            "icon": "assets/icons/items/高纯度刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -4710,43 +4710,43 @@
         "level": 41,
         "job": "armorer",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyongjiaguqibingtoukui.webp",
+        "icon": "assets/icons/items/收藏用加固骑兵头盔.webp",
         "pinyin": "shoucangyongjiaguqibingtoukui",
         "recipe": [
           {
             "id": "秘银锭",
             "name": "秘银锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinding.webp",
-            "pinyin": "miyinding"
+            "icon": "assets/icons/items/秘银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银铆钉",
             "name": "秘银铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinmaoding.webp",
-            "pinyin": "miyinmaoding"
+            "icon": "assets/icons/items/秘银铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "毒蜥蜴革",
             "name": "毒蜥蜴革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/duxiyige.webp",
-            "pinyin": "duxiyige"
+            "icon": "assets/icons/items/毒蜥蜴革.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4756,57 +4756,57 @@
         "level": 43,
         "job": "armorer",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyongmiyinsuojiaxue.webp",
+        "icon": "assets/icons/items/收藏用秘银锁甲靴.webp",
         "pinyin": "shoucangyongmiyinsuojiaxue",
         "recipe": [
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊革",
             "name": "山羊革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shanyangge.webp",
-            "pinyin": "shanyangge"
+            "icon": "assets/icons/items/山羊革.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰筋腱",
             "name": "骏鹰筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/junyingjinjian.webp",
-            "pinyin": "junyingjinjian"
+            "icon": "assets/icons/items/骏鹰筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4816,57 +4816,57 @@
         "level": 45,
         "job": "armorer",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyongmiyinzhanxue.webp",
+        "icon": "assets/icons/items/收藏用秘银战靴.webp",
         "pinyin": "shoucangyongmiyinzhanxue",
         "recipe": [
           {
             "id": "毒蜥蜴革",
             "name": "毒蜥蜴革",
             "quantity": 2,
-            "icon": "assets/icons/itemse/duxiyige.webp",
-            "pinyin": "duxiyige"
+            "icon": "assets/icons/items/毒蜥蜴革.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银铆钉",
             "name": "秘银铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinmaoding.webp",
-            "pinyin": "miyinmaoding"
+            "icon": "assets/icons/items/秘银铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜锭",
             "name": "青铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongding.webp",
-            "pinyin": "qingtongding"
+            "icon": "assets/icons/items/青铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "骏鹰筋腱",
             "name": "骏鹰筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/junyingjinjian.webp",
-            "pinyin": "junyingjinjian"
+            "icon": "assets/icons/items/骏鹰筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4876,50 +4876,50 @@
         "level": 47,
         "job": "armorer",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyonggutietoukui.webp",
+        "icon": "assets/icons/items/收藏用钴铁头盔.webp",
         "pinyin": "shoucangyonggutietoukui",
         "recipe": [
           {
             "id": "钴铁板",
             "name": "钴铁板",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gutieban.webp",
-            "pinyin": "gutieban"
+            "icon": "assets/icons/items/钴铁板.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银环",
             "name": "秘银环",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinhuan.webp",
-            "pinyin": "miyinhuan"
+            "icon": "assets/icons/items/秘银环.webp",
+            "pinyin": ""
           },
           {
             "id": "绿金锭",
             "name": "绿金锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/lvjinding.webp",
-            "pinyin": "lvjinding"
+            "icon": "assets/icons/items/绿金锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯刚力炼金溶剂",
             "name": "未提纯刚力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
-            "pinyin": "weitichunganglilianjinrongji"
+            "icon": "assets/icons/items/未提纯刚力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4929,57 +4929,57 @@
         "level": 49,
         "job": "armorer",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyonggutiezhidisuozikai.webp",
+        "icon": "assets/icons/items/收藏用钴铁制敌锁子铠.webp",
         "pinyin": "shoucangyonggutiezhidisuozikai",
         "recipe": [
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "纤维布",
             "name": "纤维布",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xianweibu.webp",
-            "pinyin": "xianweibu"
+            "icon": "assets/icons/items/纤维布.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -4989,57 +4989,57 @@
         "level": "50★",
         "job": "armorer",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyonggutiesuozikai.webp",
+        "icon": "assets/icons/items/收藏用钴铁锁子铠.webp",
         "pinyin": "shoucangyonggutiesuozikai",
         "recipe": [
           {
             "id": "钴铁环",
             "name": "钴铁环",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutiehuan.webp",
-            "pinyin": "gutiehuan"
+            "icon": "assets/icons/items/钴铁环.webp",
+            "pinyin": ""
           },
           {
             "id": "纤维布",
             "name": "纤维布",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xianweibu.webp",
-            "pinyin": "xianweibu"
+            "icon": "assets/icons/items/纤维布.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银板",
             "name": "秘银板",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinban.webp",
-            "pinyin": "miyinban"
+            "icon": "assets/icons/items/秘银板.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "土之碎晶",
             "name": "土之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/tuzhisuijing.webp",
-            "pinyin": "tuzhisuijing"
+            "icon": "assets/icons/items/土之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }

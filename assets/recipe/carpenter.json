@@ -8,22 +8,22 @@
         "level": 2,
         "job": "carpenter",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/fengmumucai.webp",
+        "icon": "assets/icons/items/枫木木材.webp",
         "pinyin": "fengmumucai",
         "recipe": [
           {
             "id": "枫木原木",
             "name": "枫木原木",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengmuyuanmu.webp",
-            "pinyin": "fengmuyuanmu"
+            "icon": "assets/icons/items/枫木原木.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -33,36 +33,36 @@
         "level": 4,
         "job": "carpenter",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/fengmufangdun.webp",
+        "icon": "assets/icons/items/枫木方盾.webp",
         "pinyin": "fengmufangdun",
         "recipe": [
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜铆钉",
             "name": "青铜铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongmaoding.webp",
-            "pinyin": "qingtongmaoding"
+            "icon": "assets/icons/items/青铜铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -72,36 +72,36 @@
         "level": 5,
         "job": "carpenter",
         "category": "1-5级",
-        "icon": "assets/icons/itemse/qingtongchangqiang.webp",
+        "icon": "assets/icons/items/青铜长枪.webp",
         "pinyin": "qingtongchangqiang",
         "recipe": [
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜锭",
             "name": "青铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongding.webp",
-            "pinyin": "qingtongding"
+            "icon": "assets/icons/items/青铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -116,43 +116,43 @@
         "level": 6,
         "job": "carpenter",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/fengmuzhanggong.webp",
+        "icon": "assets/icons/items/枫木长弓.webp",
         "pinyin": "fengmuzhanggong",
         "recipe": [
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "枫树枝",
             "name": "枫树枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengshuzhi.webp",
-            "pinyin": "fengshuzhi"
+            "icon": "assets/icons/items/枫树枝.webp",
+            "pinyin": ""
           },
           {
             "id": "草线",
             "name": "草线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/caoxian.webp",
-            "pinyin": "caoxian"
+            "icon": "assets/icons/items/草线.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -162,36 +162,36 @@
         "level": 7,
         "job": "carpenter",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/fengmumuzhang.webp",
+        "icon": "assets/icons/items/枫木牧杖.webp",
         "pinyin": "fengmumuzhang",
         "recipe": [
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂1型",
             "name": "植物成长剂1型",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji1xing.webp",
-            "pinyin": "zhiwuchengzhangji1xing"
+            "icon": "assets/icons/items/植物成长剂1型.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -201,22 +201,22 @@
         "level": 7,
         "job": "carpenter",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/cenmumucai.webp",
+        "icon": "assets/icons/items/梣木木材.webp",
         "pinyin": "cenmumucai",
         "recipe": [
           {
             "id": "梣木原木",
             "name": "梣木原木",
             "quantity": 2,
-            "icon": "assets/icons/itemse/cenmuyuanmu.webp",
-            "pinyin": "cenmuyuanmu"
+            "icon": "assets/icons/items/梣木原木.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -226,43 +226,43 @@
         "level": 10,
         "job": "carpenter",
         "category": "6-10级",
-        "icon": "assets/icons/itemse/yeyudiaogan.webp",
+        "icon": "assets/icons/items/业余钓竿.webp",
         "pinyin": "yeyudiaogan",
         "recipe": [
           {
             "id": "梣木木材",
             "name": "梣木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/cenmumucai.webp",
-            "pinyin": "cenmumucai"
+            "icon": "assets/icons/items/梣木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "梣树枝",
             "name": "梣树枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/censhuzhi.webp",
-            "pinyin": "censhuzhi"
+            "icon": "assets/icons/items/梣树枝.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜锭",
             "name": "青铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongding.webp",
-            "pinyin": "qingtongding"
+            "icon": "assets/icons/items/青铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -277,43 +277,43 @@
         "level": 11,
         "job": "carpenter",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/yeyushalunji.webp",
+        "icon": "assets/icons/items/业余砂轮机.webp",
         "pinyin": "yeyushalunji",
         "recipe": [
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜锭",
             "name": "青铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongding.webp",
-            "pinyin": "qingtongding"
+            "icon": "assets/icons/items/青铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "砂岩",
             "name": "砂岩",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shayan.webp",
-            "pinyin": "shayan"
+            "icon": "assets/icons/items/砂岩.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -323,36 +323,36 @@
         "level": 12,
         "job": "carpenter",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/yeyufangche.webp",
+        "icon": "assets/icons/items/业余纺车.webp",
         "pinyin": "yeyufangche",
         "recipe": [
           {
             "id": "枫木木材",
             "name": "枫木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengmumucai.webp",
-            "pinyin": "fengmumucai"
+            "icon": "assets/icons/items/枫木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜铆钉",
             "name": "青铜铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongmaoding.webp",
-            "pinyin": "qingtongmaoding"
+            "icon": "assets/icons/items/青铜铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -362,22 +362,22 @@
         "level": 12,
         "job": "carpenter",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/yumumucai.webp",
+        "icon": "assets/icons/items/榆木木材.webp",
         "pinyin": "yumumucai",
         "recipe": [
           {
             "id": "榆木原木",
             "name": "榆木原木",
             "quantity": 2,
-            "icon": "assets/icons/itemse/yumuyuanmu.webp",
-            "pinyin": "yumuyuanmu"
+            "icon": "assets/icons/items/榆木原木.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -387,43 +387,43 @@
         "level": 14,
         "job": "carpenter",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/cenmuduangong.webp",
+        "icon": "assets/icons/items/梣木短弓.webp",
         "pinyin": "cenmuduangong",
         "recipe": [
           {
             "id": "梣木木材",
             "name": "梣木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/cenmumucai.webp",
-            "pinyin": "cenmumucai"
+            "icon": "assets/icons/items/梣木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "梣树枝",
             "name": "梣树枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/censhuzhi.webp",
-            "pinyin": "censhuzhi"
+            "icon": "assets/icons/items/梣树枝.webp",
+            "pinyin": ""
           },
           {
             "id": "草线",
             "name": "草线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/caoxian.webp",
-            "pinyin": "caoxian"
+            "icon": "assets/icons/items/草线.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -433,50 +433,50 @@
         "level": 15,
         "job": "carpenter",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/quanyayuqiang.webp",
+        "icon": "assets/icons/items/犬牙渔枪.webp",
         "pinyin": "quanyayuqiang",
         "recipe": [
           {
             "id": "梣木木材",
             "name": "梣木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/cenmumucai.webp",
-            "pinyin": "cenmumucai"
+            "icon": "assets/icons/items/梣木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "乌鸦之羽",
             "name": "乌鸦之羽",
             "quantity": 1,
-            "icon": "assets/icons/itemse/wuyazhiyu.webp",
-            "pinyin": "wuyazhiyu"
+            "icon": "assets/icons/items/乌鸦之羽.webp",
+            "pinyin": ""
           },
           {
             "id": "枯骨",
             "name": "枯骨",
             "quantity": 1,
-            "icon": "assets/icons/itemse/kugu.webp",
-            "pinyin": "kugu"
+            "icon": "assets/icons/items/枯骨.webp",
+            "pinyin": ""
           },
           {
             "id": "黏胶",
             "name": "黏胶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/nianjiao.webp",
-            "pinyin": "nianjiao"
+            "icon": "assets/icons/items/黏胶.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -486,43 +486,43 @@
         "level": 15,
         "job": "carpenter",
         "category": "11-15级",
-        "icon": "assets/icons/itemse/heitiechangqiang.webp",
+        "icon": "assets/icons/items/黑铁长枪.webp",
         "pinyin": "heitiechangqiang",
         "recipe": [
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 2,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁锭",
             "name": "黑铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitieding.webp",
-            "pinyin": "heitieding"
+            "icon": "assets/icons/items/黑铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "丁香油",
             "name": "丁香油",
             "quantity": 1,
-            "icon": "assets/icons/itemse/dingxiangyou.webp",
-            "pinyin": "dingxiangyou"
+            "icon": "assets/icons/items/丁香油.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -537,43 +537,43 @@
         "level": 16,
         "job": "carpenter",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/yumuzhanggong.webp",
+        "icon": "assets/icons/items/榆木长弓.webp",
         "pinyin": "yumuzhanggong",
         "recipe": [
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "梣树枝",
             "name": "梣树枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/censhuzhi.webp",
-            "pinyin": "censhuzhi"
+            "icon": "assets/icons/items/梣树枝.webp",
+            "pinyin": ""
           },
           {
             "id": "棉线",
             "name": "棉线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/mianxian.webp",
-            "pinyin": "mianxian"
+            "icon": "assets/icons/items/棉线.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -583,36 +583,36 @@
         "level": 16,
         "job": "carpenter",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/yumumuzhang.webp",
+        "icon": "assets/icons/items/榆木牧杖.webp",
         "pinyin": "yumumuzhang",
         "recipe": [
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 2,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂2型",
             "name": "植物成长剂2型",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji2xing.webp",
-            "pinyin": "zhiwuchengzhangji2xing"
+            "icon": "assets/icons/items/植物成长剂2型.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -622,22 +622,22 @@
         "level": 17,
         "job": "carpenter",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/zishamucai.webp",
+        "icon": "assets/icons/items/紫杉木材.webp",
         "pinyin": "zishamucai",
         "recipe": [
           {
             "id": "紫杉原木",
             "name": "紫杉原木",
             "quantity": 2,
-            "icon": "assets/icons/itemse/zishanyuanmu.webp",
-            "pinyin": "zishanyuanmu"
+            "icon": "assets/icons/items/紫杉原木.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -647,43 +647,43 @@
         "level": 19,
         "job": "carpenter",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/heitieqiqiang.webp",
+        "icon": "assets/icons/items/黑铁骑枪.webp",
         "pinyin": "heitieqiqiang",
         "recipe": [
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁锭",
             "name": "黑铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitieding.webp",
-            "pinyin": "heitieding"
+            "icon": "assets/icons/items/黑铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "硬革",
             "name": "硬革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yingge.webp",
-            "pinyin": "yingge"
+            "icon": "assets/icons/items/硬革.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -693,43 +693,43 @@
         "level": 20,
         "job": "carpenter",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/xinlaizhediaogan.webp",
+        "icon": "assets/icons/items/新来者钓竿.webp",
         "pinyin": "xinlaizhediaogan",
         "recipe": [
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "紫杉枝",
             "name": "紫杉枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zishanzhi.webp",
-            "pinyin": "zishanzhi"
+            "icon": "assets/icons/items/紫杉枝.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁锭",
             "name": "黑铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitieding.webp",
-            "pinyin": "heitieding"
+            "icon": "assets/icons/items/黑铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -739,43 +739,43 @@
         "level": 20,
         "job": "carpenter",
         "category": "16-20级",
-        "icon": "assets/icons/itemse/xinlaizheshalunji.webp",
+        "icon": "assets/icons/items/新来者砂轮机.webp",
         "pinyin": "xinlaizheshalunji",
         "recipe": [
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "黑铁锭",
             "name": "黑铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/heitieding.webp",
-            "pinyin": "heitieding"
+            "icon": "assets/icons/items/黑铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "泥岩",
             "name": "泥岩",
             "quantity": 1,
-            "icon": "assets/icons/itemse/niyan.webp",
-            "pinyin": "niyan"
+            "icon": "assets/icons/items/泥岩.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -790,36 +790,36 @@
         "level": 21,
         "job": "carpenter",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/xinlaizhefangche.webp",
+        "icon": "assets/icons/items/新来者纺车.webp",
         "pinyin": "xinlaizhefangche",
         "recipe": [
           {
             "id": "榆木木材",
             "name": "榆木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yumumucai.webp",
-            "pinyin": "yumumucai"
+            "icon": "assets/icons/items/榆木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "青铜铆钉",
             "name": "青铜铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/qingtongmaoding.webp",
-            "pinyin": "qingtongmaoding"
+            "icon": "assets/icons/items/青铜铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -829,22 +829,22 @@
         "level": 21,
         "job": "carpenter",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/hutaomucai.webp",
+        "icon": "assets/icons/items/胡桃木材.webp",
         "pinyin": "hutaomucai",
         "recipe": [
           {
             "id": "胡桃原木",
             "name": "胡桃原木",
             "quantity": 2,
-            "icon": "assets/icons/itemse/hutaoyuanmu.webp",
-            "pinyin": "hutaoyuanmu"
+            "icon": "assets/icons/items/胡桃原木.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 2,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -854,36 +854,36 @@
         "level": 25,
         "job": "carpenter",
         "category": "21-25级",
-        "icon": "assets/icons/itemse/baigangchangqiang.webp",
+        "icon": "assets/icons/items/白钢长枪.webp",
         "pinyin": "baigangchangqiang",
         "recipe": [
           {
             "id": "胡桃木材",
             "name": "胡桃木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hutaomucai.webp",
-            "pinyin": "hutaomucai"
+            "icon": "assets/icons/items/胡桃木材.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -898,50 +898,50 @@
         "level": 26,
         "job": "carpenter",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/cenmuqibinggong.webp",
+        "icon": "assets/icons/items/梣木骑兵弓.webp",
         "pinyin": "cenmuqibinggong",
         "recipe": [
           {
             "id": "梣木木材",
             "name": "梣木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/cenmumucai.webp",
-            "pinyin": "cenmumucai"
+            "icon": "assets/icons/items/梣木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 2,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "橡树枝",
             "name": "橡树枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiangshuzhi.webp",
-            "pinyin": "xiangshuzhi"
+            "icon": "assets/icons/items/橡树枝.webp",
+            "pinyin": ""
           },
           {
             "id": "柔韧的筋腱",
             "name": "柔韧的筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/rourendejinjian.webp",
-            "pinyin": "rourendejinjian"
+            "icon": "assets/icons/items/柔韧的筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -951,36 +951,36 @@
         "level": 27,
         "job": "carpenter",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/hutaomuzhangzhang.webp",
+        "icon": "assets/icons/items/胡桃木长杖.webp",
         "pinyin": "hutaomuzhangzhang",
         "recipe": [
           {
             "id": "胡桃木材",
             "name": "胡桃木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hutaomucai.webp",
-            "pinyin": "hutaomucai"
+            "icon": "assets/icons/items/胡桃木材.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂2型",
             "name": "植物成长剂2型",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji2xing.webp",
-            "pinyin": "zhiwuchengzhangji2xing"
+            "icon": "assets/icons/items/植物成长剂2型.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -990,36 +990,36 @@
         "level": 29,
         "job": "carpenter",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/hutaomumuzhang.webp",
+        "icon": "assets/icons/items/胡桃木牧杖.webp",
         "pinyin": "hutaomumuzhang",
         "recipe": [
           {
             "id": "胡桃木材",
             "name": "胡桃木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hutaomucai.webp",
-            "pinyin": "hutaomucai"
+            "icon": "assets/icons/items/胡桃木材.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂2型",
             "name": "植物成长剂2型",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji2xing.webp",
-            "pinyin": "zhiwuchengzhangji2xing"
+            "icon": "assets/icons/items/植物成长剂2型.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1029,29 +1029,29 @@
         "level": 30,
         "job": "carpenter",
         "category": "26-30级",
-        "icon": "assets/icons/itemse/hutaodiaogan.webp",
+        "icon": "assets/icons/items/胡桃钓竿.webp",
         "pinyin": "hutaodiaogan",
         "recipe": [
           {
             "id": "胡桃木材",
             "name": "胡桃木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hutaomucai.webp",
-            "pinyin": "hutaomucai"
+            "icon": "assets/icons/items/胡桃木材.webp",
+            "pinyin": ""
           },
           {
             "id": "橡树枝",
             "name": "橡树枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiangshuzhi.webp",
-            "pinyin": "xiangshuzhi"
+            "icon": "assets/icons/items/橡树枝.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1066,43 +1066,43 @@
         "level": 31,
         "job": "carpenter",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/fenyanshalunji.webp",
+        "icon": "assets/icons/items/粉岩砂轮机.webp",
         "pinyin": "fenyanshalunji",
         "recipe": [
           {
             "id": "胡桃木材",
             "name": "胡桃木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hutaomucai.webp",
-            "pinyin": "hutaomucai"
+            "icon": "assets/icons/items/胡桃木材.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "粉砂岩",
             "name": "粉砂岩",
             "quantity": 1,
-            "icon": "assets/icons/itemse/fenshayan.webp",
-            "pinyin": "fenshayan"
+            "icon": "assets/icons/items/粉砂岩.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1112,36 +1112,36 @@
         "level": 32,
         "job": "carpenter",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/hutaofangche.webp",
+        "icon": "assets/icons/items/胡桃纺车.webp",
         "pinyin": "hutaofangche",
         "recipe": [
           {
             "id": "胡桃木材",
             "name": "胡桃木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hutaomucai.webp",
-            "pinyin": "hutaomucai"
+            "icon": "assets/icons/items/胡桃木材.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢铆钉",
             "name": "白钢铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangmaoding.webp",
-            "pinyin": "baigangmaoding"
+            "icon": "assets/icons/items/白钢铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1151,22 +1151,22 @@
         "level": 33,
         "job": "carpenter",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/xiangmumucai.webp",
+        "icon": "assets/icons/items/橡木木材.webp",
         "pinyin": "xiangmumucai",
         "recipe": [
           {
             "id": "橡木原木",
             "name": "橡木原木",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xiangmuyuanmu.webp",
-            "pinyin": "xiangmuyuanmu"
+            "icon": "assets/icons/items/橡木原木.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1176,57 +1176,57 @@
         "level": 34,
         "job": "carpenter",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/xiangmuzhanggong.webp",
+        "icon": "assets/icons/items/橡木长弓.webp",
         "pinyin": "xiangmuzhanggong",
         "recipe": [
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "梣树枝",
             "name": "梣树枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/censhuzhi.webp",
-            "pinyin": "censhuzhi"
+            "icon": "assets/icons/items/梣树枝.webp",
+            "pinyin": ""
           },
           {
             "id": "亚麻线",
             "name": "亚麻线",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yamaxian.webp",
-            "pinyin": "yamaxian"
+            "icon": "assets/icons/items/亚麻线.webp",
+            "pinyin": ""
           },
           {
             "id": "白钢锭",
             "name": "白钢锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baigangding.webp",
-            "pinyin": "baigangding"
+            "icon": "assets/icons/items/白钢锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯巧力炼金溶剂",
             "name": "未提纯巧力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
-            "pinyin": "weitichunqiaolilianjinrongji"
+            "icon": "assets/icons/items/未提纯巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 3,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1236,50 +1236,50 @@
         "level": 35,
         "job": "carpenter",
         "category": "31-35级",
-        "icon": "assets/icons/itemse/miyinqiqiang.webp",
+        "icon": "assets/icons/items/秘银骑枪.webp",
         "pinyin": "miyinqiqiang",
         "recipe": [
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银锭",
             "name": "秘银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinding.webp",
-            "pinyin": "miyinding"
+            "icon": "assets/icons/items/秘银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1294,57 +1294,57 @@
         "level": 36,
         "job": "carpenter",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/miyinqibinggong.webp",
+        "icon": "assets/icons/items/秘银骑兵弓.webp",
         "pinyin": "miyinqibinggong",
         "recipe": [
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "橡树枝",
             "name": "橡树枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiangshuzhi.webp",
-            "pinyin": "xiangshuzhi"
+            "icon": "assets/icons/items/橡树枝.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银锭",
             "name": "秘银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinding.webp",
-            "pinyin": "miyinding"
+            "icon": "assets/icons/items/秘银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "蜘蛛筋腱",
             "name": "蜘蛛筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhizhujinjian.webp",
-            "pinyin": "zhizhujinjian"
+            "icon": "assets/icons/items/蜘蛛筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯巧力炼金溶剂",
             "name": "未提纯巧力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
-            "pinyin": "weitichunqiaolilianjinrongji"
+            "icon": "assets/icons/items/未提纯巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1354,57 +1354,57 @@
         "level": 37,
         "job": "carpenter",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/tonglingxiangmumuzhang.webp",
+        "icon": "assets/icons/items/铜铃橡木牧杖.webp",
         "pinyin": "tonglingxiangmumuzhang",
         "recipe": [
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂3型",
             "name": "植物成长剂3型",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji3xing.webp",
-            "pinyin": "zhiwuchengzhangji3xing"
+            "icon": "assets/icons/items/植物成长剂3型.webp",
+            "pinyin": ""
           },
           {
             "id": "黄铜锭",
             "name": "黄铜锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/huangtongding.webp",
-            "pinyin": "huangtongding"
+            "icon": "assets/icons/items/黄铜锭.webp",
+            "pinyin": ""
           },
           {
             "id": "甲鳞之血",
             "name": "甲鳞之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/jialinzhixue.webp",
-            "pinyin": "jialinzhixue"
+            "icon": "assets/icons/items/甲鳞之血.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1414,22 +1414,22 @@
         "level": 37,
         "job": "carpenter",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/hongmumucai.webp",
+        "icon": "assets/icons/items/红木木材.webp",
         "pinyin": "hongmumucai",
         "recipe": [
           {
             "id": "红木原木",
             "name": "红木原木",
             "quantity": 2,
-            "icon": "assets/icons/itemse/hongmuyuanmu.webp",
-            "pinyin": "hongmuyuanmu"
+            "icon": "assets/icons/items/红木原木.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1439,22 +1439,22 @@
         "level": 37,
         "job": "carpenter",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/zitanmucai.webp",
+        "icon": "assets/icons/items/紫檀木材.webp",
         "pinyin": "zitanmucai",
         "recipe": [
           {
             "id": "紫檀原木",
             "name": "紫檀原木",
             "quantity": 2,
-            "icon": "assets/icons/itemse/zitanyuanmu.webp",
-            "pinyin": "zitanyuanmu"
+            "icon": "assets/icons/items/紫檀原木.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1464,50 +1464,50 @@
         "level": 39,
         "job": "carpenter",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/xiangmufuhegong.webp",
+        "icon": "assets/icons/items/橡木复合弓.webp",
         "pinyin": "xiangmufuhegong",
         "recipe": [
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "柔韧的筋腱",
             "name": "柔韧的筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/rourendejinjian.webp",
-            "pinyin": "rourendejinjian"
+            "icon": "assets/icons/items/柔韧的筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊角",
             "name": "山羊角",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shanyangjiao.webp",
-            "pinyin": "shanyangjiao"
+            "icon": "assets/icons/items/山羊角.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯巧力炼金溶剂",
             "name": "未提纯巧力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
-            "pinyin": "weitichunqiaolilianjinrongji"
+            "icon": "assets/icons/items/未提纯巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1517,50 +1517,50 @@
         "level": 40,
         "job": "carpenter",
         "category": "36-40级",
-        "icon": "assets/icons/itemse/zitandiaogan.webp",
+        "icon": "assets/icons/items/紫檀钓竿.webp",
         "pinyin": "zitandiaogan",
         "recipe": [
           {
             "id": "紫檀木材",
             "name": "紫檀木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/zitanmucai.webp",
-            "pinyin": "zitanmucai"
+            "icon": "assets/icons/items/紫檀木材.webp",
+            "pinyin": ""
           },
           {
             "id": "紫檀枝",
             "name": "紫檀枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zitanzhi.webp",
-            "pinyin": "zitanzhi"
+            "icon": "assets/icons/items/紫檀枝.webp",
+            "pinyin": ""
           },
           {
             "id": "秘银锭",
             "name": "秘银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/miyinding.webp",
-            "pinyin": "miyinding"
+            "icon": "assets/icons/items/秘银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "蟹油",
             "name": "蟹油",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xieyou.webp",
-            "pinyin": "xieyou"
+            "icon": "assets/icons/items/蟹油.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1575,43 +1575,43 @@
         "level": 41,
         "job": "carpenter",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/shixiyishalunji.webp",
+        "icon": "assets/icons/items/石蜥蜴砂轮机.webp",
         "pinyin": "shixiyishalunji",
         "recipe": [
           {
             "id": "紫檀木材",
             "name": "紫檀木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/zitanmucai.webp",
-            "pinyin": "zitanmucai"
+            "icon": "assets/icons/items/紫檀木材.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "石蜥蜴的蛋",
             "name": "石蜥蜴的蛋",
             "quantity": 1,
-            "icon": "assets/icons/itemse/shixiyidedan.webp",
-            "pinyin": "shixiyidedan"
+            "icon": "assets/icons/items/石蜥蜴的蛋.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1621,36 +1621,36 @@
         "level": 42,
         "job": "carpenter",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/zitanfangche.webp",
+        "icon": "assets/icons/items/紫檀纺车.webp",
         "pinyin": "zitanfangche",
         "recipe": [
           {
             "id": "紫檀木材",
             "name": "紫檀木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/zitanmucai.webp",
-            "pinyin": "zitanmucai"
+            "icon": "assets/icons/items/紫檀木材.webp",
+            "pinyin": ""
           },
           {
             "id": "钴铁铆钉",
             "name": "钴铁铆钉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/gutiemaoding.webp",
-            "pinyin": "gutiemaoding"
+            "icon": "assets/icons/items/钴铁铆钉.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1660,57 +1660,57 @@
         "level": 43,
         "job": "carpenter",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/feicuishouzhang.webp",
+        "icon": "assets/icons/items/翡翠手杖.webp",
         "pinyin": "feicuishouzhang",
         "recipe": [
           {
             "id": "红木木材",
             "name": "红木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hongmumucai.webp",
-            "pinyin": "hongmumucai"
+            "icon": "assets/icons/items/红木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "翡翠硬玉",
             "name": "翡翠硬玉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/feicuiyingyu.webp",
-            "pinyin": "feicuiyingyu"
+            "icon": "assets/icons/items/翡翠硬玉.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "鬼胶",
             "name": "鬼胶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/guijiao.webp",
-            "pinyin": "guijiao"
+            "icon": "assets/icons/items/鬼胶.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1720,57 +1720,57 @@
         "level": 44,
         "job": "carpenter",
         "category": "41-45级",
-        "icon": "assets/icons/itemse/gutiezhanji.webp",
+        "icon": "assets/icons/items/钴铁战戟.webp",
         "pinyin": "gutiezhanji",
         "recipe": [
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "白银锭",
             "name": "白银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinding.webp",
-            "pinyin": "baiyinding"
+            "icon": "assets/icons/items/白银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -1785,57 +1785,57 @@
         "level": 46,
         "job": "carpenter",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/gutiezhangji.webp",
+        "icon": "assets/icons/items/钴铁长戟.webp",
         "pinyin": "gutiezhangji",
         "recipe": [
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "白银锭",
             "name": "白银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinding.webp",
-            "pinyin": "baiyinding"
+            "icon": "assets/icons/items/白银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1845,57 +1845,57 @@
         "level": 46,
         "job": "carpenter",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/zishanzhanggong.webp",
+        "icon": "assets/icons/items/紫杉长弓.webp",
         "pinyin": "zishanzhanggong",
         "recipe": [
           {
             "id": "紫檀木材",
             "name": "紫檀木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/zitanmucai.webp",
-            "pinyin": "zitanmucai"
+            "icon": "assets/icons/items/紫檀木材.webp",
+            "pinyin": ""
           },
           {
             "id": "紫杉枝",
             "name": "紫杉枝",
             "quantity": 3,
-            "icon": "assets/icons/itemse/zishanzhi.webp",
-            "pinyin": "zishanzhi"
+            "icon": "assets/icons/items/紫杉枝.webp",
+            "pinyin": ""
           },
           {
             "id": "盗龙筋腱",
             "name": "盗龙筋腱",
             "quantity": 2,
-            "icon": "assets/icons/itemse/daolongjinjian.webp",
-            "pinyin": "daolongjinjian"
+            "icon": "assets/icons/items/盗龙筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "丁香油",
             "name": "丁香油",
             "quantity": 1,
-            "icon": "assets/icons/itemse/dingxiangyou.webp",
-            "pinyin": "dingxiangyou"
+            "icon": "assets/icons/items/丁香油.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯巧力炼金溶剂",
             "name": "未提纯巧力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
-            "pinyin": "weitichunqiaolilianjinrongji"
+            "icon": "assets/icons/items/未提纯巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1905,57 +1905,57 @@
         "level": 47,
         "job": "carpenter",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/feicuimuzhang.webp",
+        "icon": "assets/icons/items/翡翠牧杖.webp",
         "pinyin": "feicuimuzhang",
         "recipe": [
           {
             "id": "红木木材",
             "name": "红木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hongmumucai.webp",
-            "pinyin": "hongmumucai"
+            "icon": "assets/icons/items/红木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "翡翠硬玉",
             "name": "翡翠硬玉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/feicuiyingyu.webp",
-            "pinyin": "feicuiyingyu"
+            "icon": "assets/icons/items/翡翠硬玉.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "鬼胶",
             "name": "鬼胶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/guijiao.webp",
-            "pinyin": "guijiao"
+            "icon": "assets/icons/items/鬼胶.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -1965,57 +1965,57 @@
         "level": 50,
         "job": "carpenter",
         "category": "46-50级",
-        "icon": "assets/icons/itemse/xiejiazhangong.webp",
+        "icon": "assets/icons/items/蟹甲战弓.webp",
         "pinyin": "xiejiazhangong",
         "recipe": [
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 6,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊角",
             "name": "山羊角",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shanyangjiao.webp",
-            "pinyin": "shanyangjiao"
+            "icon": "assets/icons/items/山羊角.webp",
+            "pinyin": ""
           },
           {
             "id": "绿陆蟹甲壳",
             "name": "绿陆蟹甲壳",
             "quantity": 3,
-            "icon": "assets/icons/itemse/lvluxiejiaqiao.webp",
-            "pinyin": "lvluxiejiaqiao"
+            "icon": "assets/icons/items/绿陆蟹甲壳.webp",
+            "pinyin": ""
           },
           {
             "id": "红珊瑚",
             "name": "红珊瑚",
             "quantity": 2,
-            "icon": "assets/icons/itemse/hongshanhu.webp",
-            "pinyin": "hongshanhu"
+            "icon": "assets/icons/items/红珊瑚.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯巧力炼金溶剂",
             "name": "未提纯巧力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
-            "pinyin": "weitichunqiaolilianjinrongji"
+            "icon": "assets/icons/items/未提纯巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -2030,29 +2030,29 @@
         "level": "50★",
         "job": "carpenter",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/yunshamucai.webp",
+        "icon": "assets/icons/items/云杉木材.webp",
         "pinyin": "yunshamucai",
         "recipe": [
           {
             "id": "云杉原木",
             "name": "云杉原木",
             "quantity": 5,
-            "icon": "assets/icons/itemse/yunshanyuanmu.webp",
-            "pinyin": "yunshanyuanmu"
+            "icon": "assets/icons/items/云杉原木.webp",
+            "pinyin": ""
           },
           {
             "id": "树汁块",
             "name": "树汁块",
             "quantity": 2,
-            "icon": "assets/icons/itemse/shuzhikuai.webp",
-            "pinyin": "shuzhikuai"
+            "icon": "assets/icons/items/树汁块.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2062,50 +2062,50 @@
         "level": "50★",
         "job": "carpenter",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/yunshanzhiyumuxie.webp",
+        "icon": "assets/icons/items/云杉治愈木鞋.webp",
         "pinyin": "yunshanzhiyumuxie",
         "recipe": [
           {
             "id": "云杉木材",
             "name": "云杉木材",
             "quantity": 2,
-            "icon": "assets/icons/itemse/yunshamucai.webp",
-            "pinyin": "yunshamucai"
+            "icon": "assets/icons/items/云杉木材.webp",
+            "pinyin": ""
           },
           {
             "id": "天蚕丝",
             "name": "天蚕丝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/tiancansi.webp",
-            "pinyin": "tiancansi"
+            "icon": "assets/icons/items/天蚕丝.webp",
+            "pinyin": ""
           },
           {
             "id": "盗龙革",
             "name": "盗龙革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/daolongge.webp",
-            "pinyin": "daolongge"
+            "icon": "assets/icons/items/盗龙革.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度心力炼金溶剂",
             "name": "高纯度心力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
-            "pinyin": "gaochunduxinlilianjinrongji"
+            "icon": "assets/icons/items/高纯度心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2115,50 +2115,50 @@
         "level": "50★",
         "job": "carpenter",
         "category": "秘籍：第1卷",
-        "icon": "assets/icons/itemse/salungaguanggong.webp",
+        "icon": "assets/icons/items/萨伦伽光弓.webp",
         "pinyin": "salungaguanggong",
         "recipe": [
           {
             "id": "云杉木材",
             "name": "云杉木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/yunshamucai.webp",
-            "pinyin": "yunshamucai"
+            "icon": "assets/icons/items/云杉木材.webp",
+            "pinyin": ""
           },
           {
             "id": "玄钢块",
             "name": "玄钢块",
             "quantity": 2,
-            "icon": "assets/icons/itemse/xuangangkuai.webp",
-            "pinyin": "xuangangkuai"
+            "icon": "assets/icons/items/玄钢块.webp",
+            "pinyin": ""
           },
           {
             "id": "植物成长剂4型",
             "name": "植物成长剂4型",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zhiwuchengzhangji4xing.webp",
-            "pinyin": "zhiwuchengzhangji4xing"
+            "icon": "assets/icons/items/植物成长剂4型.webp",
+            "pinyin": ""
           },
           {
             "id": "高纯度巧力炼金溶剂",
             "name": "高纯度巧力炼金溶剂",
             "quantity": 2,
-            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
-            "pinyin": "gaochunduqiaolilianjinrongji"
+            "icon": "assets/icons/items/高纯度巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
@@ -2173,57 +2173,57 @@
         "level": 41,
         "job": "carpenter",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyongfeicuishouzhang.webp",
+        "icon": "assets/icons/items/收藏用翡翠手杖.webp",
         "pinyin": "shoucangyongfeicuishouzhang",
         "recipe": [
           {
             "id": "红木木材",
             "name": "红木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hongmumucai.webp",
-            "pinyin": "hongmumucai"
+            "icon": "assets/icons/items/红木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "翡翠硬玉",
             "name": "翡翠硬玉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/feicuiyingyu.webp",
-            "pinyin": "feicuiyingyu"
+            "icon": "assets/icons/items/翡翠硬玉.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "鬼胶",
             "name": "鬼胶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/guijiao.webp",
-            "pinyin": "guijiao"
+            "icon": "assets/icons/items/鬼胶.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2233,57 +2233,57 @@
         "level": 43,
         "job": "carpenter",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyonggutiezhanji.webp",
+        "icon": "assets/icons/items/收藏用钴铁战戟.webp",
         "pinyin": "shoucangyonggutiezhanji",
         "recipe": [
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "白银锭",
             "name": "白银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinding.webp",
-            "pinyin": "baiyinding"
+            "icon": "assets/icons/items/白银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2293,57 +2293,57 @@
         "level": 45,
         "job": "carpenter",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyongzishanzhanggong.webp",
+        "icon": "assets/icons/items/收藏用紫杉长弓.webp",
         "pinyin": "shoucangyongzishanzhanggong",
         "recipe": [
           {
             "id": "紫檀木材",
             "name": "紫檀木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/zitanmucai.webp",
-            "pinyin": "zitanmucai"
+            "icon": "assets/icons/items/紫檀木材.webp",
+            "pinyin": ""
           },
           {
             "id": "紫杉枝",
             "name": "紫杉枝",
             "quantity": 1,
-            "icon": "assets/icons/itemse/zishanzhi.webp",
-            "pinyin": "zishanzhi"
+            "icon": "assets/icons/items/紫杉枝.webp",
+            "pinyin": ""
           },
           {
             "id": "盗龙筋腱",
             "name": "盗龙筋腱",
             "quantity": 1,
-            "icon": "assets/icons/itemse/daolongjinjian.webp",
-            "pinyin": "daolongjinjian"
+            "icon": "assets/icons/items/盗龙筋腱.webp",
+            "pinyin": ""
           },
           {
             "id": "丁香油",
             "name": "丁香油",
             "quantity": 1,
-            "icon": "assets/icons/itemse/dingxiangyou.webp",
-            "pinyin": "dingxiangyou"
+            "icon": "assets/icons/items/丁香油.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯巧力炼金溶剂",
             "name": "未提纯巧力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
-            "pinyin": "weitichunqiaolilianjinrongji"
+            "icon": "assets/icons/items/未提纯巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2353,57 +2353,57 @@
         "level": 47,
         "job": "carpenter",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyonggutiezhangji.webp",
+        "icon": "assets/icons/items/收藏用钴铁长戟.webp",
         "pinyin": "shoucangyonggutiezhangji",
         "recipe": [
           {
             "id": "钴铁锭",
             "name": "钴铁锭",
             "quantity": 3,
-            "icon": "assets/icons/itemse/gutieding.webp",
-            "pinyin": "gutieding"
+            "icon": "assets/icons/items/钴铁锭.webp",
+            "pinyin": ""
           },
           {
             "id": "白银锭",
             "name": "白银锭",
             "quantity": 1,
-            "icon": "assets/icons/itemse/baiyinding.webp",
-            "pinyin": "baiyinding"
+            "icon": "assets/icons/items/白银锭.webp",
+            "pinyin": ""
           },
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 1,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "野猪革",
             "name": "野猪革",
             "quantity": 1,
-            "icon": "assets/icons/itemse/yezhuge.webp",
-            "pinyin": "yezhuge"
+            "icon": "assets/icons/items/野猪革.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯速力炼金溶剂",
             "name": "未提纯速力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
-            "pinyin": "weitichunsulilianjinrongji"
+            "icon": "assets/icons/items/未提纯速力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 4,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2413,57 +2413,57 @@
         "level": 49,
         "job": "carpenter",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyongfeicuimuzhang.webp",
+        "icon": "assets/icons/items/收藏用翡翠牧杖.webp",
         "pinyin": "shoucangyongfeicuimuzhang",
         "recipe": [
           {
             "id": "红木木材",
             "name": "红木木材",
             "quantity": 3,
-            "icon": "assets/icons/itemse/hongmumucai.webp",
-            "pinyin": "hongmumucai"
+            "icon": "assets/icons/items/红木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "翡翠硬玉",
             "name": "翡翠硬玉",
             "quantity": 1,
-            "icon": "assets/icons/itemse/feicuiyingyu.webp",
-            "pinyin": "feicuiyingyu"
+            "icon": "assets/icons/items/翡翠硬玉.webp",
+            "pinyin": ""
           },
           {
             "id": "六识之血",
             "name": "六识之血",
             "quantity": 1,
-            "icon": "assets/icons/itemse/liushizhixue.webp",
-            "pinyin": "liushizhixue"
+            "icon": "assets/icons/items/六识之血.webp",
+            "pinyin": ""
           },
           {
             "id": "鬼胶",
             "name": "鬼胶",
             "quantity": 1,
-            "icon": "assets/icons/itemse/guijiao.webp",
-            "pinyin": "guijiao"
+            "icon": "assets/icons/items/鬼胶.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯心力炼金溶剂",
             "name": "未提纯心力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
-            "pinyin": "weitichunxinlilianjinrongji"
+            "icon": "assets/icons/items/未提纯心力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 5,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       },
@@ -2473,57 +2473,57 @@
         "level": "50★",
         "job": "carpenter",
         "category": "收藏品",
-        "icon": "assets/icons/itemse/shoucangyongxiejiazhangong.webp",
+        "icon": "assets/icons/items/收藏用蟹甲战弓.webp",
         "pinyin": "shoucangyongxiejiazhangong",
         "recipe": [
           {
             "id": "橡木木材",
             "name": "橡木木材",
             "quantity": 6,
-            "icon": "assets/icons/itemse/xiangmumucai.webp",
-            "pinyin": "xiangmumucai"
+            "icon": "assets/icons/items/橡木木材.webp",
+            "pinyin": ""
           },
           {
             "id": "山羊角",
             "name": "山羊角",
             "quantity": 3,
-            "icon": "assets/icons/itemse/shanyangjiao.webp",
-            "pinyin": "shanyangjiao"
+            "icon": "assets/icons/items/山羊角.webp",
+            "pinyin": ""
           },
           {
             "id": "绿陆蟹甲壳",
             "name": "绿陆蟹甲壳",
             "quantity": 3,
-            "icon": "assets/icons/itemse/lvluxiejiaqiao.webp",
-            "pinyin": "lvluxiejiaqiao"
+            "icon": "assets/icons/items/绿陆蟹甲壳.webp",
+            "pinyin": ""
           },
           {
             "id": "红珊瑚",
             "name": "红珊瑚",
             "quantity": 2,
-            "icon": "assets/icons/itemse/hongshanhu.webp",
-            "pinyin": "hongshanhu"
+            "icon": "assets/icons/items/红珊瑚.webp",
+            "pinyin": ""
           },
           {
             "id": "未提纯巧力炼金溶剂",
             "name": "未提纯巧力炼金溶剂",
             "quantity": 1,
-            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
-            "pinyin": "weitichunqiaolilianjinrongji"
+            "icon": "assets/icons/items/未提纯巧力炼金溶剂.webp",
+            "pinyin": ""
           },
           {
             "id": "风之碎晶",
             "name": "风之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/fengzhisuijing.webp",
-            "pinyin": "fengzhisuijing"
+            "icon": "assets/icons/items/风之碎晶.webp",
+            "pinyin": ""
           },
           {
             "id": "冰之碎晶",
             "name": "冰之碎晶",
             "quantity": 6,
-            "icon": "assets/icons/itemse/bingzhisuijing.webp",
-            "pinyin": "bingzhisuijing"
+            "icon": "assets/icons/items/冰之碎晶.webp",
+            "pinyin": ""
           }
         ]
       }
