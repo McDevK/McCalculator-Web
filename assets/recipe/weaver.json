@@ -1,0 +1,6066 @@
+[
+  {
+    "category": "1-5级",
+    "recipes": [
+      {
+        "id": "草线",
+        "name": "草线",
+        "level": 1,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caoxian.webp",
+        "pinyin": "caoxian",
+        "recipe": [
+          {
+            "id": "莫柯草",
+            "name": "莫柯草",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mokecao.webp",
+            "pinyin": "mokecao"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布",
+        "name": "草布",
+        "level": 2,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobu.webp",
+        "pinyin": "caobu",
+        "recipe": [
+          {
+            "id": "莫柯草",
+            "name": "莫柯草",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mokecao.webp",
+            "pinyin": "mokecao"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布马裤",
+        "name": "草布马裤",
+        "level": 4,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobumaku.webp",
+        "pinyin": "caobumaku",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布咏咒宽边帽",
+        "name": "草布咏咒宽边帽",
+        "level": 5,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobuyongzhoukuanbianmao.webp",
+        "pinyin": "caobuyongzhoukuanbianmao",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "白鸡之羽",
+            "name": "白鸡之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baijizhiyu.webp",
+            "pinyin": "baijizhiyu"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布治愈兜帽",
+        "name": "草布治愈兜帽",
+        "level": 5,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobuzhiyudoumao.webp",
+        "pinyin": "caobuzhiyudoumao",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布精准棉甲",
+        "name": "草布精准棉甲",
+        "level": 5,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobujingzhunmianjia.webp",
+        "pinyin": "caobujingzhunmianjia",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "莫柯草",
+            "name": "莫柯草",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mokecao.webp",
+            "pinyin": "mokecao"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布咏咒长袍",
+        "name": "草布咏咒长袍",
+        "level": 5,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobuyongzhouchangpao.webp",
+        "pinyin": "caobuyongzhouchangpao",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布治愈僧袍",
+        "name": "草布治愈僧袍",
+        "level": 5,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobuzhiyusengpao.webp",
+        "pinyin": "caobuzhiyusengpao",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布精准弓术手套",
+        "name": "草布精准弓术手套",
+        "level": 5,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobujingzhungongshushoutao.webp",
+        "pinyin": "caobujingzhungongshushoutao",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布治愈礼服手套",
+        "name": "草布治愈礼服手套",
+        "level": 5,
+        "job": "weaver",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/caobuzhiyulifushoutao.webp",
+        "pinyin": "caobuzhiyulifushoutao",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "6-10级",
+    "recipes": [
+      {
+        "id": "草布御敌软甲裤",
+        "name": "草布御敌软甲裤",
+        "level": 6,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobuyudiruanjiaku.webp",
+        "pinyin": "caobuyudiruanjiaku",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "柔韧的筋腱",
+            "name": "柔韧的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rourendejinjian.webp",
+            "pinyin": "rourendejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布强袭软甲裤",
+        "name": "草布强袭软甲裤",
+        "level": 6,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobuqiangxiruanjiaku.webp",
+        "pinyin": "caobuqiangxiruanjiaku",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "结实的筋腱",
+            "name": "结实的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jieshidejinjian.webp",
+            "pinyin": "jieshidejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布精准垮裤",
+        "name": "草布精准垮裤",
+        "level": 7,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobujingzhunkuaku.webp",
+        "pinyin": "caobujingzhunkuaku",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "结实的筋腱",
+            "name": "结实的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jieshidejinjian.webp",
+            "pinyin": "jieshidejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布咏咒紧身裤",
+        "name": "草布咏咒紧身裤",
+        "level": 7,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobuyongzhoujinshenku.webp",
+        "pinyin": "caobuyongzhoujinshenku",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布治愈束膝裤",
+        "name": "草布治愈束膝裤",
+        "level": 7,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobuzhiyushuxiku.webp",
+        "pinyin": "caobuzhiyushuxiku",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布大地帽",
+        "name": "草布大地帽",
+        "level": 10,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobudadimao.webp",
+        "pinyin": "caobudadimao",
+        "recipe": [
+          {
+            "id": "麦秆",
+            "name": "麦秆",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/maigan.webp",
+            "pinyin": "maigan"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布巧匠帽",
+        "name": "草布巧匠帽",
+        "level": 10,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobuqiaojiangmao.webp",
+        "pinyin": "caobuqiaojiangmao",
+        "recipe": [
+          {
+            "id": "麦秆",
+            "name": "麦秆",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/maigan.webp",
+            "pinyin": "maigan"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布大地工作坎肩",
+        "name": "草布大地工作坎肩",
+        "level": 10,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobudadigongzuokanjian.webp",
+        "pinyin": "caobudadigongzuokanjian",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "红铜锭",
+            "name": "红铜锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongtongding.webp",
+            "pinyin": "hongtongding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布巧匠工作坎肩",
+        "name": "草布巧匠工作坎肩",
+        "level": 10,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobuqiaojianggongzuokanjian.webp",
+        "pinyin": "caobuqiaojianggongzuokanjian",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "红铜锭",
+            "name": "红铜锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongtongding.webp",
+            "pinyin": "hongtongding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布大地工作裤",
+        "name": "草布大地工作裤",
+        "level": 10,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobudadigongzuoku.webp",
+        "pinyin": "caobudadigongzuoku",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "结实的筋腱",
+            "name": "结实的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jieshidejinjian.webp",
+            "pinyin": "jieshidejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草布巧匠打底裤",
+        "name": "草布巧匠打底裤",
+        "level": 10,
+        "job": "weaver",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/caobuqiaojiangdadiku.webp",
+        "pinyin": "caobuqiaojiangdadiku",
+        "recipe": [
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "红铜锭",
+            "name": "红铜锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongtongding.webp",
+            "pinyin": "hongtongding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "11-15级",
+    "recipes": [
+      {
+        "id": "棉线",
+        "name": "棉线",
+        "level": 11,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianxian.webp",
+        "pinyin": "mianxian",
+        "recipe": [
+          {
+            "id": "草棉",
+            "name": "草棉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caomian.webp",
+            "pinyin": "caomian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布",
+        "name": "棉布",
+        "level": 13,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbu.webp",
+        "pinyin": "mianbu",
+        "recipe": [
+          {
+            "id": "草棉",
+            "name": "草棉",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/caomian.webp",
+            "pinyin": "caomian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布牧羊裤",
+        "name": "棉布牧羊裤",
+        "level": 14,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbumuyangku.webp",
+        "pinyin": "mianbumuyangku",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布围巾",
+        "name": "棉布围巾",
+        "level": 14,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuweijin.webp",
+        "pinyin": "mianbuweijin",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布精准狩猎帽",
+        "name": "棉布精准狩猎帽",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbujingzhunshouliemao.webp",
+        "pinyin": "mianbujingzhunshouliemao",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布咏咒圆锥帽",
+        "name": "棉布咏咒圆锥帽",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuyongzhouyuanzhuimao.webp",
+        "pinyin": "mianbuyongzhouyuanzhuimao",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布治愈兜帽",
+        "name": "棉布治愈兜帽",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuzhiyudoumao.webp",
+        "pinyin": "mianbuzhiyudoumao",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布精准衬衫",
+        "name": "棉布精准衬衫",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbujingzhunchenshan.webp",
+        "pinyin": "mianbujingzhunchenshan",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "结实的筋腱",
+            "name": "结实的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jieshidejinjian.webp",
+            "pinyin": "jieshidejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布咏咒厚袍",
+        "name": "棉布咏咒厚袍",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuyongzhouhoupao.webp",
+        "pinyin": "mianbuyongzhouhoupao",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "柔韧的筋腱",
+            "name": "柔韧的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rourendejinjian.webp",
+            "pinyin": "rourendejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布治愈僧袍",
+        "name": "棉布治愈僧袍",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuzhiyusengpao.webp",
+        "pinyin": "mianbuzhiyusengpao",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布治愈礼服手套",
+        "name": "棉布治愈礼服手套",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuzhiyulifushoutao.webp",
+        "pinyin": "mianbuzhiyulifushoutao",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布强袭软甲裤",
+        "name": "棉布强袭软甲裤",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuqiangxiruanjiaku.webp",
+        "pinyin": "mianbuqiangxiruanjiaku",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "结实的筋腱",
+            "name": "结实的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jieshidejinjian.webp",
+            "pinyin": "jieshidejinjian"
+          },
+          {
+            "id": "青铜铆钉",
+            "name": "青铜铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/qingtongmaoding.webp",
+            "pinyin": "qingtongmaoding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布精准垮裤",
+        "name": "棉布精准垮裤",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbujingzhunkuaku.webp",
+        "pinyin": "mianbujingzhunkuaku",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "柔韧的筋腱",
+            "name": "柔韧的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rourendejinjian.webp",
+            "pinyin": "rourendejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布咏咒紧身裤",
+        "name": "棉布咏咒紧身裤",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuyongzhoujinshenku.webp",
+        "pinyin": "mianbuyongzhoujinshenku",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布治愈束膝裤",
+        "name": "棉布治愈束膝裤",
+        "level": 15,
+        "job": "weaver",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mianbuzhiyushuxiku.webp",
+        "pinyin": "mianbuzhiyushuxiku",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "16-20级",
+    "recipes": [
+      {
+        "id": "棉布帆布",
+        "name": "棉布帆布",
+        "level": 16,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianbufanbu.webp",
+        "pinyin": "mianbufanbu",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "草线",
+            "name": "草线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caoxian.webp",
+            "pinyin": "caoxian"
+          },
+          {
+            "id": "蜂蜡",
+            "name": "蜂蜡",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengla.webp",
+            "pinyin": "fengla"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "露线",
+        "name": "露线",
+        "level": 17,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/luxian.webp",
+        "pinyin": "luxian",
+        "recipe": [
+          {
+            "id": "蛛网",
+            "name": "蛛网",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/zhuwang.webp",
+            "pinyin": "zhuwang"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒",
+        "name": "棉绒",
+        "level": 18,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianrong.webp",
+        "pinyin": "mianrong",
+        "recipe": [
+          {
+            "id": "草棉",
+            "name": "草棉",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/caomian.webp",
+            "pinyin": "caomian"
+          },
+          {
+            "id": "蛛网",
+            "name": "蛛网",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhuwang.webp",
+            "pinyin": "zhuwang"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉布棉甲",
+        "name": "棉布棉甲",
+        "level": 19,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianbumianjia.webp",
+        "pinyin": "mianbumianjia",
+        "recipe": [
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "渡渡鸟之羽",
+            "name": "渡渡鸟之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/duduniaozhiyu.webp",
+            "pinyin": "duduniaozhiyu"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒大地无檐帽",
+        "name": "棉绒大地无檐帽",
+        "level": 20,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianrongdadiwuyanmao.webp",
+        "pinyin": "mianrongdadiwuyanmao",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒巧匠无檐帽",
+        "name": "棉绒巧匠无檐帽",
+        "level": 20,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianrongqiaojiangwuyanmao.webp",
+        "pinyin": "mianrongqiaojiangwuyanmao",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒大地短上衣",
+        "name": "棉绒大地短上衣",
+        "level": 20,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianrongdadiduanshangyi.webp",
+        "pinyin": "mianrongdadiduanshangyi",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒巧匠短上衣",
+        "name": "棉绒巧匠短上衣",
+        "level": 20,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianrongqiaojiangduanshangyi.webp",
+        "pinyin": "mianrongqiaojiangduanshangyi",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒大地垮裤",
+        "name": "棉绒大地垮裤",
+        "level": 20,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianrongdadikuaku.webp",
+        "pinyin": "mianrongdadikuaku",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "柔韧的筋腱",
+            "name": "柔韧的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rourendejinjian.webp",
+            "pinyin": "rourendejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒巧匠裤袜",
+        "name": "棉绒巧匠裤袜",
+        "level": 20,
+        "job": "weaver",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/mianrongqiaojiangkuwa.webp",
+        "pinyin": "mianrongqiaojiangkuwa",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "21-25级",
+    "recipes": [
+      {
+        "id": "棉绒精准包头巾",
+        "name": "棉绒精准包头巾",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongjingzhunbaotoujin.webp",
+        "pinyin": "mianrongjingzhunbaotoujin",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "柔韧的筋腱",
+            "name": "柔韧的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rourendejinjian.webp",
+            "pinyin": "rourendejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒咏咒圆锥帽",
+        "name": "棉绒咏咒圆锥帽",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongyongzhouyuanzhuimao.webp",
+        "pinyin": "mianrongyongzhouyuanzhuimao",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "柔韧的筋腱",
+            "name": "柔韧的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rourendejinjian.webp",
+            "pinyin": "rourendejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒精准衬衫",
+        "name": "棉绒精准衬衫",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongjingzhunchenshan.webp",
+        "pinyin": "mianrongjingzhunchenshan",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒咏咒外袍",
+        "name": "棉绒咏咒外袍",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongyongzhouwaipao.webp",
+        "pinyin": "mianrongyongzhouwaipao",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒治愈僧袍",
+        "name": "棉绒治愈僧袍",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongzhiyusengpao.webp",
+        "pinyin": "mianrongzhiyusengpao",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒精准弓术手套",
+        "name": "棉绒精准弓术手套",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongjingzhungongshushoutao.webp",
+        "pinyin": "mianrongjingzhungongshushoutao",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒治愈礼服手套",
+        "name": "棉绒治愈礼服手套",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongzhiyulifushoutao.webp",
+        "pinyin": "mianrongzhiyulifushoutao",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒强袭软甲裤",
+        "name": "棉绒强袭软甲裤",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongqiangxiruanjiaku.webp",
+        "pinyin": "mianrongqiangxiruanjiaku",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "柔韧的筋腱",
+            "name": "柔韧的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rourendejinjian.webp",
+            "pinyin": "rourendejinjian"
+          },
+          {
+            "id": "黑铁铆钉",
+            "name": "黑铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitiemaoding.webp",
+            "pinyin": "heitiemaoding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒精准垮裤",
+        "name": "棉绒精准垮裤",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongjingzhunkuaku.webp",
+        "pinyin": "mianrongjingzhunkuaku",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "柔韧的筋腱",
+            "name": "柔韧的筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rourendejinjian.webp",
+            "pinyin": "rourendejinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒咏咒紧身裤",
+        "name": "棉绒咏咒紧身裤",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongyongzhoujinshenku.webp",
+        "pinyin": "mianrongyongzhoujinshenku",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒治愈束膝裤",
+        "name": "棉绒治愈束膝裤",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongzhiyushuxiku.webp",
+        "pinyin": "mianrongzhiyushuxiku",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "巨蟾蜍革",
+            "name": "巨蟾蜍革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/juchanchuge.webp",
+            "pinyin": "juchanchuge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒治愈礼鞋",
+        "name": "棉绒治愈礼鞋",
+        "level": 25,
+        "job": "weaver",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/mianrongzhiyulixie.webp",
+        "pinyin": "mianrongzhiyulixie",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "橡胶",
+            "name": "橡胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangjiao.webp",
+            "pinyin": "xiangjiao"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "26-30级",
+    "recipes": [
+      {
+        "id": "亚麻线",
+        "name": "亚麻线",
+        "level": 26,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yamaxian.webp",
+        "pinyin": "yamaxian",
+        "recipe": [
+          {
+            "id": "亚麻",
+            "name": "亚麻",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yama.webp",
+            "pinyin": "yama"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻布",
+        "name": "亚麻布",
+        "level": 27,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yamabu.webp",
+        "pinyin": "yamabu",
+        "recipe": [
+          {
+            "id": "亚麻",
+            "name": "亚麻",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yama.webp",
+            "pinyin": "yama"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "棉绒高跟鞋",
+        "name": "棉绒高跟鞋",
+        "level": 29,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/mianronggaogenxie.webp",
+        "pinyin": "mianronggaogenxie",
+        "recipe": [
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "橡胶",
+            "name": "橡胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangjiao.webp",
+            "pinyin": "xiangjiao"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻大地无檐帽",
+        "name": "亚麻大地无檐帽",
+        "level": 30,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yamadadiwuyanmao.webp",
+        "pinyin": "yamadadiwuyanmao",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻巧匠无檐帽",
+        "name": "亚麻巧匠无檐帽",
+        "level": 30,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yamaqiaojiangwuyanmao.webp",
+        "pinyin": "yamaqiaojiangwuyanmao",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻大地短上衣",
+        "name": "亚麻大地短上衣",
+        "level": 30,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yamadadiduanshangyi.webp",
+        "pinyin": "yamadadiduanshangyi",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻巧匠短上衣",
+        "name": "亚麻巧匠短上衣",
+        "level": 30,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yamaqiaojiangduanshangyi.webp",
+        "pinyin": "yamaqiaojiangduanshangyi",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻大地垮裤",
+        "name": "亚麻大地垮裤",
+        "level": 30,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yamadadikuaku.webp",
+        "pinyin": "yamadadikuaku",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "蜘蛛筋腱",
+            "name": "蜘蛛筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhizhujinjian.webp",
+            "pinyin": "zhizhujinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻巧匠工作裤",
+        "name": "亚麻巧匠工作裤",
+        "level": 30,
+        "job": "weaver",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yamaqiaojianggongzuoku.webp",
+        "pinyin": "yamaqiaojianggongzuoku",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "31-35级",
+    "recipes": [
+      {
+        "id": "亚麻帆布",
+        "name": "亚麻帆布",
+        "level": 31,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/yamafanbu.webp",
+        "pinyin": "yamafanbu",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "蜂蜡",
+            "name": "蜂蜡",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengla.webp",
+            "pinyin": "fengla"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "羊毛线",
+        "name": "羊毛线",
+        "level": 32,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/yangmaoxian.webp",
+        "pinyin": "yangmaoxian",
+        "recipe": [
+          {
+            "id": "绵羊毛",
+            "name": "绵羊毛",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianyangmao.webp",
+            "pinyin": "mianyangmao"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒",
+        "name": "呢绒",
+        "level": 33,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/nirong.webp",
+        "pinyin": "nirong",
+        "recipe": [
+          {
+            "id": "绵羊毛",
+            "name": "绵羊毛",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianyangmao.webp",
+            "pinyin": "mianyangmao"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻衬衫",
+        "name": "亚麻衬衫",
+        "level": 34,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/yamachenshan.webp",
+        "pinyin": "yamachenshan",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒精准狩猎帽",
+        "name": "呢绒精准狩猎帽",
+        "level": 35,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/nirongjingzhunshouliemao.webp",
+        "pinyin": "nirongjingzhunshouliemao",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "陆行鸟之羽",
+            "name": "陆行鸟之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxingniaozhiyu.webp",
+            "pinyin": "luxingniaozhiyu"
+          },
+          {
+            "id": "未提纯巧力炼金溶剂",
+            "name": "未提纯巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
+            "pinyin": "weitichunqiaolilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻咏咒宽边帽",
+        "name": "亚麻咏咒宽边帽",
+        "level": 35,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/yamayongzhoukuanbianmao.webp",
+        "pinyin": "yamayongzhoukuanbianmao",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "乌鸦之羽",
+            "name": "乌鸦之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/wuyazhiyu.webp",
+            "pinyin": "wuyazhiyu"
+          },
+          {
+            "id": "未提纯智力炼金溶剂",
+            "name": "未提纯智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+            "pinyin": "weitichunzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒精准衬衫",
+        "name": "呢绒精准衬衫",
+        "level": 35,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/nirongjingzhunchenshan.webp",
+        "pinyin": "nirongjingzhunchenshan",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "未提纯巧力炼金溶剂",
+            "name": "未提纯巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
+            "pinyin": "weitichunqiaolilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻咏咒长袍",
+        "name": "亚麻咏咒长袍",
+        "level": 35,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/yamayongzhouchangpao.webp",
+        "pinyin": "yamayongzhouchangpao",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "樱贝",
+            "name": "樱贝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingbei.webp",
+            "pinyin": "yingbei"
+          },
+          {
+            "id": "未提纯智力炼金溶剂",
+            "name": "未提纯智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+            "pinyin": "weitichunzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻治愈僧袍",
+        "name": "亚麻治愈僧袍",
+        "level": 35,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/yamazhiyusengpao.webp",
+        "pinyin": "yamazhiyusengpao",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒精准弓术手套",
+        "name": "呢绒精准弓术手套",
+        "level": 35,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/nirongjingzhungongshushoutao.webp",
+        "pinyin": "nirongjingzhungongshushoutao",
+        "recipe": [
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "棉线",
+            "name": "棉线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianxian.webp",
+            "pinyin": "mianxian"
+          },
+          {
+            "id": "骏鹰筋腱",
+            "name": "骏鹰筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingjinjian.webp",
+            "pinyin": "junyingjinjian"
+          },
+          {
+            "id": "未提纯巧力炼金溶剂",
+            "name": "未提纯巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
+            "pinyin": "weitichunqiaolilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒治愈礼服手套",
+        "name": "呢绒治愈礼服手套",
+        "level": 35,
+        "job": "weaver",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/nirongzhiyulifushoutao.webp",
+        "pinyin": "nirongzhiyulifushoutao",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "36-40级",
+    "recipes": [
+      {
+        "id": "呢绒强袭软甲裤",
+        "name": "呢绒强袭软甲裤",
+        "level": 36,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongqiangxiruanjiaku.webp",
+        "pinyin": "nirongqiangxiruanjiaku",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "黑铁铆钉",
+            "name": "黑铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitiemaoding.webp",
+            "pinyin": "heitiemaoding"
+          },
+          {
+            "id": "未提纯速力炼金溶剂",
+            "name": "未提纯速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
+            "pinyin": "weitichunsulilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒精准垮裤",
+        "name": "呢绒精准垮裤",
+        "level": 36,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongjingzhunkuaku.webp",
+        "pinyin": "nirongjingzhunkuaku",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "蜘蛛筋腱",
+            "name": "蜘蛛筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhizhujinjian.webp",
+            "pinyin": "zhizhujinjian"
+          },
+          {
+            "id": "未提纯巧力炼金溶剂",
+            "name": "未提纯巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
+            "pinyin": "weitichunqiaolilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻咏咒紧身裤",
+        "name": "亚麻咏咒紧身裤",
+        "level": 36,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/yamayongzhoujinshenku.webp",
+        "pinyin": "yamayongzhoujinshenku",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "未提纯智力炼金溶剂",
+            "name": "未提纯智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+            "pinyin": "weitichunzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "亚麻治愈束膝裤",
+        "name": "亚麻治愈束膝裤",
+        "level": 37,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/yamazhiyushuxiku.webp",
+        "pinyin": "yamazhiyushuxiku",
+        "recipe": [
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒治愈礼鞋",
+        "name": "呢绒治愈礼鞋",
+        "level": 37,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongzhiyulixie.webp",
+        "pinyin": "nirongzhiyulixie",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "橡胶",
+            "name": "橡胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangjiao.webp",
+            "pinyin": "xiangjiao"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒紧身裤",
+        "name": "呢绒紧身裤",
+        "level": 39,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongjinshenku.webp",
+        "pinyin": "nirongjinshenku",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒大地兜帽",
+        "name": "呢绒大地兜帽",
+        "level": 40,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongdadidoumao.webp",
+        "pinyin": "nirongdadidoumao",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒巧匠猎鹿帽",
+        "name": "呢绒巧匠猎鹿帽",
+        "level": 40,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongqiaojianglielumao.webp",
+        "pinyin": "nirongqiaojianglielumao",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒大地工作服",
+        "name": "呢绒大地工作服",
+        "level": 40,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongdadigongzuofu.webp",
+        "pinyin": "nirongdadigongzuofu",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒巧匠长外衣",
+        "name": "呢绒巧匠长外衣",
+        "level": 40,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongqiaojiangzhangwaiyi.webp",
+        "pinyin": "nirongqiaojiangzhangwaiyi",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "秘银锭",
+            "name": "秘银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/miyinding.webp",
+            "pinyin": "miyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒大地垮裤",
+        "name": "呢绒大地垮裤",
+        "level": 40,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongdadikuaku.webp",
+        "pinyin": "nirongdadikuaku",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "蜘蛛筋腱",
+            "name": "蜘蛛筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhizhujinjian.webp",
+            "pinyin": "zhizhujinjian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒巧匠工作裤",
+        "name": "呢绒巧匠工作裤",
+        "level": 40,
+        "job": "weaver",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nirongqiaojianggongzuoku.webp",
+        "pinyin": "nirongqiaojianggongzuoku",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "41-45级",
+    "recipes": [
+      {
+        "id": "纤维衬料",
+        "name": "纤维衬料",
+        "level": 41,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/xianweichenliao.webp",
+        "pinyin": "xianweichenliao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "榴弹怪的灰",
+            "name": "榴弹怪的灰",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/liudanguaidehui.webp",
+            "pinyin": "liudanguaidehui"
+          },
+          {
+            "id": "泡碱",
+            "name": "泡碱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/paojian.webp",
+            "pinyin": "paojian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维布",
+        "name": "纤维布",
+        "level": 42,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/xianweibu.webp",
+        "pinyin": "xianweibu",
+        "recipe": [
+          {
+            "id": "绵羊毛",
+            "name": "绵羊毛",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/mianyangmao.webp",
+            "pinyin": "mianyangmao"
+          },
+          {
+            "id": "白鬃毛",
+            "name": "白鬃毛",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baizongmao.webp",
+            "pinyin": "baizongmao"
+          },
+          {
+            "id": "泡碱",
+            "name": "泡碱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/paojian.webp",
+            "pinyin": "paojian"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒贝雷帽",
+        "name": "呢绒贝雷帽",
+        "level": 44,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/nirongbeileimao.webp",
+        "pinyin": "nirongbeileimao",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "碧企鹅绵毛",
+            "name": "碧企鹅绵毛",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biqiemianmao.webp",
+            "pinyin": "biqiemianmao"
+          },
+          {
+            "id": "陆行鸟之羽",
+            "name": "陆行鸟之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxingniaozhiyu.webp",
+            "pinyin": "luxingniaozhiyu"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒束膝裤",
+        "name": "呢绒束膝裤",
+        "level": 44,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/nirongshuxiku.webp",
+        "pinyin": "nirongshuxiku",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "巨蟾蜍革",
+            "name": "巨蟾蜍革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/juchanchuge.webp",
+            "pinyin": "juchanchuge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒长外衣",
+        "name": "呢绒长外衣",
+        "level": 44,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/nirongzhangwaiyi.webp",
+        "pinyin": "nirongzhangwaiyi",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "秘银锭",
+            "name": "秘银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/miyinding.webp",
+            "pinyin": "miyinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维精准狩猎帽",
+        "name": "纤维精准狩猎帽",
+        "level": 45,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/xianweijingzhunshouliemao.webp",
+        "pinyin": "xianweijingzhunshouliemao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "陆行鸟之羽",
+            "name": "陆行鸟之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxingniaozhiyu.webp",
+            "pinyin": "luxingniaozhiyu"
+          },
+          {
+            "id": "未提纯巧力炼金溶剂",
+            "name": "未提纯巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
+            "pinyin": "weitichunqiaolilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒咏咒宽边帽",
+        "name": "呢绒咏咒宽边帽",
+        "level": 45,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/nirongyongzhoukuanbianmao.webp",
+        "pinyin": "nirongyongzhoukuanbianmao",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "渡渡鸟之羽",
+            "name": "渡渡鸟之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/duduniaozhiyu.webp",
+            "pinyin": "duduniaozhiyu"
+          },
+          {
+            "id": "未提纯智力炼金溶剂",
+            "name": "未提纯智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+            "pinyin": "weitichunzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维治愈兜帽",
+        "name": "纤维治愈兜帽",
+        "level": 45,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/xianweizhiyudoumao.webp",
+        "pinyin": "xianweizhiyudoumao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维咏咒长袍",
+        "name": "纤维咏咒长袍",
+        "level": 45,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/xianweiyongzhouchangpao.webp",
+        "pinyin": "xianweiyongzhouchangpao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "未提纯智力炼金溶剂",
+            "name": "未提纯智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+            "pinyin": "weitichunzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒治愈僧袍",
+        "name": "呢绒治愈僧袍",
+        "level": 45,
+        "job": "weaver",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/nirongzhiyusengpao.webp",
+        "pinyin": "nirongzhiyusengpao",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "亚麻布",
+            "name": "亚麻布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yamabu.webp",
+            "pinyin": "yamabu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "46-50级",
+    "recipes": [
+      {
+        "id": "纤维精准弓术手套",
+        "name": "纤维精准弓术手套",
+        "level": 46,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianweijingzhungongshushoutao.webp",
+        "pinyin": "xianweijingzhungongshushoutao",
+        "recipe": [
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "盗龙筋腱",
+            "name": "盗龙筋腱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongjinjian.webp",
+            "pinyin": "daolongjinjian"
+          },
+          {
+            "id": "未提纯巧力炼金溶剂",
+            "name": "未提纯巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
+            "pinyin": "weitichunqiaolilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维咏咒手套",
+        "name": "纤维咏咒手套",
+        "level": 46,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianweiyongzhoushoutao.webp",
+        "pinyin": "xianweiyongzhoushoutao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "未提纯智力炼金溶剂",
+            "name": "未提纯智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+            "pinyin": "weitichunzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维治愈礼服手套",
+        "name": "纤维治愈礼服手套",
+        "level": 46,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianweizhiyulifushoutao.webp",
+        "pinyin": "xianweizhiyulifushoutao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "呢绒御敌软甲裤",
+        "name": "呢绒御敌软甲裤",
+        "level": 46,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/nirongyudiruanjiaku.webp",
+        "pinyin": "nirongyudiruanjiaku",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "钴铁铆钉",
+            "name": "钴铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutiemaoding.webp",
+            "pinyin": "gutiemaoding"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维强袭软甲裤",
+        "name": "纤维强袭软甲裤",
+        "level": 47,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianweiqiangxiruanjiaku.webp",
+        "pinyin": "xianweiqiangxiruanjiaku",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "秘银铆钉",
+            "name": "秘银铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/miyinmaoding.webp",
+            "pinyin": "miyinmaoding"
+          },
+          {
+            "id": "未提纯速力炼金溶剂",
+            "name": "未提纯速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
+            "pinyin": "weitichunsulilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维咏咒马裤",
+        "name": "纤维咏咒马裤",
+        "level": 47,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianweiyongzhoumaku.webp",
+        "pinyin": "xianweiyongzhoumaku",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "未提纯智力炼金溶剂",
+            "name": "未提纯智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+            "pinyin": "weitichunzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维治愈束膝裤",
+        "name": "纤维治愈束膝裤",
+        "level": 47,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianweizhiyushuxiku.webp",
+        "pinyin": "xianweizhiyushuxiku",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "纤维治愈礼鞋",
+        "name": "纤维治愈礼鞋",
+        "level": 47,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianweizhiyulixie.webp",
+        "pinyin": "xianweizhiyulixie",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "橡胶",
+            "name": "橡胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangjiao.webp",
+            "pinyin": "xiangjiao"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "显贵打底裤",
+        "name": "显贵打底裤",
+        "level": 48,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianguidadiku.webp",
+        "pinyin": "xianguidadiku",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "显贵短上衣",
+        "name": "显贵短上衣",
+        "level": 49,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianguiduanshangyi.webp",
+        "pinyin": "xianguiduanshangyi",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "显贵无檐帽",
+        "name": "显贵无檐帽",
+        "level": 50,
+        "job": "weaver",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xianguiwuyanmao.webp",
+        "pinyin": "xianguiwuyanmao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "秘籍：第1卷",
+    "recipes": [
+      {
+        "id": "天蚕丝",
+        "name": "天蚕丝",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/tiancansi.webp",
+        "pinyin": "tiancansi",
+        "recipe": [
+          {
+            "id": "蚕茧",
+            "name": "蚕茧",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/canjian.webp",
+            "pinyin": "canjian"
+          },
+          {
+            "id": "灰汁",
+            "name": "灰汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huizhi.webp",
+            "pinyin": "huizhi"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "天蚕绢布",
+        "name": "天蚕绢布",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+        "pinyin": "tiancanjuanbu",
+        "recipe": [
+          {
+            "id": "蚕茧",
+            "name": "蚕茧",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/canjian.webp",
+            "pinyin": "canjian"
+          },
+          {
+            "id": "灰汁",
+            "name": "灰汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huizhi.webp",
+            "pinyin": "huizhi"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒宽边帽",
+        "name": "绢布咏咒宽边帽",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuyongzhoukuanbianmao.webp",
+        "pinyin": "juanbuyongzhoukuanbianmao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈宽边帽",
+        "name": "绢布治愈宽边帽",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuzhiyukuanbianmao.webp",
+        "pinyin": "juanbuzhiyukuanbianmao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒长袍",
+        "name": "绢布咏咒长袍",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuyongzhouchangpao.webp",
+        "pinyin": "juanbuyongzhouchangpao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈长袍",
+        "name": "绢布治愈长袍",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuzhiyuchangpao.webp",
+        "pinyin": "juanbuzhiyuchangpao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒手套",
+        "name": "绢布咏咒手套",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuyongzhoushoutao.webp",
+        "pinyin": "juanbuyongzhoushoutao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈手套",
+        "name": "绢布治愈手套",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuzhiyushoutao.webp",
+        "pinyin": "juanbuzhiyushoutao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布制敌软甲裤",
+        "name": "绢布制敌软甲裤",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuzhidiruanjiaku.webp",
+        "pinyin": "juanbuzhidiruanjiaku",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒马裤",
+        "name": "绢布咏咒马裤",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuyongzhoumaku.webp",
+        "pinyin": "juanbuyongzhoumaku",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈马裤",
+        "name": "绢布治愈马裤",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuzhiyumaku.webp",
+        "pinyin": "juanbuzhiyumaku",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒尖头靴",
+        "name": "绢布咏咒尖头靴",
+        "level": "50★",
+        "job": "weaver",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/juanbuyongzhoujiantouxue.webp",
+        "pinyin": "juanbuyongzhoujiantouxue",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "橡胶",
+            "name": "橡胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangjiao.webp",
+            "pinyin": "xiangjiao"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "收藏品",
+    "recipes": [
+      {
+        "id": "收藏用呢绒束膝裤",
+        "name": "收藏用呢绒束膝裤",
+        "level": 41,
+        "job": "weaver",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongnirongshuxiku.webp",
+        "pinyin": "shoucangyongnirongshuxiku",
+        "recipe": [
+          {
+            "id": "呢绒",
+            "name": "呢绒",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nirong.webp",
+            "pinyin": "nirong"
+          },
+          {
+            "id": "露线",
+            "name": "露线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxian.webp",
+            "pinyin": "luxian"
+          },
+          {
+            "id": "巨蟾蜍革",
+            "name": "巨蟾蜍革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/juchanchuge.webp",
+            "pinyin": "juchanchuge"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用纤维狩猎帽",
+        "name": "收藏用纤维狩猎帽",
+        "level": 43,
+        "job": "weaver",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongxianweishouliemao.webp",
+        "pinyin": "shoucangyongxianweishouliemao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "陆行鸟之羽",
+            "name": "陆行鸟之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxingniaozhiyu.webp",
+            "pinyin": "luxingniaozhiyu"
+          },
+          {
+            "id": "未提纯巧力炼金溶剂",
+            "name": "未提纯巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunqiaolilianjinrongji.webp",
+            "pinyin": "weitichunqiaolilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用纤维长袍",
+        "name": "收藏用纤维长袍",
+        "level": 45,
+        "job": "weaver",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongxianweichangpao.webp",
+        "pinyin": "shoucangyongxianweichangpao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "未提纯智力炼金溶剂",
+            "name": "未提纯智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunzhililianjinrongji.webp",
+            "pinyin": "weitichunzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用纤维礼服手套",
+        "name": "收藏用纤维礼服手套",
+        "level": 47,
+        "job": "weaver",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongxianweilifushoutao.webp",
+        "pinyin": "shoucangyongxianweilifushoutao",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用纤维治愈束膝裤",
+        "name": "收藏用纤维治愈束膝裤",
+        "level": 49,
+        "job": "weaver",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongxianweizhiyushuxiku.webp",
+        "pinyin": "shoucangyongxianweizhiyushuxiku",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "未提纯心力炼金溶剂",
+            "name": "未提纯心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunxinlilianjinrongji.webp",
+            "pinyin": "weitichunxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用显贵短上衣",
+        "name": "收藏用显贵短上衣",
+        "level": "50★",
+        "job": "weaver",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongxianguiduanshangyi.webp",
+        "pinyin": "shoucangyongxianguiduanshangyi",
+        "recipe": [
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "羊毛线",
+            "name": "羊毛线",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yangmaoxian.webp",
+            "pinyin": "yangmaoxian"
+          },
+          {
+            "id": "亚麻线",
+            "name": "亚麻线",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yamaxian.webp",
+            "pinyin": "yamaxian"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  }
+]

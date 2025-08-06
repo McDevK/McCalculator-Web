@@ -1,0 +1,5477 @@
+[
+  {
+    "category": "骑士135HQ",
+    "recipes": [
+      {
+        "id": "破甲锋",
+        "name": "破甲锋",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/pojiafeng.webp",
+        "pinyin": "pojiafeng",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢步兵盾",
+        "name": "玄钢步兵盾",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangbubingdun.webp",
+        "pinyin": "xuangangbubingdun",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玄钢板",
+            "name": "玄钢板",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xuangangban.webp",
+            "pinyin": "xuangangban"
+          },
+          {
+            "id": "钴铁板",
+            "name": "钴铁板",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieban.webp",
+            "pinyin": "gutieban"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌战盔",
+        "name": "玄钢御敌战盔",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudizhankui.webp",
+        "pinyin": "xuangangyudizhankui",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "钴铁环",
+            "name": "钴铁环",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutiehuan.webp",
+            "pinyin": "gutiehuan"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌重甲",
+        "name": "玄钢御敌重甲",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudizhongjia.webp",
+        "pinyin": "xuangangyudizhongjia",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌重手铠",
+        "name": "玄钢御敌重手铠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudizhongshoukai.webp",
+        "pinyin": "xuangangyudizhongshoukai",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌重足铠",
+        "name": "玄钢御敌重足铠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudizhongzukai.webp",
+        "pinyin": "xuangangyudizhongzukai",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌铠靴",
+        "name": "玄钢御敌铠靴",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudikaixue.webp",
+        "pinyin": "xuangangyudikaixue",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "钴铁环",
+            "name": "钴铁环",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutiehuan.webp",
+            "pinyin": "gutiehuan"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金御敌耳环",
+        "name": "玫瑰金御敌耳环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/meiguijinyudierhuan.webp",
+        "pinyin": "meiguijinyudierhuan",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金御敌项环",
+        "name": "玫瑰金御敌项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/meiguijinyudixianghuan.webp",
+        "pinyin": "meiguijinyudixianghuan",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金御敌手链",
+        "name": "玫瑰金御敌手链",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/meiguijinyudishoulian.webp",
+        "pinyin": "meiguijinyudishoulian",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金御敌戒指",
+        "name": "玫瑰金御敌戒指",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "骑士135HQ",
+        "icon": "assets/icons/itemse/meiguijinyudijiezhi.webp",
+        "pinyin": "meiguijinyudijiezhi",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "战士135HQ",
+    "recipes": [
+      {
+        "id": "暴怒震斧",
+        "name": "暴怒震斧",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/baonuzhenfu.webp",
+        "pinyin": "baonuzhenfu",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "云杉木材",
+            "name": "云杉木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yunshamucai.webp",
+            "pinyin": "yunshamucai"
+          },
+          {
+            "id": "钴铁板",
+            "name": "钴铁板",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieban.webp",
+            "pinyin": "gutieban"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌战盔",
+        "name": "玄钢御敌战盔",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudizhankui.webp",
+        "pinyin": "xuangangyudizhankui",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "钴铁环",
+            "name": "钴铁环",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutiehuan.webp",
+            "pinyin": "gutiehuan"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌重甲",
+        "name": "玄钢御敌重甲",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudizhongjia.webp",
+        "pinyin": "xuangangyudizhongjia",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌重手铠",
+        "name": "玄钢御敌重手铠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudizhongshoukai.webp",
+        "pinyin": "xuangangyudizhongshoukai",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌重足铠",
+        "name": "玄钢御敌重足铠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudizhongzukai.webp",
+        "pinyin": "xuangangyudizhongzukai",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢御敌铠靴",
+        "name": "玄钢御敌铠靴",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/xuangangyudikaixue.webp",
+        "pinyin": "xuangangyudikaixue",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "钴铁环",
+            "name": "钴铁环",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutiehuan.webp",
+            "pinyin": "gutiehuan"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金御敌耳环",
+        "name": "玫瑰金御敌耳环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/meiguijinyudierhuan.webp",
+        "pinyin": "meiguijinyudierhuan",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金御敌项环",
+        "name": "玫瑰金御敌项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/meiguijinyudixianghuan.webp",
+        "pinyin": "meiguijinyudixianghuan",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金御敌手链",
+        "name": "玫瑰金御敌手链",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/meiguijinyudishoulian.webp",
+        "pinyin": "meiguijinyudishoulian",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金御敌戒指",
+        "name": "玫瑰金御敌戒指",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "战士135HQ",
+        "icon": "assets/icons/itemse/meiguijinyudijiezhi.webp",
+        "pinyin": "meiguijinyudijiezhi",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "武僧135HQ",
+    "recipes": [
+      {
+        "id": "复仇烈拳",
+        "name": "复仇烈拳",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/fuchouliequan.webp",
+        "pinyin": "fuchouliequan",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强袭头巾",
+        "name": "骏鹰革强袭头巾",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/junyinggeqiangxitoujin.webp",
+        "pinyin": "junyinggeqiangxitoujin",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "碧玺",
+            "name": "碧玺",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/bixi.webp",
+            "pinyin": "bixi"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强袭皮衣",
+        "name": "骏鹰革强袭皮衣",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/junyinggeqiangxipiyi.webp",
+        "pinyin": "junyinggeqiangxipiyi",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "长须豹裘皮",
+            "name": "长须豹裘皮",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/zhangxubaoqiupi.webp",
+            "pinyin": "zhangxubaoqiupi"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强袭手套",
+        "name": "骏鹰革强袭手套",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/junyinggeqiangxishoutao.webp",
+        "pinyin": "junyinggeqiangxishoutao",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "长须豹裘皮",
+            "name": "长须豹裘皮",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhangxubaoqiupi.webp",
+            "pinyin": "zhangxubaoqiupi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强袭软甲裤",
+        "name": "骏鹰革强袭软甲裤",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/junyinggeqiangxiruanjiaku.webp",
+        "pinyin": "junyinggeqiangxiruanjiaku",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "长须豹裘皮",
+            "name": "长须豹裘皮",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/zhangxubaoqiupi.webp",
+            "pinyin": "zhangxubaoqiupi"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强袭长靴",
+        "name": "骏鹰革强袭长靴",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/junyinggeqiangxizhangxue.webp",
+        "pinyin": "junyinggeqiangxizhangxue",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "长须豹裘皮",
+            "name": "长须豹裘皮",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhangxubaoqiupi.webp",
+            "pinyin": "zhangxubaoqiupi"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金强攻耳夹",
+        "name": "玫瑰金强攻耳夹",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/meiguijinqianggongerjia.webp",
+        "pinyin": "meiguijinqianggongerjia",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强攻项环",
+        "name": "骏鹰革强攻项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/junyinggeqianggongxianghuan.webp",
+        "pinyin": "junyinggeqianggongxianghuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强攻手环",
+        "name": "骏鹰革强攻手环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/junyinggeqianggongshouhuan.webp",
+        "pinyin": "junyinggeqianggongshouhuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "玄钢块",
+            "name": "玄钢块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xuangangkuai.webp",
+            "pinyin": "xuangangkuai"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强攻指环",
+        "name": "骏鹰革强攻指环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "武僧135HQ",
+        "icon": "assets/icons/itemse/junyinggeqianggongzhihuan.webp",
+        "pinyin": "junyinggeqianggongzhihuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "龙骑士135HQ",
+    "recipes": [
+      {
+        "id": "方尖枪",
+        "name": "方尖枪",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/fangjianqiang.webp",
+        "pinyin": "fangjianqiang",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "云杉木材",
+            "name": "云杉木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yunshamucai.webp",
+            "pinyin": "yunshamucai"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢制敌锁甲头罩",
+        "name": "玄钢制敌锁甲头罩",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangzhidisuojiatouzhao.webp",
+        "pinyin": "xuangangzhidisuojiatouzhao",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "钴铁铆钉",
+            "name": "钴铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutiemaoding.webp",
+            "pinyin": "gutiemaoding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢制敌锁子铠",
+        "name": "玄钢制敌锁子铠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangzhidisuozikai.webp",
+        "pinyin": "xuangangzhidisuozikai",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢制敌连指手铠",
+        "name": "玄钢制敌连指手铠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangzhidilianzhishoukai.webp",
+        "pinyin": "xuangangzhidilianzhishoukai",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布制敌软甲裤",
+        "name": "绢布制敌软甲裤",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/juanbuzhidiruanjiaku.webp",
+        "pinyin": "juanbuzhidiruanjiaku",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢制敌锁甲靴",
+        "name": "玄钢制敌锁甲靴",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/xuangangzhidisuojiaxue.webp",
+        "pinyin": "xuangangzhidisuojiaxue",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "钴铁板",
+            "name": "钴铁板",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieban.webp",
+            "pinyin": "gutieban"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金强攻耳夹",
+        "name": "玫瑰金强攻耳夹",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/meiguijinqianggongerjia.webp",
+        "pinyin": "meiguijinqianggongerjia",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强攻项环",
+        "name": "骏鹰革强攻项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/junyinggeqianggongxianghuan.webp",
+        "pinyin": "junyinggeqianggongxianghuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强攻手环",
+        "name": "骏鹰革强攻手环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/junyinggeqianggongshouhuan.webp",
+        "pinyin": "junyinggeqianggongshouhuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "玄钢块",
+            "name": "玄钢块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xuangangkuai.webp",
+            "pinyin": "xuangangkuai"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革强攻指环",
+        "name": "骏鹰革强攻指环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "龙骑士135HQ",
+        "icon": "assets/icons/itemse/junyinggeqianggongzhihuan.webp",
+        "pinyin": "junyinggeqianggongzhihuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "吟游诗人135HQ",
+    "recipes": [
+      {
+        "id": "萨伦伽光弓",
+        "name": "萨伦伽光弓",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/salungaguanggong.webp",
+        "pinyin": "salungaguanggong",
+        "recipe": [
+          {
+            "id": "云杉木材",
+            "name": "云杉木材",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yunshamucai.webp",
+            "pinyin": "yunshamucai"
+          },
+          {
+            "id": "玄钢块",
+            "name": "玄钢块",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangkuai.webp",
+            "pinyin": "xuangangkuai"
+          },
+          {
+            "id": "植物成长剂4型",
+            "name": "植物成长剂4型",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhiwuchengzhangji4xing.webp",
+            "pinyin": "zhiwuchengzhangji4xing"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革精准狩猎帽",
+        "name": "骏鹰革精准狩猎帽",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/junyinggejingzhunshouliemao.webp",
+        "pinyin": "junyinggejingzhunshouliemao",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革精准束腰衣",
+        "name": "骏鹰革精准束腰衣",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/junyinggejingzhunshuyaoyi.webp",
+        "pinyin": "junyinggejingzhunshuyaoyi",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "长须豹裘皮",
+            "name": "长须豹裘皮",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/zhangxubaoqiupi.webp",
+            "pinyin": "zhangxubaoqiupi"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革精准弓术手套",
+        "name": "骏鹰革精准弓术手套",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/junyinggejingzhungongshushoutao.webp",
+        "pinyin": "junyinggejingzhungongshushoutao",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革精准腿套",
+        "name": "骏鹰革精准腿套",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/junyinggejingzhuntuitao.webp",
+        "pinyin": "junyinggejingzhuntuitao",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革精准狩猎靴",
+        "name": "骏鹰革精准狩猎靴",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/junyinggejingzhunshouliexue.webp",
+        "pinyin": "junyinggejingzhunshouliexue",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金精准耳夹",
+        "name": "玫瑰金精准耳夹",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/meiguijinjingzhunerjia.webp",
+        "pinyin": "meiguijinjingzhunerjia",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革精准项环",
+        "name": "骏鹰革精准项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/junyinggejingzhunxianghuan.webp",
+        "pinyin": "junyinggejingzhunxianghuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革精准手环",
+        "name": "骏鹰革精准手环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/junyinggejingzhunshouhuan.webp",
+        "pinyin": "junyinggejingzhunshouhuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "玄钢块",
+            "name": "玄钢块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xuangangkuai.webp",
+            "pinyin": "xuangangkuai"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骏鹰革精准指环",
+        "name": "骏鹰革精准指环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "吟游诗人135HQ",
+        "icon": "assets/icons/itemse/junyinggejingzhunzhihuan.webp",
+        "pinyin": "junyinggejingzhunzhihuan",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "黑魔法师135HQ",
+    "recipes": [
+      {
+        "id": "星盘杖",
+        "name": "星盘杖",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/xingpanzhang.webp",
+        "pinyin": "xingpanzhang",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒宽边帽",
+        "name": "绢布咏咒宽边帽",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhoukuanbianmao.webp",
+        "pinyin": "juanbuyongzhoukuanbianmao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒长袍",
+        "name": "绢布咏咒长袍",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhouchangpao.webp",
+        "pinyin": "juanbuyongzhouchangpao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒手套",
+        "name": "绢布咏咒手套",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhoushoutao.webp",
+        "pinyin": "juanbuyongzhoushoutao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒马裤",
+        "name": "绢布咏咒马裤",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhoumaku.webp",
+        "pinyin": "juanbuyongzhoumaku",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒尖头靴",
+        "name": "绢布咏咒尖头靴",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhoujiantouxue.webp",
+        "pinyin": "juanbuyongzhoujiantouxue",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "橡胶",
+            "name": "橡胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangjiao.webp",
+            "pinyin": "xiangjiao"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金咏咒耳坠",
+        "name": "玫瑰金咏咒耳坠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/meiguijinyongzhouerzhui.webp",
+        "pinyin": "meiguijinyongzhouerzhui",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极咏咒项环",
+        "name": "星极咏咒项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/xingjiyongzhouxianghuan.webp",
+        "pinyin": "xingjiyongzhouxianghuan",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极咏咒手镯",
+        "name": "星极咏咒手镯",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/xingjiyongzhoushouzhuo.webp",
+        "pinyin": "xingjiyongzhoushouzhuo",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极咏咒指环",
+        "name": "星极咏咒指环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "黑魔法师135HQ",
+        "icon": "assets/icons/itemse/xingjiyongzhouzhihuan.webp",
+        "pinyin": "xingjiyongzhouzhihuan",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "召唤师135HQ",
+    "recipes": [
+      {
+        "id": "神言集",
+        "name": "神言集",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/shenyanji.webp",
+        "pinyin": "shenyanji",
+        "recipe": [
+          {
+            "id": "玄钢块",
+            "name": "玄钢块",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangkuai.webp",
+            "pinyin": "xuangangkuai"
+          },
+          {
+            "id": "玫瑰金传导墨水",
+            "name": "玫瑰金传导墨水",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/meiguijinchuandaomoshui.webp",
+            "pinyin": "meiguijinchuandaomoshui"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒宽边帽",
+        "name": "绢布咏咒宽边帽",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhoukuanbianmao.webp",
+        "pinyin": "juanbuyongzhoukuanbianmao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒长袍",
+        "name": "绢布咏咒长袍",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhouchangpao.webp",
+        "pinyin": "juanbuyongzhouchangpao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒手套",
+        "name": "绢布咏咒手套",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhoushoutao.webp",
+        "pinyin": "juanbuyongzhoushoutao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒马裤",
+        "name": "绢布咏咒马裤",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhoumaku.webp",
+        "pinyin": "juanbuyongzhoumaku",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布咏咒尖头靴",
+        "name": "绢布咏咒尖头靴",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/juanbuyongzhoujiantouxue.webp",
+        "pinyin": "juanbuyongzhoujiantouxue",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "橡胶",
+            "name": "橡胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangjiao.webp",
+            "pinyin": "xiangjiao"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金咏咒耳坠",
+        "name": "玫瑰金咏咒耳坠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/meiguijinyongzhouerzhui.webp",
+        "pinyin": "meiguijinyongzhouerzhui",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极咏咒项环",
+        "name": "星极咏咒项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/xingjiyongzhouxianghuan.webp",
+        "pinyin": "xingjiyongzhouxianghuan",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极咏咒手镯",
+        "name": "星极咏咒手镯",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/xingjiyongzhoushouzhuo.webp",
+        "pinyin": "xingjiyongzhoushouzhuo",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极咏咒指环",
+        "name": "星极咏咒指环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "召唤师135HQ",
+        "icon": "assets/icons/itemse/xingjiyongzhouzhihuan.webp",
+        "pinyin": "xingjiyongzhouzhihuan",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "白魔法师135HQ",
+    "recipes": [
+      {
+        "id": "七公六杖",
+        "name": "七公六杖",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/qigongliuzhang.webp",
+        "pinyin": "qigongliuzhang",
+        "recipe": [
+          {
+            "id": "云杉木材",
+            "name": "云杉木材",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yunshamucai.webp",
+            "pinyin": "yunshamucai"
+          },
+          {
+            "id": "玄钢块",
+            "name": "玄钢块",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangkuai.webp",
+            "pinyin": "xuangangkuai"
+          },
+          {
+            "id": "植物成长剂4型",
+            "name": "植物成长剂4型",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhiwuchengzhangji4xing.webp",
+            "pinyin": "zhiwuchengzhangji4xing"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈宽边帽",
+        "name": "绢布治愈宽边帽",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuzhiyukuanbianmao.webp",
+        "pinyin": "juanbuzhiyukuanbianmao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈长袍",
+        "name": "绢布治愈长袍",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuzhiyuchangpao.webp",
+        "pinyin": "juanbuzhiyuchangpao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈手套",
+        "name": "绢布治愈手套",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuzhiyushoutao.webp",
+        "pinyin": "juanbuzhiyushoutao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈马裤",
+        "name": "绢布治愈马裤",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/juanbuzhiyumaku.webp",
+        "pinyin": "juanbuzhiyumaku",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "云杉治愈木鞋",
+        "name": "云杉治愈木鞋",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/yunshanzhiyumuxie.webp",
+        "pinyin": "yunshanzhiyumuxie",
+        "recipe": [
+          {
+            "id": "云杉木材",
+            "name": "云杉木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yunshamucai.webp",
+            "pinyin": "yunshamucai"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金治愈耳坠",
+        "name": "玫瑰金治愈耳坠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/meiguijinzhiyuerzhui.webp",
+        "pinyin": "meiguijinzhiyuerzhui",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极治愈项环",
+        "name": "星极治愈项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/xingjizhiyuxianghuan.webp",
+        "pinyin": "xingjizhiyuxianghuan",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极治愈手镯",
+        "name": "星极治愈手镯",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/xingjizhiyushouzhuo.webp",
+        "pinyin": "xingjizhiyushouzhuo",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极治愈指环",
+        "name": "星极治愈指环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "白魔法师135HQ",
+        "icon": "assets/icons/itemse/xingjizhiyuzhihuan.webp",
+        "pinyin": "xingjizhiyuzhihuan",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "学者135HQ",
+    "recipes": [
+      {
+        "id": "神恩集",
+        "name": "神恩集",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/shenenji.webp",
+        "pinyin": "shenenji",
+        "recipe": [
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "玫瑰金传导墨水",
+            "name": "玫瑰金传导墨水",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/meiguijinchuandaomoshui.webp",
+            "pinyin": "meiguijinchuandaomoshui"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈宽边帽",
+        "name": "绢布治愈宽边帽",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/juanbuzhiyukuanbianmao.webp",
+        "pinyin": "juanbuzhiyukuanbianmao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈长袍",
+        "name": "绢布治愈长袍",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/juanbuzhiyuchangpao.webp",
+        "pinyin": "juanbuzhiyuchangpao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈手套",
+        "name": "绢布治愈手套",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/juanbuzhiyushoutao.webp",
+        "pinyin": "juanbuzhiyushoutao",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绢布治愈马裤",
+        "name": "绢布治愈马裤",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/juanbuzhiyumaku.webp",
+        "pinyin": "juanbuzhiyumaku",
+        "recipe": [
+          {
+            "id": "天蚕绢布",
+            "name": "天蚕绢布",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tiancanjuanbu.webp",
+            "pinyin": "tiancanjuanbu"
+          },
+          {
+            "id": "骏鹰革",
+            "name": "骏鹰革",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/junyingge.webp",
+            "pinyin": "junyingge"
+          },
+          {
+            "id": "纤维布",
+            "name": "纤维布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianweibu.webp",
+            "pinyin": "xianweibu"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "云杉治愈木鞋",
+        "name": "云杉治愈木鞋",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/yunshanzhiyumuxie.webp",
+        "pinyin": "yunshanzhiyumuxie",
+        "recipe": [
+          {
+            "id": "云杉木材",
+            "name": "云杉木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yunshamucai.webp",
+            "pinyin": "yunshamucai"
+          },
+          {
+            "id": "天蚕丝",
+            "name": "天蚕丝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiancansi.webp",
+            "pinyin": "tiancansi"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "冰之碎晶",
+            "name": "冰之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bingzhisuijing.webp",
+            "pinyin": "bingzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玫瑰金治愈耳坠",
+        "name": "玫瑰金治愈耳坠",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/meiguijinzhiyuerzhui.webp",
+        "pinyin": "meiguijinzhiyuerzhui",
+        "recipe": [
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极治愈项环",
+        "name": "星极治愈项环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/xingjizhiyuxianghuan.webp",
+        "pinyin": "xingjizhiyuxianghuan",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极治愈手镯",
+        "name": "星极治愈手镯",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/xingjizhiyushouzhuo.webp",
+        "pinyin": "xingjizhiyushouzhuo",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金块",
+            "name": "玫瑰金块",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinkuai.webp",
+            "pinyin": "meiguijinkuai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "星极治愈指环",
+        "name": "星极治愈指环",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "学者135HQ",
+        "icon": "assets/icons/itemse/xingjizhiyuzhihuan.webp",
+        "pinyin": "xingjizhiyuzhihuan",
+        "recipe": [
+          {
+            "id": "星眼石",
+            "name": "星眼石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xingyanshi.webp",
+            "pinyin": "xingyanshi"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "风之碎晶",
+            "name": "风之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/fengzhisuijing.webp",
+            "pinyin": "fengzhisuijing"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "爆发药",
+    "recipes": [
+      {
+        "id": "4级速力之药",
+        "name": "4级速力之药",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "爆发药",
+        "icon": "assets/icons/itemse/4jisulizhiyao.webp",
+        "pinyin": "4jisulizhiyao",
+        "recipe": [
+          {
+            "id": "延龄花",
+            "name": "延龄花",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yanlinghua.webp",
+            "pinyin": "yanlinghua"
+          },
+          {
+            "id": "萨维奈槲寄生",
+            "name": "萨维奈槲寄生",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
+            "pinyin": "saweinaihujisheng"
+          },
+          {
+            "id": "灰汁",
+            "name": "灰汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huizhi.webp",
+            "pinyin": "huizhi"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "4级巧力之药",
+        "name": "4级巧力之药",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "爆发药",
+        "icon": "assets/icons/itemse/4jiqiaolizhiyao.webp",
+        "pinyin": "4jiqiaolizhiyao",
+        "recipe": [
+          {
+            "id": "延龄花",
+            "name": "延龄花",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yanlinghua.webp",
+            "pinyin": "yanlinghua"
+          },
+          {
+            "id": "萨维奈槲寄生",
+            "name": "萨维奈槲寄生",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
+            "pinyin": "saweinaihujisheng"
+          },
+          {
+            "id": "灰汁",
+            "name": "灰汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huizhi.webp",
+            "pinyin": "huizhi"
+          },
+          {
+            "id": "高纯度巧力炼金溶剂",
+            "name": "高纯度巧力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduqiaolilianjinrongji.webp",
+            "pinyin": "gaochunduqiaolilianjinrongji"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "4级刚力之药",
+        "name": "4级刚力之药",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "爆发药",
+        "icon": "assets/icons/itemse/4jiganglizhiyao.webp",
+        "pinyin": "4jiganglizhiyao",
+        "recipe": [
+          {
+            "id": "延龄花",
+            "name": "延龄花",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yanlinghua.webp",
+            "pinyin": "yanlinghua"
+          },
+          {
+            "id": "萨维奈槲寄生",
+            "name": "萨维奈槲寄生",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
+            "pinyin": "saweinaihujisheng"
+          },
+          {
+            "id": "灰汁",
+            "name": "灰汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huizhi.webp",
+            "pinyin": "huizhi"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "4级智力之药",
+        "name": "4级智力之药",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "爆发药",
+        "icon": "assets/icons/itemse/4jizhilizhiyao.webp",
+        "pinyin": "4jizhilizhiyao",
+        "recipe": [
+          {
+            "id": "延龄花",
+            "name": "延龄花",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yanlinghua.webp",
+            "pinyin": "yanlinghua"
+          },
+          {
+            "id": "萨维奈槲寄生",
+            "name": "萨维奈槲寄生",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
+            "pinyin": "saweinaihujisheng"
+          },
+          {
+            "id": "灰汁",
+            "name": "灰汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huizhi.webp",
+            "pinyin": "huizhi"
+          },
+          {
+            "id": "高纯度智力炼金溶剂",
+            "name": "高纯度智力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduzhililianjinrongji.webp",
+            "pinyin": "gaochunduzhililianjinrongji"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "4级心力之药",
+        "name": "4级心力之药",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "爆发药",
+        "icon": "assets/icons/itemse/4jixinlizhiyao.webp",
+        "pinyin": "4jixinlizhiyao",
+        "recipe": [
+          {
+            "id": "延龄花",
+            "name": "延龄花",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/yanlinghua.webp",
+            "pinyin": "yanlinghua"
+          },
+          {
+            "id": "萨维奈槲寄生",
+            "name": "萨维奈槲寄生",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/saweinaihujisheng.webp",
+            "pinyin": "saweinaihujisheng"
+          },
+          {
+            "id": "灰汁",
+            "name": "灰汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huizhi.webp",
+            "pinyin": "huizhi"
+          },
+          {
+            "id": "高纯度心力炼金溶剂",
+            "name": "高纯度心力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduxinlilianjinrongji.webp",
+            "pinyin": "gaochunduxinlilianjinrongji"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          },
+          {
+            "id": "雷之碎晶",
+            "name": "雷之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/leizhisuijing.webp",
+            "pinyin": "leizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "食物",
+    "recipes": [
+      {
+        "id": "罗兰莓奶酪蛋糕",
+        "name": "罗兰莓奶酪蛋糕",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "食物",
+        "icon": "assets/icons/itemse/luolanmeinailaodangao.webp",
+        "pinyin": "luolanmeinailaodangao",
+        "recipe": [
+          {
+            "id": "蜜柠檬",
+            "name": "蜜柠檬",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/miningmeng.webp",
+            "pinyin": "miningmeng"
+          },
+          {
+            "id": "罗兰莓奶酪",
+            "name": "罗兰莓奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luolanmeinailao.webp",
+            "pinyin": "luolanmeinailao"
+          },
+          {
+            "id": "奶油",
+            "name": "奶油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyou.webp",
+            "pinyin": "naiyou"
+          },
+          {
+            "id": "明胶",
+            "name": "明胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mingjiao.webp",
+            "pinyin": "mingjiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "碧企鹅蛋卷",
+        "name": "碧企鹅蛋卷",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "食物",
+        "icon": "assets/icons/itemse/biqiedanjuan.webp",
+        "pinyin": "biqiedanjuan",
+        "recipe": [
+          {
+            "id": "黑松露",
+            "name": "黑松露",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heisonglu.webp",
+            "pinyin": "heisonglu"
+          },
+          {
+            "id": "碧企鹅蛋",
+            "name": "碧企鹅蛋",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/biqiedan.webp",
+            "pinyin": "biqiedan"
+          },
+          {
+            "id": "奶油",
+            "name": "奶油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyou.webp",
+            "pinyin": "naiyou"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "菠萝蛋糕",
+        "name": "菠萝蛋糕",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "食物",
+        "icon": "assets/icons/itemse/boluodangao.webp",
+        "pinyin": "boluodangao",
+        "recipe": [
+          {
+            "id": "多刺菠萝",
+            "name": "多刺菠萝",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/duociboluo.webp",
+            "pinyin": "duociboluo"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "野牛奶",
+            "name": "野牛奶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yeniunai.webp",
+            "pinyin": "yeniunai"
+          },
+          {
+            "id": "碧企鹅蛋",
+            "name": "碧企鹅蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biqiedan.webp",
+            "pinyin": "biqiedan"
+          },
+          {
+            "id": "枫糖浆",
+            "name": "枫糖浆",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtangjiang.webp",
+            "pinyin": "fengtangjiang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "菠萝汁",
+        "name": "菠萝汁",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "食物",
+        "icon": "assets/icons/itemse/boluozhi.webp",
+        "pinyin": "boluozhi",
+        "recipe": [
+          {
+            "id": "多刺菠萝",
+            "name": "多刺菠萝",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/duociboluo.webp",
+            "pinyin": "duociboluo"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑松露烩饭",
+        "name": "黑松露烩饭",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "食物",
+        "icon": "assets/icons/itemse/heisongluhuifan.webp",
+        "pinyin": "heisongluhuifan",
+        "recipe": [
+          {
+            "id": "黑松露",
+            "name": "黑松露",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/heisonglu.webp",
+            "pinyin": "heisonglu"
+          },
+          {
+            "id": "糯米",
+            "name": "糯米",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/nuomi.webp",
+            "pinyin": "nuomi"
+          },
+          {
+            "id": "农家奶酪",
+            "name": "农家奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/nongjianailao.webp",
+            "pinyin": "nongjianailao"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑线鳕沙拉",
+        "name": "黑线鳕沙拉",
+        "level": "50★",
+        "job": "quickcalc",
+        "category": "食物",
+        "icon": "assets/icons/itemse/heixianxueshala.webp",
+        "pinyin": "heixianxueshala",
+        "recipe": [
+          {
+            "id": "蜜柠檬",
+            "name": "蜜柠檬",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/miningmeng.webp",
+            "pinyin": "miningmeng"
+          },
+          {
+            "id": "哈拉尔黑线鳕",
+            "name": "哈拉尔黑线鳕",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/halaerheixianxue.webp",
+            "pinyin": "halaerheixianxue"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  }
+]

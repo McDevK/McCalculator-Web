@@ -1,0 +1,6216 @@
+[
+  {
+    "category": "1-5级",
+    "recipes": [
+      {
+        "id": "食盐",
+        "name": "食盐",
+        "level": 1,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/shiyan.webp",
+        "pinyin": "shiyan",
+        "recipe": [
+          {
+            "id": "岩盐",
+            "name": "岩盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yanyan.webp",
+            "pinyin": "yanyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "枫糖浆",
+        "name": "枫糖浆",
+        "level": 1,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/fengtangjiang.webp",
+        "pinyin": "fengtangjiang",
+        "recipe": [
+          {
+            "id": "枫树树汁",
+            "name": "枫树树汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengshushuzhi.webp",
+            "pinyin": "fengshushuzhi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "枫糖",
+        "name": "枫糖",
+        "level": 2,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/fengtang.webp",
+        "pinyin": "fengtang",
+        "recipe": [
+          {
+            "id": "枫糖浆",
+            "name": "枫糖浆",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtangjiang.webp",
+            "pinyin": "fengtangjiang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑麦粉",
+        "name": "黑麦粉",
+        "level": 2,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/heimaifen.webp",
+        "pinyin": "heimaifen",
+        "recipe": [
+          {
+            "id": "黑麦",
+            "name": "黑麦",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heimai.webp",
+            "pinyin": "heimai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "蜂蜜",
+        "name": "蜂蜜",
+        "level": 2,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/fengmi.webp",
+        "pinyin": "fengmi",
+        "recipe": [
+          {
+            "id": "蜂巢",
+            "name": "蜂巢",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengchao.webp",
+            "pinyin": "fengchao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "葡萄干",
+        "name": "葡萄干",
+        "level": 3,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/putaogan.webp",
+        "pinyin": "putaogan",
+        "recipe": [
+          {
+            "id": "低地葡萄",
+            "name": "低地葡萄",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/didiputao.webp",
+            "pinyin": "didiputao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "水煮蛋",
+        "name": "水煮蛋",
+        "level": 3,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/shuizhudan.webp",
+        "pinyin": "shuizhudan",
+        "recipe": [
+          {
+            "id": "鸡蛋",
+            "name": "鸡蛋",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/jidan.webp",
+            "pinyin": "jidan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "羊奶麦粥",
+        "name": "羊奶麦粥",
+        "level": 3,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/yangnaimaizhou.webp",
+        "pinyin": "yangnaimaizhou",
+        "recipe": [
+          {
+            "id": "小麦",
+            "name": "小麦",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xiaomai.webp",
+            "pinyin": "xiaomai"
+          },
+          {
+            "id": "低地葡萄",
+            "name": "低地葡萄",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/didiputao.webp",
+            "pinyin": "didiputao"
+          },
+          {
+            "id": "蜂蜜",
+            "name": "蜂蜜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengmi.webp",
+            "pinyin": "fengmi"
+          },
+          {
+            "id": "山羊奶",
+            "name": "山羊奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangnai.webp",
+            "pinyin": "shanyangnai"
+          },
+          {
+            "id": "桂皮",
+            "name": "桂皮",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guipi.webp",
+            "pinyin": "guipi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "煎饼",
+        "name": "煎饼",
+        "level": 4,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/jianbing.webp",
+        "pinyin": "jianbing",
+        "recipe": [
+          {
+            "id": "黑麦粉",
+            "name": "黑麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heimaifen.webp",
+            "pinyin": "heimaifen"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "栗鼠肉排",
+        "name": "栗鼠肉排",
+        "level": 4,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/lishuroupai.webp",
+        "pinyin": "lishuroupai",
+        "recipe": [
+          {
+            "id": "栗鼠肉",
+            "name": "栗鼠肉",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/lishurou.webp",
+            "pinyin": "lishurou"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "盐烤公主鳟",
+        "name": "盐烤公主鳟",
+        "level": 4,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/yankaogongzhuzun.webp",
+        "pinyin": "yankaogongzhuzun",
+        "recipe": [
+          {
+            "id": "公主鳟",
+            "name": "公主鳟",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gongzhuzun.webp",
+            "pinyin": "gongzhuzun"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "橙汁",
+        "name": "橙汁",
+        "level": 5,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/chengzhi.webp",
+        "pinyin": "chengzhi",
+        "recipe": [
+          {
+            "id": "拉诺西亚香橙",
+            "name": "拉诺西亚香橙",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/lanuoxiyaxiangcheng.webp",
+            "pinyin": "lanuoxiyaxiangcheng"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绿树蟾蜍腿",
+        "name": "绿树蟾蜍腿",
+        "level": 5,
+        "job": "culinarian",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/lvshuchanchutui.webp",
+        "pinyin": "lvshuchanchutui",
+        "recipe": [
+          {
+            "id": "绿树蟾蜍",
+            "name": "绿树蟾蜍",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/lvshuchanchu.webp",
+            "pinyin": "lvshuchanchu"
+          },
+          {
+            "id": "亚拉戈蜗牛",
+            "name": "亚拉戈蜗牛",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yalagewoniu.webp",
+            "pinyin": "yalagewoniu"
+          },
+          {
+            "id": "桂皮",
+            "name": "桂皮",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guipi.webp",
+            "pinyin": "guipi"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "6-10级",
+    "recipes": [
+      {
+        "id": "奶油",
+        "name": "奶油",
+        "level": 6,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/naiyou.webp",
+        "pinyin": "naiyou",
+        "recipe": [
+          {
+            "id": "水牛奶",
+            "name": "水牛奶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuiniunai.webp",
+            "pinyin": "shuiniunai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黄油",
+        "name": "黄油",
+        "level": 6,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/huangyou.webp",
+        "pinyin": "huangyou",
+        "recipe": [
+          {
+            "id": "水牛奶",
+            "name": "水牛奶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuiniunai.webp",
+            "pinyin": "shuiniunai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "小麦粉",
+        "name": "小麦粉",
+        "level": 7,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/xiaomaifen.webp",
+        "pinyin": "xiaomaifen",
+        "recipe": [
+          {
+            "id": "小麦",
+            "name": "小麦",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xiaomai.webp",
+            "pinyin": "xiaomai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "可可油",
+        "name": "可可油",
+        "level": 7,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/kekeyou.webp",
+        "pinyin": "kekeyou",
+        "recipe": [
+          {
+            "id": "可可豆",
+            "name": "可可豆",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/kekedou.webp",
+            "pinyin": "kekedou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "可可粉",
+        "name": "可可粉",
+        "level": 7,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/kekefen.webp",
+        "pinyin": "kekefen",
+        "recipe": [
+          {
+            "id": "可可豆",
+            "name": "可可豆",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/kekedou.webp",
+            "pinyin": "kekedou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "煎鸡油菌",
+        "name": "煎鸡油菌",
+        "level": 8,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/jianjiyoujun.webp",
+        "pinyin": "jianjiyoujun",
+        "recipe": [
+          {
+            "id": "鸡油菌",
+            "name": "鸡油菌",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/jiyoujun.webp",
+            "pinyin": "jiyoujun"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "红焖皮皮拉鱼",
+        "name": "红焖皮皮拉鱼",
+        "level": 8,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/hongmenpipilayu.webp",
+        "pinyin": "hongmenpipilayu",
+        "recipe": [
+          {
+            "id": "皮皮拉鱼",
+            "name": "皮皮拉鱼",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/pipilayu.webp",
+            "pinyin": "pipilayu"
+          },
+          {
+            "id": "鸡油菌",
+            "name": "鸡油菌",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/jiyoujun.webp",
+            "pinyin": "jiyoujun"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "水煮蝲蛄",
+        "name": "水煮蝲蛄",
+        "level": 8,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/shuizhulagu.webp",
+        "pinyin": "shuizhulagu",
+        "recipe": [
+          {
+            "id": "红蝲蛄",
+            "name": "红蝲蛄",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/honglagu.webp",
+            "pinyin": "honglagu"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "清炖羊肉",
+        "name": "清炖羊肉",
+        "level": 9,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/qingdunyangrou.webp",
+        "pinyin": "qingdunyangrou",
+        "recipe": [
+          {
+            "id": "羊后腰肉",
+            "name": "羊后腰肉",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/yanghouyaorou.webp",
+            "pinyin": "yanghouyaorou"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "库尔札斯胡萝卜",
+            "name": "库尔札斯胡萝卜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuerzhasihuluobo.webp",
+            "pinyin": "kuerzhasihuluobo"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "薄荷酸奶昔",
+        "name": "薄荷酸奶昔",
+        "level": 9,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/bohesuannaixi.webp",
+        "pinyin": "bohesuannaixi",
+        "recipe": [
+          {
+            "id": "婴猴薄荷",
+            "name": "婴猴薄荷",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/yinghoubohe.webp",
+            "pinyin": "yinghoubohe"
+          },
+          {
+            "id": "山羊奶",
+            "name": "山羊奶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shanyangnai.webp",
+            "pinyin": "shanyangnai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "渡渡鸟烤肉",
+        "name": "渡渡鸟烤肉",
+        "level": 10,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/duduniaokaorou.webp",
+        "pinyin": "duduniaokaorou",
+        "recipe": [
+          {
+            "id": "渡渡鸟胸肉",
+            "name": "渡渡鸟胸肉",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/duduniaoxiongrou.webp",
+            "pinyin": "duduniaoxiongrou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "巧克力球",
+        "name": "巧克力球",
+        "level": 10,
+        "job": "culinarian",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/qiaokeliqiu.webp",
+        "pinyin": "qiaokeliqiu",
+        "recipe": [
+          {
+            "id": "可可粉",
+            "name": "可可粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kekefen.webp",
+            "pinyin": "kekefen"
+          },
+          {
+            "id": "可可油",
+            "name": "可可油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kekeyou.webp",
+            "pinyin": "kekeyou"
+          },
+          {
+            "id": "枫糖",
+            "name": "枫糖",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtang.webp",
+            "pinyin": "fengtang"
+          },
+          {
+            "id": "水牛奶",
+            "name": "水牛奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuiniunai.webp",
+            "pinyin": "shuiniunai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "11-15级",
+    "recipes": [
+      {
+        "id": "橄榄油",
+        "name": "橄榄油",
+        "level": 11,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/ganlanyou.webp",
+        "pinyin": "ganlanyou",
+        "recipe": [
+          {
+            "id": "橄榄",
+            "name": "橄榄",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/ganlan.webp",
+            "pinyin": "ganlan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "番茄汁",
+        "name": "番茄汁",
+        "level": 11,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/fanqiezhi.webp",
+        "pinyin": "fanqiezhi",
+        "recipe": [
+          {
+            "id": "红宝石番茄",
+            "name": "红宝石番茄",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/hongbaoshifanqie.webp",
+            "pinyin": "hongbaoshifanqie"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "明胶",
+        "name": "明胶",
+        "level": 12,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/mingjiao.webp",
+        "pinyin": "mingjiao",
+        "recipe": [
+          {
+            "id": "蝙蝠的翅膀",
+            "name": "蝙蝠的翅膀",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/bianfudechibang.webp",
+            "pinyin": "bianfudechibang"
+          },
+          {
+            "id": "黄铜泥鳅",
+            "name": "黄铜泥鳅",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangtongniqiu.webp",
+            "pinyin": "huangtongniqiu"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "馅饼坯",
+        "name": "馅饼坯",
+        "level": 12,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/xianbingpi.webp",
+        "pinyin": "xianbingpi",
+        "recipe": [
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "巧克力珠",
+        "name": "巧克力珠",
+        "level": 13,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/qiaokelizhu.webp",
+        "pinyin": "qiaokelizhu",
+        "recipe": [
+          {
+            "id": "可可油",
+            "name": "可可油",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/kekeyou.webp",
+            "pinyin": "kekeyou"
+          },
+          {
+            "id": "枫糖",
+            "name": "枫糖",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengtang.webp",
+            "pinyin": "fengtang"
+          },
+          {
+            "id": "山羊奶",
+            "name": "山羊奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangnai.webp",
+            "pinyin": "shanyangnai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "鼹鼠肉糕",
+        "name": "鼹鼠肉糕",
+        "level": 13,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yanshurougao.webp",
+        "pinyin": "yanshurougao",
+        "recipe": [
+          {
+            "id": "鼹鼠肉",
+            "name": "鼹鼠肉",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yanshurou.webp",
+            "pinyin": "yanshurou"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "黑麦粉",
+            "name": "黑麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heimaifen.webp",
+            "pinyin": "heimaifen"
+          },
+          {
+            "id": "鸡蛋",
+            "name": "鸡蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jidan.webp",
+            "pinyin": "jidan"
+          },
+          {
+            "id": "番茄汁",
+            "name": "番茄汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fanqiezhi.webp",
+            "pinyin": "fanqiezhi"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "高山萝卜沙拉",
+        "name": "高山萝卜沙拉",
+        "level": 13,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/gaoshanluoboshala.webp",
+        "pinyin": "gaoshanluoboshala",
+        "recipe": [
+          {
+            "id": "高山萝卜",
+            "name": "高山萝卜",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaoshanluobo.webp",
+            "pinyin": "gaoshanluobo"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "拉诺西亚莴苣",
+            "name": "拉诺西亚莴苣",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lanuoxiyawoju.webp",
+            "pinyin": "lanuoxiyawoju"
+          },
+          {
+            "id": "谢尔达莱菠菜",
+            "name": "谢尔达莱菠菜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xieerdalaibocai.webp",
+            "pinyin": "xieerdalaibocai"
+          },
+          {
+            "id": "水牛豆",
+            "name": "水牛豆",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuiniudou.webp",
+            "pinyin": "shuiniudou"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "兔形派",
+        "name": "兔形派",
+        "level": 14,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/tuxingpai.webp",
+        "pinyin": "tuxingpai",
+        "recipe": [
+          {
+            "id": "馅饼坯",
+            "name": "馅饼坯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianbingpi.webp",
+            "pinyin": "xianbingpi"
+          },
+          {
+            "id": "库尔札斯胡萝卜",
+            "name": "库尔札斯胡萝卜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuerzhasihuluobo.webp",
+            "pinyin": "kuerzhasihuluobo"
+          },
+          {
+            "id": "栗鼠肉",
+            "name": "栗鼠肉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lishurou.webp",
+            "pinyin": "lishurou"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "盐渍鳕鱼",
+        "name": "盐渍鳕鱼",
+        "level": 14,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yanzixueyu.webp",
+        "pinyin": "yanzixueyu",
+        "recipe": [
+          {
+            "id": "虎纹鳕",
+            "name": "虎纹鳕",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huwenxue.webp",
+            "pinyin": "huwenxue"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "盐烤鲤鱼",
+        "name": "盐烤鲤鱼",
+        "level": 14,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yankaoliyu.webp",
+        "pinyin": "yankaoliyu",
+        "recipe": [
+          {
+            "id": "白妙鲤",
+            "name": "白妙鲤",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/baimiaoli.webp",
+            "pinyin": "baimiaoli"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "渡渡鸟蛋煎蛋卷",
+        "name": "渡渡鸟蛋煎蛋卷",
+        "level": 15,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/duduniaodanjiandanjuan.webp",
+        "pinyin": "duduniaodanjiandanjuan",
+        "recipe": [
+          {
+            "id": "渡渡鸟蛋",
+            "name": "渡渡鸟蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/duduniaodan.webp",
+            "pinyin": "duduniaodan"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "山羊奶",
+            "name": "山羊奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangnai.webp",
+            "pinyin": "shanyangnai"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "番茄汁",
+            "name": "番茄汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fanqiezhi.webp",
+            "pinyin": "fanqiezhi"
+          },
+          {
+            "id": "高原芹",
+            "name": "高原芹",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaoyuanqin.webp",
+            "pinyin": "gaoyuanqin"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "猫魅风味山珍烤串",
+        "name": "猫魅风味山珍烤串",
+        "level": 15,
+        "job": "culinarian",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/maomeifengweishanzhenkaochuan.webp",
+        "pinyin": "maomeifengweishanzhenkaochuan",
+        "recipe": [
+          {
+            "id": "渡渡鸟胸肉",
+            "name": "渡渡鸟胸肉",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/duduniaoxiongrou.webp",
+            "pinyin": "duduniaoxiongrou"
+          },
+          {
+            "id": "红辣椒",
+            "name": "红辣椒",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/honglajiao.webp",
+            "pinyin": "honglajiao"
+          },
+          {
+            "id": "红宝石番茄",
+            "name": "红宝石番茄",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/hongbaoshifanqie.webp",
+            "pinyin": "hongbaoshifanqie"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "16-20级",
+    "recipes": [
+      {
+        "id": "苹果醋",
+        "name": "苹果醋",
+        "level": 16,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/pingguocu.webp",
+        "pinyin": "pingguocu",
+        "recipe": [
+          {
+            "id": "仙女苹果",
+            "name": "仙女苹果",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xiannvpingguo.webp",
+            "pinyin": "xiannvpingguo"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "薰衣草油",
+        "name": "薰衣草油",
+        "level": 17,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/xunyicaoyou.webp",
+        "pinyin": "xunyicaoyou",
+        "recipe": [
+          {
+            "id": "薰衣草",
+            "name": "薰衣草",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xunyicao.webp",
+            "pinyin": "xunyicao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "农家奶酪",
+        "name": "农家奶酪",
+        "level": 17,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/nongjianailao.webp",
+        "pinyin": "nongjianailao",
+        "recipe": [
+          {
+            "id": "山羊奶",
+            "name": "山羊奶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shanyangnai.webp",
+            "pinyin": "shanyangnai"
+          },
+          {
+            "id": "苹果醋",
+            "name": "苹果醋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/pingguocu.webp",
+            "pinyin": "pingguocu"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "小扁豆煮山栗",
+        "name": "小扁豆煮山栗",
+        "level": 18,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/xiaobiandouzhushanli.webp",
+        "pinyin": "xiaobiandouzhushanli",
+        "recipe": [
+          {
+            "id": "山栗",
+            "name": "山栗",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shanli.webp",
+            "pinyin": "shanli"
+          },
+          {
+            "id": "小扁豆",
+            "name": "小扁豆",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xiaobiandou.webp",
+            "pinyin": "xiaobiandou"
+          },
+          {
+            "id": "婴猴薄荷",
+            "name": "婴猴薄荷",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yinghoubohe.webp",
+            "pinyin": "yinghoubohe"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "料酒",
+            "name": "料酒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/liaojiu.webp",
+            "pinyin": "liaojiu"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "烤仙人掌叶",
+        "name": "烤仙人掌叶",
+        "level": 18,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/kaoxianrenzhangye.webp",
+        "pinyin": "kaoxianrenzhangye",
+        "recipe": [
+          {
+            "id": "仙人掌叶",
+            "name": "仙人掌叶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/xianrenzhangye.webp",
+            "pinyin": "xianrenzhangye"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "蓝霉奶酪",
+            "name": "蓝霉奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lanmeinailao.webp",
+            "pinyin": "lanmeinailao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "石子汤",
+        "name": "石子汤",
+        "level": 18,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/shizitang.webp",
+        "pinyin": "shizitang",
+        "recipe": [
+          {
+            "id": "砂岩",
+            "name": "砂岩",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/shayan.webp",
+            "pinyin": "shayan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "库尔札斯胡萝卜",
+            "name": "库尔札斯胡萝卜",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/kuerzhasihuluobo.webp",
+            "pinyin": "kuerzhasihuluobo"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "新薯",
+            "name": "新薯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xinshu.webp",
+            "pinyin": "xinshu"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "苹果挞",
+        "name": "苹果挞",
+        "level": 19,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/pingguota.webp",
+        "pinyin": "pingguota",
+        "recipe": [
+          {
+            "id": "馅饼坯",
+            "name": "馅饼坯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianbingpi.webp",
+            "pinyin": "xianbingpi"
+          },
+          {
+            "id": "仙女苹果",
+            "name": "仙女苹果",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiannvpingguo.webp",
+            "pinyin": "xiannvpingguo"
+          },
+          {
+            "id": "鸡蛋",
+            "name": "鸡蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jidan.webp",
+            "pinyin": "jidan"
+          },
+          {
+            "id": "桂皮",
+            "name": "桂皮",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guipi.webp",
+            "pinyin": "guipi"
+          },
+          {
+            "id": "枫糖",
+            "name": "枫糖",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtang.webp",
+            "pinyin": "fengtang"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "胡桃面包",
+        "name": "胡桃面包",
+        "level": 19,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/hutaomianbao.webp",
+        "pinyin": "hutaomianbao",
+        "recipe": [
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "水牛奶",
+            "name": "水牛奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuiniunai.webp",
+            "pinyin": "shuiniunai"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "胡桃",
+            "name": "胡桃",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutao.webp",
+            "pinyin": "hutao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "生鲜牡蛎",
+        "name": "生鲜牡蛎",
+        "level": 19,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/shengxianmuli.webp",
+        "pinyin": "shengxianmuli",
+        "recipe": [
+          {
+            "id": "罗斯利特牡蛎",
+            "name": "罗斯利特牡蛎",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/luosilitemuli.webp",
+            "pinyin": "luosilitemuli"
+          },
+          {
+            "id": "太阳柠檬",
+            "name": "太阳柠檬",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/taiyangningmeng.webp",
+            "pinyin": "taiyangningmeng"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "盐烤暖水鳟",
+        "name": "盐烤暖水鳟",
+        "level": 20,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/yankaonuanshuizun.webp",
+        "pinyin": "yankaonuanshuizun",
+        "recipe": [
+          {
+            "id": "暖水鳟",
+            "name": "暖水鳟",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/nuanshuizun.webp",
+            "pinyin": "nuanshuizun"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "金钱蘑炒鸡肉",
+        "name": "金钱蘑炒鸡肉",
+        "level": 20,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/jinqianmochaojirou.webp",
+        "pinyin": "jinqianmochaojirou",
+        "recipe": [
+          {
+            "id": "金钱蘑",
+            "name": "金钱蘑",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/jinqianmo.webp",
+            "pinyin": "jinqianmo"
+          },
+          {
+            "id": "鸡胸肉",
+            "name": "鸡胸肉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jixiongrou.webp",
+            "pinyin": "jixiongrou"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "清炖羚羊肉",
+        "name": "清炖羚羊肉",
+        "level": 20,
+        "job": "culinarian",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/qingdunlingyangrou.webp",
+        "pinyin": "qingdunlingyangrou",
+        "recipe": [
+          {
+            "id": "羚羊胫肉",
+            "name": "羚羊胫肉",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/lingyangjingrou.webp",
+            "pinyin": "lingyangjingrou"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "库尔札斯胡萝卜",
+            "name": "库尔札斯胡萝卜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuerzhasihuluobo.webp",
+            "pinyin": "kuerzhasihuluobo"
+          },
+          {
+            "id": "新薯",
+            "name": "新薯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xinshu.webp",
+            "pinyin": "xinshu"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "21-25级",
+    "recipes": [
+      {
+        "id": "羚羊肉排",
+        "name": "羚羊肉排",
+        "level": 21,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/lingyangroupai.webp",
+        "pinyin": "lingyangroupai",
+        "recipe": [
+          {
+            "id": "羚羊胫肉",
+            "name": "羚羊胫肉",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/lingyangjingrou.webp",
+            "pinyin": "lingyangjingrou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "鲑鱼排",
+        "name": "鲑鱼排",
+        "level": 21,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/guiyupai.webp",
+        "pinyin": "guiyupai",
+        "recipe": [
+          {
+            "id": "蓝铃鲑",
+            "name": "蓝铃鲑",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/lanlinggui.webp",
+            "pinyin": "lanlinggui"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "太阳柠檬",
+            "name": "太阳柠檬",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/taiyangningmeng.webp",
+            "pinyin": "taiyangningmeng"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "高原芹",
+            "name": "高原芹",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaoyuanqin.webp",
+            "pinyin": "gaoyuanqin"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "葡萄汁",
+        "name": "葡萄汁",
+        "level": 22,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/putaozhi.webp",
+        "pinyin": "putaozhi",
+        "recipe": [
+          {
+            "id": "贵族葡萄",
+            "name": "贵族葡萄",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/guizuputao.webp",
+            "pinyin": "guizuputao"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "蜂蜜松饼",
+        "name": "蜂蜜松饼",
+        "level": 22,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/fengmisongbing.webp",
+        "pinyin": "fengmisongbing",
+        "recipe": [
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "鸡蛋",
+            "name": "鸡蛋",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/jidan.webp",
+            "pinyin": "jidan"
+          },
+          {
+            "id": "蜂蜜",
+            "name": "蜂蜜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengmi.webp",
+            "pinyin": "fengmi"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "山羊奶",
+            "name": "山羊奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangnai.webp",
+            "pinyin": "shanyangnai"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "梅干",
+        "name": "梅干",
+        "level": 23,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/meigan.webp",
+        "pinyin": "meigan",
+        "recipe": [
+          {
+            "id": "仙子梅",
+            "name": "仙子梅",
+            "quantity": 8,
+            "icon": "assets/icons/itemse/xianzimei.webp",
+            "pinyin": "xianzimei"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "芥末蛋",
+        "name": "芥末蛋",
+        "level": 23,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/jiemodan.webp",
+        "pinyin": "jiemodan",
+        "recipe": [
+          {
+            "id": "渡渡鸟蛋",
+            "name": "渡渡鸟蛋",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/duduniaodan.webp",
+            "pinyin": "duduniaodan"
+          },
+          {
+            "id": "阿拉米格芥子",
+            "name": "阿拉米格芥子",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/alamigejiezi.webp",
+            "pinyin": "alamigejiezi"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "煎菠菜",
+        "name": "煎菠菜",
+        "level": 23,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/jianbocai.webp",
+        "pinyin": "jianbocai",
+        "recipe": [
+          {
+            "id": "谢尔达莱菠菜",
+            "name": "谢尔达莱菠菜",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/xieerdalaibocai.webp",
+            "pinyin": "xieerdalaibocai"
+          },
+          {
+            "id": "草菇",
+            "name": "草菇",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caogu.webp",
+            "pinyin": "caogu"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "心形卷饼",
+        "name": "心形卷饼",
+        "level": 24,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinxingjuanbing.webp",
+        "pinyin": "xinxingjuanbing",
+        "recipe": [
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "枫糖",
+            "name": "枫糖",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtang.webp",
+            "pinyin": "fengtang"
+          },
+          {
+            "id": "鸡蛋",
+            "name": "鸡蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jidan.webp",
+            "pinyin": "jidan"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "甘菊茶",
+        "name": "甘菊茶",
+        "level": 24,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/ganjucha.webp",
+        "pinyin": "ganjucha",
+        "recipe": [
+          {
+            "id": "甘菊",
+            "name": "甘菊",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/ganju.webp",
+            "pinyin": "ganju"
+          },
+          {
+            "id": "蜂蜜",
+            "name": "蜂蜜",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/fengmi.webp",
+            "pinyin": "fengmi"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "鳗鱼派",
+        "name": "鳗鱼派",
+        "level": 24,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/manyupai.webp",
+        "pinyin": "manyupai",
+        "recipe": [
+          {
+            "id": "馅饼坯",
+            "name": "馅饼坯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianbingpi.webp",
+            "pinyin": "xianbingpi"
+          },
+          {
+            "id": "黑鳗",
+            "name": "黑鳗",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heiman.webp",
+            "pinyin": "heiman"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "新薯",
+            "name": "新薯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xinshu.webp",
+            "pinyin": "xinshu"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "丁香花",
+            "name": "丁香花",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dingxianghua.webp",
+            "pinyin": "dingxianghua"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "牧羊人派",
+        "name": "牧羊人派",
+        "level": 25,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/muyangrenpai.webp",
+        "pinyin": "muyangrenpai",
+        "recipe": [
+          {
+            "id": "新薯",
+            "name": "新薯",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xinshu.webp",
+            "pinyin": "xinshu"
+          },
+          {
+            "id": "羚羊胫肉",
+            "name": "羚羊胫肉",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/lingyangjingrou.webp",
+            "pinyin": "lingyangjingrou"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "库尔札斯胡萝卜",
+            "name": "库尔札斯胡萝卜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuerzhasihuluobo.webp",
+            "pinyin": "kuerzhasihuluobo"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新薯泥",
+        "name": "新薯泥",
+        "level": 25,
+        "job": "culinarian",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinshuni.webp",
+        "pinyin": "xinshuni",
+        "recipe": [
+          {
+            "id": "农家奶酪",
+            "name": "农家奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/nongjianailao.webp",
+            "pinyin": "nongjianailao"
+          },
+          {
+            "id": "新薯",
+            "name": "新薯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xinshu.webp",
+            "pinyin": "xinshu"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "奶油",
+            "name": "奶油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyou.webp",
+            "pinyin": "naiyou"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "26-30级",
+    "recipes": [
+      {
+        "id": "鸡高汤",
+        "name": "鸡高汤",
+        "level": 26,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/jigaotang.webp",
+        "pinyin": "jigaotang",
+        "recipe": [
+          {
+            "id": "鸡胸肉",
+            "name": "鸡胸肉",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/jixiongrou.webp",
+            "pinyin": "jixiongrou"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "库尔札斯胡萝卜",
+            "name": "库尔札斯胡萝卜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuerzhasihuluobo.webp",
+            "pinyin": "kuerzhasihuluobo"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玉米粉",
+        "name": "玉米粉",
+        "level": 26,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/yumifen.webp",
+        "pinyin": "yumifen",
+        "recipe": [
+          {
+            "id": "多实玉米",
+            "name": "多实玉米",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/duoshiyumi.webp",
+            "pinyin": "duoshiyumi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "生姜饼干",
+        "name": "生姜饼干",
+        "level": 27,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/shengjiangbinggan.webp",
+        "pinyin": "shengjiangbinggan",
+        "recipe": [
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "枫糖",
+            "name": "枫糖",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtang.webp",
+            "pinyin": "fengtang"
+          },
+          {
+            "id": "鸡蛋",
+            "name": "鸡蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jidan.webp",
+            "pinyin": "jidan"
+          },
+          {
+            "id": "泡碱",
+            "name": "泡碱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/paojian.webp",
+            "pinyin": "paojian"
+          },
+          {
+            "id": "生姜",
+            "name": "生姜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shengjiang.webp",
+            "pinyin": "shengjiang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "翡翠豆汤",
+        "name": "翡翠豆汤",
+        "level": 27,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/feicuidoutang.webp",
+        "pinyin": "feicuidoutang",
+        "recipe": [
+          {
+            "id": "翡翠豆",
+            "name": "翡翠豆",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/feicuidou.webp",
+            "pinyin": "feicuidou"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "渡渡鸟胸肉",
+            "name": "渡渡鸟胸肉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/duduniaoxiongrou.webp",
+            "pinyin": "duduniaoxiongrou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "山羊肉排",
+        "name": "山羊肉排",
+        "level": 28,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/shanyangroupai.webp",
+        "pinyin": "shanyangroupai",
+        "recipe": [
+          {
+            "id": "山羊肩肉",
+            "name": "山羊肩肉",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shanyangjianrou.webp",
+            "pinyin": "shanyangjianrou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "煎跳蜥蛋",
+        "name": "煎跳蜥蛋",
+        "level": 28,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/jiantiaoxidan.webp",
+        "pinyin": "jiantiaoxidan",
+        "recipe": [
+          {
+            "id": "跳蜥蛋",
+            "name": "跳蜥蛋",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/tiaoxidan.webp",
+            "pinyin": "tiaoxidan"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "奶酪烩饭",
+        "name": "奶酪烩饭",
+        "level": 28,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/nailaohuifan.webp",
+        "pinyin": "nailaohuifan",
+        "recipe": [
+          {
+            "id": "糯米",
+            "name": "糯米",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/nuomi.webp",
+            "pinyin": "nuomi"
+          },
+          {
+            "id": "农家奶酪",
+            "name": "农家奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/nongjianailao.webp",
+            "pinyin": "nongjianailao"
+          },
+          {
+            "id": "高山萝卜",
+            "name": "高山萝卜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaoshanluobo.webp",
+            "pinyin": "gaoshanluobo"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "水煮鲷鱼",
+        "name": "水煮鲷鱼",
+        "level": 29,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/shuizhudiaoyu.webp",
+        "pinyin": "shuizhudiaoyu",
+        "recipe": [
+          {
+            "id": "比阿纳可鲷鱼",
+            "name": "比阿纳可鲷鱼",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/bianakediaoyu.webp",
+            "pinyin": "bianakediaoyu"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "巫茄",
+            "name": "巫茄",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/wujia.webp",
+            "pinyin": "wujia"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "小圆饼",
+        "name": "小圆饼",
+        "level": 29,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/xiaoyuanbing.webp",
+        "pinyin": "xiaoyuanbing",
+        "recipe": [
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "水牛奶",
+            "name": "水牛奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuiniunai.webp",
+            "pinyin": "shuiniunai"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "泡碱",
+            "name": "泡碱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/paojian.webp",
+            "pinyin": "paojian"
+          },
+          {
+            "id": "枫糖浆",
+            "name": "枫糖浆",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtangjiang.webp",
+            "pinyin": "fengtangjiang"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "清炖鬼鮟鱇",
+        "name": "清炖鬼鮟鱇",
+        "level": 30,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/qingdunguiankang.webp",
+        "pinyin": "qingdunguiankang",
+        "recipe": [
+          {
+            "id": "鬼鮟鱇肝脏",
+            "name": "鬼鮟鱇肝脏",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guiankangganzang.webp",
+            "pinyin": "guiankangganzang"
+          },
+          {
+            "id": "库尔札斯胡萝卜",
+            "name": "库尔札斯胡萝卜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuerzhasihuluobo.webp",
+            "pinyin": "kuerzhasihuluobo"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "鸡高汤",
+            "name": "鸡高汤",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jigaotang.webp",
+            "pinyin": "jigaotang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "烤黑鳎",
+        "name": "烤黑鳎",
+        "level": 30,
+        "job": "culinarian",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/kaoheita.webp",
+        "pinyin": "kaoheita",
+        "recipe": [
+          {
+            "id": "黑鳎",
+            "name": "黑鳎",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/heita.webp",
+            "pinyin": "heita"
+          },
+          {
+            "id": "金钱蘑",
+            "name": "金钱蘑",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/jinqianmo.webp",
+            "pinyin": "jinqianmo"
+          },
+          {
+            "id": "谢尔达莱菠菜",
+            "name": "谢尔达莱菠菜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xieerdalaibocai.webp",
+            "pinyin": "xieerdalaibocai"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "31-35级",
+    "recipes": [
+      {
+        "id": "黑果醋",
+        "name": "黑果醋",
+        "level": 31,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/heiguocu.webp",
+        "pinyin": "heiguocu",
+        "recipe": [
+          {
+            "id": "贵族葡萄",
+            "name": "贵族葡萄",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/guizuputao.webp",
+            "pinyin": "guizuputao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玉米面包",
+        "name": "玉米面包",
+        "level": 32,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/yumimianbao.webp",
+        "pinyin": "yumimianbao",
+        "recipe": [
+          {
+            "id": "玉米粉",
+            "name": "玉米粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yumifen.webp",
+            "pinyin": "yumifen"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "水牛奶",
+            "name": "水牛奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuiniunai.webp",
+            "pinyin": "shuiniunai"
+          },
+          {
+            "id": "鸡蛋",
+            "name": "鸡蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jidan.webp",
+            "pinyin": "jidan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "炒跳蜥蛋",
+        "name": "炒跳蜥蛋",
+        "level": 32,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/chaotiaoxidan.webp",
+        "pinyin": "chaotiaoxidan",
+        "recipe": [
+          {
+            "id": "白松露",
+            "name": "白松露",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/baisonglu.webp",
+            "pinyin": "baisonglu"
+          },
+          {
+            "id": "跳蜥蛋",
+            "name": "跳蜥蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiaoxidan.webp",
+            "pinyin": "tiaoxidan"
+          },
+          {
+            "id": "农家奶酪",
+            "name": "农家奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/nongjianailao.webp",
+            "pinyin": "nongjianailao"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "猫魅风味森鲜烤串",
+        "name": "猫魅风味森鲜烤串",
+        "level": 33,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/maomeifengweisenxiankaochuan.webp",
+        "pinyin": "maomeifengweisenxiankaochuan",
+        "recipe": [
+          {
+            "id": "草菇",
+            "name": "草菇",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caogu.webp",
+            "pinyin": "caogu"
+          },
+          {
+            "id": "红宝石番茄",
+            "name": "红宝石番茄",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/hongbaoshifanqie.webp",
+            "pinyin": "hongbaoshifanqie"
+          },
+          {
+            "id": "芦荟",
+            "name": "芦荟",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luhui.webp",
+            "pinyin": "luhui"
+          },
+          {
+            "id": "薰衣草油",
+            "name": "薰衣草油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xunyicaoyou.webp",
+            "pinyin": "xunyicaoyou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "盗龙熏肉",
+        "name": "盗龙熏肉",
+        "level": 33,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/daolongxunrou.webp",
+        "pinyin": "daolongxunrou",
+        "recipe": [
+          {
+            "id": "盗龙腿肉",
+            "name": "盗龙腿肉",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/daolongtuirou.webp",
+            "pinyin": "daolongtuirou"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "太阳柠檬",
+            "name": "太阳柠檬",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/taiyangningmeng.webp",
+            "pinyin": "taiyangningmeng"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "鳄梨色拉",
+        "name": "鳄梨色拉",
+        "level": 34,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/elisela.webp",
+        "pinyin": "elisela",
+        "recipe": [
+          {
+            "id": "鳄梨",
+            "name": "鳄梨",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/eli.webp",
+            "pinyin": "eli"
+          },
+          {
+            "id": "红辣椒",
+            "name": "红辣椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/honglajiao.webp",
+            "pinyin": "honglajiao"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "黑果醋",
+            "name": "黑果醋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heiguocu.webp",
+            "pinyin": "heiguocu"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "橡果饼干",
+        "name": "橡果饼干",
+        "level": 34,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/xiangguobinggan.webp",
+        "pinyin": "xiangguobinggan",
+        "recipe": [
+          {
+            "id": "黑麦粉",
+            "name": "黑麦粉",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/heimaifen.webp",
+            "pinyin": "heimaifen"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "铁帽橡果",
+            "name": "铁帽橡果",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiemaoxiangguo.webp",
+            "pinyin": "tiemaoxiangguo"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "血红奇异果挞",
+        "name": "血红奇异果挞",
+        "level": 35,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/xuehongqiyiguota.webp",
+        "pinyin": "xuehongqiyiguota",
+        "recipe": [
+          {
+            "id": "馅饼坯",
+            "name": "馅饼坯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianbingpi.webp",
+            "pinyin": "xianbingpi"
+          },
+          {
+            "id": "血红奇异果",
+            "name": "血红奇异果",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xuehongqiyiguo.webp",
+            "pinyin": "xuehongqiyiguo"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "猫魅风味海产烤串",
+        "name": "猫魅风味海产烤串",
+        "level": 35,
+        "job": "culinarian",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/maomeifengweihaichankaochuan.webp",
+        "pinyin": "maomeifengweihaichankaochuan",
+        "recipe": [
+          {
+            "id": "灰海金枪鱼",
+            "name": "灰海金枪鱼",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huihaijinqiangyu.webp",
+            "pinyin": "huihaijinqiangyu"
+          },
+          {
+            "id": "中原罗勒草",
+            "name": "中原罗勒草",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhongyuanluolecao.webp",
+            "pinyin": "zhongyuanluolecao"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "太阳柠檬",
+            "name": "太阳柠檬",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/taiyangningmeng.webp",
+            "pinyin": "taiyangningmeng"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "手指虾",
+            "name": "手指虾",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shouzhixia.webp",
+            "pinyin": "shouzhixia"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "36-40级",
+    "recipes": [
+      {
+        "id": "奶油奶酪",
+        "name": "奶油奶酪",
+        "level": 36,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/naiyounailao.webp",
+        "pinyin": "naiyounailao",
+        "recipe": [
+          {
+            "id": "野牛奶",
+            "name": "野牛奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeniunai.webp",
+            "pinyin": "yeniunai"
+          },
+          {
+            "id": "奶油",
+            "name": "奶油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyou.webp",
+            "pinyin": "naiyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "酸泡菜",
+        "name": "酸泡菜",
+        "level": 37,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/suanpaocai.webp",
+        "pinyin": "suanpaocai",
+        "recipe": [
+          {
+            "id": "中原甘蓝",
+            "name": "中原甘蓝",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/zhongyuanganlan.webp",
+            "pinyin": "zhongyuanganlan"
+          },
+          {
+            "id": "月桂",
+            "name": "月桂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yuegui.webp",
+            "pinyin": "yuegui"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "龙息椒",
+            "name": "龙息椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/longxijiao.webp",
+            "pinyin": "longxijiao"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "艾蒿烤鲤鱼",
+        "name": "艾蒿烤鲤鱼",
+        "level": 37,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/aihaokaoliyu.webp",
+        "pinyin": "aihaokaoliyu",
+        "recipe": [
+          {
+            "id": "威罗迪纳鲤鱼",
+            "name": "威罗迪纳鲤鱼",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/weiluodinaliyu.webp",
+            "pinyin": "weiluodinaliyu"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "艾蒿",
+            "name": "艾蒿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/aihao.webp",
+            "pinyin": "aihao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "清炖盗龙肉",
+        "name": "清炖盗龙肉",
+        "level": 38,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/qingdundaolongrou.webp",
+        "pinyin": "qingdundaolongrou",
+        "recipe": [
+          {
+            "id": "金钱蘑",
+            "name": "金钱蘑",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/jinqianmo.webp",
+            "pinyin": "jinqianmo"
+          },
+          {
+            "id": "鸡油菌",
+            "name": "鸡油菌",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/jiyoujun.webp",
+            "pinyin": "jiyoujun"
+          },
+          {
+            "id": "盗龙腿肉",
+            "name": "盗龙腿肉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongtuirou.webp",
+            "pinyin": "daolongtuirou"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "盐烤求雨鱼",
+        "name": "盐烤求雨鱼",
+        "level": 38,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/yankaoqiuyuyu.webp",
+        "pinyin": "yankaoqiuyuyu",
+        "recipe": [
+          {
+            "id": "求雨鱼",
+            "name": "求雨鱼",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qiuyuyu.webp",
+            "pinyin": "qiuyuyu"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "香烩时蔬",
+        "name": "香烩时蔬",
+        "level": 39,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/xianghuishishu.webp",
+        "pinyin": "xianghuishishu",
+        "recipe": [
+          {
+            "id": "巫茄",
+            "name": "巫茄",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/wujia.webp",
+            "pinyin": "wujia"
+          },
+          {
+            "id": "西葫芦",
+            "name": "西葫芦",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xihulu.webp",
+            "pinyin": "xihulu"
+          },
+          {
+            "id": "红宝石番茄",
+            "name": "红宝石番茄",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongbaoshifanqie.webp",
+            "pinyin": "hongbaoshifanqie"
+          },
+          {
+            "id": "月桂",
+            "name": "月桂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yuegui.webp",
+            "pinyin": "yuegui"
+          },
+          {
+            "id": "薰衣草油",
+            "name": "薰衣草油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xunyicaoyou.webp",
+            "pinyin": "xunyicaoyou"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "骑士面包",
+        "name": "骑士面包",
+        "level": 39,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/qishimianbao.webp",
+        "pinyin": "qishimianbao",
+        "recipe": [
+          {
+            "id": "黑麦粉",
+            "name": "黑麦粉",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/heimaifen.webp",
+            "pinyin": "heimaifen"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "蜂蜜",
+            "name": "蜂蜜",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/fengmi.webp",
+            "pinyin": "fengmi"
+          },
+          {
+            "id": "中原罗勒草",
+            "name": "中原罗勒草",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhongyuanluolecao.webp",
+            "pinyin": "zhongyuanluolecao"
+          },
+          {
+            "id": "鸡蛋",
+            "name": "鸡蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jidan.webp",
+            "pinyin": "jidan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "奶酪蛋奶酥",
+        "name": "奶酪蛋奶酥",
+        "level": 40,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/nailaodannaisu.webp",
+        "pinyin": "nailaodannaisu",
+        "recipe": [
+          {
+            "id": "奶油奶酪",
+            "name": "奶油奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyounailao.webp",
+            "pinyin": "naiyounailao"
+          },
+          {
+            "id": "野牛奶",
+            "name": "野牛奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeniunai.webp",
+            "pinyin": "yeniunai"
+          },
+          {
+            "id": "渡渡鸟蛋",
+            "name": "渡渡鸟蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/duduniaodan.webp",
+            "pinyin": "duduniaodan"
+          },
+          {
+            "id": "枫糖浆",
+            "name": "枫糖浆",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtangjiang.webp",
+            "pinyin": "fengtangjiang"
+          },
+          {
+            "id": "太阳柠檬",
+            "name": "太阳柠檬",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/taiyangningmeng.webp",
+            "pinyin": "taiyangningmeng"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "包心球蓟",
+        "name": "包心球蓟",
+        "level": 40,
+        "job": "culinarian",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/baoxinqiuji.webp",
+        "pinyin": "baoxinqiuji",
+        "recipe": [
+          {
+            "id": "球蓟",
+            "name": "球蓟",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/qiuji.webp",
+            "pinyin": "qiuji"
+          },
+          {
+            "id": "陆蟹蟹脚",
+            "name": "陆蟹蟹脚",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxiexiejiao.webp",
+            "pinyin": "luxiexiejiao"
+          },
+          {
+            "id": "奶油",
+            "name": "奶油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyou.webp",
+            "pinyin": "naiyou"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "蓝霉奶酪",
+            "name": "蓝霉奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/lanmeinailao.webp",
+            "pinyin": "lanmeinailao"
+          },
+          {
+            "id": "黑麦粉",
+            "name": "黑麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heimaifen.webp",
+            "pinyin": "heimaifen"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "41-45级",
+    "recipes": [
+      {
+        "id": "罗兰莓奶酪",
+        "name": "罗兰莓奶酪",
+        "level": 41,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/luolanmeinailao.webp",
+        "pinyin": "luolanmeinailao",
+        "recipe": [
+          {
+            "id": "野牛奶",
+            "name": "野牛奶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yeniunai.webp",
+            "pinyin": "yeniunai"
+          },
+          {
+            "id": "罗兰莓",
+            "name": "罗兰莓",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luolanmei.webp",
+            "pinyin": "luolanmei"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "苹果汁",
+        "name": "苹果汁",
+        "level": 42,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/pingguozhi.webp",
+        "pinyin": "pingguozhi",
+        "recipe": [
+          {
+            "id": "晶亮苹果",
+            "name": "晶亮苹果",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/jingliangpingguo.webp",
+            "pinyin": "jingliangpingguo"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "包心甘蓝",
+        "name": "包心甘蓝",
+        "level": 42,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/baoxinganlan.webp",
+        "pinyin": "baoxinganlan",
+        "recipe": [
+          {
+            "id": "中原甘蓝",
+            "name": "中原甘蓝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhongyuanganlan.webp",
+            "pinyin": "zhongyuanganlan"
+          },
+          {
+            "id": "北方狗鱼",
+            "name": "北方狗鱼",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/beifanggouyu.webp",
+            "pinyin": "beifanggouyu"
+          },
+          {
+            "id": "明胶",
+            "name": "明胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mingjiao.webp",
+            "pinyin": "mingjiao"
+          },
+          {
+            "id": "库尔札斯胡萝卜",
+            "name": "库尔札斯胡萝卜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuerzhasihuluobo.webp",
+            "pinyin": "kuerzhasihuluobo"
+          },
+          {
+            "id": "盐韭",
+            "name": "盐韭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yanjiu.webp",
+            "pinyin": "yanjiu"
+          },
+          {
+            "id": "丁香油",
+            "name": "丁香油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dingxiangyou.webp",
+            "pinyin": "dingxiangyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "牛肉干",
+        "name": "牛肉干",
+        "level": 43,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/niurougan.webp",
+        "pinyin": "niurougan",
+        "recipe": [
+          {
+            "id": "水牛里脊",
+            "name": "水牛里脊",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shuiniuliji.webp",
+            "pinyin": "shuiniuliji"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "撒沟厉鼠尾草",
+            "name": "撒沟厉鼠尾草",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/sagoulishuweicao.webp",
+            "pinyin": "sagoulishuweicao"
+          },
+          {
+            "id": "肉豆蔻",
+            "name": "肉豆蔻",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/roudoukou.webp",
+            "pinyin": "roudoukou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "拉诺西亚吐司",
+        "name": "拉诺西亚吐司",
+        "level": 43,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/lanuoxiyatusi.webp",
+        "pinyin": "lanuoxiyatusi",
+        "recipe": [
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "水牛奶",
+            "name": "水牛奶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuiniunai.webp",
+            "pinyin": "shuiniunai"
+          },
+          {
+            "id": "碧企鹅蛋",
+            "name": "碧企鹅蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biqiedan.webp",
+            "pinyin": "biqiedan"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "枫糖浆",
+            "name": "枫糖浆",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtangjiang.webp",
+            "pinyin": "fengtangjiang"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "鱼糕",
+        "name": "鱼糕",
+        "level": 43,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/yugao.webp",
+        "pinyin": "yugao",
+        "recipe": [
+          {
+            "id": "馅饼坯",
+            "name": "馅饼坯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianbingpi.webp",
+            "pinyin": "xianbingpi"
+          },
+          {
+            "id": "低地葡萄",
+            "name": "低地葡萄",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/didiputao.webp",
+            "pinyin": "didiputao"
+          },
+          {
+            "id": "沙漠番红花",
+            "name": "沙漠番红花",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shamofanhonghua.webp",
+            "pinyin": "shamofanhonghua"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "扁桃",
+            "name": "扁桃",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biantao.webp",
+            "pinyin": "biantao"
+          },
+          {
+            "id": "晶亮苹果",
+            "name": "晶亮苹果",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jingliangpingguo.webp",
+            "pinyin": "jingliangpingguo"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "蒜炒草菇",
+        "name": "蒜炒草菇",
+        "level": 44,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/suanchaocaogu.webp",
+        "pinyin": "suanchaocaogu",
+        "recipe": [
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "草菇",
+            "name": "草菇",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caogu.webp",
+            "pinyin": "caogu"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "撒沟厉鼠尾草",
+            "name": "撒沟厉鼠尾草",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/sagoulishuweicao.webp",
+            "pinyin": "sagoulishuweicao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "油炸盐渍鳕鱼丸",
+        "name": "油炸盐渍鳕鱼丸",
+        "level": 44,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/youzhayanzixueyuwan.webp",
+        "pinyin": "youzhayanzixueyuwan",
+        "recipe": [
+          {
+            "id": "虎纹鳕",
+            "name": "虎纹鳕",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huwenxue.webp",
+            "pinyin": "huwenxue"
+          },
+          {
+            "id": "百里香",
+            "name": "百里香",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/bailixiang.webp",
+            "pinyin": "bailixiang"
+          },
+          {
+            "id": "碧企鹅蛋",
+            "name": "碧企鹅蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biqiedan.webp",
+            "pinyin": "biqiedan"
+          },
+          {
+            "id": "丁香油",
+            "name": "丁香油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dingxiangyou.webp",
+            "pinyin": "dingxiangyou"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "肉豆蔻",
+            "name": "肉豆蔻",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/roudoukou.webp",
+            "pinyin": "roudoukou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白鱼汤",
+        "name": "白鱼汤",
+        "level": 44,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/baiyutang.webp",
+        "pinyin": "baiyutang",
+        "recipe": [
+          {
+            "id": "比阿纳可鲷鱼",
+            "name": "比阿纳可鲷鱼",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bianakediaoyu.webp",
+            "pinyin": "bianakediaoyu"
+          },
+          {
+            "id": "红宝石番茄",
+            "name": "红宝石番茄",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/hongbaoshifanqie.webp",
+            "pinyin": "hongbaoshifanqie"
+          },
+          {
+            "id": "高原芹",
+            "name": "高原芹",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaoyuanqin.webp",
+            "pinyin": "gaoyuanqin"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "肉豆蔻",
+            "name": "肉豆蔻",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/roudoukou.webp",
+            "pinyin": "roudoukou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "泽梅尔家风味焗菜",
+        "name": "泽梅尔家风味焗菜",
+        "level": 45,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/zemeierjiafengweijucai.webp",
+        "pinyin": "zemeierjiafengweijucai",
+        "recipe": [
+          {
+            "id": "新薯",
+            "name": "新薯",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xinshu.webp",
+            "pinyin": "xinshu"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "肉豆蔻",
+            "name": "肉豆蔻",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/roudoukou.webp",
+            "pinyin": "roudoukou"
+          },
+          {
+            "id": "奶油",
+            "name": "奶油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyou.webp",
+            "pinyin": "naiyou"
+          },
+          {
+            "id": "水蜥尾肉",
+            "name": "水蜥尾肉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuixiweirou.webp",
+            "pinyin": "shuixiweirou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "罗兰莓酸奶昔",
+        "name": "罗兰莓酸奶昔",
+        "level": 45,
+        "job": "culinarian",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/luolanmeisuannaixi.webp",
+        "pinyin": "luolanmeisuannaixi",
+        "recipe": [
+          {
+            "id": "野牛奶",
+            "name": "野牛奶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/yeniunai.webp",
+            "pinyin": "yeniunai"
+          },
+          {
+            "id": "罗兰莓",
+            "name": "罗兰莓",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/luolanmei.webp",
+            "pinyin": "luolanmei"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "46-50级",
+    "recipes": [
+      {
+        "id": "辛辣蛋",
+        "name": "辛辣蛋",
+        "level": 46,
+        "job": "culinarian",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xinladan.webp",
+        "pinyin": "xinladan",
+        "recipe": [
+          {
+            "id": "碧企鹅蛋",
+            "name": "碧企鹅蛋",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/biqiedan.webp",
+            "pinyin": "biqiedan"
+          },
+          {
+            "id": "满月沙丁鱼",
+            "name": "满月沙丁鱼",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/manyueshadingyu.webp",
+            "pinyin": "manyueshadingyu"
+          },
+          {
+            "id": "高原芹",
+            "name": "高原芹",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaoyuanqin.webp",
+            "pinyin": "gaoyuanqin"
+          },
+          {
+            "id": "红辣椒",
+            "name": "红辣椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/honglajiao.webp",
+            "pinyin": "honglajiao"
+          },
+          {
+            "id": "阿拉米格芥子",
+            "name": "阿拉米格芥子",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/alamigejiezi.webp",
+            "pinyin": "alamigejiezi"
+          },
+          {
+            "id": "太阳柠檬",
+            "name": "太阳柠檬",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/taiyangningmeng.webp",
+            "pinyin": "taiyangningmeng"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "香草茶",
+        "name": "香草茶",
+        "level": 47,
+        "job": "culinarian",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/xiangcaocha.webp",
+        "pinyin": "xiangcaocha",
+        "recipe": [
+          {
+            "id": "萨纳兰茶叶",
+            "name": "萨纳兰茶叶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/sanalanchaye.webp",
+            "pinyin": "sanalanchaye"
+          },
+          {
+            "id": "生姜",
+            "name": "生姜",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shengjiang.webp",
+            "pinyin": "shengjiang"
+          },
+          {
+            "id": "丁香花",
+            "name": "丁香花",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dingxianghua.webp",
+            "pinyin": "dingxianghua"
+          },
+          {
+            "id": "桂皮",
+            "name": "桂皮",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guipi.webp",
+            "pinyin": "guipi"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "王冠蛋糕",
+        "name": "王冠蛋糕",
+        "level": 47,
+        "job": "culinarian",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/wangguandangao.webp",
+        "pinyin": "wangguandangao",
+        "recipe": [
+          {
+            "id": "馅饼坯",
+            "name": "馅饼坯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianbingpi.webp",
+            "pinyin": "xianbingpi"
+          },
+          {
+            "id": "晶亮苹果",
+            "name": "晶亮苹果",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jingliangpingguo.webp",
+            "pinyin": "jingliangpingguo"
+          },
+          {
+            "id": "枫糖",
+            "name": "枫糖",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtang.webp",
+            "pinyin": "fengtang"
+          },
+          {
+            "id": "桂皮",
+            "name": "桂皮",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guipi.webp",
+            "pinyin": "guipi"
+          },
+          {
+            "id": "扁桃",
+            "name": "扁桃",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biantao.webp",
+            "pinyin": "biantao"
+          },
+          {
+            "id": "小王冠",
+            "name": "小王冠",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiaowangguan.webp",
+            "pinyin": "xiaowangguan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "草菇甘蓝卷",
+        "name": "草菇甘蓝卷",
+        "level": 48,
+        "job": "culinarian",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/caoguganlanjuan.webp",
+        "pinyin": "caoguganlanjuan",
+        "recipe": [
+          {
+            "id": "草菇",
+            "name": "草菇",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/caogu.webp",
+            "pinyin": "caogu"
+          },
+          {
+            "id": "中原甘蓝",
+            "name": "中原甘蓝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhongyuanganlan.webp",
+            "pinyin": "zhongyuanganlan"
+          },
+          {
+            "id": "红宝石番茄",
+            "name": "红宝石番茄",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongbaoshifanqie.webp",
+            "pinyin": "hongbaoshifanqie"
+          },
+          {
+            "id": "番茄汁",
+            "name": "番茄汁",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fanqiezhi.webp",
+            "pinyin": "fanqiezhi"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "沙漠番红花",
+            "name": "沙漠番红花",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shamofanhonghua.webp",
+            "pinyin": "shamofanhonghua"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "水蜥肉排",
+        "name": "水蜥肉排",
+        "level": 48,
+        "job": "culinarian",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/shuixiroupai.webp",
+        "pinyin": "shuixiroupai",
+        "recipe": [
+          {
+            "id": "水蜥尾肉",
+            "name": "水蜥尾肉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuixiweirou.webp",
+            "pinyin": "shuixiweirou"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "料酒",
+            "name": "料酒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/liaojiu.webp",
+            "pinyin": "liaojiu"
+          },
+          {
+            "id": "苹果醋",
+            "name": "苹果醋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/pingguocu.webp",
+            "pinyin": "pingguocu"
+          },
+          {
+            "id": "月桂",
+            "name": "月桂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yuegui.webp",
+            "pinyin": "yuegui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "清炖牛肉",
+        "name": "清炖牛肉",
+        "level": 49,
+        "job": "culinarian",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/qingdunniurou.webp",
+        "pinyin": "qingdunniurou",
+        "recipe": [
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "水牛里脊",
+            "name": "水牛里脊",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuiniuliji.webp",
+            "pinyin": "shuiniuliji"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "料酒",
+            "name": "料酒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/liaojiu.webp",
+            "pinyin": "liaojiu"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "猎人风味水蜥饼",
+        "name": "猎人风味水蜥饼",
+        "level": 50,
+        "job": "culinarian",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/lierenfengweishuixibing.webp",
+        "pinyin": "lierenfengweishuixibing",
+        "recipe": [
+          {
+            "id": "水蜥尾肉",
+            "name": "水蜥尾肉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuixiweirou.webp",
+            "pinyin": "shuixiweirou"
+          },
+          {
+            "id": "碧企鹅蛋",
+            "name": "碧企鹅蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biqiedan.webp",
+            "pinyin": "biqiedan"
+          },
+          {
+            "id": "馅饼坯",
+            "name": "馅饼坯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianbingpi.webp",
+            "pinyin": "xianbingpi"
+          },
+          {
+            "id": "肉豆蔻",
+            "name": "肉豆蔻",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/roudoukou.webp",
+            "pinyin": "roudoukou"
+          },
+          {
+            "id": "中原罗勒草",
+            "name": "中原罗勒草",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zhongyuanluolecao.webp",
+            "pinyin": "zhongyuanluolecao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "海神汤",
+        "name": "海神汤",
+        "level": 50,
+        "job": "culinarian",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/haishentang.webp",
+        "pinyin": "haishentang",
+        "recipe": [
+          {
+            "id": "海神刀",
+            "name": "海神刀",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/haishendao.webp",
+            "pinyin": "haishendao"
+          },
+          {
+            "id": "破云飞鱼",
+            "name": "破云飞鱼",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/poyunfeiyu.webp",
+            "pinyin": "poyunfeiyu"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "盐韭",
+            "name": "盐韭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yanjiu.webp",
+            "pinyin": "yanjiu"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "秘籍：第1卷",
+    "recipes": [
+      {
+        "id": "罗兰莓奶酪蛋糕",
+        "name": "罗兰莓奶酪蛋糕",
+        "level": "50★",
+        "job": "culinarian",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/luolanmeinailaodangao.webp",
+        "pinyin": "luolanmeinailaodangao",
+        "recipe": [
+          {
+            "id": "蜜柠檬",
+            "name": "蜜柠檬",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/miningmeng.webp",
+            "pinyin": "miningmeng"
+          },
+          {
+            "id": "罗兰莓奶酪",
+            "name": "罗兰莓奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luolanmeinailao.webp",
+            "pinyin": "luolanmeinailao"
+          },
+          {
+            "id": "奶油",
+            "name": "奶油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyou.webp",
+            "pinyin": "naiyou"
+          },
+          {
+            "id": "明胶",
+            "name": "明胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mingjiao.webp",
+            "pinyin": "mingjiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "碧企鹅蛋卷",
+        "name": "碧企鹅蛋卷",
+        "level": "50★",
+        "job": "culinarian",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/biqiedanjuan.webp",
+        "pinyin": "biqiedanjuan",
+        "recipe": [
+          {
+            "id": "黑松露",
+            "name": "黑松露",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heisonglu.webp",
+            "pinyin": "heisonglu"
+          },
+          {
+            "id": "碧企鹅蛋",
+            "name": "碧企鹅蛋",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/biqiedan.webp",
+            "pinyin": "biqiedan"
+          },
+          {
+            "id": "奶油",
+            "name": "奶油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/naiyou.webp",
+            "pinyin": "naiyou"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "菠萝蛋糕",
+        "name": "菠萝蛋糕",
+        "level": "50★",
+        "job": "culinarian",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/boluodangao.webp",
+        "pinyin": "boluodangao",
+        "recipe": [
+          {
+            "id": "多刺菠萝",
+            "name": "多刺菠萝",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/duociboluo.webp",
+            "pinyin": "duociboluo"
+          },
+          {
+            "id": "小麦粉",
+            "name": "小麦粉",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xiaomaifen.webp",
+            "pinyin": "xiaomaifen"
+          },
+          {
+            "id": "野牛奶",
+            "name": "野牛奶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yeniunai.webp",
+            "pinyin": "yeniunai"
+          },
+          {
+            "id": "碧企鹅蛋",
+            "name": "碧企鹅蛋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biqiedan.webp",
+            "pinyin": "biqiedan"
+          },
+          {
+            "id": "枫糖浆",
+            "name": "枫糖浆",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengtangjiang.webp",
+            "pinyin": "fengtangjiang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "菠萝汁",
+        "name": "菠萝汁",
+        "level": "50★",
+        "job": "culinarian",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/boluozhi.webp",
+        "pinyin": "boluozhi",
+        "recipe": [
+          {
+            "id": "多刺菠萝",
+            "name": "多刺菠萝",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/duociboluo.webp",
+            "pinyin": "duociboluo"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑松露烩饭",
+        "name": "黑松露烩饭",
+        "level": "50★",
+        "job": "culinarian",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/heisongluhuifan.webp",
+        "pinyin": "heisongluhuifan",
+        "recipe": [
+          {
+            "id": "黑松露",
+            "name": "黑松露",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/heisonglu.webp",
+            "pinyin": "heisonglu"
+          },
+          {
+            "id": "糯米",
+            "name": "糯米",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/nuomi.webp",
+            "pinyin": "nuomi"
+          },
+          {
+            "id": "农家奶酪",
+            "name": "农家奶酪",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/nongjianailao.webp",
+            "pinyin": "nongjianailao"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑线鳕沙拉",
+        "name": "黑线鳕沙拉",
+        "level": "50★",
+        "job": "culinarian",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/heixianxueshala.webp",
+        "pinyin": "heixianxueshala",
+        "recipe": [
+          {
+            "id": "蜜柠檬",
+            "name": "蜜柠檬",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/miningmeng.webp",
+            "pinyin": "miningmeng"
+          },
+          {
+            "id": "哈拉尔黑线鳕",
+            "name": "哈拉尔黑线鳕",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/halaerheixianxue.webp",
+            "pinyin": "halaerheixianxue"
+          },
+          {
+            "id": "橄榄油",
+            "name": "橄榄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/ganlanyou.webp",
+            "pinyin": "ganlanyou"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "收藏品",
+    "recipes": [
+      {
+        "id": "收藏用苹果汁",
+        "name": "收藏用苹果汁",
+        "level": 41,
+        "job": "culinarian",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongpingguozhi.webp",
+        "pinyin": "shoucangyongpingguozhi",
+        "recipe": [
+          {
+            "id": "晶亮苹果",
+            "name": "晶亮苹果",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/jingliangpingguo.webp",
+            "pinyin": "jingliangpingguo"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用鱼糕",
+        "name": "收藏用鱼糕",
+        "level": 43,
+        "job": "culinarian",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongyugao.webp",
+        "pinyin": "shoucangyongyugao",
+        "recipe": [
+          {
+            "id": "馅饼坯",
+            "name": "馅饼坯",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xianbingpi.webp",
+            "pinyin": "xianbingpi"
+          },
+          {
+            "id": "低地葡萄",
+            "name": "低地葡萄",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/didiputao.webp",
+            "pinyin": "didiputao"
+          },
+          {
+            "id": "沙漠番红花",
+            "name": "沙漠番红花",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shamofanhonghua.webp",
+            "pinyin": "shamofanhonghua"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "扁桃",
+            "name": "扁桃",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/biantao.webp",
+            "pinyin": "biantao"
+          },
+          {
+            "id": "晶亮苹果",
+            "name": "晶亮苹果",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/jingliangpingguo.webp",
+            "pinyin": "jingliangpingguo"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用白鱼汤",
+        "name": "收藏用白鱼汤",
+        "level": 45,
+        "job": "culinarian",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongbaiyutang.webp",
+        "pinyin": "shoucangyongbaiyutang",
+        "recipe": [
+          {
+            "id": "比阿纳可鲷鱼",
+            "name": "比阿纳可鲷鱼",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/bianakediaoyu.webp",
+            "pinyin": "bianakediaoyu"
+          },
+          {
+            "id": "红宝石番茄",
+            "name": "红宝石番茄",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/hongbaoshifanqie.webp",
+            "pinyin": "hongbaoshifanqie"
+          },
+          {
+            "id": "高原芹",
+            "name": "高原芹",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaoyuanqin.webp",
+            "pinyin": "gaoyuanqin"
+          },
+          {
+            "id": "野洋葱",
+            "name": "野洋葱",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yeyangcong.webp",
+            "pinyin": "yeyangcong"
+          },
+          {
+            "id": "黄油",
+            "name": "黄油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huangyou.webp",
+            "pinyin": "huangyou"
+          },
+          {
+            "id": "肉豆蔻",
+            "name": "肉豆蔻",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/roudoukou.webp",
+            "pinyin": "roudoukou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用香草茶",
+        "name": "收藏用香草茶",
+        "level": 47,
+        "job": "culinarian",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongxiangcaocha.webp",
+        "pinyin": "shoucangyongxiangcaocha",
+        "recipe": [
+          {
+            "id": "萨纳兰茶叶",
+            "name": "萨纳兰茶叶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/sanalanchaye.webp",
+            "pinyin": "sanalanchaye"
+          },
+          {
+            "id": "生姜",
+            "name": "生姜",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/shengjiang.webp",
+            "pinyin": "shengjiang"
+          },
+          {
+            "id": "丁香花",
+            "name": "丁香花",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dingxianghua.webp",
+            "pinyin": "dingxianghua"
+          },
+          {
+            "id": "桂皮",
+            "name": "桂皮",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guipi.webp",
+            "pinyin": "guipi"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用水蜥肉排",
+        "name": "收藏用水蜥肉排",
+        "level": 49,
+        "job": "culinarian",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyongshuixiroupai.webp",
+        "pinyin": "shoucangyongshuixiroupai",
+        "recipe": [
+          {
+            "id": "水蜥尾肉",
+            "name": "水蜥尾肉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shuixiweirou.webp",
+            "pinyin": "shuixiweirou"
+          },
+          {
+            "id": "黑胡椒",
+            "name": "黑胡椒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heihujiao.webp",
+            "pinyin": "heihujiao"
+          },
+          {
+            "id": "大蒜",
+            "name": "大蒜",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dasuan.webp",
+            "pinyin": "dasuan"
+          },
+          {
+            "id": "料酒",
+            "name": "料酒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/liaojiu.webp",
+            "pinyin": "liaojiu"
+          },
+          {
+            "id": "苹果醋",
+            "name": "苹果醋",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/pingguocu.webp",
+            "pinyin": "pingguocu"
+          },
+          {
+            "id": "月桂",
+            "name": "月桂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yuegui.webp",
+            "pinyin": "yuegui"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用海神汤",
+        "name": "收藏用海神汤",
+        "level": "50★",
+        "job": "culinarian",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyonghaishentang.webp",
+        "pinyin": "shoucangyonghaishentang",
+        "recipe": [
+          {
+            "id": "海神刀",
+            "name": "海神刀",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/haishendao.webp",
+            "pinyin": "haishendao"
+          },
+          {
+            "id": "破云飞鱼",
+            "name": "破云飞鱼",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/poyunfeiyu.webp",
+            "pinyin": "poyunfeiyu"
+          },
+          {
+            "id": "食盐",
+            "name": "食盐",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shiyan.webp",
+            "pinyin": "shiyan"
+          },
+          {
+            "id": "矿泉水",
+            "name": "矿泉水",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/kuangquanshui.webp",
+            "pinyin": "kuangquanshui"
+          },
+          {
+            "id": "盐韭",
+            "name": "盐韭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yanjiu.webp",
+            "pinyin": "yanjiu"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "水之碎晶",
+            "name": "水之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/shuizhisuijing.webp",
+            "pinyin": "shuizhisuijing"
+          }
+        ]
+      }
+    ]
+  }
+]

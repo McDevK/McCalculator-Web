@@ -1,0 +1,4947 @@
+[
+  {
+    "category": "1-5级",
+    "recipes": [
+      {
+        "id": "青铜锭",
+        "name": "青铜锭",
+        "level": 1,
+        "job": "blacksmith",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/qingtongding.webp",
+        "pinyin": "qingtongding",
+        "recipe": [
+          {
+            "id": "铜矿",
+            "name": "铜矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tongkuang.webp",
+            "pinyin": "tongkuang"
+          },
+          {
+            "id": "锡矿",
+            "name": "锡矿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xikuang.webp",
+            "pinyin": "xikuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "青铜铆钉",
+        "name": "青铜铆钉",
+        "level": 3,
+        "job": "blacksmith",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/qingtongmaoding.webp",
+        "pinyin": "qingtongmaoding",
+        "recipe": [
+          {
+            "id": "铜矿",
+            "name": "铜矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tongkuang.webp",
+            "pinyin": "tongkuang"
+          },
+          {
+            "id": "锡矿",
+            "name": "锡矿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xikuang.webp",
+            "pinyin": "xikuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "青铜横头锤",
+        "name": "青铜横头锤",
+        "level": 4,
+        "job": "blacksmith",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/qingtonghengtouchui.webp",
+        "pinyin": "qingtonghengtouchui",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "枫木木材",
+            "name": "枫木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengmumucai.webp",
+            "pinyin": "fengmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "青铜维京剑",
+        "name": "青铜维京剑",
+        "level": 5,
+        "job": "blacksmith",
+        "category": "1-5级",
+        "icon": "assets/icons/itemse/qingtongweijingjian.webp",
+        "pinyin": "qingtongweijingjian",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "骨片",
+            "name": "骨片",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gupian.webp",
+            "pinyin": "gupian"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "6-10级",
+    "recipes": [
+      {
+        "id": "青铜双刃斧",
+        "name": "青铜双刃斧",
+        "level": 6,
+        "job": "blacksmith",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/qingtongshuangrenfu.webp",
+        "pinyin": "qingtongshuangrenfu",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "枫木木材",
+            "name": "枫木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengmumucai.webp",
+            "pinyin": "fengmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余手锯",
+        "name": "业余手锯",
+        "level": 10,
+        "job": "blacksmith",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/yeyushouju.webp",
+        "pinyin": "yeyushouju",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "青铜铆钉",
+            "name": "青铜铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/qingtongmaoding.webp",
+            "pinyin": "qingtongmaoding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余横头锤",
+        "name": "业余横头锤",
+        "level": 10,
+        "job": "blacksmith",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/yeyuhengtouchui.webp",
+        "pinyin": "yeyuhengtouchui",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余铸甲锤",
+        "name": "业余铸甲锤",
+        "level": 10,
+        "job": "blacksmith",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/yeyuzhujiachui.webp",
+        "pinyin": "yeyuzhujiachui",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余雕金锤",
+        "name": "业余雕金锤",
+        "level": 10,
+        "job": "blacksmith",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/yeyudiaojinchui.webp",
+        "pinyin": "yeyudiaojinchui",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "青铜铆钉",
+            "name": "青铜铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/qingtongmaoding.webp",
+            "pinyin": "qingtongmaoding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余裁皮刀",
+        "name": "业余裁皮刀",
+        "level": 10,
+        "job": "blacksmith",
+        "category": "6-10级",
+        "icon": "assets/icons/itemse/yeyucaipidao.webp",
+        "pinyin": "yeyucaipidao",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "砂岩磨刀石",
+            "name": "砂岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shayanmodaoshi.webp",
+            "pinyin": "shayanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "11-15级",
+    "recipes": [
+      {
+        "id": "业余鹤嘴锄",
+        "name": "业余鹤嘴锄",
+        "level": 11,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyuhezuichu.webp",
+        "pinyin": "yeyuhezuichu",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "草布",
+            "name": "草布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/caobu.webp",
+            "pinyin": "caobu"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余手斧",
+        "name": "业余手斧",
+        "level": 11,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyushoufu.webp",
+        "pinyin": "yeyushoufu",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余研钵",
+        "name": "业余研钵",
+        "level": 11,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyuyanbo.webp",
+        "pinyin": "yeyuyanbo",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "枫木木材",
+            "name": "枫木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengmumucai.webp",
+            "pinyin": "fengmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余厨刀",
+        "name": "业余厨刀",
+        "level": 11,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyuchudao.webp",
+        "pinyin": "yeyuchudao",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "枫木木材",
+            "name": "枫木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengmumucai.webp",
+            "pinyin": "fengmumucai"
+          },
+          {
+            "id": "砂岩磨刀石",
+            "name": "砂岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shayanmodaoshi.webp",
+            "pinyin": "shayanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余羊角锤",
+        "name": "业余羊角锤",
+        "level": 11,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyuyangjiaochui.webp",
+        "pinyin": "yeyuyangjiaochui",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "枫木木材",
+            "name": "枫木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengmumucai.webp",
+            "pinyin": "fengmumucai"
+          },
+          {
+            "id": "鱼油",
+            "name": "鱼油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yuyou.webp",
+            "pinyin": "yuyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余锉刀",
+        "name": "业余锉刀",
+        "level": 12,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyucuodao.webp",
+        "pinyin": "yeyucuodao",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "鞣革",
+            "name": "鞣革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/rouge.webp",
+            "pinyin": "rouge"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余手钳",
+        "name": "业余手钳",
+        "level": 12,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyushouqian.webp",
+        "pinyin": "yeyushouqian",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "青铜铆钉",
+            "name": "青铜铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/qingtongmaoding.webp",
+            "pinyin": "qingtongmaoding"
+          },
+          {
+            "id": "鱼油",
+            "name": "鱼油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yuyou.webp",
+            "pinyin": "yuyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余平斩",
+        "name": "业余平斩",
+        "level": 12,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyupingzhan.webp",
+        "pinyin": "yeyupingzhan",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "枫木木材",
+            "name": "枫木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fengmumucai.webp",
+            "pinyin": "fengmumucai"
+          },
+          {
+            "id": "鱼油",
+            "name": "鱼油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yuyou.webp",
+            "pinyin": "yuyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余碎石锤",
+        "name": "业余碎石锤",
+        "level": 12,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyusuishichui.webp",
+        "pinyin": "yeyusuishichui",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "黏胶",
+            "name": "黏胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/nianjiao.webp",
+            "pinyin": "nianjiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "业余镰刀",
+        "name": "业余镰刀",
+        "level": 12,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/yeyuliandao.webp",
+        "pinyin": "yeyuliandao",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "砂岩磨刀石",
+            "name": "砂岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shayanmodaoshi.webp",
+            "pinyin": "shayanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑铁锭",
+        "name": "黑铁锭",
+        "level": 12,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/heitieding.webp",
+        "pinyin": "heitieding",
+        "recipe": [
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑铁钉",
+        "name": "黑铁钉",
+        "level": 13,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/heitieding.webp",
+        "pinyin": "heitieding",
+        "recipe": [
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑铁铆钉",
+        "name": "黑铁铆钉",
+        "level": 14,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/heitiemaoding.webp",
+        "pinyin": "heitiemaoding",
+        "recipe": [
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "青铜刺柄双刃斧",
+        "name": "青铜刺柄双刃斧",
+        "level": 15,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/qingtongcibingshuangrenfu.webp",
+        "pinyin": "qingtongcibingshuangrenfu",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "青铜骑兵剑",
+        "name": "青铜骑兵剑",
+        "level": 15,
+        "job": "blacksmith",
+        "category": "11-15级",
+        "icon": "assets/icons/itemse/qingtongqibingjian.webp",
+        "pinyin": "qingtongqibingjian",
+        "recipe": [
+          {
+            "id": "青铜锭",
+            "name": "青铜锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/qingtongding.webp",
+            "pinyin": "qingtongding"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "牡羊角",
+            "name": "牡羊角",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/muyangjiao.webp",
+            "pinyin": "muyangjiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "16-20级",
+    "recipes": [
+      {
+        "id": "黑铁维京剑",
+        "name": "黑铁维京剑",
+        "level": 16,
+        "job": "blacksmith",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/heitieweijingjian.webp",
+        "pinyin": "heitieweijingjian",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑铁双刃斧",
+        "name": "黑铁双刃斧",
+        "level": 16,
+        "job": "blacksmith",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/heitieshuangrenfu.webp",
+        "pinyin": "heitieshuangrenfu",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "榆木木材",
+            "name": "榆木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yumumucai.webp",
+            "pinyin": "yumumucai"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑铁横头锤",
+        "name": "黑铁横头锤",
+        "level": 19,
+        "job": "blacksmith",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/heitiehengtouchui.webp",
+        "pinyin": "heitiehengtouchui",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "榆木木材",
+            "name": "榆木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yumumucai.webp",
+            "pinyin": "yumumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者手锯",
+        "name": "新来者手锯",
+        "level": 20,
+        "job": "blacksmith",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/xinlaizheshouju.webp",
+        "pinyin": "xinlaizheshouju",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "黑铁铆钉",
+            "name": "黑铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitiemaoding.webp",
+            "pinyin": "heitiemaoding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者横头锤",
+        "name": "新来者横头锤",
+        "level": 20,
+        "job": "blacksmith",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/xinlaizhehengtouchui.webp",
+        "pinyin": "xinlaizhehengtouchui",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者铸甲锤",
+        "name": "新来者铸甲锤",
+        "level": 20,
+        "job": "blacksmith",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/xinlaizhezhujiachui.webp",
+        "pinyin": "xinlaizhezhujiachui",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者雕金锤",
+        "name": "新来者雕金锤",
+        "level": 20,
+        "job": "blacksmith",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/xinlaizhediaojinchui.webp",
+        "pinyin": "xinlaizhediaojinchui",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "黑铁铆钉",
+            "name": "黑铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitiemaoding.webp",
+            "pinyin": "heitiemaoding"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者裁皮刀",
+        "name": "新来者裁皮刀",
+        "level": 20,
+        "job": "blacksmith",
+        "category": "16-20级",
+        "icon": "assets/icons/itemse/xinlaizhecaipidao.webp",
+        "pinyin": "xinlaizhecaipidao",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "梣木木材",
+            "name": "梣木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/cenmumucai.webp",
+            "pinyin": "cenmumucai"
+          },
+          {
+            "id": "泥岩磨刀石",
+            "name": "泥岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/niyanmodaoshi.webp",
+            "pinyin": "niyanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "21-25级",
+    "recipes": [
+      {
+        "id": "新来者鹤嘴锄",
+        "name": "新来者鹤嘴锄",
+        "level": 21,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizhehezuichu.webp",
+        "pinyin": "xinlaizhehezuichu",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "棉布",
+            "name": "棉布",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianbu.webp",
+            "pinyin": "mianbu"
+          },
+          {
+            "id": "榆木木材",
+            "name": "榆木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yumumucai.webp",
+            "pinyin": "yumumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者手斧",
+        "name": "新来者手斧",
+        "level": 21,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizheshoufu.webp",
+        "pinyin": "xinlaizheshoufu",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "榆木木材",
+            "name": "榆木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yumumucai.webp",
+            "pinyin": "yumumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者研钵",
+        "name": "新来者研钵",
+        "level": 21,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizheyanbo.webp",
+        "pinyin": "xinlaizheyanbo",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者厨刀",
+        "name": "新来者厨刀",
+        "level": 21,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizhechudao.webp",
+        "pinyin": "xinlaizhechudao",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "泥岩磨刀石",
+            "name": "泥岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/niyanmodaoshi.webp",
+            "pinyin": "niyanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者羊角锤",
+        "name": "新来者羊角锤",
+        "level": 21,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizheyangjiaochui.webp",
+        "pinyin": "xinlaizheyangjiaochui",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "蟹油",
+            "name": "蟹油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xieyou.webp",
+            "pinyin": "xieyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者锉刀",
+        "name": "新来者锉刀",
+        "level": 22,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizhecuodao.webp",
+        "pinyin": "xinlaizhecuodao",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "硬革",
+            "name": "硬革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingge.webp",
+            "pinyin": "yingge"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者手钳",
+        "name": "新来者手钳",
+        "level": 22,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizheshouqian.webp",
+        "pinyin": "xinlaizheshouqian",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "黑铁铆钉",
+            "name": "黑铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitiemaoding.webp",
+            "pinyin": "heitiemaoding"
+          },
+          {
+            "id": "蟹油",
+            "name": "蟹油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xieyou.webp",
+            "pinyin": "xieyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者平斩",
+        "name": "新来者平斩",
+        "level": 22,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizhepingzhan.webp",
+        "pinyin": "xinlaizhepingzhan",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "丁香油",
+            "name": "丁香油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dingxiangyou.webp",
+            "pinyin": "dingxiangyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者碎石锤",
+        "name": "新来者碎石锤",
+        "level": 22,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizhesuishichui.webp",
+        "pinyin": "xinlaizhesuishichui",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "鱼胶",
+            "name": "鱼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yujiao.webp",
+            "pinyin": "yujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "新来者镰刀",
+        "name": "新来者镰刀",
+        "level": 22,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/xinlaizheliandao.webp",
+        "pinyin": "xinlaizheliandao",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "紫杉木材",
+            "name": "紫杉木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zishamucai.webp",
+            "pinyin": "zishamucai"
+          },
+          {
+            "id": "泥岩磨刀石",
+            "name": "泥岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/niyanmodaoshi.webp",
+            "pinyin": "niyanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢锭",
+        "name": "白钢锭",
+        "level": 22,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/baigangding.webp",
+        "pinyin": "baigangding",
+        "recipe": [
+          {
+            "id": "爆弹怪的灰",
+            "name": "爆弹怪的灰",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/baodanguaidehui.webp",
+            "pinyin": "baodanguaidehui"
+          },
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢钉",
+        "name": "白钢钉",
+        "level": 23,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/baigangding.webp",
+        "pinyin": "baigangding",
+        "recipe": [
+          {
+            "id": "爆弹怪的灰",
+            "name": "爆弹怪的灰",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/baodanguaidehui.webp",
+            "pinyin": "baodanguaidehui"
+          },
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢铆钉",
+        "name": "白钢铆钉",
+        "level": 24,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/baigangmaoding.webp",
+        "pinyin": "baigangmaoding",
+        "recipe": [
+          {
+            "id": "爆弹怪的灰",
+            "name": "爆弹怪的灰",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/baodanguaidehui.webp",
+            "pinyin": "baodanguaidehui"
+          },
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢宽刃剑",
+        "name": "白钢宽刃剑",
+        "level": 25,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/baigangkuanrenjian.webp",
+        "pinyin": "baigangkuanrenjian",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "黑狼之牙",
+            "name": "黑狼之牙",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heilangzhiya.webp",
+            "pinyin": "heilangzhiya"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢刺柄双刃斧",
+        "name": "白钢刺柄双刃斧",
+        "level": 25,
+        "job": "blacksmith",
+        "category": "21-25级",
+        "icon": "assets/icons/itemse/baigangcibingshuangrenfu.webp",
+        "pinyin": "baigangcibingshuangrenfu",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "巨蟾蜍革",
+            "name": "巨蟾蜍革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/juchanchuge.webp",
+            "pinyin": "juchanchuge"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "26-30级",
+    "recipes": [
+      {
+        "id": "白钢爪",
+        "name": "白钢爪",
+        "level": 26,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/baigangzhao.webp",
+        "pinyin": "baigangzhao",
+        "recipe": [
+          {
+            "id": "白钢板",
+            "name": "白钢板",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baigangban.webp",
+            "pinyin": "baigangban"
+          },
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "鱼胶",
+            "name": "鱼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yujiao.webp",
+            "pinyin": "yujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "秘银锭",
+        "name": "秘银锭",
+        "level": 27,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/miyinding.webp",
+        "pinyin": "miyinding",
+        "recipe": [
+          {
+            "id": "秘银矿",
+            "name": "秘银矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/miyinkuang.webp",
+            "pinyin": "miyinkuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "秘银铆钉",
+        "name": "秘银铆钉",
+        "level": 28,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/miyinmaoding.webp",
+        "pinyin": "miyinmaoding",
+        "recipe": [
+          {
+            "id": "秘银矿",
+            "name": "秘银矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/miyinkuang.webp",
+            "pinyin": "miyinkuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "黑铁陆行鸟手斧",
+        "name": "黑铁陆行鸟手斧",
+        "level": 29,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/heitieluxingniaoshoufu.webp",
+        "pinyin": "heitieluxingniaoshoufu",
+        "recipe": [
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "陆行鸟之羽",
+            "name": "陆行鸟之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxingniaozhiyu.webp",
+            "pinyin": "luxingniaozhiyu"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢雕纹手锯",
+        "name": "白钢雕纹手锯",
+        "level": 30,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/baigangdiaowenshouju.webp",
+        "pinyin": "baigangdiaowenshouju",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "白钢铆钉",
+            "name": "白钢铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baigangmaoding.webp",
+            "pinyin": "baigangmaoding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢横头锤",
+        "name": "白钢横头锤",
+        "level": 30,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/baiganghengtouchui.webp",
+        "pinyin": "baiganghengtouchui",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢铸甲锤",
+        "name": "白钢铸甲锤",
+        "level": 30,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/baigangzhujiachui.webp",
+        "pinyin": "baigangzhujiachui",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢装饰锤",
+        "name": "白钢装饰锤",
+        "level": 30,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/baigangzhuangshichui.webp",
+        "pinyin": "baigangzhuangshichui",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "白钢铆钉",
+            "name": "白钢铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baigangmaoding.webp",
+            "pinyin": "baigangmaoding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢圆革刀",
+        "name": "白钢圆革刀",
+        "level": 30,
+        "job": "blacksmith",
+        "category": "26-30级",
+        "icon": "assets/icons/itemse/baigangyuangedao.webp",
+        "pinyin": "baigangyuangedao",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "粉砂岩磨刀石",
+            "name": "粉砂岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fenshayanmodaoshi.webp",
+            "pinyin": "fenshayanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "31-35级",
+    "recipes": [
+      {
+        "id": "白钢鹤嘴锄",
+        "name": "白钢鹤嘴锄",
+        "level": 31,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baiganghezuichu.webp",
+        "pinyin": "baiganghezuichu",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢手斧",
+        "name": "白钢手斧",
+        "level": 31,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangshoufu.webp",
+        "pinyin": "baigangshoufu",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢研钵",
+        "name": "白钢研钵",
+        "level": 31,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangyanbo.webp",
+        "pinyin": "baigangyanbo",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢厨刀",
+        "name": "白钢厨刀",
+        "level": 31,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangchudao.webp",
+        "pinyin": "baigangchudao",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "粉砂岩磨刀石",
+            "name": "粉砂岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fenshayanmodaoshi.webp",
+            "pinyin": "fenshayanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢羊角锤",
+        "name": "白钢羊角锤",
+        "level": 31,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangyangjiaochui.webp",
+        "pinyin": "baigangyangjiaochui",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "蟹油",
+            "name": "蟹油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xieyou.webp",
+            "pinyin": "xieyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢锉刀",
+        "name": "白钢锉刀",
+        "level": 32,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangcuodao.webp",
+        "pinyin": "baigangcuodao",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "巨蟾蜍革",
+            "name": "巨蟾蜍革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/juchanchuge.webp",
+            "pinyin": "juchanchuge"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢手钳",
+        "name": "白钢手钳",
+        "level": 32,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangshouqian.webp",
+        "pinyin": "baigangshouqian",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "白钢铆钉",
+            "name": "白钢铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baigangmaoding.webp",
+            "pinyin": "baigangmaoding"
+          },
+          {
+            "id": "亚麻油",
+            "name": "亚麻油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yamayou.webp",
+            "pinyin": "yamayou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢平斩",
+        "name": "白钢平斩",
+        "level": 32,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangpingzhan.webp",
+        "pinyin": "baigangpingzhan",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "蟹油",
+            "name": "蟹油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xieyou.webp",
+            "pinyin": "xieyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢碎石锤",
+        "name": "白钢碎石锤",
+        "level": 32,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangsuishichui.webp",
+        "pinyin": "baigangsuishichui",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "鱼胶",
+            "name": "鱼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yujiao.webp",
+            "pinyin": "yujiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢镰刀",
+        "name": "白钢镰刀",
+        "level": 32,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangliandao.webp",
+        "pinyin": "baigangliandao",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "粉砂岩磨刀石",
+            "name": "粉砂岩磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/fenshayanmodaoshi.webp",
+            "pinyin": "fenshayanmodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "白钢长刃斧",
+        "name": "白钢长刃斧",
+        "level": 34,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/baigangzhangrenfu.webp",
+        "pinyin": "baigangzhangrenfu",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "胡桃木材",
+            "name": "胡桃木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hutaomucai.webp",
+            "pinyin": "hutaomucai"
+          },
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "秘银宽刃剑",
+        "name": "秘银宽刃剑",
+        "level": 35,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/miyinkuanrenjian.webp",
+        "pinyin": "miyinkuanrenjian",
+        "recipe": [
+          {
+            "id": "秘银锭",
+            "name": "秘银锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/miyinding.webp",
+            "pinyin": "miyinding"
+          },
+          {
+            "id": "橡木木材",
+            "name": "橡木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangmumucai.webp",
+            "pinyin": "xiangmumucai"
+          },
+          {
+            "id": "黑狼之牙",
+            "name": "黑狼之牙",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heilangzhiya.webp",
+            "pinyin": "heilangzhiya"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "秘银刺柄双刃斧",
+        "name": "秘银刺柄双刃斧",
+        "level": 35,
+        "job": "blacksmith",
+        "category": "31-35级",
+        "icon": "assets/icons/itemse/miyincibingshuangrenfu.webp",
+        "pinyin": "miyincibingshuangrenfu",
+        "recipe": [
+          {
+            "id": "秘银锭",
+            "name": "秘银锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/miyinding.webp",
+            "pinyin": "miyinding"
+          },
+          {
+            "id": "橡木木材",
+            "name": "橡木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangmumucai.webp",
+            "pinyin": "xiangmumucai"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "36-40级",
+    "recipes": [
+      {
+        "id": "秘银爪",
+        "name": "秘银爪",
+        "level": 36,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/miyinzhao.webp",
+        "pinyin": "miyinzhao",
+        "recipe": [
+          {
+            "id": "秘银板",
+            "name": "秘银板",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/miyinban.webp",
+            "pinyin": "miyinban"
+          },
+          {
+            "id": "秘银锭",
+            "name": "秘银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/miyinding.webp",
+            "pinyin": "miyinding"
+          },
+          {
+            "id": "橡木木材",
+            "name": "橡木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangmumucai.webp",
+            "pinyin": "xiangmumucai"
+          },
+          {
+            "id": "未提纯速力炼金溶剂",
+            "name": "未提纯速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
+            "pinyin": "weitichunsulilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁锭",
+        "name": "钴铁锭",
+        "level": 37,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/gutieding.webp",
+        "pinyin": "gutieding",
+        "recipe": [
+          {
+            "id": "钴铁矿",
+            "name": "钴铁矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gutiekuang.webp",
+            "pinyin": "gutiekuang"
+          },
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁铆钉",
+        "name": "钴铁铆钉",
+        "level": 38,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/gutiemaoding.webp",
+        "pinyin": "gutiemaoding",
+        "recipe": [
+          {
+            "id": "钴铁矿",
+            "name": "钴铁矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gutiekuang.webp",
+            "pinyin": "gutiekuang"
+          },
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁钉",
+        "name": "钴铁钉",
+        "level": 38,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/gutieding.webp",
+        "pinyin": "gutieding",
+        "recipe": [
+          {
+            "id": "钴铁矿",
+            "name": "钴铁矿",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gutiekuang.webp",
+            "pinyin": "gutiekuang"
+          },
+          {
+            "id": "铁矿",
+            "name": "铁矿",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/tiekuang.webp",
+            "pinyin": "tiekuang"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "革柄白钢鸟嘴锤",
+        "name": "革柄白钢鸟嘴锤",
+        "level": 39,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/gebingbaigangniaozuichui.webp",
+        "pinyin": "gebingbaigangniaozuichui",
+        "recipe": [
+          {
+            "id": "白钢锭",
+            "name": "白钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/baigangding.webp",
+            "pinyin": "baigangding"
+          },
+          {
+            "id": "橡木木材",
+            "name": "橡木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/xiangmumucai.webp",
+            "pinyin": "xiangmumucai"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "棉绒",
+            "name": "棉绒",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/mianrong.webp",
+            "pinyin": "mianrong"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁雕纹手锯",
+        "name": "钴铁雕纹手锯",
+        "level": 40,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/gutiediaowenshouju.webp",
+        "pinyin": "gutiediaowenshouju",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "钴铁铆钉",
+            "name": "钴铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutiemaoding.webp",
+            "pinyin": "gutiemaoding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁鸟嘴锤",
+        "name": "钴铁鸟嘴锤",
+        "level": 40,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/gutieniaozuichui.webp",
+        "pinyin": "gutieniaozuichui",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "丁香油",
+            "name": "丁香油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dingxiangyou.webp",
+            "pinyin": "dingxiangyou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁铸甲锤",
+        "name": "钴铁铸甲锤",
+        "level": 40,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/gutiezhujiachui.webp",
+        "pinyin": "gutiezhujiachui",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "黑铁锭",
+            "name": "黑铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/heitieding.webp",
+            "pinyin": "heitieding"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绿金工艺锤",
+        "name": "绿金工艺锤",
+        "level": 40,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/lvjingongyichui.webp",
+        "pinyin": "lvjingongyichui",
+        "recipe": [
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "绿金裁皮刀",
+        "name": "绿金裁皮刀",
+        "level": 40,
+        "job": "blacksmith",
+        "category": "36-40级",
+        "icon": "assets/icons/itemse/lvjincaipidao.webp",
+        "pinyin": "lvjincaipidao",
+        "recipe": [
+          {
+            "id": "绿金锭",
+            "name": "绿金锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/lvjinding.webp",
+            "pinyin": "lvjinding"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "41-45级",
+    "recipes": [
+      {
+        "id": "钴铁鹤嘴镐",
+        "name": "钴铁鹤嘴镐",
+        "level": 41,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutiehezuigao.webp",
+        "pinyin": "gutiehezuigao",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "山羊革",
+            "name": "山羊革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangge.webp",
+            "pinyin": "shanyangge"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁手斧",
+        "name": "钴铁手斧",
+        "level": 41,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutieshoufu.webp",
+        "pinyin": "gutieshoufu",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "陆行鸟之羽",
+            "name": "陆行鸟之羽",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/luxingniaozhiyu.webp",
+            "pinyin": "luxingniaozhiyu"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁研钵",
+        "name": "钴铁研钵",
+        "level": 41,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutieyanbo.webp",
+        "pinyin": "gutieyanbo",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁厨刀",
+        "name": "钴铁厨刀",
+        "level": 41,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutiechudao.webp",
+        "pinyin": "gutiechudao",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁羊角锤",
+        "name": "钴铁羊角锤",
+        "level": 41,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutieyangjiaochui.webp",
+        "pinyin": "gutieyangjiaochui",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "鲨油",
+            "name": "鲨油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shayou.webp",
+            "pinyin": "shayou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁锉刀",
+        "name": "钴铁锉刀",
+        "level": 42,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutiecuodao.webp",
+        "pinyin": "gutiecuodao",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁手钳",
+        "name": "钴铁手钳",
+        "level": 42,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutieshouqian.webp",
+        "pinyin": "gutieshouqian",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "钴铁铆钉",
+            "name": "钴铁铆钉",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutiemaoding.webp",
+            "pinyin": "gutiemaoding"
+          },
+          {
+            "id": "鲨油",
+            "name": "鲨油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shayou.webp",
+            "pinyin": "shayou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁平斩",
+        "name": "钴铁平斩",
+        "level": 42,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutiepingzhan.webp",
+        "pinyin": "gutiepingzhan",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "鲨油",
+            "name": "鲨油",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shayou.webp",
+            "pinyin": "shayou"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁碎石锤",
+        "name": "钴铁碎石锤",
+        "level": 42,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutiesuishichui.webp",
+        "pinyin": "gutiesuishichui",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁镰刀",
+        "name": "钴铁镰刀",
+        "level": 42,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutieliandao.webp",
+        "pinyin": "gutieliandao",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁赛施尔长刀",
+        "name": "钴铁赛施尔长刀",
+        "level": 43,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutiesaishierzhangdao.webp",
+        "pinyin": "gutiesaishierzhangdao",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "山羊角",
+            "name": "山羊角",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangjiao.webp",
+            "pinyin": "shanyangjiao"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁指虎",
+        "name": "钴铁指虎",
+        "level": 44,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/gutiezhihu.webp",
+        "pinyin": "gutiezhihu",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "未提纯速力炼金溶剂",
+            "name": "未提纯速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
+            "pinyin": "weitichunsulilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "海盗巨斧",
+        "name": "海盗巨斧",
+        "level": 45,
+        "job": "blacksmith",
+        "category": "41-45级",
+        "icon": "assets/icons/itemse/haidaojufu.webp",
+        "pinyin": "haidaojufu",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "紫檀枝",
+            "name": "紫檀枝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zitanzhi.webp",
+            "pinyin": "zitanzhi"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "46-50级",
+    "recipes": [
+      {
+        "id": "钴铁骑士翼剑",
+        "name": "钴铁骑士翼剑",
+        "level": 46,
+        "job": "blacksmith",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/gutieqishiyijian.webp",
+        "pinyin": "gutieqishiyijian",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "樱贝",
+            "name": "樱贝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingbei.webp",
+            "pinyin": "yingbei"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁刺柄双刃斧",
+        "name": "钴铁刺柄双刃斧",
+        "level": 46,
+        "job": "blacksmith",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/gutiecibingshuangrenfu.webp",
+        "pinyin": "gutiecibingshuangrenfu",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁爪",
+        "name": "钴铁爪",
+        "level": 47,
+        "job": "blacksmith",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/gutiezhao.webp",
+        "pinyin": "gutiezhao",
+        "recipe": [
+          {
+            "id": "钴铁板",
+            "name": "钴铁板",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieban.webp",
+            "pinyin": "gutieban"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "红木木材",
+            "name": "红木木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/hongmumucai.webp",
+            "pinyin": "hongmumucai"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "未提纯速力炼金溶剂",
+            "name": "未提纯速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
+            "pinyin": "weitichunsulilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "钴铁翼剑",
+        "name": "钴铁翼剑",
+        "level": 50,
+        "job": "blacksmith",
+        "category": "46-50级",
+        "icon": "assets/icons/itemse/gutieyijian.webp",
+        "pinyin": "gutieyijian",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "樱贝",
+            "name": "樱贝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingbei.webp",
+            "pinyin": "yingbei"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "秘籍：第1卷",
+    "recipes": [
+      {
+        "id": "玄钢块",
+        "name": "玄钢块",
+        "level": "50★",
+        "job": "blacksmith",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/xuangangkuai.webp",
+        "pinyin": "xuangangkuai",
+        "recipe": [
+          {
+            "id": "玄铁矿",
+            "name": "玄铁矿",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/xuantiekuang.webp",
+            "pinyin": "xuantiekuang"
+          },
+          {
+            "id": "焦炭",
+            "name": "焦炭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/jiaotan.webp",
+            "pinyin": "jiaotan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢铆钉",
+        "name": "玄钢铆钉",
+        "level": "50★",
+        "job": "blacksmith",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/xuangangmaoding.webp",
+        "pinyin": "xuangangmaoding",
+        "recipe": [
+          {
+            "id": "玄铁矿",
+            "name": "玄铁矿",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/xuantiekuang.webp",
+            "pinyin": "xuantiekuang"
+          },
+          {
+            "id": "焦炭",
+            "name": "焦炭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/jiaotan.webp",
+            "pinyin": "jiaotan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "玄钢锭",
+        "name": "玄钢锭",
+        "level": "50★",
+        "job": "blacksmith",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/xuangangding.webp",
+        "pinyin": "xuangangding",
+        "recipe": [
+          {
+            "id": "玄铁矿",
+            "name": "玄铁矿",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/xuantiekuang.webp",
+            "pinyin": "xuantiekuang"
+          },
+          {
+            "id": "焦炭",
+            "name": "焦炭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/jiaotan.webp",
+            "pinyin": "jiaotan"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "破甲锋",
+        "name": "破甲锋",
+        "level": "50★",
+        "job": "blacksmith",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/pojiafeng.webp",
+        "pinyin": "pojiafeng",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "暴怒震斧",
+        "name": "暴怒震斧",
+        "level": "50★",
+        "job": "blacksmith",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/baonuzhenfu.webp",
+        "pinyin": "baonuzhenfu",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "云杉木材",
+            "name": "云杉木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yunshamucai.webp",
+            "pinyin": "yunshamucai"
+          },
+          {
+            "id": "钴铁板",
+            "name": "钴铁板",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieban.webp",
+            "pinyin": "gutieban"
+          },
+          {
+            "id": "高纯度刚力炼金溶剂",
+            "name": "高纯度刚力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochunduganglilianjinrongji.webp",
+            "pinyin": "gaochunduganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "方尖枪",
+        "name": "方尖枪",
+        "level": "50★",
+        "job": "blacksmith",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/fangjianqiang.webp",
+        "pinyin": "fangjianqiang",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "云杉木材",
+            "name": "云杉木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/yunshamucai.webp",
+            "pinyin": "yunshamucai"
+          },
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "复仇烈拳",
+        "name": "复仇烈拳",
+        "level": "50★",
+        "job": "blacksmith",
+        "category": "秘籍：第1卷",
+        "icon": "assets/icons/itemse/fuchouliequan.webp",
+        "pinyin": "fuchouliequan",
+        "recipe": [
+          {
+            "id": "玄钢锭",
+            "name": "玄钢锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/xuangangding.webp",
+            "pinyin": "xuangangding"
+          },
+          {
+            "id": "玫瑰金锭",
+            "name": "玫瑰金锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/meiguijinding.webp",
+            "pinyin": "meiguijinding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "高纯度速力炼金溶剂",
+            "name": "高纯度速力炼金溶剂",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gaochundusulilianjinrongji.webp",
+            "pinyin": "gaochundusulilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "收藏品",
+    "recipes": [
+      {
+        "id": "收藏用钴铁赛施尔长刀",
+        "name": "收藏用钴铁赛施尔长刀",
+        "level": 41,
+        "job": "blacksmith",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyonggutiesaishierzhangdao.webp",
+        "pinyin": "shoucangyonggutiesaishierzhangdao",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "山羊角",
+            "name": "山羊角",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/shanyangjiao.webp",
+            "pinyin": "shanyangjiao"
+          },
+          {
+            "id": "蛋壳磨刀石",
+            "name": "蛋壳磨刀石",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/dankemodaoshi.webp",
+            "pinyin": "dankemodaoshi"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用钴铁指虎",
+        "name": "收藏用钴铁指虎",
+        "level": 43,
+        "job": "blacksmith",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyonggutiezhihu.webp",
+        "pinyin": "shoucangyonggutiezhihu",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "野猪革",
+            "name": "野猪革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yezhuge.webp",
+            "pinyin": "yezhuge"
+          },
+          {
+            "id": "未提纯速力炼金溶剂",
+            "name": "未提纯速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
+            "pinyin": "weitichunsulilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用海盗巨斧",
+        "name": "收藏用海盗巨斧",
+        "level": 45,
+        "job": "blacksmith",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyonghaidaojufu.webp",
+        "pinyin": "shoucangyonghaidaojufu",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "紫檀枝",
+            "name": "紫檀枝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zitanzhi.webp",
+            "pinyin": "zitanzhi"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用钴铁刺柄双刃斧",
+        "name": "收藏用钴铁刺柄双刃斧",
+        "level": 47,
+        "job": "blacksmith",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyonggutiecibingshuangrenfu.webp",
+        "pinyin": "shoucangyonggutiecibingshuangrenfu",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "白银锭",
+            "name": "白银锭",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/baiyinding.webp",
+            "pinyin": "baiyinding"
+          },
+          {
+            "id": "盗龙革",
+            "name": "盗龙革",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/daolongge.webp",
+            "pinyin": "daolongge"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 4,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用钴铁短刀",
+        "name": "收藏用钴铁短刀",
+        "level": 49,
+        "job": "blacksmith",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyonggutieduandao.webp",
+        "pinyin": "shoucangyonggutieduandao",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "未提纯速力炼金溶剂",
+            "name": "未提纯速力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunsulilianjinrongji.webp",
+            "pinyin": "weitichunsulilianjinrongji"
+          },
+          {
+            "id": "樱贝",
+            "name": "樱贝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingbei.webp",
+            "pinyin": "yingbei"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 5,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      },
+      {
+        "id": "收藏用钴铁翼剑",
+        "name": "收藏用钴铁翼剑",
+        "level": "50★",
+        "job": "blacksmith",
+        "category": "收藏品",
+        "icon": "assets/icons/itemse/shoucangyonggutieyijian.webp",
+        "pinyin": "shoucangyonggutieyijian",
+        "recipe": [
+          {
+            "id": "钴铁锭",
+            "name": "钴铁锭",
+            "quantity": 3,
+            "icon": "assets/icons/itemse/gutieding.webp",
+            "pinyin": "gutieding"
+          },
+          {
+            "id": "紫檀木材",
+            "name": "紫檀木材",
+            "quantity": 2,
+            "icon": "assets/icons/itemse/zitanmucai.webp",
+            "pinyin": "zitanmucai"
+          },
+          {
+            "id": "鬼胶",
+            "name": "鬼胶",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/guijiao.webp",
+            "pinyin": "guijiao"
+          },
+          {
+            "id": "樱贝",
+            "name": "樱贝",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/yingbei.webp",
+            "pinyin": "yingbei"
+          },
+          {
+            "id": "未提纯刚力炼金溶剂",
+            "name": "未提纯刚力炼金溶剂",
+            "quantity": 1,
+            "icon": "assets/icons/itemse/weitichunganglilianjinrongji.webp",
+            "pinyin": "weitichunganglilianjinrongji"
+          },
+          {
+            "id": "火之碎晶",
+            "name": "火之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/huozhisuijing.webp",
+            "pinyin": "huozhisuijing"
+          },
+          {
+            "id": "土之碎晶",
+            "name": "土之碎晶",
+            "quantity": 6,
+            "icon": "assets/icons/itemse/tuzhisuijing.webp",
+            "pinyin": "tuzhisuijing"
+          }
+        ]
+      }
+    ]
+  }
+]
