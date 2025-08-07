@@ -12,10 +12,11 @@
 - 支持导出 Excel
 - 支持暗黑/明亮主题切换
 - 显示本地时间与艾欧泽亚时间
+- 支持移动端显示
 
 ## 在线体验
 
-[点击访问在线版](https://codekong1028.github.io/McCalculator-Web/)
+[点击访问在线版](https://McDevK.github.io/McCalculator-Web/)
 
 ## 使用说明
 
