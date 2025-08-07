@@ -23,3 +23,10 @@ release/
 # 临时文件
 *.tmp
 *.temp 
+
+# github文件
+.gitignore
+.gitattributes
+
+# xlsx
+*.xlsx

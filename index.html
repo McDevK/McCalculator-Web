@@ -27,6 +27,10 @@
                     <span class="local-time-label">本</span>
                     <span class="local-time-value" id="localTimeValue">00:00</span>
                 </div>
+                <!-- 桌面/移动端切换按钮 -->
+                <button class="device-toggle" id="deviceToggle" title="切换到移动端">
+                    <img src="assets/icons/button/mobile.png" alt="移动端" class="device-icon">
+                </button>
                 <!-- 主题切换按钮 -->
                 <button class="theme-toggle" id="themeToggle" title="切换主题">
                     <i class="fas fa-moon"></i>
@@ -269,6 +273,26 @@
         </div>
     </div>
 
+    <script src="device-detector.js"></script>
     <script src="script.js"></script>
+    <script src="cache-manager.js"></script>
+    <script>
+      // 注册Service Worker用于缓存
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('SW registered: ', registration);
+              // 预缓存配方数据
+              if (registration.active) {
+                registration.active.postMessage({ type: 'PRECACHE_RECIPES' });
+              }
+            })
+            .catch(registrationError => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
 </body>
 </html> 

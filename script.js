@@ -65,7 +65,12 @@ async function loadAllRecipesForCalc() {
         const isGathering = isGatheringJob(job);
         const filePath = isGathering ? `assets/gather/${job}.json` : `assets/recipe/${JOB_JSON_MAP[job]}.json`;
         
-        const res = await fetch(filePath);
+        const res = await fetch(filePath, {
+          cache: 'force-cache',
+          headers: {
+            'Cache-Control': 'max-age=3600' // 1小时缓存
+          }
+        });
         if (res.ok) {
           const data = await res.json();
           // 采集职业数据结构为[{category, items:[...]}]，需转换为recipes
@@ -102,7 +107,12 @@ async function loadJobRecipes(job) {
       // 兼容开发模式，fetch 本地 json 文件
       const gatherFile = `assets/gather/${job}.json`;
       try {
-        const res = await fetch(gatherFile);
+        const res = await fetch(gatherFile, {
+          cache: 'force-cache',
+          headers: {
+            'Cache-Control': 'max-age=3600' // 1小时缓存
+          }
+        });
         if (!res.ok) throw new Error('采集职业文件加载失败');
         // 采集职业json为[{category, items:[...]}]，需转为[{category, recipes:[...]}]
         const gatherData = await res.json();
@@ -122,7 +132,12 @@ async function loadJobRecipes(job) {
     } else {
       const file = `assets/recipe/${JOB_JSON_MAP[job]}.json`;
       try {
-        const res = await fetch(file);
+        const res = await fetch(file, {
+          cache: 'force-cache',
+          headers: {
+            'Cache-Control': 'max-age=3600' // 1小时缓存
+          }
+        });
         if (!res.ok) throw new Error('配方文件加载失败');
         ITEMS = await res.json();
       } catch (e) {
@@ -1987,4 +2002,44 @@ function recalculateMaterials() {
   // 添加点击事件监听器
   addItemClickListeners();
 }
+
+// 设备切换功能
+function switchToMobile() {
+  // 清除强制桌面端标记
+  localStorage.removeItem('force-desktop');
+  // 保存当前状态到localStorage
+  localStorage.setItem('force-mobile', 'true');
+  // 跳转到移动端页面
+  window.location.href = 'mobile.html';
+}
+
+// 初始化设备切换按钮
+function initDeviceToggle() {
+  const deviceToggle = document.getElementById('deviceToggle');
+  if (deviceToggle) {
+    deviceToggle.addEventListener('click', switchToMobile);
+  }
+}
+
+// 页面初始化
+document.addEventListener('DOMContentLoaded', function() {
+  // 初始化主题管理器
+  window.themeManager = new ThemeManager();
+  
+  // 初始化设备切换按钮
+  initDeviceToggle();
+  
+  // 初始化时间显示
+  initializeTime();
+  
+  // 初始化闹钟功能
+  loadAlarmItems();
+  startCountdownTimer();
+  
+  // 初始化导出Excel功能
+  bindExportExcelEvent();
+  
+  // 加载默认职业数据
+  onJobChange('quickcalc');
+});
 

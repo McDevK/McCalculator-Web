@@ -115,6 +115,47 @@ body {
     gap: 16px;
 }
 
+/* 桌面/移动端切换按钮 */
+.device-toggle {
+    background: transparent;
+    border: 2px solid var(--ff14-secondary);
+    color: var(--ff14-secondary);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 8px var(--ff14-shadow);
+}
+
+.device-toggle:hover {
+    background: var(--ff14-secondary);
+    color: var(--ff14-bg-dark);
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px var(--ff14-glow);
+}
+
+.device-toggle:active {
+    transform: scale(0.95);
+}
+
+.device-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    filter: sepia(1) saturate(2) hue-rotate(0deg) brightness(0.8);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.device-toggle:hover .device-icon {
+    filter: brightness(0) invert(1);
+}
+
 /* 主题切换按钮 */
 .theme-toggle {
     background: transparent;
