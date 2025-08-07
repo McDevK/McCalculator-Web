@@ -220,10 +220,6 @@
             transform: scale(1.01);
         }
         
-        .profession-item:first-child {
-            /* 移除默认高亮，只在active时高亮 */
-        }
-        
         .profession-item.active {
             background: rgba(201, 168, 106, 0.15);
             color: var(--color-accent);
@@ -1021,14 +1017,12 @@
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/sw.js')
             .then(registration => {
-              console.log('SW registered: ', registration);
               // 预缓存配方数据
               if (registration.active) {
                 registration.active.postMessage({ type: 'PRECACHE_RECIPES' });
               }
             })
             .catch(registrationError => {
-              console.log('SW registration failed: ', registrationError);
             });
         });
       }
