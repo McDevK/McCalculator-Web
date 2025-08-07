@@ -248,7 +248,8 @@
       // 注册Service Worker用于缓存
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          // 使用相对路径注册Service Worker
+          navigator.serviceWorker.register('./sw.js')
             .then(registration => {
               console.log('SW registered: ', registration);
               // 预缓存配方数据
@@ -257,7 +258,8 @@
               }
             })
             .catch(registrationError => {
-              console.log('SW registration failed: ', registrationError);
+              // 静默处理注册错误，避免控制台报错
+              console.log('Service Worker registration failed:', registrationError);
             });
         });
       }

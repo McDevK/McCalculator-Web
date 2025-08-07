@@ -85,17 +85,17 @@ class CacheManager {
     }
 
     const recipeFiles = [
-      '/assets/recipe/quickcalc.json',
-      '/assets/recipe/carpenter.json',
-      '/assets/recipe/blacksmith.json',
-      '/assets/recipe/armorer.json',
-      '/assets/recipe/goldsmith.json',
-      '/assets/recipe/leatherworker.json',
-      '/assets/recipe/weaver.json',
-      '/assets/recipe/alchemist.json',
-      '/assets/recipe/culinarian.json',
-      '/assets/gather/miner.json',
-      '/assets/gather/botanist.json'
+      './assets/recipe/quickcalc.json',
+      './assets/recipe/carpenter.json',
+      './assets/recipe/blacksmith.json',
+      './assets/recipe/armorer.json',
+      './assets/recipe/goldsmith.json',
+      './assets/recipe/leatherworker.json',
+      './assets/recipe/weaver.json',
+      './assets/recipe/alchemist.json',
+      './assets/recipe/culinarian.json',
+      './assets/gather/miner.json',
+      './assets/gather/botanist.json'
     ];
 
     try {

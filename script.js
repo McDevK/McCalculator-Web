@@ -201,11 +201,9 @@ window.addEventListener('DOMContentLoaded', async () => {
   // 绑定导出Excel按钮事件
   const exportExcelBtn = document.getElementById('exportExcelBtn');
   if (exportExcelBtn) {
-    console.log('找到导出Excel按钮，绑定事件监听器');
     // 使用新的绑定机制
     bindExportExcelEvent();
   } else {
-    console.warn('导出Excel按钮未找到，请检查HTML结构');
   }
 });
 
@@ -1201,25 +1199,7 @@ renderItems();
 renderSelectedItems();
 
 // ======= 本地时间显示功能 =======
-// 修改：只在首次加载时获取一次网络时间，之后使用本地时间
-let hasInitializedTime = false;
-
-async function fetchBeijingTime() {
-  try {
-    // 通过 worldtimeapi 获取北京时间（中国标准时间）
-    const response = await fetch('https://worldtimeapi.org/api/timezone/Asia/Shanghai');
-    if (!response.ok) throw new Error('网络请求失败');
-    const data = await response.json();
-    // 解析返回的北京时间字符串
-    const date = new Date(data.datetime);
-    return date;
-  } catch (e) {
-    // 网络请求失败时，回退为本机时间
-    return new Date();
-  }
-}
-
-// 修改：updateLocalTime 只使用本地时间
+// 直接使用本地时间，不再依赖外部网络API
 function updateLocalTime() {
   const el = document.getElementById('localTimeValue');
   if (!el) return;
@@ -1230,23 +1210,7 @@ function updateLocalTime() {
   el.textContent = `${hh}:${mm}`;
 }
 
-// 初始化时间显示（只在首次加载时执行一次）
-async function initializeTime() {
-  if (hasInitializedTime) return;
-  
-  try {
-    // 首次加载时获取一次网络时间
-    await fetchBeijingTime();
-  } catch (e) {
-    // 静默处理错误，不影响本地时间显示
-  } finally {
-    hasInitializedTime = true;
-  }
-}
-
-// 页面加载时初始化一次
-initializeTime();
-
+// 启动本地时间显示
 setInterval(updateLocalTime, 1000);
 updateLocalTime(); // 首次立即显示
 // ======= 本地时间显示功能 END =======
@@ -1591,13 +1555,11 @@ function loadXLSXLibrary() {
         clearTimeout(timeout);
         xlsxLoaded = true;
         window.xlsxLoading = false;
-        console.log(`XLSX库加载成功，使用源: ${cdnSources[currentSourceIndex]}`);
         resolve();
       };
       
       script.onerror = () => {
         clearTimeout(timeout);
-        console.warn(`CDN源加载失败: ${cdnSources[currentSourceIndex]}`);
         currentSourceIndex++;
         tryLoadScript();
       };
@@ -1611,7 +1573,6 @@ function loadXLSXLibrary() {
 
 // 导出Excel功能
 async function exportToExcel() {
-  console.log('导出Excel功能被调用');
   
   // 添加按钮状态反馈
   const exportBtn = document.getElementById('exportExcelBtn');
@@ -1622,14 +1583,11 @@ async function exportToExcel() {
   try {
     // 1. 确保XLSX库已加载
     if (!xlsxLoaded) {
-      console.log('开始加载XLSX库...');
       await loadXLSXLibrary();
-      console.log('XLSX库加载完成');
     }
     
     // 2. 获取已选物品
     const selected = selectedItems || [];
-    console.log('已选物品数量:', selected.length);
     
     if (!selected.length) {
       alert('请先选择要制造的物品');
@@ -1695,10 +1653,7 @@ async function exportToExcel() {
         processRecipe(item.recipe, item.quantity);
       }
     });
-    
-    console.log('半成品数量:', Object.keys(materialMap).length);
-    console.log('基础素材数量:', Object.keys(baseMaterialMap).length);
-    
+        
     // 4. 组装数据
     const now = new Date();
     const pad = n => n.toString().padStart(2, '0');
@@ -1712,18 +1667,15 @@ async function exportToExcel() {
     const baseRows = Object.values(baseMaterialMap).map(mat => ({ '基础素材': mat.name, '数量': mat.total }));
     
     // 5. 生成sheet
-    console.log('开始生成Excel文件...');
-    const wb = XLSX.utils.book_new();
+     const wb = XLSX.utils.book_new();
     if (selectedRows.length) XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(selectedRows), '已选物品');
     if (level2Rows.length) XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(level2Rows), '半成品');
     if (baseRows.length) XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(baseRows), '基础素材');
     
     // 6. 导出
     const filename = `result${timeStr}.xlsx`;
-    console.log('导出文件名:', filename);
     XLSX.writeFile(wb, filename);
     
-    console.log('Excel导出成功');
     alert('Excel文件导出成功！');
     
   } catch (error) {
@@ -1750,7 +1702,6 @@ async function exportToExcel() {
 function bindExportExcelEvent() {
   const exportExcelBtn = document.getElementById('exportExcelBtn');
   if (exportExcelBtn && !exportExcelBtn.hasAttribute('data-export-bound')) {
-    console.log('备用机制：绑定导出Excel按钮事件');
     exportExcelBtn.setAttribute('data-export-bound', 'true');
     
     // 移除可能存在的旧事件监听器
@@ -1758,7 +1709,6 @@ function bindExportExcelEvent() {
     
     // 添加新的事件监听器
     exportExcelBtn.addEventListener('click', (e) => {
-      console.log('导出Excel按钮被点击');
       e.preventDefault();
       e.stopPropagation();
       exportToExcel();
@@ -1766,14 +1716,10 @@ function bindExportExcelEvent() {
     
     // 添加鼠标事件监听器作为备用
     exportExcelBtn.addEventListener('mousedown', (e) => {
-      console.log('导出Excel按钮鼠标按下');
     });
     
-    console.log('导出Excel按钮事件绑定完成');
   } else if (!exportExcelBtn) {
-    console.warn('导出Excel按钮未找到');
   } else {
-    console.log('导出Excel按钮事件已绑定');
   }
 }
 
@@ -2029,8 +1975,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // 初始化设备切换按钮
   initDeviceToggle();
   
-  // 初始化时间显示
-  initializeTime();
+  // 时间显示已在全局初始化
   
   // 初始化闹钟功能
   loadAlarmItems();

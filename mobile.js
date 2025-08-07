@@ -52,8 +52,259 @@ let currentJob = 'quickcalc';
 // 搜索关键词
 let searchKeyword = '';
 
+// 采集职业倒计时相关
+let gatheringItems = []; // 采集物品列表（带倒计时）
+let gatheringTimer = null; // 倒计时定时器
+
 // ========== 全职业配方全量数据，支持跨职业半成品递归 ========== //
 let ALL_RECIPES = [];
+
+// ===================== 采集职业倒计时功能 =====================
+
+// 计算艾欧泽亚时间（与桌面版保持一致）
+function getEorzeaTime() {
+  // 基准点：2025-07-14 14:23:00 本地 = 艾18:10
+  const baseLocal = new Date('2025-07-14T14:23:00+08:00'); // 假设东八区
+  const baseEorzeaMinutes = 18 * 60 + 10;
+  // 当前本地时间
+  const now = new Date();
+  // 距离基准点的本地秒数
+  const deltaSec = (now - baseLocal) / 1000;
+  // 艾欧泽亚1分钟=2.9166666666666665秒（2又11/12秒，标准精度）
+  const eorzeaMinuteSec = 2 + 11/12;
+  // 增加的艾分钟数
+  const addEorzeaMin = Math.floor(deltaSec / eorzeaMinuteSec);
+  // 当前艾分钟总数
+  let curEorzeaMin = (baseEorzeaMinutes + addEorzeaMin) % (24 * 60);
+  if (curEorzeaMin < 0) curEorzeaMin += 24 * 60;
+  const hh = Math.floor(curEorzeaMin / 60);
+  const mm = curEorzeaMin % 60;
+  
+  return {
+    hours: hh,
+    minutes: mm,
+    totalMinutes: curEorzeaMin
+  };
+}
+
+// 计算倒计时（与桌面版保持一致）
+function calculateCountdown(startTime, endTime) {
+  if (!startTime || !endTime) {
+    return {
+      text: '时间未知',
+      minutes: Infinity,
+      isAppearing: false
+    };
+  }
+  
+  const eorzeaTime = getEorzeaTime();
+  const currentEorzeaTime = eorzeaTime.hours + eorzeaTime.minutes / 60; // 转换为小时的小数形式
+  
+  // 将艾欧泽亚时间转换为0-1的小数形式（一天中的时间比例）
+  const currentTimeRatio = currentEorzeaTime / 24;
+  
+  // 处理跨天的情况
+  let startTimeRatio = startTime;
+  let endTimeRatio = endTime;
+  
+  // 如果结束时间小于开始时间，说明跨天了
+  if (endTimeRatio < startTimeRatio) {
+    if (currentTimeRatio >= startTimeRatio) {
+      // 当前时间在开始时间之后，结束时间需要加1
+      endTimeRatio += 1;
+    } else {
+      // 当前时间在开始时间之前，开始时间需要减1
+      startTimeRatio -= 1;
+    }
+  }
+  
+  // 计算倒计时（艾欧泽亚时间）
+  let timeUntil;
+  let isAppearing = false;
+  
+  if (currentTimeRatio < startTimeRatio) {
+    // 尚未出现
+    timeUntil = (startTimeRatio - currentTimeRatio) * 24; // 转换为艾欧泽亚小时
+    isAppearing = true;
+  } else if (currentTimeRatio >= startTimeRatio && currentTimeRatio < endTimeRatio) {
+    // 已经出现，计算距离消失的时间
+    timeUntil = (endTimeRatio - currentTimeRatio) * 24; // 转换为艾欧泽亚小时
+    isAppearing = false;
+  } else {
+    // 已经消失，计算到下次出现的时间
+    // 如果当前时间超过了结束时间，计算到下次开始时间
+    if (currentTimeRatio >= endTimeRatio) {
+      timeUntil = (startTimeRatio + 1 - currentTimeRatio) * 24; // 转换为艾欧泽亚小时
+    } else {
+      timeUntil = (startTimeRatio - currentTimeRatio) * 24; // 转换为艾欧泽亚小时
+    }
+    isAppearing = true;
+  }
+  
+  // 将艾欧泽亚时间转换为本地时间（艾欧泽亚时间流逝速度是现实的20倍）
+  // 1艾欧泽亚小时 = 3现实分钟
+  const localTimeMinutes = timeUntil * 3; // 转换为现实分钟
+  
+  // 转换为mm:ss格式
+  const countdownMinutes = Math.floor(localTimeMinutes);
+  const countdownSeconds = Math.floor((localTimeMinutes - countdownMinutes) * 60);
+  const timeStr = `${countdownMinutes.toString().padStart(2, '0')}:${countdownSeconds.toString().padStart(2, '0')}`;
+  
+  const text = isAppearing ? `距离出现${timeStr}` : `距离消失${timeStr}`;
+  
+  return {
+    text,
+    minutes: localTimeMinutes,
+    isAppearing,
+    timeUntilStart: isAppearing ? localTimeMinutes : 0,
+    timeUntilEnd: isAppearing ? 0 : localTimeMinutes,
+    isActive: !isAppearing && localTimeMinutes > 0
+  };
+}
+
+
+
+// 更新采集物品倒计时
+function updateGatheringCountdown() {
+  if (!isGatheringJob(currentJob)) return;
+  
+  gatheringItems.forEach(item => {
+    const countdown = calculateCountdown(item.startTime, item.endTime);
+    item.countdown = countdown;
+  });
+  
+  // 重新渲染采集物品列表
+  renderGatheringItems();
+}
+
+// 渲染采集物品卡片
+function renderGatheringItemCard(item) {
+  const countdown = item.countdown || calculateCountdown(item.startTime, item.endTime);
+  const isCompleted = completedItems.has(item.id);
+  const completedClass = isCompleted ? 'completed' : '';
+  
+  let statusText = '';
+  let statusClass = '';
+  
+  if (countdown.isAppearing) {
+    statusText = countdown.text;
+    statusClass = 'upcoming';
+  } else if (countdown.isActive) {
+    statusText = countdown.text;
+    statusClass = 'active';
+  } else {
+    statusText = '已结束';
+    statusClass = 'ended';
+  }
+  
+  return `
+    <div class="gathering-item-card ${completedClass}" data-id="${item.id}" onclick="toggleGatheringItemCompletion('${item.id}')">
+      <div class="gathering-item-info">
+        <img src="${getItemIcon(item.name, item.icon)}" alt="${item.name}" class="gathering-item-icon" onerror="this.src='assets/icons/items/默认图标.webp'">
+        <div class="gathering-item-details">
+          <div class="gathering-item-name">${item.name}</div>
+          <div class="gathering-item-level">等级: ${item.level || 'N/A'}</div>
+        </div>
+      </div>
+      <div class="gathering-item-status ${statusClass}">
+        ${statusText}
+      </div>
+    </div>
+  `;
+}
+
+// 渲染采集物品列表
+function renderGatheringItems() {
+  const itemsContainer = document.getElementById('itemsContainer');
+  
+  if (!isGatheringJob(currentJob)) {
+    return; // 不是采集职业，使用原有的渲染逻辑
+  }
+  
+  const filteredItems = filterItems();
+  
+  if (filteredItems.length === 0) {
+    itemsContainer.innerHTML = `
+      <div class="empty-state">
+        <i class="fas fa-search"></i>
+        <p>${searchKeyword ? '未找到相关物品' : '暂无采集物品数据'}</p>
+      </div>
+    `;
+    return;
+  }
+  
+  // 为采集物品添加倒计时信息
+  gatheringItems = filteredItems.map(item => ({
+    ...item,
+    countdown: calculateCountdown(item.startTime, item.endTime)
+  }));
+  
+  // 按状态排序：进行中 -> 即将开始 -> 已结束
+  gatheringItems.sort((a, b) => {
+    if (a.countdown.isActive && !b.countdown.isActive) return -1;
+    if (!a.countdown.isActive && b.countdown.isActive) return 1;
+    if (a.countdown.isActive && b.countdown.isActive) {
+      return a.countdown.minutes - b.countdown.minutes;
+    }
+    if (!a.countdown.isActive && !b.countdown.isActive) {
+      return a.countdown.minutes - b.countdown.minutes;
+    }
+    return 0;
+  });
+  
+  // 将已完成的物品移到末尾
+  gatheringItems.sort((a, b) => {
+    const aCompleted = completedItems.has(a.id);
+    const bCompleted = completedItems.has(b.id);
+    if (aCompleted && !bCompleted) return 1;
+    if (!aCompleted && bCompleted) return -1;
+    return 0;
+  });
+  
+  let html = '';
+  gatheringItems.forEach(item => {
+    html += renderGatheringItemCard(item);
+  });
+  
+  itemsContainer.innerHTML = html;
+  
+}
+
+// 切换采集物品完成状态
+function toggleGatheringItemCompletion(itemId) {
+  if (completedItems.has(itemId)) {
+    completedItems.delete(itemId);
+  } else {
+    completedItems.add(itemId);
+  }
+  
+  // 重新渲染采集物品列表
+  renderGatheringItems();
+}
+
+// 全局函数，供HTML调用
+window.toggleGatheringItemCompletion = toggleGatheringItemCompletion;
+
+// 启动采集倒计时定时器
+function startGatheringTimer() {
+  if (gatheringTimer) {
+    clearInterval(gatheringTimer);
+  }
+  
+  gatheringTimer = setInterval(() => {
+    if (isGatheringJob(currentJob)) {
+      updateGatheringCountdown();
+    }
+  }, 1000); // 每秒更新一次
+}
+
+// 停止采集倒计时定时器
+function stopGatheringTimer() {
+  if (gatheringTimer) {
+    clearInterval(gatheringTimer);
+    gatheringTimer = null;
+  }
+}
 
 async function loadAllRecipesForCalc() {
   const jobs = Object.keys(JOB_JSON_MAP);
@@ -182,6 +433,13 @@ async function onJobChange(job) {
   
   // 更新已选物品显示
   updateSelectedItemsDisplay();
+  
+  // 处理采集职业倒计时定时器
+  if (isGatheringJob(job)) {
+    startGatheringTimer();
+  } else {
+    stopGatheringTimer();
+  }
 }
 
 // 全局函数，供HTML调用
@@ -206,7 +464,15 @@ function getAllItemsFlat() {
   if (!ITEMS || !Array.isArray(ITEMS)) {
     return [];
   }
-  const flatItems = ITEMS.flatMap(category => category.recipes || []);
+  
+  // 采集职业使用 items 字段，生产职业使用 recipes 字段
+  const flatItems = ITEMS.flatMap(category => {
+    if (isGatheringJob(currentJob)) {
+      return category.items || [];
+    } else {
+      return category.recipes || [];
+    }
+  });
   return flatItems;
 }
 
@@ -249,6 +515,12 @@ function filterItems() {
 
 // 渲染物品列表
 function renderItems() {
+  // 如果是采集职业，使用专门的渲染函数
+  if (isGatheringJob(currentJob)) {
+    renderGatheringItems();
+    return;
+  }
+  
   const itemsContainer = document.getElementById('itemsContainer');
   const filteredItems = filterItems();
   
@@ -1306,6 +1578,16 @@ async function initApp() {
   
   // 加载默认职业数据
   await onJobChange('quickcalc');
+  
+  // 如果默认职业是采集职业，启动倒计时定时器
+  if (isGatheringJob(currentJob)) {
+    startGatheringTimer();
+  }
+  
+  // 页面卸载时清理定时器
+  window.addEventListener('beforeunload', () => {
+    stopGatheringTimer();
+  });
 }
 
 // 页面加载完成后初始化

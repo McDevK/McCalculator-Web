@@ -872,6 +872,90 @@
             100% { transform: rotate(360deg); }
         }
 
+        /* 采集物品卡片样式 */
+        .gathering-item-card {
+            background: var(--color-bg-dark) !important;
+            border: 1px solid var(--color-btn-border);
+            border-radius: 12px;
+            padding: 12px;
+            margin: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .gathering-item-card:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gathering-item-card.completed {
+            opacity: 0.6;
+        }
+        
+        .gathering-item-card.completed .gathering-item-name {
+            text-decoration: line-through;
+        }
+        
+        .gathering-item-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex: 1;
+        }
+        
+        .gathering-item-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+        
+        .gathering-item-details {
+            flex: 1;
+        }
+        
+        .gathering-item-name {
+            font-size: 14px;
+            color: var(--color-text-main);
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+        
+        .gathering-item-level {
+            color: var(--color-level-text);
+            font-size: 12px;
+        }
+        
+        .gathering-item-status {
+            font-size: 12px;
+            font-weight: 500;
+            padding: 4px 8px;
+            border-radius: 6px;
+            min-width: 80px;
+            text-align: center;
+        }
+        
+        .gathering-item-status.active {
+            background: rgba(76, 175, 80, 0.2);
+            color: #4CAF50;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+        
+        .gathering-item-status.upcoming {
+            background: rgba(33, 150, 243, 0.2);
+            color: #2196F3;
+            border: 1px solid rgba(33, 150, 243, 0.3);
+        }
+        
+        .gathering-item-status.ended {
+            background: rgba(158, 158, 158, 0.2);
+            color: #9E9E9E;
+            border: 1px solid rgba(158, 158, 158, 0.3);
+        }
+
         /* 响应式调整 */
         @media (max-width: 480px) {
             .profession-sidebar {
@@ -1026,7 +1110,8 @@
       // 注册Service Worker用于缓存
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          // 使用相对路径注册Service Worker
+          navigator.serviceWorker.register('./sw.js')
             .then(registration => {
               // 预缓存配方数据
               if (registration.active) {
@@ -1034,6 +1119,8 @@
               }
             })
             .catch(registrationError => {
+              // 静默处理注册错误，避免控制台报错
+              console.log('Service Worker registration failed:', registrationError);
             });
         });
       }

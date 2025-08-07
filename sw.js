@@ -3,29 +3,29 @@
 
 const CACHE_NAME = 'mc-calculator-v1.0';
 const CACHE_FILES = [
-  '/',
-  '/index.html',
-  '/mobile.html',
-  '/script.js',
-  '/mobile.js',
-  '/device-detector.js',
-  '/assets/icons/jobs/001.webp',
-  '/assets/icons/jobs/002.webp',
-  '/assets/icons/jobs/003.webp',
-  '/assets/icons/jobs/004.webp',
-  '/assets/icons/jobs/005.webp',
-  '/assets/icons/jobs/006.webp',
-  '/assets/icons/jobs/007.webp',
-  '/assets/icons/jobs/008.webp',
-  '/assets/icons/jobs/009.webp',
-  '/assets/icons/jobs/010.webp',
-  '/assets/icons/jobs/011.webp'
+  './',
+  './index.html',
+  './mobile.html',
+  './script.js',
+  './mobile.js',
+  './device-detector.js',
+  './assets/icons/jobs/001.webp',
+  './assets/icons/jobs/002.webp',
+  './assets/icons/jobs/003.webp',
+  './assets/icons/jobs/004.webp',
+  './assets/icons/jobs/005.webp',
+  './assets/icons/jobs/006.webp',
+  './assets/icons/jobs/007.webp',
+  './assets/icons/jobs/008.webp',
+  './assets/icons/jobs/009.webp',
+  './assets/icons/jobs/010.webp',
+  './assets/icons/jobs/011.webp'
 ];
 
 // 需要缓存的API路径
 const API_CACHE_PATTERNS = [
-  /\/assets\/recipe\/.*\.json$/,
-  /\/assets\/gather\/.*\.json$/
+  /\.\/assets\/recipe\/.*\.json$/,
+  /\.\/assets\/gather\/.*\.json$/
 ];
 
 // 安装事件 - 预缓存核心文件
@@ -36,6 +36,7 @@ self.addEventListener('install', event => {
         return cache.addAll(CACHE_FILES);
       })
       .catch(error => {
+        // 静默处理缓存安装失败，避免控制台报错
         console.log('Cache installation failed:', error);
       })
   );
@@ -59,6 +60,11 @@ self.addEventListener('activate', event => {
 // 拦截fetch请求
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
+  
+  // 跳过外部API请求，避免Service Worker拦截导致错误
+  if (url.origin !== self.location.origin) {
+    return;
+  }
   
   // 处理API请求（配方数据）
   if (API_CACHE_PATTERNS.some(pattern => pattern.test(url.pathname))) {
@@ -134,17 +140,17 @@ async function handleStaticRequest(request) {
 async function precacheRecipes() {
   const cache = await caches.open(CACHE_NAME);
   const recipeFiles = [
-    '/assets/recipe/quickcalc.json',
-    '/assets/recipe/carpenter.json',
-    '/assets/recipe/blacksmith.json',
-    '/assets/recipe/armorer.json',
-    '/assets/recipe/goldsmith.json',
-    '/assets/recipe/leatherworker.json',
-    '/assets/recipe/weaver.json',
-    '/assets/recipe/alchemist.json',
-    '/assets/recipe/culinarian.json',
-    '/assets/gather/miner.json',
-    '/assets/gather/botanist.json'
+    './assets/recipe/quickcalc.json',
+    './assets/recipe/carpenter.json',
+    './assets/recipe/blacksmith.json',
+    './assets/recipe/armorer.json',
+    './assets/recipe/goldsmith.json',
+    './assets/recipe/leatherworker.json',
+    './assets/recipe/weaver.json',
+    './assets/recipe/alchemist.json',
+    './assets/recipe/culinarian.json',
+    './assets/gather/miner.json',
+    './assets/gather/botanist.json'
   ];
   
   const promises = recipeFiles.map(async (file) => {
@@ -154,6 +160,7 @@ async function precacheRecipes() {
         await cache.put(file, response);
       }
     } catch (error) {
+      // 静默处理预缓存失败，避免控制台报错
       console.log(`Failed to precache ${file}:`, error);
     }
   });
