@@ -156,6 +156,36 @@ body {
     filter: brightness(0) invert(1);
 }
 
+/* 天气按钮，风格与主题按钮一致 */
+.weather-toggle {
+    background: transparent;
+    border: 2px solid var(--ff14-secondary);
+    color: var(--ff14-secondary);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 8px var(--ff14-shadow);
+}
+
+.weather-toggle:hover {
+    background: var(--ff14-secondary);
+    color: var(--ff14-bg-dark);
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 4px 16px var(--ff14-glow);
+}
+
+.weather-toggle:active {
+    transform: scale(0.95) rotate(-5deg);
+}
+
 /* 主题切换按钮 */
 .theme-toggle {
     background: transparent;
@@ -2073,9 +2103,9 @@ body[data-theme="dark"] .local-time-value {
 }
 
 .alarm-remove-btn {
-  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
-  border: none;
-  color: white;
+  background: transparent; /* 取消红色底色 */
+  border: 1px solid var(--ff14-border);
+  color: var(--ff14-text-primary);
   width: 32px;
   height: 32px;
   border-radius: 6px;
@@ -2087,7 +2117,7 @@ body[data-theme="dark"] .local-time-value {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(220, 53, 69, 0.3);
+  box-shadow: 0 2px 4px var(--ff14-shadow);
 }
 
 .alarm-remove-btn::before {
@@ -2108,7 +2138,22 @@ body[data-theme="dark"] .local-time-value {
 
 .alarm-remove-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.4);
+  box-shadow: 0 4px 8px var(--ff14-glow);
+}
+
+/* 调整删除闹钟图标尺寸，确保在按钮内正确显示 */
+.alarm-remove-btn img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .alarm-remove-btn img {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .alarm-remove-btn:active {
@@ -2167,6 +2212,18 @@ body[data-theme="dark"] .local-time-value {
   overflow: hidden;
 }
 
+/* 未开始（距离出现）使用红色底色 */
+.alarm-countdown.pending {
+  border-color: #cc4b4b;
+  background: linear-gradient(135deg, rgba(204, 75, 75, 0.15) 0%, rgba(204, 75, 75, 0.05) 100%);
+  color: #e9c9c9;
+}
+[data-theme="light"] .alarm-countdown.pending {
+  border-color: #d9534f;
+  background: linear-gradient(135deg, rgba(217, 83, 79, 0.18) 0%, rgba(217, 83, 79, 0.08) 100%);
+  color: #7a2d2b;
+}
+
 .alarm-countdown.active-item {
   border-color: #28a745;
 }
@@ -2198,6 +2255,14 @@ body[data-theme="dark"] .local-time-value {
 
 [data-theme="light"] .countdown-progress {
   background: linear-gradient(90deg, rgba(46, 160, 67, 0.4) 0%, rgba(46, 160, 67, 0.2) 100%);
+}
+
+/* 待出现（红条进度） */
+.alarm-countdown.pending .countdown-progress {
+  background: linear-gradient(90deg, rgba(217, 83, 79, 0.35) 0%, rgba(217, 83, 79, 0.15) 100%);
+}
+[data-theme="light"] .alarm-countdown.pending .countdown-progress {
+  background: linear-gradient(90deg, rgba(217, 83, 79, 0.45) 0%, rgba(217, 83, 79, 0.25) 100%);
 }
 
 /* 物品图标状态样式 */
@@ -2330,11 +2395,11 @@ body[data-theme="dark"] .local-time-value {
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  background: linear-gradient(135deg, #e7d7b1 0%, #c9a86a 100%);
+  background: var(--ff14-bg-dark);
   border: 2px solid var(--ff14-border);
-  color: #5a4a2a;
+  color: var(--ff14-text-primary);
   box-shadow: 0 2px 8px var(--ff14-shadow);
-  border-radius: 12px;
+  border-radius: 8px; /* 与清空按钮保持一致 */
   outline: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
@@ -2345,7 +2410,6 @@ body[data-theme="dark"] .local-time-value {
 }
 #exportExcelBtn i {
   font-size: 18px;
-  color: #5a4a2a;
 }
 @media (max-width: 768px) {
   #exportExcelBtn {
@@ -2366,6 +2430,78 @@ body[data-theme="dark"] .local-time-value {
 }
 #exportExcelBtn:active {
   transform: scale(0.95);
+}
+
+/* ========== 生产职业：右侧三按钮统一为纯色风格（去渐变） ========== */
+.calculator-container:not(.gathering-mode) #clearSelectedBtn,
+.calculator-container:not(.gathering-mode) #exportExcelBtn,
+.calculator-container:not(.gathering-mode) #calculateBtn {
+  background: var(--ff14-bg-dark) !important; /* 纯色底 */
+  border: 2px solid var(--ff14-border) !important;
+  color: var(--ff14-text-primary) !important;
+  box-shadow: 0 2px 8px var(--ff14-shadow);
+}
+
+.calculator-container:not(.gathering-mode) #clearSelectedBtn:hover,
+.calculator-container:not(.gathering-mode) #exportExcelBtn:hover,
+.calculator-container:not(.gathering-mode) #calculateBtn:hover {
+  background: var(--ff14-bg-light) !important;
+  border-color: var(--ff14-secondary) !important;
+  color: var(--ff14-bg-dark) !important;
+}
+
+.calculator-container:not(.gathering-mode) #clearSelectedBtn:active,
+.calculator-container:not(.gathering-mode) #exportExcelBtn:active,
+.calculator-container:not(.gathering-mode) #calculateBtn:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+/* ========== 采集职业：将删除闹钟按钮改为正方形外框 ========== */
+.calculator-container.gathering-mode #calculateBtn {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border-radius: 8px;
+  background: transparent !important;
+  border: 2px solid var(--ff14-border) !important;
+  color: var(--ff14-secondary);
+  box-shadow: 0 2px 8px var(--ff14-shadow);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-container.gathering-mode #calculateBtn .calculate-del-img {
+  display: inline-block; /* 兜底：采集模式下显示图片 */
+}
+
+.calculator-container.gathering-mode #calculateBtn .calculate-btn-text,
+.calculator-container.gathering-mode #calculateBtn i {
+  display: none; /* 兜底：采集模式下隐藏文本与字体图标 */
+}
+
+.calculator-container.gathering-mode #calculateBtn:hover {
+  background: rgba(201, 168, 106, 0.08) !important;
+  box-shadow: 0 6px 20px var(--ff14-glow);
+}
+
+.calculator-container.gathering-mode #calculateBtn:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 768px) {
+  .calculator-container.gathering-mode #calculateBtn {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+  }
+  .calculator-container.gathering-mode #calculateBtn .calculate-del-img {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 /* 搜索操作区域响应式设计 */
@@ -2443,4 +2579,293 @@ body[data-theme="dark"] .local-time-value {
 [data-theme="light"] .item-name-clickable:hover,
 [data-theme="light"] .material-name-clickable:hover {
   color: var(--ff14-accent);
+}
+
+/* ========== 天气按钮与浮窗 ========== */
+/* 天气按钮，风格与主题按钮一致（兜底，若上方已定义则复用） */
+.weather-toggle {
+  background: transparent;
+  border: 2px solid var(--ff14-secondary);
+  color: var(--ff14-secondary);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 8px var(--ff14-shadow);
+}
+
+.weather-toggle:hover {
+  background: var(--ff14-secondary);
+  color: var(--ff14-bg-dark);
+  transform: scale(1.05) rotate(5deg);
+  box-shadow: 0 4px 16px var(--ff14-glow);
+}
+
+.weather-toggle:active {
+  transform: scale(0.95) rotate(-5deg);
+}
+
+.weather-panel {
+  position: fixed;
+  top: 86px; /* header 高度下方留空 */
+  right: 20px;
+  width: 360px;
+  max-width: calc(100vw - 40px);
+  background: var(--ff14-primary);
+  border: 2px solid var(--ff14-border);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px var(--ff14-shadow);
+  z-index: 1500;
+  display: none;
+  overflow: hidden;
+}
+
+.weather-panel.active { display: block; }
+
+.weather-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background: var(--ff14-primary);
+}
+
+.weather-panel-title {
+  color: var(--ff14-secondary);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.weather-panel-close {
+  background: transparent;
+  border: none;
+  color: var(--ff14-secondary);
+  font-size: 18px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+/* 面板标题右侧的时间切换控件 */
+.weather-time-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ff14-secondary);
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--ff14-border);
+  border-radius: 8px;
+  width: 34px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: 8px;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.weather-panel-body {
+  padding: 12px 14px 14px 14px;
+  background: linear-gradient(135deg, var(--ff14-primary) 80%, var(--ff14-bg-light) 100%);
+}
+
+.weather-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.weather-zone-select {
+  flex: 1;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--ff14-border);
+  background: var(--ff14-bg-light);
+  color: var(--ff14-text-primary);
+  padding: 0 10px;
+}
+
+.weather-interval-tip {
+  font-size: 12px;
+  color: var(--ff14-text-secondary);
+}
+
+.weather-forecast-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+/* 天气类型图标按钮网格 */
+.weather-icon-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.weather-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  background: var(--ff14-bg-dark);
+  border: 1px solid var(--ff14-border);
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.weather-icon-btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.weather-icon-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px var(--ff14-shadow); border-color: var(--ff14-secondary); }
+.weather-icon-btn:active { transform: translateY(0); }
+
+[data-theme="light"] .weather-icon-btn { background: var(--ff14-bg-dark); }
+
+.weather-icon-btn.active { outline: 2px solid var(--ff14-secondary); box-shadow: 0 0 0 3px rgba(201,168,106,0.25); }
+
+/* 不可用图标 */
+.weather-icon-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  filter: grayscale(100%);
+}
+.weather-icon-btn.disabled:hover { transform: none; box-shadow: none; border-color: var(--ff14-border); }
+
+/* 悬浮提示（气泡） */
+.weather-icon-btn[data-tooltip] { position: relative; }
+.weather-icon-btn[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: 46px;
+  transform: translateX(-50%) translateY(4px);
+  opacity: 0;
+  pointer-events: none;
+  background: var(--ff14-bg-dark);
+  color: var(--ff14-text-primary);
+  border: 1px solid var(--ff14-border);
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px var(--ff14-shadow);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  z-index: 10;
+}
+.weather-icon-btn[data-tooltip]::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 38px;
+  transform: translateX(-50%);
+  width: 0; height: 0;
+  border: 6px solid transparent;
+  border-top-color: var(--ff14-border);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 9;
+}
+.weather-icon-btn[data-tooltip]:hover::after { opacity: 1; transform: translateX(-50%) translateY(0); }
+.weather-icon-btn[data-tooltip]:hover::before { opacity: 1; }
+
+.weather-forecast-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--ff14-bg-dark);
+  border: 1px solid var(--ff14-border);
+  border-radius: 8px;
+}
+
+.weather-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ff14-text-primary);
+  flex: 1 1 auto;  /* 左侧占据可用空间 */
+  min-width: 0;    /* 允许内部子项压缩产生省略号 */
+}
+
+.weather-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  filter: brightness(0.98);
+}
+
+.weather-time-badge {
+  font-size: 11px;
+  color: var(--ff14-text-secondary);
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--ff14-border);
+  border-radius: 6px;
+  padding: 2px 8px;
+  user-select: none;
+  -webkit-user-select: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* 白天模式下的时间徽标与切换按钮底色（与其它模块一致的浅色风格） */
+[data-theme="light"] .weather-time-badge {
+  background: linear-gradient(135deg, var(--ff14-primary) 0%, var(--ff14-bg-light) 100%);
+  color: var(--ff14-text-secondary);
+}
+
+[data-theme="light"] .weather-time-toggle {
+  background: rgba(255, 255, 255, 0.35);
+  border-color: var(--ff14-border);
+  color: var(--ff14-secondary);
+}
+
+.weather-name {
+  font-weight: 700;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.weather-chance {
+  color: var(--ff14-secondary);
+  font-weight: 600;
+}
+
+/* 天气倒计时沿用闹钟样式（绿色进度条） */
+.weather-countdown { flex-shrink: 0; }
+
+/* 白天模式下的天气浮窗优化 */
+[data-theme="light"] .weather-panel-body {
+  background: linear-gradient(135deg, #f5ecd7 80%, #e7d7b1 100%);
+}
+
+[data-theme="light"] .weather-forecast-item {
+  background: var(--ff14-bg-dark);
+  border: 1px solid var(--ff14-border);
 }

@@ -461,11 +461,16 @@ function getItemIcon(name, fallback) {
 
 // 获取所有物品的扁平列表
 function getAllItemsFlat() {
+  // 全局搜索：当存在关键字时，直接使用 ALL_RECIPES 作为搜索源
+  if ((searchKeyword || '').trim()) {
+    return Array.isArray(ALL_RECIPES) ? ALL_RECIPES : [];
+  }
+
   if (!ITEMS || !Array.isArray(ITEMS)) {
     return [];
   }
   
-  // 采集职业使用 items 字段，生产职业使用 recipes 字段
+  // 非搜索场景：维持原逻辑，从当前职业的 ITEMS 提取
   const flatItems = ITEMS.flatMap(category => {
     if (isGatheringJob(currentJob)) {
       return category.items || [];
@@ -505,9 +510,12 @@ function filterItems() {
   
   // 搜索过滤
   if (searchKeyword) {
-    filteredItems = filteredItems.filter(item => 
-      item.name && item.name.toLowerCase().includes(searchKeyword.toLowerCase())
-    );
+    const keyword = (searchKeyword || '').trim().toLowerCase();
+    filteredItems = (Array.isArray(allItems) ? allItems : []).filter(item => {
+      const name = (item?.name || '').toLowerCase();
+      const pinyin = (item?.pinyin || '').toLowerCase();
+      return name.includes(keyword) || pinyin.includes(keyword);
+    });
   }
   
   return filteredItems;
@@ -515,13 +523,15 @@ function filterItems() {
 
 // 渲染物品列表
 function renderItems() {
-  // 如果是采集职业，使用专门的渲染函数
-  if (isGatheringJob(currentJob)) {
+  // 采集职业且无关键字时，使用带倒计时的渲染；
+  // 一旦有搜索关键字，则切换为全局搜索列表（跨职业，不显示倒计时样式）。
+  if (isGatheringJob(currentJob) && !(searchKeyword && searchKeyword.trim())) {
     renderGatheringItems();
     return;
   }
   
   const itemsContainer = document.getElementById('itemsContainer');
+  // 统一使用 filterItems()，其内部在有关键字时会基于 ALL_RECIPES 进行全局过滤
   const filteredItems = filterItems();
   
   if (filteredItems.length === 0) {
@@ -534,13 +544,12 @@ function renderItems() {
     return;
   }
   
-  // 按分类分组
+  // 按分类分组（无关键字时使用完整分类；有关键字时仅显示包含命中条目的分类）
   const categories = {};
   filteredItems.forEach(item => {
-    if (!categories[item.category]) {
-      categories[item.category] = [];
-    }
-    categories[item.category].push(item);
+    const cat = item.category || '未分类';
+    if (!categories[cat]) categories[cat] = [];
+    categories[cat].push(item);
   });
   
   // 渲染分类文件夹
@@ -555,7 +564,7 @@ function renderItems() {
             全选
           </div>
         </div>
-        <div class="folder-content">
+        <div class="folder-content ${searchKeyword && searchKeyword.trim() ? 'expanded' : ''}">
           ${items.map(item => renderItemCard(item)).join('')}
         </div>
       </div>
@@ -1376,26 +1385,21 @@ function screenshotMaterials() {
   
   // 复制计算结果内容
   const contentClone = calculationContent.cloneNode(true);
-  
-  // 清理样式，确保截图效果
-  const styleElements = contentClone.querySelectorAll('*');
-  styleElements.forEach(element => {
-    element.style.margin = '0';
-    element.style.padding = '0';
+  // 为截图微调样式：缩小图标、拉开区块间距
+  contentClone.querySelectorAll('.material-icon').forEach(img => {
+    img.style.width = '32px';
+    img.style.height = '32px';
   });
-  
-  // 添加标题
-  const title = document.createElement('h2');
-  title.textContent = 'FF14 生产材料清单';
-  title.style.cssText = `
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 16px;
-    text-align: center;
-    color: #333;
-  `;
-  
-  screenshotContainer.appendChild(title);
+  contentClone.querySelectorAll('.overview-card').forEach(el => {
+    el.style.marginBottom = '12px';
+  });
+  contentClone.querySelectorAll('.material-category').forEach(el => {
+    el.style.marginTop = '8px';
+    el.style.marginBottom = '12px';
+  });
+  contentClone.querySelectorAll('.material-item').forEach(el => {
+    el.style.padding = '12px';
+  });
   screenshotContainer.appendChild(contentClone);
   document.body.appendChild(screenshotContainer);
   
@@ -1414,7 +1418,11 @@ function screenshotMaterials() {
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `FF14材料清单_${new Date().toISOString().slice(0, 10)}.png`;
+        // 文件名：QQ14 材料清单 mm:dd
+        const now = new Date();
+        const mm = String(now.getMonth() + 1).padStart(2, '0');
+        const dd = String(now.getDate()).padStart(2, '0');
+        a.download = `QQ14 材料清单 ${mm}-${dd}.png`;
         a.click();
         URL.revokeObjectURL(url);
         showToast('截图已保存到相册');
@@ -1461,6 +1469,7 @@ function setupSearch() {
   const searchInput = document.getElementById('itemSearch');
   searchInput.addEventListener('input', (e) => {
     searchKeyword = e.target.value;
+    // 移动端也做全局搜索：不受当前职业限制
     renderItems();
   });
 }
@@ -1588,7 +1597,342 @@ async function initApp() {
   window.addEventListener('beforeunload', () => {
     stopGatheringTimer();
   });
+
+  // 初始化移动端天气面板
+  initMobileWeather();
 }
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', initApp); 
+
+// ===================== 移动端天气预报（浮窗） =====================
+let mobileWeatherTick = null;
+function initMobileWeather() {
+  const toggleBtn = document.getElementById('mobileWeatherToggle');
+  const panel = document.getElementById('mobileWeatherPanel');
+  const closeBtn = document.getElementById('mobileWeatherClose');
+  const zoneSelect = document.getElementById('mobileWeatherZoneSelect');
+  const listEl = document.getElementById('mobileWeatherList');
+  const timeToggle = document.getElementById('mobileWeatherTimeToggle');
+  const iconsGrid = document.getElementById('mobileWeatherIcons');
+  if (!toggleBtn || !panel || !closeBtn || !zoneSelect || !listEl || !timeToggle || !iconsGrid) return;
+
+  // 打开/关闭
+  toggleBtn.addEventListener('click', () => {
+    panel.classList.add('active');
+    panel.removeAttribute('inert');
+    panel.setAttribute('aria-hidden', 'false');
+    populateMobileZones(zoneSelect);
+    refreshMobileWeather();
+    startMobileWeatherTick();
+    // 将焦点移入面板
+    setTimeout(() => {
+      const focusTarget = panel.querySelector('#mobileWeatherTimeToggle') || panel;
+      if (focusTarget && typeof focusTarget.focus === 'function') focusTarget.focus();
+    }, 0);
+  });
+  closeBtn.addEventListener('click', () => {
+    panel.classList.remove('active');
+    panel.setAttribute('aria-hidden', 'true');
+    panel.setAttribute('inert', '');
+    stopMobileWeatherTick();
+    // 将焦点返回到触发按钮
+    if (toggleBtn && typeof toggleBtn.focus === 'function') toggleBtn.focus();
+  });
+
+  // ET/LT 切换（默认LT）
+  let timeMode = 'LT';
+  timeToggle.addEventListener('click', () => {
+    timeMode = timeMode === 'ET' ? 'LT' : 'ET';
+    timeToggle.innerText = timeMode;
+    refreshMobileWeather();
+  });
+  timeToggle.innerText = timeMode;
+
+  // 地区切换：清除筛选
+  zoneSelect.addEventListener('change', () => {
+    mobileWeatherFilter = null;
+    refreshMobileWeather();
+  });
+
+  // 存储状态
+  let lastRefresh = 0;
+  function throttledRefresh() {
+    const now = Date.now();
+    if (now - lastRefresh > 500) {
+      lastRefresh = now;
+      if (panel.classList.contains('active')) refreshMobileWeather();
+    }
+  }
+
+  // 渲染
+  function refreshMobileWeather() {
+    const zone = zoneSelect.value || 'gridania';
+    let forecasts;
+    if (mobileWeatherFilter) {
+      if (!mobileZoneHasWeather(zone, mobileWeatherFilter)) {
+        listEl.innerHTML = `<div class="empty-state"><i class=\"fas fa-info-circle\"></i><p>该地区不会出现“${M_WEATHER_NAME_CN[mobileWeatherFilter] || mobileWeatherFilter}”。</p></div>`;
+        renderMobileIcons();
+        return;
+      }
+      forecasts = mobileGetNextMatchingForecasts(zone, mobileWeatherFilter, 8);
+    } else {
+      forecasts = mobileGetForecasts(zone, 8);
+    }
+    listEl.innerHTML = forecasts.map((f, idx) => {
+      const icon = mobileGetWeatherIconPath(f.name);
+      const timeText = timeMode === 'ET' ? `ET ${f.intervalLabel.slice(3)}` : `LT ${mobileFormatLT(f.intervalStart)}`;
+      const countdownHtml = idx === 0 ? mobileBuildCountdownHtml(f) : '';
+      return `
+      <div class="m-weather-item">
+        <div class="m-weather-left">
+          <span class="m-weather-time-badge">${timeText}</span>
+          <img class="m-weather-icon" src="${icon}" alt="${M_WEATHER_NAME_CN[f.name] || f.name}">
+          <span class="m-weather-name">${M_WEATHER_NAME_CN[f.name] || f.name}</span>
+        </div>
+        ${countdownHtml}
+      </div>`;
+    }).join('');
+    renderMobileIcons();
+  }
+
+  function startMobileWeatherTick() {
+    stopMobileWeatherTick();
+    mobileWeatherTick = setInterval(throttledRefresh, 1000);
+  }
+  function stopMobileWeatherTick() {
+    if (mobileWeatherTick) clearInterval(mobileWeatherTick);
+    mobileWeatherTick = null;
+  }
+
+  // 天气类型图标
+  let mobileWeatherFilter = null;
+  function renderMobileIcons() {
+    const zone = zoneSelect.value || 'gridania';
+    const ordered = ['clearSkies','fairSkies','clouds','fog','rain','showers','wind','gales','thunder','thunderstorms','snow','blizzard','gloom','heatWaves','dustStorms'];
+    iconsGrid.innerHTML = ordered.map(key => {
+      const cn = M_WEATHER_NAME_CN[key] || key;
+      const icon = mobileGetWeatherIconPath(key);
+      const canAppear = mobileZoneHasWeather(zone, key);
+      const disabled = canAppear ? '' : ' disabled';
+      const active = mobileWeatherFilter === key ? ' style="outline:2px solid var(--color-secondary);"' : '';
+      return `<button class="m-weather-icon-btn${disabled}" data-weather="${key}" aria-label="${cn}" data-tooltip="${cn}"${active}><img src="${icon}" alt="${cn}"></button>`;
+    }).join('');
+    iconsGrid.querySelectorAll('.m-weather-icon-btn').forEach(btn => {
+      if (btn.classList.contains('disabled')) return;
+      btn.addEventListener('click', () => {
+        const key = btn.getAttribute('data-weather');
+        mobileWeatherFilter = (mobileWeatherFilter === key) ? null : key;
+        refreshMobileWeather();
+      });
+    });
+  }
+
+  // 暴露给内部使用
+  function populateMobileZones(selectEl) {
+    if (selectEl.options.length > 0) return;
+    // 使用与桌面端一致的分组
+    const groups = M_WEATHER_ZONE_GROUPS;
+    let firstValue = '';
+    groups.forEach(group => {
+      const keys = group.keys.filter(k => M_WEATHER_DATA[k]);
+      if (keys.length === 0) return;
+      const og = document.createElement('optgroup');
+      og.label = group.label;
+      keys.forEach(key => {
+        const opt = document.createElement('option');
+        opt.value = key;
+        opt.textContent = M_WEATHER_LABELS[key] || key;
+        og.appendChild(opt);
+        if (!firstValue) firstValue = key;
+      });
+      selectEl.appendChild(og);
+    });
+    if (firstValue) selectEl.value = firstValue;
+  }
+
+  // 工具/算法
+  function mobileGetForecasts(zoneKey, intervals = 8) {
+    const result = [];
+    let t = mobileNearestIntervalStart(Date.now());
+    for (let i = 0; i < intervals; i++) {
+      const label = mobileNearestEorzeaIntervalLabel(t);
+      const val = mobileCalculateWeatherValue(t);
+      const weather = mobilePickWeatherByValue(zoneKey, val);
+      result.push({ intervalLabel: `ET ${label.slice(0,5)}`, intervalStart: t, name: weather.name });
+      t += M_EORZEA_8_HOUR_MS;
+    }
+    return result;
+  }
+
+  function mobileGetNextMatchingForecasts(zoneKey, weatherKey, count = 8) {
+    const out = [];
+    let t = mobileNearestIntervalStart(Date.now());
+    let guard = 0;
+    const MAX = 2000;
+    while (out.length < count && guard < MAX) {
+      const label = mobileNearestEorzeaIntervalLabel(t);
+      const val = mobileCalculateWeatherValue(t);
+      const weather = mobilePickWeatherByValue(zoneKey, val);
+      if (weather.name === weatherKey) {
+        out.push({ intervalLabel: `ET ${label.slice(0,5)}`, intervalStart: t, name: weather.name });
+      }
+      t += M_EORZEA_8_HOUR_MS;
+      guard++;
+    }
+    return out.slice(0, count);
+  }
+
+  function mobileGetWeatherIconPath(weatherKey) {
+    const name = M_WEATHER_NAME_CN[weatherKey] || '';
+    if (!name) return 'assets/icons/weather/晴朗.png';
+    return `assets/icons/weather/${name}.png`;
+  }
+
+  function mobileFormatLT(realUnixMs) {
+    const d = new Date(realUnixMs);
+    const hh = String(d.getHours()).padStart(2, '0');
+    const mm = String(d.getMinutes()).padStart(2, '0');
+    const ss = String(d.getSeconds()).padStart(2, '0');
+    return `${hh}:${mm}:${ss}`;
+  }
+
+  function mobileBuildCountdownHtml(forecast) {
+    const info = mobileGetCountdownInfo(forecast);
+    const cls = info.isAppearing ? 'm-countdown pending' : 'm-countdown active';
+    const style = `style="--progress: ${info.progress}%"`;
+    const text = mobileGetCountdownText(forecast);
+    return `<div class="${cls}" ${style}><div class="m-progress"></div><span class="m-count-text">${text}</span></div>`;
+  }
+
+  function mobileGetCountdownText(forecast) {
+    const now = Date.now();
+    const start = forecast.intervalStart;
+    const end = start + M_EORZEA_8_HOUR_MS;
+    const toStart = start - now;
+    const toEnd = end - now;
+    if (toStart > 0) return `距离天气变化 ${mobileFormatMs(Math.max(0, toStart))}`;
+    if (toEnd > 0) return `距离天气变化 ${mobileFormatMs(Math.max(0, toEnd))}`;
+    return '即将更新';
+  }
+
+  function mobileGetCountdownInfo(forecast) {
+    const now = Date.now();
+    const start = forecast.intervalStart;
+    const end = start + M_EORZEA_8_HOUR_MS;
+    const isAppearing = start - now > 0;
+    const total = M_EORZEA_8_HOUR_MS;
+    const remaining = Math.max(0, isAppearing ? (start - now) : (end - now));
+    const progress = Math.max(0, Math.min(100, (remaining / total) * 100));
+    return { isAppearing, progress };
+  }
+
+  function mobileFormatMs(ms) {
+    const totalSec = Math.floor(ms / 1000);
+    const mm = String(Math.floor(totalSec / 60)).padStart(2, '0');
+    const ss = String(totalSec % 60).padStart(2, '0');
+    return `${mm}:${ss}`;
+  }
+
+  // 天气算法与数据
+  const M_EORZEA_HOUR_MS = 175000;
+  const M_EORZEA_8_HOUR_MS = 8 * M_EORZEA_HOUR_MS;
+  const M_EORZEA_DAY_MS = 24 * M_EORZEA_HOUR_MS;
+
+  function mobileCalculateWeatherValue(unixMs) {
+    const ms = Math.floor(unixMs);
+    const bell = Math.floor(ms / M_EORZEA_HOUR_MS) % 24;
+    const increment = (bell + 8 - (bell % 8)) % 24;
+    const totalDays = Math.floor(ms / M_EORZEA_DAY_MS);
+    const calcBase = totalDays * 100 + increment;
+    const step1 = ((calcBase << 11) ^ calcBase) >>> 0;
+    const step2 = ((step1 >>> 8) ^ step1) >>> 0;
+    return step2 % 100;
+  }
+
+  function mobileNearestIntervalStart(unixMs) {
+    const bell = Math.floor(unixMs / M_EORZEA_HOUR_MS);
+    const alignedBell = bell - (bell % 8);
+    return alignedBell * M_EORZEA_HOUR_MS;
+  }
+  function mobileNearestEorzeaIntervalLabel(unixMs) {
+    const bell = Math.floor(unixMs / M_EORZEA_HOUR_MS) % 24;
+    const h = (bell - (bell % 8) + 24) % 24;
+    return `${String(h).padStart(2, '0')}:00`;
+  }
+
+  function mobilePickWeatherByValue(zoneKey, value) {
+    const table = M_WEATHER_DATA[zoneKey] || [];
+    let cursor = 0;
+    for (let i = 0; i < table.length; i++) {
+      cursor += table[i].chance;
+      if (value < cursor) return table[i];
+    }
+    return table[table.length - 1] || { name: 'clearSkies', chance: 100 };
+  }
+
+  function mobileZoneHasWeather(zoneKey, weatherKey) {
+    const table = M_WEATHER_DATA[zoneKey] || [];
+    return table.some(w => w.name === weatherKey);
+  }
+}
+
+// 与桌面端一致的区域/中文映射与权重（裁剪自桌面端）
+const M_WEATHER_DATA = {
+  uldah: [ { name: 'clearSkies', chance: 40 }, { name: 'fairSkies', chance: 20 }, { name: 'clouds', chance: 25 }, { name: 'fog', chance: 10 }, { name: 'rain', chance: 5 } ],
+  westernThanalan: [ { name: 'clearSkies', chance: 40 }, { name: 'fairSkies', chance: 20 }, { name: 'clouds', chance: 25 }, { name: 'fog', chance: 10 }, { name: 'rain', chance: 5 } ],
+  centralThanalan: [ { name: 'dustStorms', chance: 15 }, { name: 'clearSkies', chance: 40 }, { name: 'fairSkies', chance: 20 }, { name: 'clouds', chance: 10 }, { name: 'fog', chance: 10 }, { name: 'rain', chance: 5 } ],
+  easternThanalan: [ { name: 'clearSkies', chance: 40 }, { name: 'fairSkies', chance: 20 }, { name: 'clouds', chance: 10 }, { name: 'fog', chance: 10 }, { name: 'rain', chance: 5 }, { name: 'showers', chance: 15 } ],
+  southernThanalan: [ { name: 'heatWaves', chance: 20 }, { name: 'clearSkies', chance: 40 }, { name: 'fairSkies', chance: 20 }, { name: 'clouds', chance: 10 }, { name: 'fog', chance: 10 } ],
+  northernThanalan: [ { name: 'clearSkies', chance: 5 }, { name: 'fairSkies', chance: 15 }, { name: 'clouds', chance: 30 }, { name: 'fog', chance: 50 } ],
+  gridania: [ { name: 'rain', chance: 20 }, { name: 'fog', chance: 10 }, { name: 'clouds', chance: 10 }, { name: 'fairSkies', chance: 15 }, { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 15 } ],
+  centralShroud: [ { name: 'thunder', chance: 5 }, { name: 'rain', chance: 15 }, { name: 'fog', chance: 10 }, { name: 'clouds', chance: 10 }, { name: 'fairSkies', chance: 15 }, { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 15 } ],
+  eastShroud: [ { name: 'thunder', chance: 5 }, { name: 'rain', chance: 15 }, { name: 'fog', chance: 10 }, { name: 'clouds', chance: 10 }, { name: 'fairSkies', chance: 15 }, { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 15 } ],
+  southShroud: [ { name: 'fog', chance: 5 }, { name: 'thunderstorms', chance: 5 }, { name: 'thunder', chance: 15 }, { name: 'fog', chance: 5 }, { name: 'clouds', chance: 10 }, { name: 'fairSkies', chance: 30 }, { name: 'clearSkies', chance: 30 } ],
+  northShroud: [ { name: 'fog', chance: 5 }, { name: 'showers', chance: 5 }, { name: 'rain', chance: 15 }, { name: 'fog', chance: 5 }, { name: 'clouds', chance: 10 }, { name: 'fairSkies', chance: 30 }, { name: 'clearSkies', chance: 30 } ],
+  limsaLominsa: [ { name: 'clouds', chance: 20 }, { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 30 }, { name: 'fog', chance: 10 }, { name: 'rain', chance: 10 } ],
+  middleLaNoscea: [ { name: 'clouds', chance: 20 }, { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 20 }, { name: 'wind', chance: 10 }, { name: 'fog', chance: 10 }, { name: 'rain', chance: 10 } ],
+  lowerLaNoscea: [ { name: 'clouds', chance: 20 }, { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 20 }, { name: 'wind', chance: 10 }, { name: 'fog', chance: 10 }, { name: 'rain', chance: 10 } ],
+  easternLaNoscea: [ { name: 'fog', chance: 5 }, { name: 'clearSkies', chance: 45 }, { name: 'fairSkies', chance: 30 }, { name: 'clouds', chance: 10 }, { name: 'rain', chance: 5 }, { name: 'showers', chance: 5 } ],
+  westernLaNoscea: [ { name: 'fog', chance: 10 }, { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 20 }, { name: 'clouds', chance: 20 }, { name: 'wind', chance: 10 }, { name: 'gales', chance: 10 } ],
+  upperLaNoscea: [ { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 20 }, { name: 'clouds', chance: 20 }, { name: 'fog', chance: 10 }, { name: 'thunder', chance: 10 }, { name: 'thunderstorms', chance: 10 } ],
+  outerLaNoscea: [ { name: 'clearSkies', chance: 30 }, { name: 'fairSkies', chance: 20 }, { name: 'clouds', chance: 20 }, { name: 'fog', chance: 15 }, { name: 'rain', chance: 15 } ],
+  coerthasCentralHighlands: [ { name: 'blizzard', chance: 20 }, { name: 'snow', chance: 40 }, { name: 'fairSkies', chance: 10 }, { name: 'clearSkies', chance: 5 }, { name: 'clouds', chance: 15 }, { name: 'fog', chance: 10 } ],
+  morDhona: [ { name: 'clouds', chance: 15 }, { name: 'fog', chance: 15 }, { name: 'gloom', chance: 30 }, { name: 'clearSkies', chance: 15 }, { name: 'fairSkies', chance: 25 } ]
+};
+
+const M_WEATHER_LABELS = {
+  uldah: '乌尔达哈',
+  westernThanalan: '西萨纳兰',
+  centralThanalan: '中萨纳兰',
+  easternThanalan: '东萨纳兰',
+  southernThanalan: '南萨纳兰',
+  northernThanalan: '北萨纳兰',
+  gridania: '格里达尼亚',
+  centralShroud: '黑衣森林中央林区',
+  eastShroud: '黑衣森林东部林区',
+  southShroud: '黑衣森林南部林区',
+  northShroud: '黑衣森林北部林区',
+  limsaLominsa: '利姆萨·罗敏萨',
+  middleLaNoscea: '中拉诺西亚',
+  lowerLaNoscea: '拉诺西亚低地',
+  easternLaNoscea: '东拉诺西亚',
+  westernLaNoscea: '西拉诺西亚',
+  upperLaNoscea: '拉诺西亚高地',
+  outerLaNoscea: '拉诺西亚外地',
+  coerthasCentralHighlands: '库尔札斯中央高地',
+  morDhona: '摩杜纳'
+};
+
+const M_WEATHER_ZONE_GROUPS = [
+  { label: '乌尔达哈', keys: ['uldah','westernThanalan','centralThanalan','easternThanalan','southernThanalan','northernThanalan'] },
+  { label: '格里达尼亚', keys: ['gridania','centralShroud','eastShroud','southShroud','northShroud'] },
+  { label: '利姆萨·罗敏萨', keys: ['limsaLominsa','middleLaNoscea','lowerLaNoscea','easternLaNoscea','westernLaNoscea','upperLaNoscea','outerLaNoscea'] },
+  { label: '伊修加德', keys: ['coerthasCentralHighlands'] },
+  { label: '其他', keys: ['morDhona'] },
+];
+
+const M_WEATHER_NAME_CN = {
+  clearSkies: '碧空', fairSkies: '晴朗', clouds: '阴云', fog: '薄雾', rain: '小雨', showers: '暴雨',
+  wind: '微风', gales: '强风', thunder: '打雷', thunderstorms: '雷雨', snow: '小雪', blizzard: '暴雪', gloom: '妖雾', heatWaves: '热浪', dustStorms: '扬沙'
+};

@@ -42,6 +42,10 @@
                 <button class="device-toggle" id="deviceToggle" title="切换到移动端">
                     <img src="assets/icons/button/mobile.png" alt="移动端" class="device-icon">
                 </button>
+                 <!-- 天气预报按钮 -->
+                 <button class="weather-toggle" id="weatherToggle" title="天气预报">
+                     <i class="fas fa-cloud-sun"></i>
+                 </button>
                 <!-- 主题切换按钮 -->
                 <button class="theme-toggle" id="themeToggle" title="切换主题">
                     <i class="fas fa-moon"></i>
@@ -53,6 +57,29 @@
             </div>
         </div>
     </header>
+    <!-- 天气预报浮窗 -->
+    <div class="weather-panel" id="weatherPanel" aria-hidden="true">
+        <div class="weather-panel-header">
+            <div class="weather-panel-title"><i class="fas fa-cloud-sun"></i> 天气预报</div>
+            <button class="weather-time-toggle" id="weatherTimeToggle" title="点击切换 ET/LT" aria-label="切换时间显示">
+                <span style="user-select:none;-webkit-user-select:none;font-weight:800;">LT</span>
+            </button>
+            <button class="weather-panel-close" id="weatherPanelClose" title="关闭">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="weather-panel-body">
+            <div class="weather-controls">
+                <select id="weatherZoneSelect" class="weather-zone-select" aria-label="选择地区"></select>
+                <span class="weather-interval-tip">每8艾欧泽亚小时刷新</span>
+            </div>
+            <div class="weather-forecast-list" id="weatherForecastList">
+                <!-- 预测列表通过脚本渲染 -->
+            </div>
+            <!-- 天气类型图标按钮（两排：8 + 7） -->
+            <div class="weather-icon-grid" id="weatherIconGrid" aria-label="天气类型快速查看"></div>
+        </div>
+    </div>
 
     <!-- 主要内容区域 -->
     <main class="main-content">
@@ -132,14 +159,18 @@
                 <div class="section-header">
                     <h2><i class="fas fa-chart-bar"></i> 计算结果</h2>
                     <div style="display: flex; gap: 12px; align-items: center;">
-                        <button class="btn btn-primary" id="clearSelectedBtn" title="清空已选物品">
-                            <i class="fas fa-trash"></i>
+                        <button class="btn btn-primary" id="clearSelectedBtn" title="清空已选物品" aria-label="清空已选物品">
+                            <img src="assets/icons/button/del.png" alt="Clear" class="btn-icon" style="width:20px;height:20px;object-fit:contain;">
                         </button>
                         <button class="btn" id="exportExcelBtn" title="导出Excel" aria-label="导出Excel">
-                            <i class="fas fa-file-export"></i>
+                            <img src="assets/icons/button/output.png" alt="Export" style="width:20px;height:20px;object-fit:contain;">
                         </button>
-                        <button class="btn btn-primary" id="calculateBtn">
-                            <i class="fas fa-calculator"></i> <span class="calculate-btn-text">计算素材</span>
+                        <button class="btn btn-primary" id="calculateBtn" aria-label="计算素材">
+                            <span class="calculate-icon-box" style="display:inline-flex;align-items:center;gap:6px;">
+                                <img src="assets/icons/button/calculate.png" alt="Calculate" class="calculate-calc-img" style="width:20px;height:20px;object-fit:contain;">
+                                <img src="assets/icons/button/del.png" alt="Delete alarms" class="calculate-del-img" style="display:none;width:20px;height:20px;object-fit:contain;">
+                            </span>
+                            <span class="calculate-btn-text">计算素材</span>
                         </button>
                     </div>
                 </div>

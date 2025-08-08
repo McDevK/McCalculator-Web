@@ -1,7 +1,7 @@
 // 缓存管理工具
 class CacheManager {
   constructor() {
-    this.cacheName = 'mc-calculator-v1.0';
+    this.cacheName = 'mc-calculator-v1.2';
   }
 
   // 获取缓存状态

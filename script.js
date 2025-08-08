@@ -162,10 +162,6 @@ async function onJobChange(job) {
   // 如果是采集职业，确保倒计时定时器运行，并检查通知权限
   if (isGatheringJob(job)) {
     renderGatherAlarms();
-    // 如果还没有通知权限，再次请求
-    if (!notificationPermission) {
-      await requestNotificationPermission();
-    }
   }
   // 其他职业切换逻辑...
   toggleExportBtnByJob(job);
@@ -176,8 +172,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   // 检查DOM元素是否正确获取
   await loadAllRecipesForCalc(); // 先加载全量配方
   
-  // 请求通知权限
-  await requestNotificationPermission();
+  // 通知功能已禁用
   
   const defaultJob = 'quickcalc'; // 改为默认选择快捷计算
   currentJob = defaultJob;
@@ -353,106 +348,22 @@ const favToggleBtn = document.getElementById('favToggleBtn');
 // 采集职业闹钟物品id数组，持久化到localStorage
 let gatherAlarms = JSON.parse(localStorage.getItem('gather_alarms') || '[]');
 
-// 系统通知功能
+// 系统通知功能（已禁用）
 let notificationPermission = false;
-let notifiedItems = new Set(); // 记录已经发送过通知的物品，避免重复通知
-let notificationNoticeDismissed = JSON.parse(localStorage.getItem('notification_notice_dismissed') || 'false'); // 记录用户是否已关闭通知提示
+let notifiedItems = new Set();
+let notificationNoticeDismissed = true;
 
 // 请求通知权限
-async function requestNotificationPermission() {
-  if (!('Notification' in window)) {
-    console.warn('此浏览器不支持系统通知');
-    return false;
-  }
-  
-  if (Notification.permission === 'granted') {
-    notificationPermission = true;
-    // 更新UI显示
-    if (isGatheringJob(currentJob)) {
-      renderGatherAlarms();
-    }
-    return true;
-  }
-  
-  if (Notification.permission === 'denied') {
-    console.warn('用户拒绝了通知权限');
-    return false;
-  }
-  
-  try {
-    const permission = await Notification.requestPermission();
-    notificationPermission = permission === 'granted';
-    // 更新UI显示
-    if (isGatheringJob(currentJob)) {
-      renderGatherAlarms();
-    }
-    return notificationPermission;
-  } catch (error) {
-    console.error('请求通知权限失败:', error);
-    return false;
-  }
-}
+async function requestNotificationPermission() { return false; }
 
 // 发送系统通知
-function sendNotification(itemName, countdownText) {
-  if (!notificationPermission) {
-    return;
-  }
-  
-  try {
-    const notification = new Notification('FF14采集提醒', {
-      body: `${itemName} ${countdownText}`,
-      icon: 'assets/pics/莫古力.png', // 使用莫古力图标作为通知图标
-      tag: `gather-alarm-${itemName}`, // 使用标签避免重复通知
-      requireInteraction: false, // 不需要用户交互
-      silent: false // 播放通知声音
-    });
-    
-    // 5秒后自动关闭通知
-    setTimeout(() => {
-      notification.close();
-    }, 5000);
-    
-
-  } catch (error) {
-    console.error('发送通知失败:', error);
-  }
-}
+function sendNotification() { /* disabled */ }
 
 // 关闭通知权限提示
-function dismissNotificationNotice() {
-  notificationNoticeDismissed = true;
-  localStorage.setItem('notification_notice_dismissed', 'true');
-  // 重新渲染闹钟列表以隐藏提示
-  if (isGatheringJob(currentJob)) {
-    renderGatherAlarms();
-  }
-}
+function dismissNotificationNotice() { /* disabled */ }
 
 // 检查是否需要发送通知
-function checkNotificationAlarm(item, countdownInfo) {
-  // 只对未出现的物品发送通知（距离出现还有3分钟时）
-  if (countdownInfo.isAppearing && countdownInfo.minutes <= 3 && countdownInfo.minutes > 2.5) {
-    const notificationKey = `${item.id}-${Math.floor(countdownInfo.minutes)}`;
-    
-    // 检查是否已经发送过通知
-    if (!notifiedItems.has(notificationKey)) {
-      notifiedItems.add(notificationKey);
-      sendNotification(item.name, countdownInfo.text);
-    }
-  }
-  
-  // 清理过期的通知记录（避免内存泄漏）
-  if (countdownInfo.minutes > 5) {
-    const keysToRemove = [];
-    notifiedItems.forEach(key => {
-      if (key.startsWith(`${item.id}-`)) {
-        keysToRemove.push(key);
-      }
-    });
-    keysToRemove.forEach(key => notifiedItems.delete(key));
-  }
-}
+function checkNotificationAlarm() { /* disabled */ }
 
 // 渲染右侧闹钟列表
 function renderGatherAlarms() {
@@ -519,7 +430,7 @@ function renderGatherAlarms() {
           <div class="countdown-progress"></div>
           <span class="countdown-text">${item.countdownText}</span>
         </div>
-        <button class="alarm-remove-btn" title="移除闹钟" data-id="${item.id}"><i class="fas fa-times"></i></button>
+        <button class="alarm-remove-btn" title="移除闹钟" data-id="${item.id}"><img src="assets/icons/button/closealert.png" alt="移除"></button>
       </div>
     `;
   });
@@ -756,7 +667,7 @@ function updateAlarmCountdowns() {
   renderGatherAlarms();
   
   // 检查是否需要发送系统通知
-  if (notificationPermission && isGatheringJob(currentJob)) {
+  if (false && notificationPermission && isGatheringJob(currentJob)) {
     // 获取当前职业所有物品
     let allItems = [];
     ITEMS.forEach(cat => {
@@ -776,16 +687,37 @@ function updateAlarmCountdowns() {
 
 // 多级分类下的物品过滤
 function filterItemsByCategory() {
+  // 当存在搜索关键字时，改为在全职业数据 ALL_RECIPES 中搜索，并按 category 分组
+  const keyword = (searchKeyword || '').trim().toLowerCase();
+  if (keyword) {
+    const grouped = new Map();
+    const source = Array.isArray(ALL_RECIPES) ? ALL_RECIPES : [];
+    source.forEach(item => {
+      const name = (item?.name || '').toLowerCase();
+      const pinyin = (item?.pinyin || '').toLowerCase();
+      const matchSearch = name.includes(keyword) || pinyin.includes(keyword);
+      const matchFav = !showFavOnly || isFaved(item?.id);
+      if (matchSearch && matchFav) {
+        const cat = item.category || '未分类';
+        if (!grouped.has(cat)) grouped.set(cat, []);
+        grouped.get(cat).push(item);
+      }
+    });
+    return Array.from(grouped.entries()).map(([category, recipes]) => ({ category, recipes }));
+  }
+
+  // 无搜索关键字时，保持原有：按当前职业的 ITEMS 渲染
   if (!Array.isArray(ITEMS)) return [];
   const result = [];
   ITEMS.forEach(cat => {
-    // 分类下的配方筛选
     const filtered = cat.recipes.filter(item => {
       let matchJob = true;
       if (!isGatheringJob(currentJob)) {
-        matchJob = item.job === currentJob;
+        matchJob = (currentJob === 'quickcalc') ? true : (item.job === currentJob);
       }
-      const matchSearch = !searchKeyword || item.name.includes(searchKeyword);
+      const name = (item.name || '').toLowerCase();
+      const pinyin = (item.pinyin || '').toLowerCase();
+      const matchSearch = !keyword || name.includes(keyword) || pinyin.includes(keyword);
       const matchFav = !showFavOnly || isFaved(item.id);
       return matchJob && matchSearch && matchFav;
     });
@@ -860,7 +792,7 @@ function renderItemSelection() {
         <div class="item-icon"><img src="${getItemIcon(item.name, item.icon)}" alt="${item.name}" style="width:28px;height:28px;"></div>
         <div class="item-name">${item.name}</div>
         <div class="item-level">等级：${item.level}</div>
-        <button class="fav-btn faved" title="${isGathering ? '闹钟提醒' : '取消收藏'}"><i class="fas ${isGathering ? 'fa-clock' : 'fa-star'}"></i></button>
+        <button class="fav-btn faved" title="${isGathering ? '闹钟提醒' : '取消收藏'}">${isGathering ? '<img src="assets/icons/button/alert.png" alt="alarm" style="width:18px;height:18px;object-fit:contain;">' : '<i class="fas fa-star"></i>'}</button>
       </div>
     `).join('');
     return;
@@ -894,7 +826,7 @@ function renderItemSelection() {
               <div class="item-icon"><img src="${getItemIcon(item.name, item.icon)}" alt="${item.name}" style="width:28px;height:28px;"></div>
               <div class="item-name">${item.name}</div>
               <div class="item-level">等级：${item.level}</div>
-              <button class="fav-btn${isGathering && gatherAlarms.includes(item.id) ? ' faved' : ''}" title="${isGathering ? '闹钟提醒' : (isFaved(item.id) ? '取消收藏' : '收藏')}" data-id="${item.id}"><i class="fas ${isGathering ? 'fa-clock' : 'fa-star'}"></i></button>
+              <button class="fav-btn${isGathering && gatherAlarms.includes(item.id) ? ' faved' : ''}" title="${isGathering ? '闹钟提醒' : (isFaved(item.id) ? '取消收藏' : '收藏')}" data-id="${item.id}">${isGathering ? '<img src="assets/icons/button/alert.png" alt="alarm" style="width:18px;height:18px;object-fit:contain;">' : '<i class="fas fa-star"></i>'}</button>
             </div>
           `).join('')}
         </div>
@@ -933,8 +865,12 @@ favToggleBtn.addEventListener('click', () => {
 // ===================== 物品筛选与渲染 =====================
 function filterItems() {
   return ITEMS.filter(item => {
-    const matchJob = item.job === currentJob;
-    const matchSearch = !searchKeyword || item.name.includes(searchKeyword);
+    // 快捷计算模式不过滤职业
+    const matchJob = currentJob === 'quickcalc' ? true : (item.job === currentJob);
+    const keyword = (searchKeyword || '').trim().toLowerCase();
+    const name = (item.name || '').toLowerCase();
+    const pinyin = (item.pinyin || '').toLowerCase();
+    const matchSearch = !keyword || name.includes(keyword) || pinyin.includes(keyword);
     const matchFav = !showFavOnly || isFaved(item.id);
     return matchJob && matchSearch && matchFav;
   });
@@ -942,9 +878,14 @@ function filterItems() {
 
 // 修正renderItems，支持多级分类结构
 function renderItems() {
-  const items = getAllItemsFlat().filter(item => {
-    const matchJob = item.job === currentJob;
-    const matchSearch = !searchKeyword || item.name.includes(searchKeyword);
+  const items = (searchKeyword ? getAllItemsFlat() : getAllItemsFlat()).filter(item => {
+    // 全局搜索：有关键字时不限制职业
+    const keyword = (searchKeyword || '').trim().toLowerCase();
+    const limitByJob = !keyword; // 只有在没有关键字时才限制职业
+    const matchJob = limitByJob ? (currentJob === 'quickcalc' ? true : (item.job === currentJob)) : true;
+    const name = (item.name || '').toLowerCase();
+    const pinyin = (item.pinyin || '').toLowerCase();
+    const matchSearch = !keyword || name.includes(keyword) || pinyin.includes(keyword);
     const matchFav = !showFavOnly || isFaved(item.id);
     return matchJob && matchSearch && matchFav;
   });
@@ -982,7 +923,8 @@ jobTabs.forEach(tab => {
 // ===================== 搜索功能 =====================
 itemSearch.addEventListener('input', e => {
   searchKeyword = e.target.value.trim();
-  renderItemSelection(); // 保证分级目录结构
+  // 输入关键字后，切换为全局搜索视图（按 ALL_RECIPES 分组渲染）
+  renderItemSelection();
 });
 
 // ===================== 物品选择 =====================
@@ -1236,6 +1178,11 @@ function updateEorzeaTime() {
   const hh = Math.floor(curEorzeaMin / 60).toString().padStart(2, '0');
   const mm = (curEorzeaMin % 60).toString().padStart(2, '0');
   el.textContent = `${hh}:${mm}`;
+
+  // 同步天气面板的预测刷新（每次时钟刷新尝试更新一次，内部有节流）
+  if (typeof window.refreshWeatherForecastThrottled === 'function') {
+    window.refreshWeatherForecastThrottled();
+  }
 }
 setInterval(updateEorzeaTime, 1000);
 updateEorzeaTime(); // 首次立即显示
@@ -1445,6 +1392,8 @@ function toggleGatheringMode(job) {
   const calculateBtn = document.getElementById('calculateBtn');
   const calculateBtnText = document.querySelector('.calculate-btn-text');
   const calculateBtnIcon = calculateBtn.querySelector('i');
+  const calculateDelImg = calculateBtn.querySelector('.calculate-del-img');
+  const calculateCalcImg = calculateBtn.querySelector('.calculate-calc-img');
   const clearSelectedBtn = document.getElementById('clearSelectedBtn');
   const productionContent = document.querySelector('.production-content');
   const alarmContent = document.querySelector('.alarm-content');
@@ -1466,9 +1415,12 @@ function toggleGatheringMode(job) {
     if(alarmListH3) alarmListH3.style.display = 'none';
     // 3. 隐藏清空按钮（垃圾桶）
     clearSelectedBtn.style.display = 'none';
-    // 4. "删除闹钟"按钮图标为垃圾桶，且只保留图标和文字
-    if(calculateBtnIcon) calculateBtnIcon.className = 'fas fa-trash';
-    calculateBtnText.textContent = '删除闹钟';
+    // 4. 删除文字，仅显示 del.png 图标
+    if (calculateBtnIcon) calculateBtnIcon.style.display = 'none';
+    if (calculateCalcImg) calculateCalcImg.style.display = 'none';
+    if (calculateDelImg) calculateDelImg.style.display = 'inline-block';
+    if (calculateBtnText) calculateBtnText.style.display = 'none';
+    if (calculateBtn) calculateBtn.setAttribute('aria-label', '删除闹钟');
     // 切换内容区域
     if (productionContent) productionContent.style.display = 'none';
     if (alarmContent) alarmContent.style.display = '';
@@ -1486,9 +1438,15 @@ function toggleGatheringMode(job) {
     if(alarmListH3) alarmListH3.style.display = '';
     // 显示清空按钮
     clearSelectedBtn.style.display = 'flex';
-    // 恢复"计算素材"按钮图标和文字
-    if(calculateBtnIcon) calculateBtnIcon.className = 'fas fa-calculator';
-    calculateBtnText.textContent = '计算素材';
+    // 恢复"计算素材"按钮图标和文字（隐藏 del.png）
+    if (calculateBtnIcon) calculateBtnIcon.style.display = 'none';
+    if (calculateCalcImg) calculateCalcImg.style.display = 'inline-block';
+    if (calculateDelImg) calculateDelImg.style.display = 'none';
+    if (calculateBtnText) {
+      calculateBtnText.textContent = '计算素材';
+      calculateBtnText.style.display = 'inline';
+    }
+    if (calculateBtn) calculateBtn.setAttribute('aria-label', '计算素材');
     // 切换内容区域
     if (productionContent) productionContent.style.display = '';
     if (alarmContent) alarmContent.style.display = 'none';
@@ -1986,5 +1944,577 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 加载默认职业数据
   onJobChange('quickcalc');
+  
+  // 初始化天气面板
+  initWeatherPanel();
 });
+
+// ===================== 天气预报（内置算法与数据） =====================
+function initWeatherPanel() {
+  const toggleBtn = document.getElementById('weatherToggle');
+  const panel = document.getElementById('weatherPanel');
+  const closeBtn = document.getElementById('weatherPanelClose');
+  const zoneSelect = document.getElementById('weatherZoneSelect');
+  const listEl = document.getElementById('weatherForecastList');
+  const headerToggle = document.getElementById('weatherTimeToggle');
+
+  if (!toggleBtn || !panel || !closeBtn || !zoneSelect || !listEl || !headerToggle) return;
+
+  // 绑定开关
+  toggleBtn.addEventListener('click', () => {
+    const isActive = panel.classList.toggle('active');
+    panel.setAttribute('aria-hidden', String(!isActive));
+    if (isActive) {
+      populateZones(zoneSelect);
+      refreshWeatherForecast();
+      maybeDebugLogCurrentWeathers();
+    }
+  });
+  closeBtn.addEventListener('click', () => {
+    panel.classList.remove('active');
+    panel.setAttribute('aria-hidden', 'true');
+  });
+  // 切换地区：清除天气筛选，恢复默认8段
+  zoneSelect.addEventListener('change', () => {
+    weatherFilterKey = null;
+    refreshWeatherForecast();
+  });
+
+  // 节流：每500ms最多刷新一次列表
+  let lastRefresh = 0;
+  window.refreshWeatherForecastThrottled = function() {
+    const now = Date.now();
+    if (now - lastRefresh > 500) {
+      lastRefresh = now;
+      if (panel.classList.contains('active')) refreshWeatherForecast();
+    }
+  };
+
+  // ========== 时间显示（ET/LT 切换，仅针对天气面板） ==========
+  let weatherTimeMode = 'LT'; // 默认显示 LT
+  let weatherFilterKey = null; // 点击底部图标筛选的天气键，null 表示不筛选
+  headerToggle.addEventListener('click', () => {
+    weatherTimeMode = weatherTimeMode === 'ET' ? 'LT' : 'ET';
+    refreshWeatherForecast();
+    // 同步按钮文本
+    headerToggle.innerText = weatherTimeMode;
+  });
+  // 初始化按钮文本
+  headerToggle.innerText = weatherTimeMode;
+
+  // 调试：输出当前各区域天气命中（不影响UI）。仅在打开面板时触发；或加上 ?weatherDebug=1 强制输出。
+  function maybeDebugLogCurrentWeathers() {
+    const params = new URLSearchParams(location.search || '');
+    if (!params.has('weatherDebug')) return;
+    const nowStart = nearestIntervalStart(Date.now());
+    const rows = [];
+    Object.keys(WEATHER_DATA_MINI).forEach(key => {
+      const val = calculateWeatherValue(nowStart);
+      const w = pickWeatherByValue(key, val);
+      rows.push({ 区域: WEATHER_LABELS[key] || key, 值: val, 天气: WEATHER_NAME_CN[w.name] || w.name });
+    });
+    try { console.table(rows); } catch (_) { console.log(rows); }
+  }
+
+  function populateZones(selectEl) {
+    if (selectEl.options.length > 0) return; // 只填充一次
+    selectEl.innerHTML = '';
+
+    // 分组定义（顺序固定）
+    const groups = WEATHER_ZONE_GROUPS;
+    let firstValue = '';
+    groups.forEach(group => {
+      const keys = group.keys.filter(k => WEATHER_DATA_MINI[k]);
+      if (keys.length === 0) return;
+      const og = document.createElement('optgroup');
+      og.label = group.label;
+      keys.forEach(key => {
+        const opt = document.createElement('option');
+        opt.value = key;
+        opt.textContent = WEATHER_LABELS[key] || key;
+        og.appendChild(opt);
+        if (!firstValue) firstValue = key;
+      });
+      selectEl.appendChild(og);
+    });
+    // 默认选中第一项（乌尔达哈）
+    if (firstValue) selectEl.value = firstValue;
+  }
+
+  function refreshWeatherForecast() {
+    const zone = zoneSelect.value || 'gridania';
+    let forecasts;
+    if (weatherFilterKey) {
+      // 若该地区不可能出现所选天气，给出提示并清空列表
+      if (!zoneHasWeather(zone, weatherFilterKey)) {
+        listEl.innerHTML = `<div class="empty-state"><i class="fas fa-info-circle"></i><p>该地区不会出现“${WEATHER_NAME_CN[weatherFilterKey] || weatherFilterKey}”。</p></div>`;
+        renderWeatherIconGrid();
+        return;
+      }
+      forecasts = getNextMatchingForecasts(zone, weatherFilterKey, 8);
+    } else {
+      forecasts = getForecasts(zone, 8); // 默认显示接下来8个时段
+    }
+    listEl.innerHTML = forecasts.map((f, idx) => {
+      const icon = getWeatherIconPath(f.name);
+      const timeText = weatherTimeMode === 'ET' ? `ET ${f.intervalLabel.slice(3)}` : `LT ${formatLTFromIntervalStart(f.intervalStart)}`;
+      const countdownHtml = idx === 0 ? buildWeatherCountdownHtml(f) : '';
+      return `
+      <div class="weather-forecast-item">
+        <div class="weather-left">
+          <span class="weather-time-badge">${timeText}</span>
+          <img class="weather-icon" src="${icon}" alt="${WEATHER_NAME_CN[f.name] || f.name}">
+          <span class="weather-name">${WEATHER_NAME_CN[f.name] || f.name}</span>
+        </div>
+        ${countdownHtml}
+      </div>`;
+    }).join('');
+    startWeatherCountdownTick();
+
+    // 渲染底部天气类型图标按钮
+    renderWeatherIconGrid();
+  }
+
+  // 底部两排天气图标按钮
+  function renderWeatherIconGrid() {
+    const grid = document.getElementById('weatherIconGrid');
+    if (!grid) return;
+    const zone = zoneSelect.value || 'gridania';
+    const orderedWeather = [
+      'clearSkies','fairSkies','clouds','fog','rain','showers','wind','gales',
+      'thunder','thunderstorms','snow','blizzard','gloom','heatWaves','dustStorms'
+    ];
+    const html = orderedWeather.map(key => {
+      const cn = WEATHER_NAME_CN[key] || key;
+      const icon = getWeatherIconPath(key);
+      const canAppear = zoneHasWeather(zone, key);
+      const stateClass = weatherFilterKey === key ? ' active' : '';
+      const disabledAttr = canAppear ? '' : ' disabled aria-disabled="true"';
+      const disabledClass = canAppear ? '' : ' disabled';
+      return `<button class="weather-icon-btn${stateClass}${disabledClass}" data-weather="${key}" data-tooltip="${cn}" aria-label="${cn}"${disabledAttr}><img src="${icon}" alt="${cn}"></button>`;
+    }).join('');
+    grid.innerHTML = html;
+    // 绑定点击筛选
+    grid.querySelectorAll('.weather-icon-btn').forEach(btn => {
+      if (btn.classList.contains('disabled')) return; // 不可用则不绑定
+      btn.addEventListener('click', () => {
+        const key = btn.getAttribute('data-weather');
+        // 点击同一按钮可取消筛选
+        weatherFilterKey = (weatherFilterKey === key) ? null : key;
+        refreshWeatherForecast();
+      });
+    });
+  }
+
+  // 判断某地区是否可能出现某天气
+  function zoneHasWeather(zoneKey, weatherKey) {
+    const table = WEATHER_DATA_MINI[zoneKey] || [];
+    return table.some(w => w.name === weatherKey);
+  }
+
+  // 获取该地区接下来满足某天气的N个时段
+  function getNextMatchingForecasts(zoneKey, weatherKey, count = 8) {
+    const result = [];
+    let t = nearestIntervalStart(Date.now());
+    let guard = 0; // 安全上限，防止极端配置导致死循环
+    const MAX_STEPS = 2000; // 约 2000 段（> 66 小时现实时间）
+    while (result.length < count && guard < MAX_STEPS) {
+      const label = nearestEorzeaIntervalLabel(t);
+      const val = calculateWeatherValue(t);
+      const weather = pickWeatherByValue(zoneKey, val);
+      if (weather.name === weatherKey) {
+        result.push({ intervalLabel: `ET ${label.slice(0, 5)}`, intervalStart: t, name: weather.name });
+      }
+      t += EORZEA_8_HOUR_MS;
+      guard++;
+    }
+    if (result.length === 0) {
+      return [];
+    }
+    // 若不足 count，也按已找到的返回
+    return result.slice(0, count);
+  }
+}
+
+// 轻量天气数据（新增 5 组区域，权重加总为100；数据为通用占比，后续可替换精确表）
+const WEATHER_DATA_MINI = {
+  // 1) 乌尔达哈与萨纳兰分区
+  uldah: [
+    { name: 'clearSkies', chance: 40 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'clouds', chance: 25 },
+    { name: 'fog', chance: 10 },
+    { name: 'rain', chance: 5 },
+  ],
+  centralThanalan: [ // 中萨纳兰
+    { name: 'dustStorms', chance: 15 },
+    { name: 'clearSkies', chance: 40 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'clouds', chance: 10 },
+    { name: 'fog', chance: 10 },
+    { name: 'rain', chance: 5 },
+  ],
+  westernThanalan: [ // 西萨纳兰
+    { name: 'clearSkies', chance: 40 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'clouds', chance: 25 },
+    { name: 'fog', chance: 10 },
+    { name: 'rain', chance: 5 },
+  ],
+  easternThanalan: [ // 东萨纳兰
+    { name: 'clearSkies', chance: 40 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'clouds', chance: 10 },
+    { name: 'fog', chance: 10 },
+    { name: 'rain', chance: 5 },
+    { name: 'showers', chance: 15 },
+  ],
+  southernThanalan: [ // 南萨纳兰
+    { name: 'heatWaves', chance: 20 },
+    { name: 'clearSkies', chance: 40 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'clouds', chance: 10 },
+    { name: 'fog', chance: 10 },
+  ],
+  northernThanalan: [ // 北萨纳兰
+    { name: 'clearSkies', chance: 5 },
+    { name: 'fairSkies', chance: 15 },
+    { name: 'clouds', chance: 30 },
+    { name: 'fog', chance: 50 },
+  ],
+
+  // 2) 格里达尼亚与黑衣森林分区
+  gridania: [
+    // 参考标准：含两段晴朗（fairSkies）权重
+    { name: 'rain', chance: 20 },
+    { name: 'fog', chance: 10 },
+    { name: 'clouds', chance: 10 },
+    { name: 'fairSkies', chance: 15 },
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 15 },
+  ],
+  centralShroud: [ // 黑衣森林中央林区（centralShroud）
+    { name: 'thunder', chance: 5 },
+    { name: 'rain', chance: 15 },
+    { name: 'fog', chance: 10 },
+    { name: 'clouds', chance: 10 },
+    { name: 'fairSkies', chance: 15 },
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 15 },
+  ],
+  eastShroud: [ // 黑衣森林东部林区（eastShroud）
+    { name: 'thunder', chance: 5 },
+    { name: 'rain', chance: 15 },
+    { name: 'fog', chance: 10 },
+    { name: 'clouds', chance: 10 },
+    { name: 'fairSkies', chance: 15 },
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 15 },
+  ],
+  southShroud: [ // 黑衣森林南部林区（southShroud）
+    { name: 'fog', chance: 5 },
+    { name: 'thunderstorms', chance: 5 },
+    { name: 'thunder', chance: 15 },
+    { name: 'fog', chance: 5 },
+    { name: 'clouds', chance: 10 },
+    { name: 'fairSkies', chance: 30 },
+    { name: 'clearSkies', chance: 30 },
+  ],
+  northShroud: [ // 黑衣森林北部林区（northShroud）
+    { name: 'fog', chance: 5 },
+    { name: 'showers', chance: 5 },
+    { name: 'rain', chance: 15 },
+    { name: 'fog', chance: 5 },
+    { name: 'clouds', chance: 10 },
+    { name: 'fairSkies', chance: 30 },
+    { name: 'clearSkies', chance: 30 },
+  ],
+
+  // 3) 利姆萨与拉诺西亚分区
+  limsaLominsa: [
+    { name: 'clouds', chance: 20 },
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 30 },
+    { name: 'fog', chance: 10 },
+    { name: 'rain', chance: 10 },
+  ],
+  middleLaNoscea: [ // 中拉诺西亚
+    { name: 'clouds', chance: 20 },
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'wind', chance: 10 },
+    { name: 'fog', chance: 10 },
+    { name: 'rain', chance: 10 },
+  ],
+  lowerLaNoscea: [ // 拉诺西亚低地
+    { name: 'clouds', chance: 20 },
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'wind', chance: 10 },
+    { name: 'fog', chance: 10 },
+    { name: 'rain', chance: 10 },
+  ],
+  easternLaNoscea: [ // 东拉诺西亚
+    { name: 'fog', chance: 5 },
+    { name: 'clearSkies', chance: 45 },
+    { name: 'fairSkies', chance: 30 },
+    { name: 'clouds', chance: 10 },
+    { name: 'rain', chance: 5 },
+    { name: 'showers', chance: 5 },
+  ],
+  westernLaNoscea: [ // 西拉诺西亚
+    { name: 'fog', chance: 10 },
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'clouds', chance: 20 },
+    { name: 'wind', chance: 10 },
+    { name: 'gales', chance: 10 },
+  ],
+  upperLaNoscea: [ // 拉诺西亚高地
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'clouds', chance: 20 },
+    { name: 'fog', chance: 10 },
+    { name: 'thunder', chance: 10 },
+    { name: 'thunderstorms', chance: 10 },
+  ],
+  outerLaNoscea: [ // 拉诺西亚外地
+    { name: 'clearSkies', chance: 30 },
+    { name: 'fairSkies', chance: 20 },
+    { name: 'clouds', chance: 20 },
+    { name: 'fog', chance: 15 },
+    { name: 'rain', chance: 15 },
+  ],
+
+  // 4) 库尔札斯中央高地
+  coerthasCentralHighlands: [
+    { name: 'blizzard', chance: 20 },
+    { name: 'snow', chance: 40 },
+    { name: 'fairSkies', chance: 10 },
+    { name: 'clearSkies', chance: 5 },
+    { name: 'clouds', chance: 15 },
+    { name: 'fog', chance: 10 },
+  ],
+
+  // 5) 摩杜纳
+  morDhona: [
+    { name: 'clouds', chance: 15 },
+    { name: 'fog', chance: 15 },
+    { name: 'gloom', chance: 30 },
+    { name: 'clearSkies', chance: 15 },
+    { name: 'fairSkies', chance: 25 },
+  ],
+};
+
+// 区域中文名
+const WEATHER_LABELS = {
+  // 1) 乌尔达哈 + 萨纳兰
+  uldah: '乌尔达哈',
+  westernThanalan: '西萨纳兰',
+  centralThanalan: '中萨纳兰',
+  easternThanalan: '东萨纳兰',
+  southernThanalan: '南萨纳兰',
+  northernThanalan: '北萨纳兰',
+
+  // 2) 格里达尼亚 + 黑衣森林
+  gridania: '格里达尼亚',
+  centralShroud: '黑衣森林中央林区',
+  eastShroud: '黑衣森林东部林区',
+  southShroud: '黑衣森林南部林区',
+  northShroud: '黑衣森林北部林区',
+
+  // 3) 利姆萨 + 拉诺西亚
+  limsaLominsa: '利姆萨·罗敏萨',
+  middleLaNoscea: '中拉诺西亚',
+  lowerLaNoscea: '拉诺西亚低地',
+  easternLaNoscea: '东拉诺西亚',
+  westernLaNoscea: '西拉诺西亚',
+  upperLaNoscea: '拉诺西亚高地',
+  outerLaNoscea: '拉诺西亚外地',
+
+  // 4) 库尔札斯
+  coerthasCentralHighlands: '库尔札斯中央高地',
+
+  // 5) 摩杜纳
+  morDhona: '摩杜纳',
+
+  // 其余（保留，避免丢失原有地区）
+  ishgard: '伊修加德',
+  kugane: '黄金港',
+  shirogane: '白银乡',
+};
+
+// 区域分组（用于下拉 optgroup）
+const WEATHER_ZONE_GROUPS = [
+  { label: '乌尔达哈', keys: ['uldah', 'westernThanalan', 'centralThanalan', 'easternThanalan', 'southernThanalan', 'northernThanalan'] },
+  { label: '格里达尼亚', keys: ['gridania', 'centralShroud', 'eastShroud', 'southShroud', 'northShroud'] },
+  { label: '利姆萨·罗敏萨', keys: ['limsaLominsa', 'middleLaNoscea', 'lowerLaNoscea', 'easternLaNoscea', 'westernLaNoscea', 'upperLaNoscea', 'outerLaNoscea'] },
+  { label: '伊修加德', keys: ['coerthasCentralHighlands'] },
+  { label: '其他', keys: ['morDhona'] },
+];
+
+// 天气中文名
+const WEATHER_NAME_CN = {
+  clearSkies: '碧空',
+  fairSkies: '晴朗',
+  clouds: '阴云',
+  fog: '薄雾',
+  rain: '小雨',
+  showers: '暴雨',
+  wind: '微风',
+  gales: '强风',
+  thunder: '打雷',
+  thunderstorms: '雷雨',
+  snow: '小雪',
+  blizzard: '暴雪',
+  gloom: '妖雾',
+  umbralWind: '灵风',
+  umbralStatic: '灵电',
+  heatWaves: '热浪',
+  dustStorms: '扬沙',
+};
+
+// 参考 weather.js 算法（自实现，避免直接调用子项目）
+const EORZEA_HOUR_MS = 175 * 1000; // 1艾时 = 175000ms = 175s
+const EORZEA_8_HOUR_MS = 8 * EORZEA_HOUR_MS;
+const EORZEA_DAY_MS = 24 * EORZEA_HOUR_MS;
+
+function calculateWeatherValue(unixMs) {
+  // 标准 FFXIV 天气种子算法（确保使用无符号32位整数运算）
+  const ms = Math.floor(unixMs);
+  const bell = Math.floor(ms / 175000) % 24; // 1艾时=175000ms
+  const increment = (bell + 8 - (bell % 8)) % 24; // 0/8/16
+  const totalDays = Math.floor(ms / 4200000); // 1艾日=24*175000ms
+  const calcBase = totalDays * 100 + increment;
+  const step1 = ((calcBase << 11) ^ calcBase) >>> 0;
+  const step2 = ((step1 >>> 8) ^ step1) >>> 0;
+  return step2 % 100;
+}
+
+function nearestIntervalStart(unixMs) {
+  // 现实时间中，8艾时为一个段：对齐到 bell 的 8 小时边界
+  const ms = Math.floor(unixMs);
+  const bell = Math.floor(ms / EORZEA_HOUR_MS);
+  const alignedBell = bell - (bell % 8);
+  return alignedBell * EORZEA_HOUR_MS;
+}
+
+function nearestEorzeaIntervalLabel(unixMs) {
+  const bell = Math.floor(unixMs / EORZEA_HOUR_MS) % 24;
+  const h = (bell - (bell % 8) + 24) % 24; // 对齐到段起点小时
+  const hh = String(h).padStart(2, '0');
+  return `${hh}:00`;
+}
+
+function pickWeatherByValue(zoneKey, value) {
+  const table = WEATHER_DATA_MINI[zoneKey] || [];
+  let cursor = 0;
+  for (let i = 0; i < table.length; i++) {
+    cursor += table[i].chance;
+    if (value < cursor) return table[i];
+  }
+  return table[table.length - 1] || { name: 'clearSkies', chance: 100 };
+}
+
+function getForecasts(zoneKey, intervals = 6) {
+  const result = [];
+  // 以当前时刻所在段的起点为基准
+  let t = nearestIntervalStart(Date.now());
+  for (let i = 0; i < intervals; i++) {
+    const label = nearestEorzeaIntervalLabel(t);
+    const val = calculateWeatherValue(t);
+    const weather = pickWeatherByValue(zoneKey, val);
+    result.push({ intervalLabel: `ET ${label.slice(0, 5)}`, intervalStart: t, name: weather.name });
+    t += EORZEA_8_HOUR_MS; // 下一段
+  }
+  return result;
+}
+
+// 天气图标路径（基于中文名，对应 assets/icons/weather/*）
+function getWeatherIconPath(weatherKey) {
+  const name = WEATHER_NAME_CN[weatherKey] || '';
+  if (!name) return 'assets/icons/weather/晴朗.png';
+  return `assets/icons/weather/${name}.png`;
+}
+
+// 从艾欧泽亚段起点换算现实本地时间（段起点 t 是现实时间戳）
+function formatLTFromIntervalStart(realUnixMs) {
+  const d = new Date(realUnixMs);
+  const hh = String(d.getHours()).padStart(2, '0');
+  const mm = String(d.getMinutes()).padStart(2, '0');
+  const ss = String(d.getSeconds()).padStart(2, '0');
+  return `${hh}:${mm}:${ss}`;
+}
+
+// 计算倒计时文本（基于 LT 时间和当前本地时间）
+function getWeatherCountdownText(forecast, mode) {
+  const now = Date.now();
+  const start = forecast.intervalStart; // 本段现实起点
+  const end = start + EORZEA_8_HOUR_MS; // 下一段起点即结束
+  const msLeftToStart = start - now;
+  const msLeftToEnd = end - now;
+  if (msLeftToStart > 0) {
+    // 未出现
+    return `距离天气变化 ${formatMs(Math.max(0, msLeftToStart))}`;
+  }
+  if (msLeftToEnd > 0) {
+    // 已出现
+    return `距离天气变化 ${formatMs(Math.max(0, msLeftToEnd))}`;
+  }
+  // 已过期
+  return `即将更新`;
+}
+
+function formatMs(ms) {
+  const totalSec = Math.floor(ms / 1000);
+  const mm = String(Math.floor(totalSec / 60)).padStart(2, '0');
+  const ss = String(totalSec % 60).padStart(2, '0');
+  return `${mm}:${ss}`;
+}
+
+// 构建与采集倒计时一致的绿色进度条样式
+function buildWeatherCountdownHtml(forecast) {
+  const info = getWeatherCountdownInfo(forecast);
+  const countdownClass = info.isAppearing ? 'alarm-countdown pending' : 'alarm-countdown active-item';
+  const progressStyle = `style="--progress: ${info.progress}%"`;
+  const text = getWeatherCountdownText(forecast);
+  return `
+    <div class="${countdownClass} weather-countdown" ${progressStyle}>
+      <div class="countdown-progress"></div>
+      <span class="countdown-text">${text}</span>
+    </div>
+  `;
+}
+
+// 计算进度信息（复用采集逻辑思路）
+function getWeatherCountdownInfo(forecast) {
+  const now = Date.now();
+  const start = forecast.intervalStart;
+  const end = start + EORZEA_8_HOUR_MS;
+  const msLeftToStart = start - now;
+  const msLeftToEnd = end - now;
+  const isAppearing = msLeftToStart > 0;
+  let progress = 0;
+  const total = EORZEA_8_HOUR_MS;
+  const remaining = Math.max(0, isAppearing ? msLeftToStart : msLeftToEnd);
+  progress = Math.max(0, Math.min(100, (remaining / total) * 100));
+  return { isAppearing, progress };
+}
+
+let weatherCountdownTimer = null;
+function startWeatherCountdownTick() {
+  if (weatherCountdownTimer) clearInterval(weatherCountdownTimer);
+  weatherCountdownTimer = setInterval(() => {
+    const first = document.querySelector('#weatherForecastList .weather-forecast-item');
+    if (!first) return;
+    // 解析第一条的时间起点（我们记录在 dataset 上会更好，但这里直接重算）
+    // 直接刷新整块，简单可靠
+    const zoneSelect = document.getElementById('weatherZoneSelect');
+    if (!zoneSelect) return;
+    // 触发节流刷新
+    if (typeof window.refreshWeatherForecastThrottled === 'function') {
+      window.refreshWeatherForecastThrottled();
+    }
+  }, 1000);
+}
 
