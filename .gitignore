@@ -24,4 +24,4 @@ release/
 *.tmp
 *.temp 
 
-*./xlsx
+*.xlsx
