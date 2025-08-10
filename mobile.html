@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>QQ14 生产计算器</title>
+    <title>McCalculator - 生产计算器</title>
     
     <!-- Favicon 图标 -->
     <link rel="icon" type="image/webp" sizes="16x16" href="assets/icons/favicon/favicon.webp">
@@ -896,6 +896,8 @@
         .m-weather-close { background: transparent; border: none; color: var(--color-secondary); width: 28px; height: 28px; border-radius: 50%; font-size: 16px; }
         .m-weather-body { padding: 10px 14px 14px 14px; background: linear-gradient(135deg, var(--color-bg-main) 80%, var(--color-bg-light) 100%); }
         .m-weather-controls { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+        /* 全局搜索模式：隐藏地区选择与提示 */
+        .m-weather-panel.global-mode .m-weather-controls { display: none; }
         .m-weather-select { flex: 1; height: 34px; border-radius: 8px; border: 1px solid var(--color-border-main); background: var(--color-bg-light); color: var(--color-text-main); padding: 0 10px; }
         .m-weather-tip { font-size: 12px; opacity: .7; }
         .m-weather-list { display: grid; grid-template-columns: 1fr; gap: 8px; max-height: 52vh; overflow-y: auto; }
@@ -906,6 +908,11 @@
         .m-weather-icon { width: 16px; height: 16px; object-fit: contain; }
         .m-weather-name { font-weight: 700; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1 1 auto; min-width: 0; }
         .m-countdown { position: relative; overflow: hidden; font-size: 12px; color: var(--color-text-main); background: linear-gradient(135deg, var(--color-bg-light) 0%, var(--color-bg-main) 100%); border: 1px solid var(--color-border-main); border-radius: 6px; padding: 4px 8px; min-width: 120px; text-align: center; }
+        /* 全局模式的紧凑倒计时：与 LT 时间条高度/字体一致 */
+        .m-countdown.m-time-compact { font-size: 11px; padding: 2px 8px; border-radius: 6px; min-width: auto; display: inline-flex; align-items: center; }
+        .m-countdown .m-count-text { display: inline-flex; align-items: center; gap: 0; font-variant-numeric: tabular-nums; }
+        .m-countdown .m-count-state { margin-right: 0.25em; }
+        .m-countdown .m-count-time { display: inline-block; min-width: 8ch; text-align: right; }
         .m-countdown.active { border-color: #28a745; }
         .m-progress { position: absolute; top: 0; left: 0; height: 100%; width: var(--progress, 0%); background: linear-gradient(90deg, rgba(40,167,69,.3) 0%, rgba(40,167,69,.1) 100%); pointer-events: none; z-index: 1; transition: width .3s ease; }
         .m-countdown.pending { border-color: #d9534f; background: linear-gradient(135deg, rgba(217,83,79,.18) 0%, rgba(217,83,79,.08) 100%); }
@@ -1079,6 +1086,9 @@
           <span>天气预报</span>
           <button class="m-weather-time" id="mobileWeatherTimeToggle" title="ET/LT">
             <span style="user-select:none;-webkit-user-select:none;font-weight:800;">LT</span>
+          </button>
+          <button class="m-weather-time" id="mobileWeatherModeToggle" title="全局模式切换" aria-label="全局模式切换">
+            <img src="assets/icons/button/switch.png" alt="switch" style="width:16px;height:16px;object-fit:contain;filter:brightness(0.95)" />
           </button>
         </div>
         <button class="m-weather-close" id="mobileWeatherClose" title="关闭"><i class="fas fa-times"></i></button>

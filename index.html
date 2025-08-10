@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QQ14 生产计算器</title>
+    <title>McCalculator - 生产计算器</title>
     
     <!-- Favicon 图标 -->
     <link rel="icon" type="image/webp" sizes="16x16" href="assets/icons/favicon/favicon.webp">
@@ -61,12 +61,17 @@
     <div class="weather-panel" id="weatherPanel" aria-hidden="true">
         <div class="weather-panel-header">
             <div class="weather-panel-title"><i class="fas fa-cloud-sun"></i> 天气预报</div>
-            <button class="weather-time-toggle" id="weatherTimeToggle" title="点击切换 ET/LT" aria-label="切换时间显示">
-                <span style="user-select:none;-webkit-user-select:none;font-weight:800;">LT</span>
-            </button>
-            <button class="weather-panel-close" id="weatherPanelClose" title="关闭">
-                <i class="fas fa-times"></i>
-            </button>
+            <div class="weather-header-actions">
+                <button class="weather-time-toggle" id="weatherTimeToggle" title="点击切换 ET/LT" aria-label="切换时间显示">
+                    <span style="user-select:none;-webkit-user-select:none;font-weight:800;">LT</span>
+                </button>
+                <button class="weather-time-toggle" id="weatherModeToggle" title="全局天气搜索" aria-label="全局天气搜索">
+                    <img src="assets/icons/button/switch.png" alt="Global" style="width:16px;height:16px;object-fit:contain;filter:brightness(0.95)">
+                </button>
+                <button class="weather-panel-close" id="weatherPanelClose" title="关闭">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
         </div>
         <div class="weather-panel-body">
             <div class="weather-controls">
