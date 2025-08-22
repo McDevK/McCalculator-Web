@@ -1,7 +1,7 @@
 // 缓存管理工具
 class CacheManager {
   constructor() {
-    this.cacheName = 'mc-calculator-v1.2';
+    this.cacheName = 'mc-calculator-v1.3'; // 更新缓存版本号
   }
 
   // 获取缓存状态
@@ -133,6 +133,72 @@ class CacheManager {
     }
   }
 
+  // 强制刷新特定文件缓存
+  async forceRefreshFile(filePath) {
+    if (!('caches' in window)) {
+      throw new Error('浏览器不支持缓存API');
+    }
+
+    try {
+      const cache = await caches.open(this.cacheName);
+      
+      // 删除旧缓存
+      await cache.delete(filePath);
+      
+      // 重新获取文件
+      const response = await fetch(filePath, {
+        cache: 'no-cache', // 强制从服务器获取
+        headers: {
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0'
+        }
+      });
+      
+      if (response.ok) {
+        await cache.put(filePath, response);
+        return { success: true, message: `文件 ${filePath} 刷新成功` };
+      } else {
+        return { success: false, message: `文件 ${filePath} 获取失败: HTTP ${response.status}` };
+      }
+    } catch (error) {
+      return { success: false, message: `刷新失败: ${error.message}` };
+    }
+  }
+
+  // 刷新所有配方数据
+  async refreshAllRecipes() {
+    const recipeFiles = [
+      './assets/recipe/quickcalc.json',
+      './assets/recipe/carpenter.json',
+      './assets/recipe/blacksmith.json',
+      './assets/recipe/armorer.json',
+      './assets/recipe/goldsmith.json',
+      './assets/recipe/leatherworker.json',
+      './assets/recipe/weaver.json',
+      './assets/recipe/alchemist.json',
+      './assets/recipe/culinarian.json',
+      './assets/gather/miner.json',
+      './assets/gather/botanist.json'
+    ];
+
+    try {
+      const promises = recipeFiles.map(file => this.forceRefreshFile(file));
+      const results = await Promise.all(promises);
+      
+      const successCount = results.filter(r => r.success).length;
+      const failedCount = results.filter(r => !r.success).length;
+      
+      return {
+        success: true,
+        message: `配方数据刷新完成: ${successCount} 成功, ${failedCount} 失败`,
+        results: results
+      };
+    } catch (error) {
+      return { success: false, message: '刷新失败: ' + error.message };
+    }
+  }
+
   // 显示缓存状态
   async showCacheStatus() {
     const status = await this.getCacheStatus();
@@ -161,9 +227,10 @@ class CacheManager {
 1. 查看缓存状态
 2. 预缓存配方数据
 3. 清理缓存
-4. 取消
+4. 刷新所有配方数据
+5. 取消
 
-请选择操作 (1-4):
+请选择操作 (1-5):
     `;
     
     const choice = prompt(menu);
@@ -185,6 +252,19 @@ class CacheManager {
         }
         break;
       case '4':
+        if (confirm('确定要刷新所有配方数据吗？这将从服务器重新获取最新数据。')) {
+          this.refreshAllRecipes().then(result => {
+            alert(result.message);
+            // 刷新成功后重新加载页面
+            if (result.success) {
+              setTimeout(() => {
+                window.location.reload();
+              }, 1000);
+            }
+          });
+        }
+        break;
+      case '5':
       default:
         break;
     }
