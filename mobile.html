@@ -1034,6 +1034,9 @@
         <header class="mobile-header">
             <div class="mobile-header-content">
                 <div class="mobile-logo">
+                    <a href="../index.html" class="home-link" title="返回主页">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
                     <i class="fas fa-hammer"></i>
                     <span>QQ14 生产计算器</span>
                 </div>
@@ -1189,17 +1192,34 @@
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           // 使用相对路径注册Service Worker
-          navigator.serviceWorker.register('./sw.js')
+          navigator.serviceWorker.register('../sw.js')
             .then(registration => {
-              // 预缓存配方数据
-              if (registration.active) {
-                registration.active.postMessage({ type: 'PRECACHE_RECIPES' });
-              }
+              console.log('SW registered: ', registration);
+              
+              // 监听更新
+              registration.addEventListener('updatefound', () => {
+                const newWorker = registration.installing;
+                if (newWorker) {
+                  newWorker.addEventListener('statechange', () => {
+                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                      console.log('New version available');
+                      // 自动跳过等待并刷新页面
+                      newWorker.postMessage({ type: 'SKIP_WAITING' });
+                      window.location.reload();
+                    }
+                  });
+                }
+              });
             })
             .catch(registrationError => {
-              // 静默处理注册错误，避免控制台报错
               console.log('Service Worker registration failed:', registrationError);
             });
+          
+          // 监听Service Worker控制器变化
+          navigator.serviceWorker.addEventListener('controllerchange', () => {
+            console.log('New Service Worker activated');
+            window.location.reload();
+          });
         });
       }
     </script>

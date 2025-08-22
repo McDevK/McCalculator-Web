@@ -1,5 +1,5 @@
 // McCalculator Service Worker
-const CACHE_NAME = 'mccalculator-v2.0.5.2'; // 更新版本号
+const CACHE_NAME = 'mccalculator-v2.0.5.1';
 
 // 静态资源缓存
 const urlsToCache = [
@@ -54,36 +54,6 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   // 只处理GET请求
   if (event.request.method !== 'GET') {
-    return;
-  }
-
-  // 对于JSON文件，使用网络优先策略，确保数据最新
-  if (event.request.url.includes('.json')) {
-    event.respondWith(
-      fetch(event.request, {
-        cache: 'no-cache', // 强制从服务器获取
-        headers: {
-          'Cache-Control': 'no-cache, no-store, must-revalidate',
-          'Pragma': 'no-cache',
-          'Expires': '0'
-        }
-      })
-        .then(response => {
-          // 如果网络请求成功，更新缓存
-          if (response && response.status === 200) {
-            const responseToCache = response.clone();
-            caches.open(CACHE_NAME)
-              .then(cache => {
-                cache.put(event.request, responseToCache);
-              });
-          }
-          return response;
-        })
-        .catch(() => {
-          // 如果网络请求失败，返回缓存
-          return caches.match(event.request);
-        })
-    );
     return;
   }
 

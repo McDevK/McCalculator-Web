@@ -98,6 +98,35 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--ff14-secondary);
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--ff14-bg-light);
+    color: var(--ff14-secondary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid var(--ff14-secondary);
+    margin-right: 8px;
+}
+
+.home-link:hover {
+    background: var(--ff14-secondary);
+    color: var(--ff14-bg-dark);
+    transform: scale(1.1);
+}
+
+.home-link i {
+    font-size: 14px;
+}
     font-size: 24px;
     font-weight: 700;
     color: var(--ff14-secondary);
@@ -105,7 +134,7 @@ body {
 }
 
 .logo i {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 /* Header 右侧容器 */
@@ -1796,69 +1825,60 @@ input[type=number] {
 
 /* 本地时间显示样式 - 精简版 */
 .local-time-box {
-  display: inline-flex; /* 让边框紧贴内容 */
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
   align-items: center;
-  background: none;
-  box-shadow: none;
-  border-radius: 8px;
-  padding: 2px 14px;
-  margin-right: 10px;
-  font-size: 20px;
-  height: 36px;
-  min-width: 0;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #bfa14a;
-  /* 主题色会覆盖此色 */
+  justify-content: center;
+  border: 2px solid var(--ff14-border);
+  border-radius: 10px;
+  padding: 6px 10px;
+  background: var(--ff14-bg-light);
 }
-.local-time-label {
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-  background: none;
-  border-radius: 0;
-  padding: 0 4px 0 0;
-  margin-right: 0;
-  box-shadow: none;
+
+.time-row {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
 }
-.local-time-value {
-  font-size: 16px;
-  font-family: 'Noto Sans SC', 'Arial', sans-serif;
+
+.time-row .time-label {
+  font-size: 12px;
   font-weight: 700;
-  margin-left: 2px;
-  letter-spacing: 1px;
+  margin-right: 6px;
+  color: var(--ff14-secondary);
+}
+
+.time-row .time-value {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--ff14-text-primary);
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 /* 白天模式下时钟区域边框和文字颜色 */
 body[data-theme="light"] .local-time-box {
-  border-width: 2px !important;
-  border-style: solid !important;
-  border-color: #bfa14a !important;
-  background: none !important;
+  border-color: var(--ff14-border) !important;
+  background: var(--ff14-bg-light) !important;
 }
-body[data-theme="light"] .local-time-label {
-  color: #a67c1a !important;
+body[data-theme="light"] .time-row .time-label {
+  color: var(--ff14-secondary) !important;
 }
-body[data-theme="light"] .local-time-value {
-  color: #6b4a13 !important;
+body[data-theme="light"] .time-row .time-value {
+  color: var(--ff14-text-primary) !important;
 }
 
 /* 夜晚模式下时钟区域边框和文字颜色 */
 body[data-theme="dark"] .local-time-box {
-  border-width: 2px !important;
-  border-style: solid !important;
-  border-color: #ffd700 !important;
-  background: none !important;
+  border-color: var(--ff14-border) !important;
+  background: var(--ff14-bg-light) !important;
 }
-body[data-theme="dark"] .local-time-label {
-  color: #ffd700 !important;
-  font-weight: bold !important;
-  text-shadow: 0 0 2px rgba(255, 215, 0, 0.3);
+body[data-theme="dark"] .time-row .time-label {
+  color: var(--ff14-secondary) !important;
 }
-body[data-theme="dark"] .local-time-value {
-  color: #fffbe0 !important;
-  font-weight: bold !important;
-  text-shadow: 0 0 4px #ffd700, 0 0 2px #fffbe0;
+body[data-theme="dark"] .time-row .time-value {
+  color: var(--ff14-text-primary) !important;
 } 
 
 /* 版权区域样式 */
@@ -1887,14 +1907,9 @@ body[data-theme="dark"] .local-time-value {
 }
 
 .footer-info p {
-    margin: 8px 0;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-.footer-info p:first-child {
-    color: var(--ff14-text-primary);
-    font-weight: 500;
+    color: var(--ff14-text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 4px;
 }
 
 .footer-links {
@@ -1906,50 +1921,9 @@ body[data-theme="dark"] .local-time-value {
     margin: 0 8px;
 }
 
-/* 白天模式下的版权区域 */
-[data-theme="light"] .footer {
-    background: var(--ff14-bg-light);
-}
 
-[data-theme="light"] .footer-content {
-    color: var(--ff14-text-secondary);
-}
 
-[data-theme="light"] .footer-info p:first-child {
-    color: var(--ff14-text-primary);
-}
-
-/* 响应式版权区域 */
-@media (max-width: 768px) {
-    .footer-content {
-        padding: 24px 15px 20px 15px;
-    }
-    
-    .footer-info p,
-    .footer-links {
-        font-size: 12px;
-    }
-    
-    .footer-links span {
-        margin: 0 4px;
-    }
-}
-
-@media (max-width: 480px) {
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-    
-    .footer-links span {
-        margin: 0;
-    }
-    
-    .footer-links span:nth-child(2) {
-        display: none; /* 隐藏分隔符 */
-    }
-} 
+ 
 
 /* 让闹钟按钮和收藏按钮样式完全一致 */
 .btn-alarm-toggle {

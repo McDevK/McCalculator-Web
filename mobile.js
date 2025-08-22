@@ -1567,6 +1567,11 @@ function initMobileDeviceToggle() {
 
 // 初始化应用
 async function initApp() {
+  // 为新用户设置默认白天模式
+  if (!localStorage.getItem('mobile-theme')) {
+    localStorage.setItem('mobile-theme', 'light');
+  }
+  
   // 初始化主题管理器
   window.mobileThemeManager = new MobileThemeManager();
   

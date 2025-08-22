@@ -66,9 +66,9 @@ async function loadAllRecipesForCalc() {
         const filePath = isGathering ? `assets/gather/${job}.json` : `assets/recipe/${JOB_JSON_MAP[job]}.json`;
         
         const res = await fetch(filePath, {
-          cache: 'no-cache', // 强制刷新，不使用缓存
+          cache: 'force-cache', // 使用缓存
           headers: {
-            'Cache-Control': 'no-cache' // 不使用缓存
+            'Cache-Control': 'max-age=3600' // 缓存1小时
           }
         });
         if (res.ok) {
@@ -108,9 +108,9 @@ async function loadJobRecipes(job) {
       const gatherFile = `assets/gather/${job}.json`;
       try {
         const res = await fetch(gatherFile, {
-          cache: 'no-cache', // 强制刷新，不使用缓存
+          cache: 'force-cache', // 使用缓存
           headers: {
-            'Cache-Control': 'no-cache' // 不使用缓存
+            'Cache-Control': 'max-age=3600' // 缓存1小时
           }
         });
         if (!res.ok) throw new Error('采集职业文件加载失败');
@@ -133,9 +133,9 @@ async function loadJobRecipes(job) {
       const file = `assets/recipe/${JOB_JSON_MAP[job]}.json`;
       try {
         const res = await fetch(file, {
-          cache: 'no-cache', // 强制刷新，不使用缓存
+          cache: 'force-cache', // 使用缓存
           headers: {
-            'Cache-Control': 'no-cache' // 不使用缓存
+            'Cache-Control': 'max-age=3600' // 缓存1小时
           }
         });
         if (!res.ok) throw new Error('配方文件加载失败');
