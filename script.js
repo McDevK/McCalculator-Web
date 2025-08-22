@@ -2,6 +2,50 @@
 // 作者：AI助手
 // 说明：本文件为演示用，数据为内置示例，后续可替换为真实数据或JSON文件
 
+// 强制刷新当前职业数据（全局函数，可在控制台调用）
+window.forceRefreshCurrentJob = async function() {
+  try {
+    console.log('正在强制刷新当前职业数据...');
+    await loadJobRecipes(currentJob, true);
+    console.log('数据刷新成功！');
+    alert('数据刷新成功！');
+  } catch (error) {
+    console.error('刷新失败:', error);
+    alert('刷新失败，请重试');
+  }
+};
+
+// 显示提示消息
+function showToast(message, type = 'info') {
+  // 创建提示元素
+  const toast = document.createElement('div');
+  toast.style.cssText = `
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: ${type === 'success' ? 'rgba(76, 175, 80, 0.9)' : type === 'error' ? 'rgba(244, 67, 54, 0.9)' : 'rgba(0, 0, 0, 0.8)'};
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    z-index: 10000;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  `;
+  toast.textContent = message;
+  
+  // 添加到页面
+  document.body.appendChild(toast);
+  
+  // 2秒后移除
+  setTimeout(() => {
+    if (toast.parentNode) {
+      toast.parentNode.removeChild(toast);
+    }
+  }, 2000);
+}
+
 // ===================== 示例数据 =====================
 // 职业列表
 const JOBS = [
@@ -45,7 +89,7 @@ let completedBaseMaterials = new Set(); // 已完成的基础材料ID集合
 
 // ========== 全职业配方全量数据，支持跨职业半成品递归 ========== //
 let ALL_RECIPES = [];
-async function loadAllRecipesForCalc() {
+async function loadAllRecipesForCalc(forceRefresh = false) {
   const jobs = Object.keys(JOB_JSON_MAP);
   let all = [];
   
@@ -66,9 +110,11 @@ async function loadAllRecipesForCalc() {
         const filePath = isGathering ? `assets/gather/${job}.json` : `assets/recipe/${JOB_JSON_MAP[job]}.json`;
         
         const res = await fetch(filePath, {
-          cache: 'force-cache',
+          cache: forceRefresh ? 'no-cache' : 'force-cache', // 根据forceRefresh参数决定是否强制刷新
           headers: {
-            'Cache-Control': 'max-age=3600' // 1小时缓存
+            'Cache-Control': forceRefresh ? 'no-cache, no-store, must-revalidate' : 'max-age=3600', // 1小时缓存
+            'Pragma': forceRefresh ? 'no-cache' : undefined,
+            'Expires': forceRefresh ? '0' : undefined
           }
         });
         if (res.ok) {
@@ -93,7 +139,7 @@ async function loadAllRecipesForCalc() {
 }
 
 // 按职业加载配方
-async function loadJobRecipes(job) {
+async function loadJobRecipes(job, forceRefresh = false) {
   // 判断是否为采集职业
   const isGathering = isGatheringJob(job);
   if (job === 'all') {
@@ -108,9 +154,11 @@ async function loadJobRecipes(job) {
       const gatherFile = `assets/gather/${job}.json`;
       try {
         const res = await fetch(gatherFile, {
-          cache: 'force-cache',
+          cache: forceRefresh ? 'no-cache' : 'force-cache', // 根据forceRefresh参数决定是否强制刷新
           headers: {
-            'Cache-Control': 'max-age=3600' // 1小时缓存
+            'Cache-Control': forceRefresh ? 'no-cache, no-store, must-revalidate' : 'max-age=3600', // 1小时缓存
+            'Pragma': forceRefresh ? 'no-cache' : undefined,
+            'Expires': forceRefresh ? '0' : undefined
           }
         });
         if (!res.ok) throw new Error('采集职业文件加载失败');
@@ -133,9 +181,11 @@ async function loadJobRecipes(job) {
       const file = `assets/recipe/${JOB_JSON_MAP[job]}.json`;
       try {
         const res = await fetch(file, {
-          cache: 'force-cache',
+          cache: forceRefresh ? 'no-cache' : 'force-cache', // 根据forceRefresh参数决定是否强制刷新
           headers: {
-            'Cache-Control': 'max-age=3600' // 1小时缓存
+            'Cache-Control': forceRefresh ? 'no-cache, no-store, must-revalidate' : 'max-age=3600', // 1小时缓存
+            'Pragma': forceRefresh ? 'no-cache' : undefined,
+            'Expires': forceRefresh ? '0' : undefined
           }
         });
         if (!res.ok) throw new Error('配方文件加载失败');
